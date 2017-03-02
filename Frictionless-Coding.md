@@ -1,5 +1,12 @@
 _WIP_
 
+Might be easier to digest as a Friction Series of posts. That way I won't need to tie everything to eachother, either.
+
+- for the past year, I have obsessed about reducing coding friction.
+  - started with React Native
+    - forced into flexbox
+    - separation of concerns: View vs Touchable*
+
 - define friction
   - some friction is necessary for maintainable code
   - anything that causes pause while coding, whether these are short moments like scrolling down a page to see see the render, or bigger moments that make you say "ugh" every time
@@ -28,6 +35,7 @@ _WIP_
 
 - declarative code as much as possible
   - able to go from a Sketch file to real apps by just "describing" what I'm looking at
+  - [Imperative vs Declarative Programming](https://tylermcginnis.com/imperative-vs-declarative-programming/)
 
 - less abstractions, more copy/pasting
   - anti-DRY
@@ -41,3 +49,9 @@ _WIP_
 - testing
   - relieves friction by showing breaking changes as they happen if you have good coverage
   - adds to friction when testing too early. Speed mode means you'll write whole suites of tests that may no longer apply when changing direction
+
+- "unnecessary" boilerplate
+  - a reason I prefer mobx over redux
+
+- colocation
+  - why Relay is amazing
