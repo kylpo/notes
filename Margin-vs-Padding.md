@@ -14,3 +14,5 @@ Consider a template-only primitive for margin, maybe named `<Spacer />` as an al
 When thinking about component design, I find it helps to imagine putting your components in a wysiwyg tool, where a user would visually be able to creat components. To add space between two components, like two buttons or icons, would you expect them to select one and apply a `paddingRight`? Or add some new `Spacer` component? I think they'd rather user `Spacer`.
 - Android Studio actually has a `Space` widget
 ![](https://2.bp.blogspot.com/-jSZ8PNpvBiA/WLhTRsb9WeI/AAAAAAAAD8M/Y51t1L6PeNYkYzlIljJglYNjIwtM6a6UwCLcB/s1600/Screen%2BShot%2B2017-03-02%2Bat%2B9.14.58%2BAM.png)
+
+Props to [kilvin/Spacer.js](https://github.com/rofrischmann/kilvin/blob/master/modules/components/Spacer.js) for using `flex` css attribute and a `size` prop.
