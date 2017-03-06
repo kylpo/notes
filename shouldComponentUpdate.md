@@ -1,5 +1,6 @@
 _WIP_
 
+- [Dan Abramov on Twitter: "PSA: React.PureComponent can make your app slower if you use it everywhere."](https://twitter.com/dan_abramov/status/820668074223353858)
 - React.PureComponent, shallowCompare
 - stateless functional component can be pure, but it'll still rerender every time
 - use primitives over objects/arrays, as http://ericlathrop.com/2017/02/why-did-this-react-component-rerender/ mentions
