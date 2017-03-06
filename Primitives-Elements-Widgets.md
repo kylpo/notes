@@ -4,6 +4,7 @@ Value in distinguishing these?
 
 Primitives:
 - View, Text, ScrollView, Style_, Animate_
+- [rax/packages/rax-components/src at master · alibaba/rax](https://github.com/alibaba/rax/tree/master/packages/rax-components/src)
 
 Elements:
 - Button,
