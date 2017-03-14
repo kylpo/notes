@@ -15,8 +15,29 @@ Might be easier to digest as a Friction Series of posts. That way I won't need t
   - thought about this from title of https://pavelfatin.com/typing-with-pleasure/
 
 - imports
+  - started with webpack's `providePlugin`
+  ```js
+  // Automatically loaded modules - means these imports are not needed in each file
+  new webpack.ProvidePlugin({
+    React: 'react',
+    Col: 'constelation-Col',
+    Button: 'constelation-Button',
+    BackgroundImage: 'constelation-BackgroundImage',
+    Row: 'constelation-Row',
+    Flex: 'constelation-Flex',
+    Text: 'constelation-Text',
+    View: 'constelation-View',
+    Style_: 'constelation-Style_',
+    Event_: 'constelation-Event_',
+    Animate_: 'constelation-Animate_',
+  }),
+  ```
+    - doesn't work in RN
+    - Use `globals.Col = require('constelation-Col')`? Issues using these globals outside of classes. Scoping issues
   - importjs to the rescue
   - note: ts has something like this in the works
+  - code folding the imports
+    - [That feeling when you press page down three times to get past all the imports...](https://twitter.com/BrandonBloom/status/839336948049195009)
 
 - autoformatting
   - [prettier](https://github.com/prettier/prettier) (someday)
@@ -24,6 +45,7 @@ Might be easier to digest as a Friction Series of posts. That way I won't need t
       1. Lens-- let code match the eye of the beholder
       2. Law-- enforce the format of checked-in code"
       https://twitter.com/shaunlebron/status/820363199665029121
+    - [recently started using Prettier across all my projects, no stress over code styles anymore](https://twitter.com/markacola/status/839396401595310080)
   - semicolons used to be a point of friction, so I stopped. Now prettier brings them back, but I don't have to type it
 
 - defensive coding
