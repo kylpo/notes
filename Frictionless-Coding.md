@@ -36,6 +36,8 @@ Might be easier to digest as a Friction Series of posts. That way I won't need t
     - Use `globals.Col = require('constelation-Col')`? Issues using these globals outside of classes. Scoping issues
   - importjs to the rescue
   - note: ts has something like this in the works
+    - what landed is just a popup suggestion though, not a full `import all` solution
+    - [feature request: Auto import dependencies · Issue #2635 · Microsoft/vscode](https://github.com/Microsoft/vscode/issues/2635)
   - code folding the imports
     - [That feeling when you press page down three times to get past all the imports...](https://twitter.com/BrandonBloom/status/839336948049195009)
 
