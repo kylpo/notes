@@ -13,6 +13,7 @@ Might be easier to digest as a Friction Series of posts. That way I won't need t
 
 - first target "coding without friction", then evolve to "coding with joy", or something like that
   - thought about this from title of https://pavelfatin.com/typing-with-pleasure/
+  - [Christoph Pojer on Twitter: "Have never been able to get into such deep focus as now, thanks to these tools: * @flowtype * Prettier * Fish shell * Nuclide * @fbjest"](https://twitter.com/cpojer/status/842531353136525313)
 
 - imports
   - started with webpack's `providePlugin`
