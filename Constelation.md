@@ -1,5 +1,7 @@
 _WIP_
 
+Consider showing these docs with https://github.com/egoist/anydoc
+
 Think of components in a GUI tool
 - Elements/Primitives on left to grab are View, Text, Image, ...
 - Property editing on right:
