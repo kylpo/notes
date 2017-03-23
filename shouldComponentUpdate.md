@@ -20,3 +20,6 @@ PureComponent re-rendering in Animate_
 - animate() doing something to force re-render?
 - I think it is a child mismatch problem
   - because child in render does not match what it returns?
+
+`React.cloneElement()` breaks PureComponent children because the passedProps is a new object every time?
+- [React is Slow, React is Fast: Optimizing React Apps in Practice – DailyJS – Medium](https://medium.com/dailyjs/react-is-slow-react-is-fast-optimizing-react-apps-in-practice-394176a11fba#.tkrfivb1w)

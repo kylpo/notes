@@ -8,3 +8,4 @@
 
 # Native
 - all about gestures and taps
+- [Beyond The Browser: From Web Apps To Desktop Apps – Smashing Magazine](https://www.smashingmagazine.com/2017/03/beyond-browser-web-desktop-apps/)
