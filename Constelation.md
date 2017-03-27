@@ -29,3 +29,6 @@ Would love for this to one day fold in to a WYSIWYG editor. It'd use all of cons
 
 Flexbox everywhere
 - [Nicolas on Twitter: "One of Safari's worst bugs (flexbox performance) now fixed in WebKit. A small step forward for web apps on iPhone https://t.co/lfeUgZllfi"](https://twitter.com/necolas/status/843527768356806656)
+
+Others working on this
+- [Leland Richardson on Twitter: "@mjackson i'm interested in working on getting react-primitives or react-native-web in use at airbnb, but nothing in production at the momen"](https://twitter.com/intelligibabble/status/844983578056257536)
