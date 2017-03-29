@@ -22,3 +22,7 @@ if (obj) { return obj.x; }
 - Current question: what if the default value of a ternary is `undefined` or `null`? Does it suffer from the same perf issue as `something && something.somethingElse`?
   - e.g. Would an `undefined` default (e.g.`vlen = vchildren ? vchildren.length : undefined`) be less optimal for the compiler than the default of `0`? Same question for `null`.
   - "`undefined` or `null` are less ideal than 0 here, as the compiler needs to choose a tagged representation that can represents both `undefined`/`null` as well as numbers. If you use only (small integer) numbers, then the optimizing compilers in VMs can usually pick the ideal unboxed Word/Word32 representation." - [@bmeurer](https://github.com/developit/preact/pull/610#discussion_r108732513)
+
+# Trivia
+## Is `something == null` as performant as `something === null || something === undefined`?
+Yes, actually. See https://jsperf.com/null-null-vs-null-null/1.
