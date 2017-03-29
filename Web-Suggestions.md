@@ -3,10 +3,13 @@ _WIP_
 # Feature Flags
 - Build in a feature flag capability from the start. You'll eventually want it for A/B testing, staged releases, and potentially even a beta program.
 - [Feature flags in React](http://blog.rstankov.com/feature-flags-in-react/)
+- [react-bits/29.feature-flags-using-redux.md](https://github.com/vasanthk/react-bits/blob/master/patterns/29.feature-flags-using-redux.md)
 
 # Internationalization
 - Important for reach, and difficult to bolt on after the fact. Build in Internationalization from the start.
 - [Internationalizing React Apps – Smashing Magazine](https://www.smashingmagazine.com/2017/01/internationalizing-react-apps/)
+
+# Accessibility (a11y)
 
 # Use an 8-point grid system
 - (spacial) Consistency is important to the overall feel of a product
