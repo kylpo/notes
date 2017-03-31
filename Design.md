@@ -1,0 +1,11 @@
+_WIP_
+
+# White Space
+- [How To Use White Space In Web Design – Muzli -Design Inspiration](https://medium.muz.li/how-to-use-white-space-in-web-design-68ab49f866a1)
+  - "We live in the times of constant distraction"
+  - "All layouts need to be easy to understand, with scannable and readable content. ‘Crowded’ websites are difficult to read. Complexity often makes users uncomfortable. If we’ve overwhelmed them with lots of different information, all fighting for their attention, they will leave or not take the action we’d wanted them to do."
+  - Whitespace can help the user scan your website
+- [How to use space in UI Design – Prototyping: From UX to Front End](https://blog.prototypr.io/how-to-use-space-in-ui-design-15e169127236)
+  - "From the user standpoint, very few people will complain that it has too much whitespace. Lack of emptiness causes visual noise."
+  - ![](https://cdn-images-1.medium.com/max/1000/1*i6eqOryTciPPD8DZQ7nwEQ.png)
+  - ![](https://cdn-images-1.medium.com/max/1000/1*dS5lb3X6eBXYs4kkWQoqEw.png)

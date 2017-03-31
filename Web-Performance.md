@@ -1,5 +1,9 @@
 _WIP_
 
+# Perf
+## div depth does matter
+1000s deep will hurt, as mentioned in this [tweet thread](https://twitter.com/owencm/status/847529975615864832)
+
 # Micro-Perf
 ## Explicit comparisons
 ```js
