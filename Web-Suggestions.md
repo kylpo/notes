@@ -4,6 +4,23 @@ _WIP_
 - Build in a feature flag capability from the start. You'll eventually want it for A/B testing, staged releases, and potentially even a beta program.
 - [Feature flags in React](http://blog.rstankov.com/feature-flags-in-react/)
 - [react-bits/29.feature-flags-using-redux.md](https://github.com/vasanthk/react-bits/blob/master/patterns/29.feature-flags-using-redux.md)
+- [ember-cli/babel-plugin-feature-flags: A babel transform for managing feature flags](https://github.com/ember-cli/babel-plugin-feature-flags) seems like a great approach. Features flags statically, and dynamically.
+
+```js
+import isEnabled from 'my-features';
+
+if (isEnabled('new-feature')) {
+  // code
+}
+```
+becomes
+```js
+import isEnabled from 'my-features';
+
+if (false) {
+  // code
+}
+```
 
 # Internationalization
 - Important for reach, and difficult to bolt on after the fact. Build in Internationalization from the start.
