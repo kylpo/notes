@@ -25,8 +25,11 @@ if (false) {
 # Internationalization
 - Important for reach, and difficult to bolt on after the fact. Build in Internationalization from the start.
 - [Internationalizing React Apps – Smashing Magazine](https://www.smashingmagazine.com/2017/01/internationalizing-react-apps/)
+- [globalizejs/globalize: A JavaScript library for internationalization and localization that leverages the official Unicode CLDR JSON data](https://github.com/globalizejs/globalize)
+  - used by twitter lite
 
 # Accessibility (a11y)
+- [A11Y Style Guide](http://a11y-style-guide.com/style-guide/)
 
 # Use an 8-point grid system
 - (spacial) Consistency is important to the overall feel of a product

@@ -80,3 +80,7 @@ Might be easier to digest as a Friction Series of posts. That way I won't need t
 
 - colocation
   - why Relay is amazing
+
+- Seeing results immediately
+  - HMR
+  - Tools to visualize your breakpoints, like [Emmet Re:view - Chrome Web Store](https://chrome.google.com/webstore/detail/emmet-review/epejoicbhllgiimigokgjdoijnpaphdp?hl=en) and [💀🐆 on Twitter: "Working on an electron app that allows you to preview scaled versions of multiple screen sizes simultaneously. Works on local urls too. https://t.co/tewfRuGqjh"](https://twitter.com/mrmrs_/status/833449786640625664)

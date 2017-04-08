@@ -9,3 +9,6 @@ _WIP_
   - "From the user standpoint, very few people will complain that it has too much whitespace. Lack of emptiness causes visual noise."
   - ![](https://cdn-images-1.medium.com/max/1000/1*i6eqOryTciPPD8DZQ7nwEQ.png)
   - ![](https://cdn-images-1.medium.com/max/1000/1*dS5lb3X6eBXYs4kkWQoqEw.png)
+
+# Fundamentals
+- [Before you can master design, you must first master the fundamentals](https://medium.freecodecamp.com/before-you-can-master-design-you-must-first-master-the-fundamentals-1981a2af1fda)
