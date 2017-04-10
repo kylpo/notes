@@ -36,3 +36,7 @@ Others working on this
 No More "alphabetize vs logical" css ordering arguments
 - [Alphabetize your CSS properties, for crying out loud](https://medium.com/@jerrylowm/alphabetize-your-css-properties-for-crying-out-loud-780eb1852153)
 - [Organize your CSS properties however you dang like – Michael.blog](http://michael.blog/2017/03/30/organize-your-css-properties-however-you-dang-like/)
+
+Lazy - less naming
+- no naming css class, just inline
+- [Mark Dalgleish on Twitter: "👶: Remember when we didn't prefix classes? 🤓: Remember when we had to manually prefix classes? 💅: Remember classes?"](https://twitter.com/markdalgleish/status/851381503078522881)
