@@ -1,5 +1,8 @@
 _WIP_
 
+# "Design for scanning, not reading"
+- [F-Shaped Pattern for Reading Content – UX Planet](https://uxplanet.org/f-shaped-pattern-for-reading-content-80af79cd3394)
+
 # White Space
 - [How To Use White Space In Web Design – Muzli -Design Inspiration](https://medium.muz.li/how-to-use-white-space-in-web-design-68ab49f866a1)
   - "We live in the times of constant distraction"
@@ -12,3 +15,8 @@ _WIP_
 
 # Fundamentals
 - [Before you can master design, you must first master the fundamentals](https://medium.freecodecamp.com/before-you-can-master-design-you-must-first-master-the-fundamentals-1981a2af1fda)
+
+# Consistency
+- [Design principle: Consistency – UX Planet](https://uxplanet.org/design-principle-consistency-6b0cf7e7339f)
+  - "Consistent design is intuitive design"
+- [Plainness and Sweetness – Frank Chimero](https://www.frankchimero.com/blog/2017/plainness-and-sweetness/)

@@ -41,6 +41,7 @@ Might be easier to digest as a Friction Series of posts. That way I won't need t
     - [feature request: Auto import dependencies · Issue #2635 · Microsoft/vscode](https://github.com/Microsoft/vscode/issues/2635)
   - code folding the imports
     - [That feeling when you press page down three times to get past all the imports...](https://twitter.com/BrandonBloom/status/839336948049195009)
+  - [JetBrains WebStorm on Twitter: "WebStorm adds import for your React component automatically as you type it. Forgot to import React? Hit Alt-Enter on a warning to fix it. https://t.co/uBFqSQL0C1"](https://twitter.com/WebStormIDE/status/849243315417624576)
 
 - autoformatting
   - [prettier](https://github.com/prettier/prettier) (someday)

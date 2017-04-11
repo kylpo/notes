@@ -26,12 +26,17 @@ Would love for this to one day fold in to a WYSIWYG editor. It'd use all of cons
 - [Andy Matuschak on Twitter: "New prototyping app! It has a combo I’ve missed since leaving Apple: design via UI; easy to add code when needed. https://t.co/8UCTYkPTRn"](https://twitter.com/andy_matuschak/status/839311949363978240)
   - [Kite Compositor](https://kiteapp.co/)
   - ![](https://kiteapp.co/assets/HeroImage0.png)
+- Start with a flow like [Karri Saarinen on Twitter: "What is it like to compose a Airbnb listing page in Sketch in ~1min by using our design system (DLS) https://t.co/xsadtU8gkP"](https://twitter.com/karrisaarinen/status/849733176150773761). Then open up editor and continue it.
+- [reactide/reactide: Reactide is the first dedicated IDE for React web application development. http://reactide.io](https://github.com/reactide/reactide)
+![](https://camo.githubusercontent.com/ee9fc228ccb85a549f3b80b939cea810a20b0770/687474703a2f2f72656163746964652e696f2e73332d776562736974652d75732d776573742d312e616d617a6f6e6177732e636f6d2f696d616765732f72656163746964652d73637265656e73686f74322e706e67)
 
 Flexbox everywhere
 - [Nicolas on Twitter: "One of Safari's worst bugs (flexbox performance) now fixed in WebKit. A small step forward for web apps on iPhone https://t.co/lfeUgZllfi"](https://twitter.com/necolas/status/843527768356806656)
 
 Others working on this
 - [Leland Richardson on Twitter: "@mjackson i'm interested in working on getting react-primitives or react-native-web in use at airbnb, but nothing in production at the momen"](https://twitter.com/intelligibabble/status/844983578056257536)
+- [@jongold stories on Twitter: "created a lil app with `react-primitives`; rendering real data + maps from the Foursquare API to Sketch + Browser at the same time https://t.co/0VXpK5WWU7"](https://twitter.com/jongold/status/848331554317316096)
+- [ReactXP](https://microsoft.github.io/reactxp/docs/getting-started.html)
 
 No More "alphabetize vs logical" css ordering arguments
 - [Alphabetize your CSS properties, for crying out loud](https://medium.com/@jerrylowm/alphabetize-your-css-properties-for-crying-out-loud-780eb1852153)
