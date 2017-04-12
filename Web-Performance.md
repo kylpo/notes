@@ -1,8 +1,15 @@
 _WIP_
 
+# Good reads
+- [Twitter Lite and High Performance React Progressive Web Apps at Scale](https://medium.com/@paularmstrong/twitter-lite-and-high-performance-react-progressive-web-apps-at-scale-d28a00e780a3)
+
 # Perf
 ## div depth does matter
 1000s deep will hurt, as mentioned in this [tweet thread](https://twitter.com/owencm/status/847529975615864832)
+
+## Images
+- Even full loaded images can cause jank. When we had retina desktop images loaded on mobile, anchor scrolling and carousel scrolling were janky. Reducing image size was the fix.
+
 
 # Micro-Perf
 ## Explicit comparisons
