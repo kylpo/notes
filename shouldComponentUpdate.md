@@ -23,3 +23,204 @@ PureComponent re-rendering in Animate_
 
 `React.cloneElement()` breaks PureComponent children because the passedProps is a new object every time?
 - [React is Slow, React is Fast: Optimizing React Apps in Practice – DailyJS – Medium](https://medium.com/dailyjs/react-is-slow-react-is-fast-optimizing-react-apps-in-practice-394176a11fba#.tkrfivb1w)
+
+## shouldComponentUpdate
+Given this page, what do we expect to see in console?
+```jsx
+const Div = (props) => {
+  console.log('Div Render');
+
+  return (
+    <div>{props.children}</div>
+  )
+}
+
+export default class Home extends React.Component {
+  state = {}
+
+  componentDidMount() {
+    setTimeout(() => this.setState({hi: 'hi'}), 2000)
+  }
+
+  render() {
+    return (
+      <Div>{this.state.hi}</Div>
+    )
+  }
+}
+```
+```bash
+Div Render # initial mount
+
+Div Render # after setState
+```
+
+Given this added code, what do we expect to see in console?
+```jsx
+class WrappingWontUpdate extends React.Component {
+  shouldComponentUpdate() {
+    return false
+  }
+
+  render() {
+    console.log('WrappingWontUpdate Render');
+    return this.props.children
+  }
+}
+
+export default class Home extends React.Component {
+
+  ...
+
+  render() {
+    return (
+      <WrappingWontUpdate>
+        <Div>{this.state.hi}</Div>
+      </WrappingWontUpdate>
+    )
+  }
+}
+```
+```bash
+WrappingWontUpdate Render # initial mount
+Div Render # initial mount
+
+# nothing after setState
+```
+
+Makes sense, makes sense. Let's explore PureComponent.
+```jsx
+class PureComponentWrapper extends React.PureComponent {
+  render() {
+    console.log('PureComponentWrapper Render');
+    return (
+      <div>{this.props.children}</div>
+    )
+  }
+}
+
+export default class Home extends React.Component {
+
+  ...
+
+  render() {
+    return (
+      <PureComponentWrapper>
+        <Div>{this.state.hi}</Div>
+      </PureComponentWrapper>
+    )
+  }
+}
+```
+```bash
+PureComponentWrapper Render # initial mount
+Div Render # initial mount
+
+PureComponentWrapper Render # after setState
+Div Render # after setState
+```
+
+Hmmm, we have a wrapping PureComponent, but still its update is run. Ah, this must be because the child is updated. So what happens when we try this render?
+```jsx
+<PureComponentWrapper>
+  <WontUpdate />
+</PureComponentWrapper>
+```
+```bash
+PureComponentWrapper Render # initial mount
+WontUpdate Render # initial mount
+
+PureComponentWrapper Render # after setState
+```
+
+Uhhh, what? Why is a pureComponent re-rendering even when the child hasn't changed?
+
+One more exploration:
+```jsx
+class PureComponentWithChildren extends React.PureComponent {
+
+  render() {
+    console.log('PureComponentWithChildren Render');
+
+    return (
+      <PureComponentWrapper>
+        <Div />
+      </PureComponentWrapper>
+    )
+  }
+}
+
+export default class Home extends React.Component {
+
+  state = {}
+
+  componentDidMount() {
+    setTimeout(() => this.setState({hi: 'hi'}), 2000)
+  }
+
+  render() {
+    return (
+      <PureComponentWithChildren />
+    )
+  }
+}
+```
+```bash
+PureComponentWithChildren Render # initial mount
+PureComponentWrapper Render # initial mount
+Div Render # initial mount
+
+# nothing after setState
+```
+
+Bummer, this means we can't benefit from `PureComponent` with children defined in a parent component.
+[Children prop gets recreated killing PureComponent optimizations · Issue #8669 · facebook/react](https://github.com/facebook/react/issues/8669)
+
+
+
+Whole picture
+
+```jsx
+class Cloning_ extends React.PureComponent {
+    render() {
+        const { children, ...propsToPass } = this.props
+        const Child = React.Children.only(children);
+
+        return React.cloneElement(Child, propsToPass);
+    }
+}
+
+class WontUpdate extends React.Component {
+  shouldComponentUpdate() {
+    return false
+  }
+
+  render() {
+    console.log('WontUpdate Render');
+    return (
+      <div />
+    )
+  }
+}
+
+class AutoUpdates extends React.Component {
+  state = {}
+
+  componentDidMount() {
+    setTimeout(() => this.setState({hi: 'hi'}), 1000)
+  }
+
+  render() {
+    console.log('AutoUpdates Render');
+    return (
+      <div>{this.props.children}</div>
+    )
+  }
+}
+
+const App = () => (
+  <AutoUpdates>
+  </AutoUpdates>
+)
+
+```
