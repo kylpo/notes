@@ -3,7 +3,7 @@ _WIP_
 # Terms
 **HOC** wraps a **class** and augments by passing props
 
-**Decorator Component** wraps an **instance** and augments w/ `cloneElement()`
+**Decorator Component** wraps an **~~instance~~ element** and augments w/ `cloneElement()`
 
 **Higher-Order Functions**, like redux's `connect`, are functions that return a **Higher-Order Component**
 
