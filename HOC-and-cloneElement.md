@@ -272,12 +272,23 @@ Cloning Mount
 
 Modified template of updates from [offical docs](https://facebook.github.io/react/docs/components-and-props.html)
 1. `ReactDOM.render()` is called with with the `<App />` element
-2. React calls the `App` component
+2. React creates and renders the `App` component
 3. Our `App` component creates `Div`, then `Cloning_` elements and returns the tree (still a single element `<Cloning_><Div hi='hi' /></Cloning_>`) as the result.
-4. React calls the `Cloning_` component with `{hi: 'hi'}` as the props.
-5. Our `Cloning_` component returns a cloned `<Div />` element as the result.
-6. React calls the `Div` component
+4. React creates and renders  the `Cloning_` component with `{hi: 'hi'}` as the props.
+5. Our `Cloning_` component returns a cloned `<Div />` element, with `{hi: 'hi'}` passed as props, as the result.
+6. React creates and renders the `Div` component
 7. Our `Div` component returns a `<div />` element as the result.
 8. React DOM efficiently updates the DOM to match the tree of elements.
+
+Think about nested `cloneElement()`s:
+```jsx
+<Cloning_>
+  <Cloning_>
+    <Div />
+  </Cloning_>
+</Cloning_>
+```
+
+Powerful lifecyle hooks, but ultimately `Cloning_` just does work to compute props/children to be passed in to `Div`. `Div` will render last with the passed in props.
 
 Props to the current official [docs](https://facebook.github.io/react/docs/components-and-props.html), which explain all of this nicely. I just needed more examples to solidify everything.
