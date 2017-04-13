@@ -20,3 +20,4 @@ url is often the serialized form of app state:
 
 What about scene-specific state?
 - nested mobX providers do work, so just add `Provider`s at scene level, then components can `@inject`
+  - [Nested Providers? · Issue #114 · mobxjs/mobx-react](https://github.com/mobxjs/mobx-react/issues/114)

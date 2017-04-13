@@ -177,6 +177,14 @@ Bummer, this means we can't benefit from `PureComponent` with children defined i
 [Children prop gets recreated killing PureComponent optimizations · Issue #8669 · facebook/react](https://github.com/facebook/react/issues/8669)
 
 
+**New rule: only allow `PureComponent` in components that do not have a `children` prop**
+
+
+Other reads
+- [React.PureComponent Considered Harmful – Hacker Noon](https://hackernoon.com/react-purecomponent-considered-harmful-8155b5c1d4bc)
+- [React PureComponent Pitfalls – ShakaCode](https://blog.shakacode.com/react-purecomponent-pitfalls-d057882f4b6e)
+- [Take `children` off `props` · Issue #4694 · facebook/react](https://github.com/facebook/react/issues/4694)
+
 
 Whole picture
 
