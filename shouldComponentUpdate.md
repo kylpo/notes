@@ -185,6 +185,7 @@ Other reads
 - [React PureComponent Pitfalls – ShakaCode](https://blog.shakacode.com/react-purecomponent-pitfalls-d057882f4b6e)
 - [Take `children` off `props` · Issue #4694 · facebook/react](https://github.com/facebook/react/issues/4694)
 
+
 # `cloneElement()` of a PureComponent child
 Beware: when cloning a PureComponent, the same don't-pass-objects-or-arrays rule applies. The 2nd argument of the `cloneElement()` will always be an object, but no value of that object should be an object or array.
 ```jsx

@@ -293,5 +293,6 @@ Powerful lifecyle hooks, but ultimately `Cloning_` just does work to compute pro
 
 Props to the current official [docs](https://facebook.github.io/react/docs/components-and-props.html), which explain all of this nicely. I just needed more examples to solidify everything.
 
+
 # `cloneElement()` of a PureComponent child
-see [shouldComponentUpdate doc](https://github.com/kylpo/notes/blob/master/shouldComponentUpdate.md)
+see [shouldComponentUpdate doc](https://github.com/kylpo/notes/blob/master/shouldComponentUpdate.md#cloneelement-of-a-purecomponent-child)
