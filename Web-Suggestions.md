@@ -47,3 +47,9 @@ if (false) {
 # Target browsers
 - polyfill.io
   - [Andrew Betts on Twitter: "The marvellous people at the Guardian just went live with @polyfillio - now used by multiple major news sites! https://t.co/sFWGd9pJ1T"](https://twitter.com/triblondon/status/846707701220622336)
+
+# Theming
+- use css variables. They're now supported in all major browsers (Edge just landed support).
+- [How we made our product more personalized with CSS Variables and React](https://medium.com/geckoboard-under-the-hood/how-we-made-our-product-more-personalized-with-css-variables-and-react-b29298fde608)
+
+# Analytics

@@ -8,3 +8,4 @@ _WIP_
 - [How to set up the perfect modern dev environment on Windows](http://char.gd/microsoft/setting-up-perfect-windows-dev/)
 - [My Bash on Windows Dev Environment - daverupert.com](http://daverupert.com/2017/03/my-bash-on-windows-developer-environment/)
 - [How to Show Hidden Files in Windows 10 - Winaero](http://winaero.com/blog/show-hidden-files-windows-10/)
+- [Setting up a Shiny Development Environment within Linux on Windows 10 - Scott Hanselman](https://www.hanselman.com/blog/SettingUpAShinyDevelopmentEnvironmentWithinLinuxOnWindows10.aspx)

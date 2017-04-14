@@ -22,18 +22,18 @@ Given this page, what do we expect to see in console?
 ```jsx
 class Cloning_ extends React.Component {
   componentDidMount() {
-    console.log('Cloning Mount');
+    console.log('Cloning Mount')
   }
 
   render() {
-    console.log('Cloning Render');
+    console.log('Cloning Render')
 
     const { children, ...propsToPass } = this.props
-    const child = React.Children.only(children);
+    const child = React.Children.only(children)
 
     console.log('ChildProps: ', child.props)
 
-    return React.cloneElement(child, propsToPass);
+    return React.cloneElement(child, propsToPass)
   }
 }
 
@@ -43,11 +43,11 @@ class Div extends React.Component {
   }
 
   componentDidMount() {
-    console.log('Div Mount');
+    console.log('Div Mount')
   }
 
   render() {
-    console.log('Div Render');
+    console.log('Div Render')
 
     return (
       <div>{this.props.children}</div>
@@ -91,7 +91,7 @@ Nope, that wasn't it.
 
 And why can we see its props - especially the `defaultProps`!? What about its state? If we gave it a state of `state = {why: 'why'}`, could `Cloning_` see it?
 
-First of all, no. `Cloning_` can not see it's child's state. Why? Well, because it doesn't exist yet. Keep in mind that JSX maps to `React.createElement()`, which returns an `element` simple object "blueprint" React uses to apply to DOM.
+First of all, no. `Cloning_` can not see it's child's state. Why? Well, because it doesn't exist yet. Keep in mind that JSX maps to `React.createElement()`, which returns an `element` (a simple object description React uses to apply to DOM).
 ```jsx
 React.createElement(
   Cloning_,
@@ -102,7 +102,7 @@ React.createElement(
   )
 )
 ```
-When `App` is rendered (from `ReactDOM.render()`), in creating a `Cloning_` element, it must first create the `Div` element. Want proof?
+When `App` is rendered (from `ReactDOM.render()`), in creating a `Cloning_` element, it must first create the `Div` element. It is normal javascript execution order, but still nice to see:
 ```jsx
 function createElement(label, component, props, children) {
   console.log(`${label} element created`)
@@ -143,11 +143,11 @@ Yes, actually. The clone's props will even override the child props. Seen here:
 class Cloning_ extends React.Component {
   render() {
     const { children, ...propsToPass } = this.props
-    const child = React.Children.only(children);
+    const child = React.Children.only(children)
 
     console.log('childProps: ', child.props)
 
-    const clone = React.cloneElement(child, propsToPass);
+    const clone = React.cloneElement(child, propsToPass)
     console.log('cloneProps: ', clone.props)
 
     return clone
@@ -181,20 +181,20 @@ class Cloning_ extends React.Component {
   constructor() {
     super()
 
-    console.log('Cloning Constructor');
+    console.log('Cloning Constructor')
   }
 
   componentDidMount() {
-    console.log('Cloning Mount');
+    console.log('Cloning Mount')
   }
 
   render() {
-    console.log('Cloning Render');
+    console.log('Cloning Render')
 
     const { children, ...propsToPass } = this.props
-    const child = React.Children.only(children);
+    const child = React.Children.only(children)
 
-    return React.cloneElement(child, propsToPass);
+    return React.cloneElement(child, propsToPass)
   }
 }
 
@@ -202,15 +202,15 @@ class Div extends React.Component {
   constructor() {
     super()
 
-    console.log('Div Constructor');
+    console.log('Div Constructor')
   }
 
   componentDidMount() {
-    console.log('Div Mount');
+    console.log('Div Mount')
   }
 
   render() {
-    console.log('Div Render');
+    console.log('Div Render')
 
     return (
       <div>{this.props.children}</div>
@@ -255,7 +255,7 @@ export default class App extends React.Component {
 ReactDOM.render(
   <App />,
   document.getElementById('root')
-);
+)
 ```
 ```bash
 Div element
@@ -272,11 +272,11 @@ Cloning Mount
 
 Modified template of updates from [offical docs](https://facebook.github.io/react/docs/components-and-props.html)
 1. `ReactDOM.render()` is called with with the `<App />` element
-2. React creates and renders the `App` component
-3. Our `App` component creates `Div`, then `Cloning_` elements and returns the tree (still a single element `<Cloning_><Div hi='hi' /></Cloning_>`) as the result.
-4. React creates and renders  the `Cloning_` component with `{hi: 'hi'}` as the props.
+2. Using the `App` element, React creates and renders the `App` component
+3. Our `App` component creates `Div`, then `Cloning_` elements and returns the tree (`<Cloning_><Div hi='hi' /></Cloning_>`) as the result.
+4. Using the `Cloning_` element, React creates and renders  the `Cloning_` component with `{hi: 'hi'}` as the props.
 5. Our `Cloning_` component returns a cloned `<Div />` element, with `{hi: 'hi'}` passed as props, as the result.
-6. React creates and renders the `Div` component
+6. Using the `Div` element, React creates and renders the `Div` component
 7. Our `Div` component returns a `<div />` element as the result.
 8. React DOM efficiently updates the DOM to match the tree of elements.
 
@@ -292,3 +292,70 @@ Think about nested `cloneElement()`s:
 Powerful lifecyle hooks, but ultimately `Cloning_` just does work to compute props/children to be passed in to `Div`. `Div` will render last with the passed in props.
 
 Props to the current official [docs](https://facebook.github.io/react/docs/components-and-props.html), which explain all of this nicely. I just needed more examples to solidify everything.
+
+# `cloneElement()` of a PureComponent child
+Beware: when cloning a PureComponent, the same don't-pass-objects-or-arrays rule applies. The 2nd argument of the `cloneElement()` will always be an object, but no key of that object should be an object or array.
+```jsx
+class Cloning_ extends React.Component {
+  render() {
+    console.log('Cloning Render')
+
+    const { children, ...propsToPass } = this.props
+    const child = React.Children.only(children)
+
+    console.log('passProps', propsToPass)
+
+    return React.cloneElement(child, propsToPass)
+  }
+}
+
+class PureComponent extends React.PureComponent {
+  render() {
+    console.log('PureComponent Render')
+    return (
+      <div />
+    )
+  }
+}
+
+export default class App extends React.Component {
+  state = {}
+
+  componentDidMount() {
+    setTimeout(() => this.setState({hi: 'hi'}), 2000)
+  }
+
+  render() {
+    return (
+      <Cloning_ hi='hi'>
+        <PureComponent />
+      </Cloning_>
+    )
+  }
+}
+
+```
+```bash
+# first render
+Cloning Render
+passProps Object {hi: "hi"}
+PureComponent Render
+
+# after setState
+Cloning Render
+passProps Object {hi: "hi"}
+# GOOD! missing PureComponent Render
+```
+
+Above is the desired effect. Below is what'll happen if `Cloning_` returns an object in an object: `React.cloneElement(child, {propsObject: propsToPass})`
+```bash
+# first render
+Cloning Render
+passProps Object {hi: "hi"}
+PureComponent Render
+
+# after setState
+Cloning Render
+passProps Object {hi: "hi"}
+PureComponent Render # BAD!
+```
