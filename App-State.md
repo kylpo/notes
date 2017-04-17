@@ -2,6 +2,15 @@ _WIP_
 
 Started with a question: "Types of App “state”: `data` (that you usually render), `routes` (url and history), `UI` (controls like open panes). Can anyone think of a missing category in that list?"
 
+App State
+- data
+  - models
+  - collections
+- routes
+- UI
+  - controls
+
+
 data is essentially the models and collections that are rendered in a simple todo app, for example.
 
 What about auth state and feature flags?
@@ -14,10 +23,19 @@ In that sense, App state is actually UI state. Data is just stuff from the serve
 
 Should `Controls` of an app be denoted with a naming convention? Controls like Modals, Stage Left, Stage Right, etc
 
-url is often the serialized form of app state:
+Sometimes URLs are enough. url is often the serialized form of app state:
 - http://caniuse.com/#search=pointer%20events
 - Babel repl
+
+URL -> App State -> Views
+- uni-directional, from `yester`
 
 What about scene-specific state?
 - nested mobX providers do work, so just add `Provider`s at scene level, then components can `@inject`
   - [Nested Providers? · Issue #114 · mobxjs/mobx-react](https://github.com/mobxjs/mobx-react/issues/114)
+
+
+# Router
+- only needed for SPAs
+- otherwise, it'd be at Express level
+- all must provide `<Link />`
