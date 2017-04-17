@@ -9,3 +9,6 @@ _WIP_
 - [My Bash on Windows Dev Environment - daverupert.com](http://daverupert.com/2017/03/my-bash-on-windows-developer-environment/)
 - [How to Show Hidden Files in Windows 10 - Winaero](http://winaero.com/blog/show-hidden-files-windows-10/)
 - [Setting up a Shiny Development Environment within Linux on Windows 10 - Scott Hanselman](https://www.hanselman.com/blog/SettingUpAShinyDevelopmentEnvironmentWithinLinuxOnWindows10.aspx)
+
+# Settings
+- [How To Reverse Scroll Direction In Windows 10](http://www.addictivetips.com/windows-tips/reverse-scroll-direction-in-windows-10/)
