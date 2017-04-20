@@ -21,6 +21,9 @@ PureComponent re-rendering in Animate_
 - I think it is a child mismatch problem
   - because child in render does not match what it returns?
 
+[Tommy Leunen on Twitter: "React Q: Should we always use PureComponent and a pure "mixin" for SFC? Or bc most components are not costly to render it's better not?"](https://twitter.com/tommy/status/854366714812747776)
+- [Daniel Steigerwald on Twitter: "ShouldUpdate check belongs to data (redux connect), not view. Learned that the hard way."](https://twitter.com/steida/status/854374773270380544)
+
 `React.cloneElement()` breaks PureComponent children because the passedProps is a new object every time?
 - [React is Slow, React is Fast: Optimizing React Apps in Practice – DailyJS – Medium](https://medium.com/dailyjs/react-is-slow-react-is-fast-optimizing-react-apps-in-practice-394176a11fba#.tkrfivb1w)
 

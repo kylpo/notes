@@ -7,3 +7,5 @@ _WIP_
 
 # Redux
 - [jevakallio/redux-offline: Build Offline-First Apps for Web and React Native](https://github.com/jevakallio/redux-offline)
+- ["Redux looks far more useful when viewed not as an app state management solution, but a protocol for different libraries to operate on state."](https://twitter.com/VilleImmonen/status/854335136900550656)
+  - "Now tools made for Redux can be used with those libraries. Persist the state to disk? Got it. Transactions? Yup. Dev tools, logging? Check."
