@@ -14,6 +14,7 @@
   - ["Animation, interactions, gestures, access to device APIs"](https://twitter.com/ken_wheeler/status/854781562759634944)
   - ["Bring it. Show me your PWA. I'll out load and anim/interaction perf you on it in react native. Without even trying."](https://twitter.com/ken_wheeler/status/854783170406961152)
   - [Like flipboard. They had to reimplement the dom in canvas because it couldnt hit 60fps for a fancy listview"](https://twitter.com/ken_wheeler/status/854863496676343808)
+  - [Ken Wheeler on Twitter: "Does PWA stand for Performant Websites for Android?"](https://twitter.com/ken_wheeler/status/854833429946527745)
 - [Mark Dalgleish on Twitter: "*Clicks link to article* "Whoa, this site is so clean and easy to read! Loaded super quick too!" ... "Oh, it's a link to the mobile site""](https://twitter.com/markdalgleish/status/854875938932219904)
 - [Dan Callahan on Twitter: "AMP requires Google-controlled and Google-hosted JS. Earth requires Chrome. I miss the Google that supported the Web, not subjugated it."](https://twitter.com/callahad/status/854370516353691648)
 - [Das Surma on Twitter: "Take a look at https://t.co/Tf6DgrspF6 Do the touch interactions feel like a native app to you? If not: What is breaking the illusion?"](https://twitter.com/DasSurma/status/854820902386647040)
@@ -39,6 +40,9 @@
 # Hybrid
 - [james kyle on Twitter: "It makes no sense not to build 99% of desktop applications using @electronjs at this point"](https://twitter.com/thejameskyle/status/854530704071286784)
   - has issues (like web) with ram, lost frames, etc
+- [Electron is flash for the desktop](https://josephg.com/blog/electron-is-flash-for-the-desktop/)
+- [ptmt/react-native-macos: React Native for macOS](https://github.com/ptmt/react-native-macos)
+- [jordanIsNotAFunction on Twitter: "Another cool project in conjunction is having a @reasonml native app stack on that WebKit shell, but no JS - native perf - instant startup."](https://twitter.com/jordwalke/status/828336937605828609)
 
 # Current Conclusions
 - When to use Web
@@ -47,7 +51,13 @@
   - desktop apps that do not need platform hooks
     - I can't really think of any that fall into this category. Hangouts, for example, will always be inferior to Skype's native app for me because Skype has the picture-in-picture floating window. A tab in a web browser is not likely to get this functionality soon.
   - apps (desktop and web) that are temporal. A user will only occasionally use this service. Example: banking sites.
+  - power tabs
+
 - When to use Native
   - Any "daily-driver" service
   - A service that may not be a daily-driver, but is not compelling without the rich gestures and/or platform hooks
+  - logged in
 - With mobile Safari bringing down the web as a whole, see __this__ link, I currently advize going native on mobile.
+
+# More
+- For DEV: Seems like the real bang for your buck is standardizing paradigms like `components`, layouts like `flexbox` (via `yoga`), etc. See [Litho: Creating a custom Button component – Pavlos-Petros Tournaris – Medium](https://medium.com/@p.tournaris/litho-how-to-create-a-custom-button-b460b5a3b828).

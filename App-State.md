@@ -34,6 +34,13 @@ What about scene-specific state?
 - nested mobX providers do work, so just add `Provider`s at scene level, then components can `@inject`
   - [Nested Providers? · Issue #114 · mobxjs/mobx-react](https://github.com/mobxjs/mobx-react/issues/114)
 
+State
+- App
+  - `this.props.AppOverlay`
+- Scene
+  - `this.props.SceneSidebar`
+- Component (local)
+  - `this.state`
 
 # Router
 - only needed for SPAs
