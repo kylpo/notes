@@ -6,8 +6,11 @@
 - and about tapping
   - navigate your way by tapping through a journey
 - Good for temporal services
+- [Jason Miller 🦊⚛ on Twitter: "PWA's don't require new browser features, they leverage them. "Progressive" implies resilience, not dependence."](https://twitter.com/_developit/status/855427754619269124)
+  - I think of this as similar to pc games that allow you to dial up/down graphic settings. The game should work with the lowest settings, then ramp up its experience when opted in.
 
 ## Cons
+- [Think you know the top web browsers? – Samsung Internet Developers – Medium](https://medium.com/samsung-internet-dev/think-you-know-the-top-web-browsers-458a0a070175)
 - [Ken Wheeler on Twitter: "Let me be clear: PWAs are awesome & worth doing: ✅ PWAs are as good as native apps: ❌"](https://twitter.com/ken_wheeler/status/854699025928531968) thread basically sums up how I feel
   - ["Wow thats wierd. Its almost like the web isnt that open and a couple large companies call the shots on what you can do."](https://twitter.com/ken_wheeler/status/854787849710862341)
   - ["No PWA ive ever used felt honestly native. Fast load and TTI, sure. But the difference is there."](https://twitter.com/ken_wheeler/status/854782090205908992)
@@ -19,6 +22,7 @@
 - [Dan Callahan on Twitter: "AMP requires Google-controlled and Google-hosted JS. Earth requires Chrome. I miss the Google that supported the Web, not subjugated it."](https://twitter.com/callahad/status/854370516353691648)
 - [Das Surma on Twitter: "Take a look at https://t.co/Tf6DgrspF6 Do the touch interactions feel like a native app to you? If not: What is breaking the illusion?"](https://twitter.com/DasSurma/status/854820902386647040)
   - so many issues found. Works nicely on first interaction maybe, but then you find the warts quickly after.
+- [Ken Wheeler on Twitter: "Gave a talk today about react native where i talked a bunch of shit on the mobile web, slides: https://t.co/pHIBQWr5A4"](https://twitter.com/ken_wheeler/status/854472950388596741)
 
 ## Pros
 - ["Available anywhere, on-demand, low storage, low power use, etc. These are things both users and companies want from apps. Web nearly there"](https://twitter.com/necolas/status/850437592285708288)
