@@ -10,6 +10,7 @@ _WIP_
     - [Alex Russell on Twitter: "@threepointone @kentcdodds First, you double memory cost. The string is parsed in JS, interned in the V8/DOM shared string area, then *parsed again* when applied"](https://twitter.com/slightlylate/status/851446700728135680)
     - [Alex Russell on Twitter: "@arkanciscan @markdalgleish The bytes you embed as strings in your JS but use as CSS are double the cost (at least) in memory, parse, and runtime."](https://twitter.com/slightlylate/status/851215870441406464)
 - [Sunil Pai on Twitter: "I’m also going to investigate exterminating css() objects from bundles altogether, replacing with just classnames. excelsior!"](https://twitter.com/threepointone/status/851460820018057216)
+- [Kyle Poole on Twitter: "Think I'll start explaining this as "double taxation" https://t.co/Ydtn0baUVL"](https://twitter.com/kylpo/status/851449345299718145)
 
 
 # Inline styles

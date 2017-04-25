@@ -39,6 +39,7 @@ Others working on this
 - [ReactXP](https://microsoft.github.io/reactxp/docs/getting-started.html)
 - [Dan Abramov on Twitter: ".@reactiflux @acdlite “Does Fiber change anything for styling?” https://t.co/S5B7OyqbWO"](https://twitter.com/dan_abramov/status/852507690840592384)
   - looking in to components for Layout
+- [idibidiart/react-native-responsive-grid: Responsive Grid Layout for React Native](https://github.com/idibidiart/react-native-responsive-grid)
 
 No More "alphabetize vs logical" css ordering arguments
 - [Alphabetize your CSS properties, for crying out loud](https://medium.com/@jerrylowm/alphabetize-your-css-properties-for-crying-out-loud-780eb1852153)

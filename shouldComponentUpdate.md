@@ -27,6 +27,8 @@ PureComponent re-rendering in Animate_
 `React.cloneElement()` breaks PureComponent children because the passedProps is a new object every time?
 - [React is Slow, React is Fast: Optimizing React Apps in Practice – DailyJS – Medium](https://medium.com/dailyjs/react-is-slow-react-is-fast-optimizing-react-apps-in-practice-394176a11fba#.tkrfivb1w)
 
+[Quick Redux tips for connecting your React components](https://medium.com/dailyjs/quick-redux-tips-for-connecting-your-react-components-e08da72f5b3)
+
 ## shouldComponentUpdate
 Given this page, what do we expect to see in console?
 ```jsx

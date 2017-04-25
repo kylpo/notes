@@ -51,6 +51,7 @@ Might be easier to digest as a Friction Series of posts. That way I won't need t
       https://twitter.com/shaunlebron/status/820363199665029121
     - [recently started using Prettier across all my projects, no stress over code styles anymore](https://twitter.com/markacola/status/839396401595310080)
   - semicolons used to be a point of friction, so I stopped. Now prettier brings them back, but I don't have to type it
+  - [Ben Teese on Twitter: "Using Prettier to format JS is like killing an unnecessary background process in your brain. It frees up cycles to think about other things."](https://twitter.com/benteese/status/849079655592325121)
 
 - defensive coding
   - types enable me to not null-check everything
@@ -85,3 +86,6 @@ Might be easier to digest as a Friction Series of posts. That way I won't need t
 - Seeing results immediately
   - HMR
   - Tools to visualize your breakpoints, like [Emmet Re:view - Chrome Web Store](https://chrome.google.com/webstore/detail/emmet-review/epejoicbhllgiimigokgjdoijnpaphdp?hl=en) and [💀🐆 on Twitter: "Working on an electron app that allows you to preview scaled versions of multiple screen sizes simultaneously. Works on local urls too. https://t.co/tewfRuGqjh"](https://twitter.com/mrmrs_/status/833449786640625664)
+
+# Tools
+- Ones that tell you code cost, like [CodeMetrics - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-codemetrics)

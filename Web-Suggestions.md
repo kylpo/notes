@@ -28,6 +28,7 @@ if (false) {
 - [globalizejs/globalize: A JavaScript library for internationalization and localization that leverages the official Unicode CLDR JSON data](https://github.com/globalizejs/globalize)
   - used by twitter lite
 - `Strings` files so that they can all be translated. No inline text, not even the text of an "OK" button.
+- [Jason Miller 🦊⚛ on Twitter: "@threepointone @nekrtemplar we use it a lot for internationalization: <Text id="HELLO">hello world</Text>"](https://twitter.com/_developit/status/856196870179258368)
 
 # Accessibility (a11y)
 - [A11Y Style Guide](http://a11y-style-guide.com/style-guide/)

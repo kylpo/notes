@@ -14,6 +14,7 @@ Portal vs sending via App State
 - Passing component to App State feels a bit strange in the react world, you end up passing the Component class, not an instance.
 
 Happy to have used `ReactTransitionGroup` to hand enter/leave transitions of the overlay. The component just uses `componentDidEnter()` and `componentWillLeave()` hooks.
+- [reactjs/react-transition-group: An easy way to perform animations when a React component enters or leaves the DOM](https://github.com/reactjs/react-transition-group)
 
 Overlay: does not lock scrolling
 Modal Overlay (Modal for short): does lock scrolling. Often has an opacityOverlay behind it to denote this modal state.
