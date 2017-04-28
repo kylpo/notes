@@ -42,7 +42,13 @@ State
 - Component (local)
   - `this.state`
 
+[Building Skype on ReactXP - ReactXP Blog](https://microsoft.github.io/reactxp/blog/2017/04/27/building-skype-on-reactxp.html)
+- "Some stores within the app are singleton objects and are allocated — and perhaps even populated — at startup time. Others are allocated on demand and have a well-defined lifetime that corresponds to a user interaction or mode."
+- "Stores are responsible for maintaining in-memory data representations."
+
 # Router
 - only needed for SPAs
 - otherwise, it'd be at Express level
 - all must provide `<Link />`
+- https://github.com/basarat/yester
+- https://github.com/elefanty/offramp

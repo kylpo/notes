@@ -21,6 +21,18 @@ PureComponent re-rendering in Animate_
 - I think it is a child mismatch problem
   - because child in render does not match what it returns?
 
+# Reduce re-renders by keeping stateful components shallow
+Spawned from "One of the best tactics that you can apply early on is to try to keep components shallow. It will help you see which props components actually use and cut an extra re-render computation." - comment of https://marmelab.com/blog/2017/02/06/react-is-slow-react-is-fast.html
+
+Would it be best to keep components as small as possible. No letting the depth increase by more than, say 3 components and height be no more than 3 sibling components?
+
+That way a when a single component in a render needs to be updated, only a few other things will re-render, not many unrelated components.
+
+How would this apply to Page level components?
+
+"By removing the draft Tweet state from updating the main Redux state on every keypress and keeping things local in the React component’s state, we were able to reduce the overhead by over 50% (above, right)." - https://medium.com/@paularmstrong/twitter-lite-and-high-performance-react-progressive-web-apps-at-scale-d28a00e780a3
+
+# links
 [Tommy Leunen on Twitter: "React Q: Should we always use PureComponent and a pure "mixin" for SFC? Or bc most components are not costly to render it's better not?"](https://twitter.com/tommy/status/854366714812747776)
 - [Daniel Steigerwald on Twitter: "ShouldUpdate check belongs to data (redux connect), not view. Learned that the hard way."](https://twitter.com/steida/status/854374773270380544)
 

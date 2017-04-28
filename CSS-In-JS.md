@@ -63,3 +63,58 @@ const style = gloss()
   - ![](https://github.com/pranaygp/vscode-css-peek/raw/master/images/working.gif)
 - inline css peek?
   - write component with `cssStyle=` prop, which auto-generates css className and the external stylesheet
+
+[Mark Dalgleish on Twitter: "In case you're wondering—I really love Styled Components, Glamorous, JSS, Styletron, etc. but I still ship CSS Modules to production 👌"](https://twitter.com/markdalgleish/status/856794232421470208)
+
+[Mark Dalgleish on Twitter: "@_zouhir I've experimented with CSS-in-JS, and I've particularly enjoyed Styled Components, but I'm trying not to ship a runtime if I can avoid it"](https://twitter.com/markdalgleish/status/856805714508914688)
+
+
+"dynamic bits with css vars -> awesome"
+
+[Guillermo Rauch on Twitter: "@threepointone yep but very very interesting approach. Makes for a small codebase and you solve the perf problem telling the browser about dynamic parts"](https://twitter.com/rauchg/status/857135883346202625)
+
+
+# vs functional css
+https://github.com/necolas/react-native-web/blob/master/performance/README.md
+
+https://twitter.com/necolas/status/847844187131101184
+
+Atomic CSS with atomizer
+
+https://acss.io/
+
+https://github.com/acss-io/atomizer
+
+My CSS in JS gdoc
+
+https://marketplace.visualstudio.com/items?itemName=pankaj-parashar.atomizer
+
+https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek
+
+https://acss.io/
+
+http://tachyons.io/docs/layout/spacing/
+
+http://jxnblk.com/gravitons/
+
+http://basscss.com/
+
+https://github.com/basscss/ace
+
+https://github.com/basscss/basscss/issues/165
+
+http://notebook.hongkonggong.com/2016/04/21/is-tachyons-the-right-css-framework-for-me/
+
+https://github.com/martinandert/babel-plugin-css-in-js
+
+https://www.npmjs.com/package/babel-plugin-oxygen-css
+
+https://www.smashingmagazine.com/2016/04/finally-css-javascript-meet-cssx/
+
+https://www.sitepoint.com/atomic-oobemitscss/
+
+babel plugin to avoid perf impact of css-in-js https://twitter.com/mxstbr/status/846826184956661760
+
+https://github.com/zeit/styled-jsx
+
+https://twitter.com/markdalgleish/status/846884862816530435

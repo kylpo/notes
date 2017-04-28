@@ -2,6 +2,23 @@ _WIP_
 
 Consider showing these docs with https://github.com/egoist/anydoc
 
+evolution of constelation. Web div > RN > inline style > nice PR review experience > perf issues >
+
+See Sketch file, know exactly how to break it down to code.
+
+Dream would be to have a wysiwyg editor for scaffolding/setup. Like CRA for starting project, then "eject" to code for more complicated tasks. Works well if wysiwyg builds on constelation primitives and elements.
+
+scene/stage/etc
+
+Think about wysiwyg parts
+
+Tools that help you stay in your specific context (hacking, designing, etc). eslint errors, prettierjs, inline labels to expensive operations, div depth warnings, security violations (https://github.com/nodesecurity/eslint-plugin-security)
+
+But where does this all end? Do I need to build my own text editor!? I certainly shouldn't...
+
+What's next? Now that I've gone to the far end of DX, I need to swing back around to the UX. Perf, perf, perf. Where must UX (perf) trump DX?
+
+
 Do read through [CSS in JS: The Argument Refined – Medium](https://medium.com/@steida/css-in-js-the-argument-refined-471c7eb83955#.dwrvgfn6d), as he has gone down a similar journey.
 
 Writing style
@@ -12,6 +29,8 @@ Writing style
   - Skimability
 - Motivations similar to [Motivation - junctions.js](https://junctions.js.org/guide/introduction/motivation)
 - [How do you write such amazing documentations? · Issue #21 · staltz/ama](https://github.com/staltz/ama/issues/21)
+- [Kent C. Dodds on Twitter: "This is a great example of where glamorous really helps https://t.co/MKUE1CTP3p 👋 goodbye indirection, hello explicit sharing of components! https://t.co/s6gwoG9Gnj"](https://twitter.com/kentcdodds/status/857616944039682048)
+  - even better with Constelation with style as props. There is no inderection at all.
 
 Mindset of cranking widgets enables creativity. Don't need to "solve" trivial problems over and over.
 - Inspired by [GTD Newsletter: How to make your job easier](http://us8.campaign-archive2.com/?u=4fdf2cadb358acc7c1c1ca8bd&id=a0680a8e72&e=3d3d97c32e)
@@ -44,7 +63,16 @@ Others working on this
 No More "alphabetize vs logical" css ordering arguments
 - [Alphabetize your CSS properties, for crying out loud](https://medium.com/@jerrylowm/alphabetize-your-css-properties-for-crying-out-loud-780eb1852153)
 - [Organize your CSS properties however you dang like – Michael.blog](http://michael.blog/2017/03/30/organize-your-css-properties-however-you-dang-like/)
+- [The Different Logical Ways to Group CSS Properties - The Media Temple Blog](http://mediatemple.net/blog/tips/different-logical-ways-group-css-properties/)
 
 Lazy - less naming
 - no naming css class, just inline
 - [Mark Dalgleish on Twitter: "👶: Remember when we didn't prefix classes? 🤓: Remember when we had to manually prefix classes? 💅: Remember classes?"](https://twitter.com/markdalgleish/status/851381503078522881)
+
+I tried to think of everything you'd need in a WYSIWYG to build an app/site today. These are the declarative components I focussed on.
+- Layout
+- Style
+- Interaction
+- Animation
+- Layers (z-index)
+- Timeline

@@ -30,6 +30,10 @@ Modal Overlay (Modal for short): does lock scrolling. Often has an opacityOverla
 Portals
 - [react-portal/portal.js at master · tajo/react-portal](https://github.com/tajo/react-portal/blob/master/lib/portal.js)
 - [Sebastian Markbåge on Twitter: "@iammerrick ReactDOM.unstable_renderSubtreeIntoContainer(...) That's what it is for."](https://twitter.com/sebmarkbage/status/694285706827399168?lang=en)
+- Does it work for RN?
+  - https://github.com/facebook/react-native/issues/2501
+  - http://facebook.github.io/react-native/releases/0.28/docs/modal.html
+  - https://github.com/tajo/react-portal/issues/121
 
 
 Setting `position: fixed` on `html` works well, but jumps to the top of the page. Also, doesn't it make Safari chrome appear?

@@ -7,3 +7,14 @@ _WIP_
 # React animations on web
 - always start with animating via a `render()` update. Some animations will need the perf of going right to the DOM and avoiding `render()` though, like we do with React Native.
 - `setState` for transforms
+
+The "Heart Beat" of your site/app, like a Game Loop, is 60fps.
+
+
+# links
+- [Animation Add-Ons - React](https://facebook.github.io/react/docs/animation.html)
+- [10 principles for smooth web animations](https://blog.gyrosco.pe/smooth-css-animations-7d8ffc2c1d29)
+- [oblador/react-native-animatable: Standard set of easy to use animations and declarative transitions for React Native](https://github.com/oblador/react-native-animatable)
+- [animatedjs/interactive-docs: What a documentation for Animated could look like](https://github.com/animatedjs/interactive-docs)
+- [animatedjs/animated: Declarative Animations Library for React and React Native](https://github.com/animatedjs/animated)
+- [GPU Animation: Doing It Right – Smashing Magazine](https://www.smashingmagazine.com/2016/12/gpu-animation-doing-it-right/)

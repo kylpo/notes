@@ -54,4 +54,15 @@ if (false) {
   - [Serg Hospodarets on Twitter: "Huge news! After Microsoft EDGE 15 release today, CSS Custom Properties (aka CSS Variables) work cross-browser!!! 🔥 https://t.co/UzL2IsxdEV https://t.co/Aku2rFlgxY"](https://twitter.com/malyw/status/851913674021371904)
 - [How we made our product more personalized with CSS Variables and React](https://medium.com/geckoboard-under-the-hood/how-we-made-our-product-more-personalized-with-css-variables-and-react-b29298fde608)
 
+# SEO
+SEO is related to "location, location, location".
+
+thought about while reading https://css-tricks.com/seo-and-location/
+
+# App Components
+- Stage Left, Stage Right, Modal, etc
+
+# Layers system
+- Interesting idea to formalize z-index and layers: https://github.com/fckt/react-layer-stack#rationale. This is the Layers tab of your WYSIWYG.
+
 # Analytics

@@ -1,3 +1,6 @@
+
+Start with story of always playing the hybrid class: druid. Burned by not ever being the best dmg dealer, tank, healer, etc.
+
 # Web
 - all about scrolling
   - "scrolling has a special place on the web, and browsers have worked very hard to make sure that scrolling is snappy and responsive" (off-thread scrolling)

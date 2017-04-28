@@ -20,5 +20,6 @@ _WIP_
 - [Design principle: Consistency – UX Planet](https://uxplanet.org/design-principle-consistency-6b0cf7e7339f)
   - "Consistent design is intuitive design"
 - [Plainness and Sweetness – Frank Chimero](https://www.frankchimero.com/blog/2017/plainness-and-sweetness/)
+  - on the importance of plain design
 - [People Don’t Want Something Truly New, They Want the Familiar Done Differently.](https://medium.com/startup-grind/people-dont-want-something-truly-new-they-want-the-familiar-done-differently-7648f24f8fe7)
   - "(Un)Familiarity Breeds Contempt"
