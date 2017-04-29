@@ -6,3 +6,12 @@ Design and Dev are converging on building `components`.
 I think now, more than ever, we are set up for a wysiwyg builder to become hugely powerful for design AND dev. First round is used to structure your app, then drop to code for tweaks, gestures, refinining animations, etc. A tool that gives me sane primitives, elements, and widgets, with a viewport showing off responsive points, a timeline, style editing pane, event editing pane, layers, etc will be amazing.
 
 [React Studio: 1.0.2 update, roadmap, thoughts on Native, and a look at Microsoft’s ReactXP](https://hackernoon.com/react-studio-1-0-2-update-roadmap-thoughts-on-native-and-a-look-at-microsofts-reactxp-b78fc405a676)
+
+# Tools
+- Ones that tell you code cost, like [CodeMetrics - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-codemetrics)
+- [vscode-caniuse - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=agauniyal.vscode-caniuse)
+  - shows browser compatibility on hover and caret position
+  - ![](https://github.com/agauniyal/vscode-caniuse/raw/master/screenshot.png)
+- [css-triggers - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.csstriggers)
+  - Adds cost indicator to css properties in the form of inline decorations
+  - ![](https://raw.githubusercontent.com/kisstkondoros/csstriggers/master/screenshot.png)

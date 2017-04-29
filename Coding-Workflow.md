@@ -1,0 +1,7 @@
+formalize git commit strategy. thinking bullshit commits in branch, then squash with real message to master. https://github.com/ezekielchentnik/preact-pwa/commits/master is definitely bad. This approach uses commits as save points, not for documenting history.
+
+can ^ be formalized with code comments, too? In the moment, don't add comments, but before PR, go through and annotate your code. Would be cool to toggle off visibility of code and just see comments in some files to fully understand what it is doing. See https://twitter.com/dan_abramov/status/830231118158974980 . "Code is for "how". Comments are for "why"." https://twitter.com/Slruh/status/830236782352617472. https://github.com/facebook/react/blob/master/src/renderers/shared/fiber/ReactFiberScheduler.js
+
+can I apply ^ to building new components? Build all in 1 file, then before PR, split out. Also split out unnamed subcomponents in renders.
+
+can I apply ^ to types, and why I might prefer Flow. Start with files not including flow, once they're more built out, add // @flow and fix errors. not really as feasible to do this in typescript - I'd have to name it .js, then switch to .ts and add things like `React.Component<...>` boilerplate to each component. If suddenly I add state, I now need to add the IState generic. And what is up with the I___ convention. I understand it, but dislike that it is needed. `import type` is much better

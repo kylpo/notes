@@ -2,6 +2,7 @@ _WIP_
 
 Consider showing these docs with https://github.com/egoist/anydoc
 
+# History
 evolution of constelation. Web div > RN > inline style > nice PR review experience > perf issues >
 
 See Sketch file, know exactly how to break it down to code.
@@ -18,6 +19,21 @@ But where does this all end? Do I need to build my own text editor!? I certainly
 
 What's next? Now that I've gone to the far end of DX, I need to swing back around to the UX. Perf, perf, perf. Where must UX (perf) trump DX?
 
+---
+
+iteratively solve problems
+
+start with positioning elements and how they are just so many options. Consolidate to RN's flexbox defaults with a style object.
+
+ugh, annoying for copy/pasting and truly learning what the view is for, so inline the style as an inline object.
+
+ugh, now we re-create objects on every re-render and mess with garbage collector. Move to Style object.
+
+ugh, what should Style object be in charge of? Well, Views are affecting the layout, so lets have Style be the catchall for non-layout styles.
+
+Cool, lets add interactivity. I'll just add onClick to my View... Wait a minute, we just said that View only cares about layout, so lets make a new component that only cares about interactivity.
+
+---
 
 Do read through [CSS in JS: The Argument Refined – Medium](https://medium.com/@steida/css-in-js-the-argument-refined-471c7eb83955#.dwrvgfn6d), as he has gone down a similar journey.
 
@@ -76,3 +92,66 @@ I tried to think of everything you'd need in a WYSIWYG to build an app/site toda
 - Animation
 - Layers (z-index)
 - Timeline
+
+# Still semantic
+- `tag` prop
+- Just like ios's accessibilityTraits. It is only for accessibility today, not really for a "semantic web". See https://facebook.github.io/react-native/docs/view.html#accessibilitytraits
+
+# DX
+We have focused entirely on DX. Along the way, found some surprising wins.
+
+DX means:
+- scannable
+- easy to copy/paste or abstract
+- lazy (don't think about things like naming, use conventions/rules)
+- code reviews easier. Adding a style prop is easier than adding to style object and figuring out which div it goes to
+- decisions already made. Being bored leads to creativity.
+-- imagine if you had to read all talents in HOTS before picking one. You would need to context switch out of the action. Even better is to have a build made ahead of time and just alt-# it as soon as it becomes available. Even better is knowing when to break the build and choose something else given a different event.
+
+Surprising wins:
+- base absraction shielded us from css-in-js churn
+
+# The case for Row
+Row tells the developer to go against the usual skim flow and read left to right, not top-down.
+
+<View horizontal > works OK for the top tag, but fails with the bottom tag </View>
+
+Similarly, a Flex was nice to tell the developer that they need to look at the logic to figure out how it should be read.
+
+# Random notes
+Address pain points, focus on DX. Strive for no friction.
+
+Programming is a craft, like writing is a craft. Ther is good writing style, and bad writiing style.
+
+RN Event_ wraps with TouchableWithoutFeedback. This means the _ convention doesn't necessarily mean it adss nothing to the DOM. Instead, it is just incomplete without a child. A child is required, and _ will enhance it.
+
+Why not Box?
+- boxes have borders
+- also, ScrollBox doesn't make sense
+
+ScrollRow
+ScrollCol
+ScrollFlex
+ScrollView
+- doesn't actually care about align/justify. It is just the view containing some other viw that might care.
+
+Within Conventions
+- structure
+- rules
+- style
+
+# In prep for conf talk
+Building quickly for web and native gives me rare insights. Something I should leverage.
+
+Prototyping fast and loving it. Describe with jsx what I'm seeing from design. Declarative ftw. Constelation constraints enable me to do it without jumping around code.
+
+Constelation coding reduces friction. Less activation energy, get to be lazy and think less. Means I enjoy coding more.
+
+Prototyping is about moving as fast as possible. This means having a set of powerful primitives, and fewer abstractions. DRY is mostly avoided.
+
+<Style_> allows for easier copy/pasting.
+
+Constelation components allow me to dev a design from top to bottom, like describing one complete thought. Afterward, I can play the role of an editor and break it up into subcomponents or reusable shared components.
+
+
+Non-Constelation way would have me assigning classnames or style objects to divs and jumping back/forth to css file or bottom of page to edit style object. OR, you'd fill in all divs of design first, then have to run back through it, adding style and such. Not nearly as seamless as the writing style of Constelation.

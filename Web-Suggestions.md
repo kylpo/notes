@@ -66,3 +66,18 @@ thought about while reading https://css-tricks.com/seo-and-location/
 - Interesting idea to formalize z-index and layers: https://github.com/fckt/react-layer-stack#rationale. This is the Layers tab of your WYSIWYG.
 
 # Analytics
+
+# Polyfills
+If it’s new syntax, you can probably transpile it
+If it’s a new object or method, you can probably polyfill it
+If it’s something clever that the browser does outside of your code, you’re probably SOL
+
+https://hackernoon.com/polyfills-everything-you-ever-wanted-to-know-or-maybe-a-bit-less-7c8de164e423#.jfpsi4auo
+
+Polyfill fewer things by targeting only newer browsers
+Only send polyfills to browsers that need them
+Only polyfill things used in your code
+
+http://babeljs.io/docs/plugins/preset-env/ will reduce the amount of features that are polyfilled based on the browsers you are targeting.
+- doesn't actually shave off much: 6kb
+- polyfill.io instead to load polyfills iff the browser needs it

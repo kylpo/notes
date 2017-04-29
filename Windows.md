@@ -11,6 +11,8 @@ _WIP_
 - [Setting up a Shiny Development Environment within Linux on Windows 10 - Scott Hanselman](https://www.hanselman.com/blog/SettingUpAShinyDevelopmentEnvironmentWithinLinuxOnWindows10.aspx)
 - [Zach Bruggeman on Twitter: "i've been using the latest WSL for a bit, could see this replacing my mac for dev work. @zeithq's hyper is a great terminal for windows https://t.co/PYFKdoEWFY"](https://twitter.com/zachbruggeman/status/853340648983773184)
   - ![](https://pbs.twimg.com/media/C9eql3jUwAA_RaV.jpg)
+- OS-level emacs keybinds (like MacOS)
+  - [usi3/emacs.ahk: An autohotkey script that allows you to use emacs-like key bindings on Windows environment](https://github.com/usi3/emacs.ahk)
 
 # Settings
 - [How To Reverse Scroll Direction In Windows 10](http://www.addictivetips.com/windows-tips/reverse-scroll-direction-in-windows-10/)

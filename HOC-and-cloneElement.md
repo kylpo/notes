@@ -296,3 +296,8 @@ Props to the current official [docs](https://facebook.github.io/react/docs/compo
 
 # `cloneElement()` of a PureComponent child
 see [shouldComponentUpdate doc](https://github.com/kylpo/notes/blob/master/shouldComponentUpdate.md#cloneelement-of-a-purecomponent-child)
+
+# Perf vs `createElement()`
+React.cloneElement perf. Basically just a React.createElement with a single for loop to copy over props passed. See its source https://github.com/facebook/react/blob/master/src/isomorphic/classic/element/ReactElement.js#L300-L369
+
+https://twitter.com/spikebrehm/status/829032493286248448

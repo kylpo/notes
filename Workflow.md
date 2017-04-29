@@ -18,3 +18,11 @@ Anki in the morning, before other work.
 - eslint for actual errors
   - [You can definitely use Prettier to format your code and also use ESLint to warn of potential non-style-related problems](https://twitter.com/geteslint/status/839929305211609089)
   - eslint-plugin-compat
+
+# Flow
+FLow to me is working asynchronously, with batching. It allows single focus and is the reason i dislike Slack as a communication medium. I'd much prefer deep work when I need it, then write mini-blog posts of my findings than having AHA! moments where I must show my co-workers immediately.
+
+Instead of meeting in person, I need to be writing more.
+
+"Cal Newport describes it as paradox in our work culture. It is a paradox, because technologies from nowadays are well suited to distract us. E-Mail, instant messengers and social media are used whenever we feel the slightest sign of boredom. Push notifications keep us distracted all the time."
+- https://www.robinwieruch.de/lessons-learned-deep-work-flow/

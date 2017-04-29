@@ -35,8 +35,14 @@ Might be easier to digest as a Friction Series of posts. That way I won't need t
   ```
     - doesn't work in RN
     - Use `globals.Col = require('constelation-Col')`? Issues using these globals outside of classes. Scoping issues
+  - TS
+    - not in tsserver yet. Set for milestone 2.3 currently.
+    - https://github.com/Microsoft/TypeScript/issues/7849
+    - https://github.com/Microsoft/vscode/issues/2635
+    - https://github.com/Microsoft/TypeScript/blob/master/lib/protocol.d.ts#L5
+    - https://github.com/Microsoft/TypeScript/wiki/Standalone-Server-(tsserver)
   - importjs to the rescue
-  - note: ts has something like this in the works
+z  - note: ts has something like this in the works
     - what landed is just a popup suggestion though, not a full `import all` solution
     - [feature request: Auto import dependencies · Issue #2635 · Microsoft/vscode](https://github.com/Microsoft/vscode/issues/2635)
   - code folding the imports
@@ -88,6 +94,5 @@ Might be easier to digest as a Friction Series of posts. That way I won't need t
   - Tools to visualize your breakpoints, like [Emmet Re:view - Chrome Web Store](https://chrome.google.com/webstore/detail/emmet-review/epejoicbhllgiimigokgjdoijnpaphdp?hl=en) and [💀🐆 on Twitter: "Working on an electron app that allows you to preview scaled versions of multiple screen sizes simultaneously. Works on local urls too. https://t.co/tewfRuGqjh"](https://twitter.com/mrmrs_/status/833449786640625664)
     - http://sizzy.co/ and https://github.com/kitze/sizzy
 
-
-# Tools
-- Ones that tell you code cost, like [CodeMetrics - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-codemetrics)
+- Not naming things until it is absolutely necessary
+  - BEM, for sure is friction. Just look at the code at https://css-tricks.com/build-custom-serverless-cms-part-2/

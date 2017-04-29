@@ -5,6 +5,13 @@ Older developers have likely settled on platforms that change less often. They h
 
 # You'll know that you are senior in a team when you answer more questions than you ask
 
+# Easier in isolation
+Much easier to attack something in isolation.
+
+Made me think that senior devs are for thinking about more things: perf, whole apps, accessibility, etc. Other devs _should_ be more productive, or have a higher speed, because they can remain focused on closing tickets (isolated pieces of work)... less concerns when working on isolated things. Senior devs should be slower, but focused on velocity and moving in the right direction.
+
+Maybe this is what management is for? Allowing people to stay on isolated tasks?
+
 # I think one of the most impactful things you could do is to write. Write and share.
 Videos, audio, etc all count, too.
 

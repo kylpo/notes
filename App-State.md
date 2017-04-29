@@ -1,5 +1,7 @@
 _WIP_
 
+Maybe it should be rephrased to: Global (not app) vs Local state. I like this better because I don't like calling sites "apps"
+
 Started with a question: "Types of App “state”: `data` (that you usually render), `routes` (url and history), `UI` (controls like open panes). Can anyone think of a missing category in that list?"
 
 App State
@@ -10,6 +12,14 @@ App State
 - UI
   - controls
 
+# Scene vs Stage
+Scene is an individual page. a sequence of continuous action in a play
+
+Stage is the entire app shell.  platform on which actors, entertainers, or speakers perform.
+
+Scene will use the Stage. E.g. using its scrollbar.
+
+---
 
 data is essentially the models and collections that are rendered in a simple todo app, for example.
 
