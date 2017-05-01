@@ -20,3 +20,12 @@ App has LHS "app-tabs" bar http://collectui.com/designers/pijusgraphics/monitori
 Site has top tab bar
 
 Kind of a joke, but also partly true.
+
+Reading https://medium.com/code-life/frontend-applications-on-s3-df5134e320f0#.1opyi21va on hosting sites with s3 helped me identify the difference between sites and apps. Sites are anything that COULD be served statically: it does not have state. https://musefind.com/ is a site because each page can be served statically. The content may still be dynamic via apis, but the structure of the site itself is static. If someone chooses to LOGIN, then it will likely direct them to a web app that customizes its structure and content to that user -> it has state.
+
+web APP vs web SITE
+- global state
+- from rauchg
+
+# Conclusions
+Overall, this distinction likely isn't helpful. Because as soon as you add global state to a site, it becomes an app, even if it still feels more like a site (like an e-commerce site). The more useful distinction is web vs native. I suppose it could be helpful, if you think of your product as a site, to limit it from app state for as long as possible. For example, modals are url accessible, all "state" is serialized to the URL. LINK TO APP STATE DOC

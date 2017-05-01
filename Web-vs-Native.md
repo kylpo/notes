@@ -1,6 +1,85 @@
 
 Start with story of always playing the hybrid class: druid. Burned by not ever being the best dmg dealer, tank, healer, etc.
 
+# Web vs Native
+- Web is for accessibility, especially PWA (offline)
+web is good for _content_
+- Maybe it is about leaf nodes? If you have many sub-sites (ecommerce, articles/news), then web is the best platform. You want the one-demand render with reach.
+- If you only have a handful of routes, then maybe it is specific enough to warrant Native?
+- Will you use this service daily? It should be native.
+- Web is good for the "oh, I'm just browsing" user
+- Mobile web is good for consumption. Not really good for interaction though.
+function over form
+- Native gives you immersion
+- Think about games, Hangouts, etc. All would be better w/ native controls (like system-wide mic mute, full screen, etc)
+- SSR (bummer, wish we could try Preact, but Bing doesn't crawl js)
+
+
+Web for reach/exposure - Breadth
+- web for anything that should/could be viewed anonymously
+- does this support the AMP idea?
+
+Native for experience - Depth
+- native for anything that would normally require a login
+
+examples to compare with: google plus, inbox, google fonts, mac store
+
+https://medium.com/javascript-scene/native-apps-are-doomed-ac397148a2c0#.pfvxyzxl5
+
+How does this compare to personal blog sites vs using a service like Medium or Twitter? I like being able to like posts now, and dislike when it is a personal site. Universal login is what matters here, I suppose.
+
+---
+
+The web is really good for reading and consumption. The tabs act like physical pages that you can flip through and stack.
+
+An app, on the other hand, is good for experiences. A gameboy, a board game, a set of tools used for a purpose like calculators, journals, timers, etc.
+
+---
+
+https://cloudfour.com/thinks/progressive-web-apps-simply-make-sense/
+
+Progressive Enhancement to consider:
+Kind of cool that the browser works as well as it does with progressive enhancement.  Start with the least common denominator of features, then add attributes to your html and js. Amazing that it doesn't break the older browsers - they just ignore what they can't support. Really good model for plugin systems.
+
+Interesting idea to think of web and native apps on opposite spectrums. Web is lowest common denominator and least featured/polish. Native is all about integration and experience. Goal is to move the needle of web as close to your native WITHOUT compromising. This is why perf budgets etc are so important.
+
+Thought about this while reading https://justmarkup.com/log/2016/10/enhancing-a-comment-form/
+
+---
+
+"Native apps like Twitter, Facebook, & Instagram are swell, but appreciate for a moment that the web gives your posts universal addresses."
+-https://twitter.com/stshank/status/806981502881759232
+
+Web linkability
+
+I think just about everything should be linkable. For example, a specific comment to an article.
+
+---
+
+"Web users are often action oriented, "leaning forward" in the hunt for answers to their current question, rather than leaning back to absorb a good book."
+- https://www.nngroup.com/articles/concise-scannable-and-objective-how-to-write-for-the-web/
+-- I wonder if users are more willing to "absorb a good book" when it is a native app?
+
+AMP roadmap update: “You can now also use <amp-app-banner> to drive installs of native apps from AMPs, as well as deep-link directly to native app content for users who have already installed your app”
+- https://amphtml.wordpress.com/2016/11/23/amp-roadmap-update-for-mid-q4-2016/
+
+
+Primarily notes to myself:
+
+https://daverupert.com/2016/10/desktop-is-lava/ had some good points:
+🔑 Social networks, search engines, publications, and retailers have already hit the tipping point and are seeing majority mobile traffic. This is probably where your traffic comes from.
+🔑 Native App market is tightening. Most people don’t download apps.
+👍 Mobile Web traffic is 3x native app traffic.
+👍 Mobile Web audiences are growing 2x as fast as app audiences.
+👎 Mobile Web engagement (time on site) is 20x less than apps.
+👎 Mobile Web engagement is steadily decreasing.
+🔑 The Chrome Developers team has been single-mindedly focused on mobile performance lately. This is a huge foreshadowing signal.
+👍 Desktop web browsing hasn’t been cannibalized by mobile…
+👎 But it has stagnated. comScore reports a 16pt drop in Desktop usage over the last 3 years.
+
+---
+
+
 # Web
 - all about scrolling
   - "scrolling has a special place on the web, and browsers have worked very hard to make sure that scrolling is snappy and responsive" (off-thread scrolling)
@@ -68,3 +147,24 @@ Start with story of always playing the hybrid class: druid. Burned by not ever b
 
 # More
 - For DEV: Seems like the real bang for your buck is standardizing paradigms like `components`, layouts like `flexbox` (via `yoga`), etc. See [Litho: Creating a custom Button component – Pavlos-Petros Tournaris – Medium](https://medium.com/@p.tournaris/litho-how-to-create-a-custom-button-b460b5a3b828).
+
+# PWA Pros/Cons
+Web
+- Accessible w/o install -> open, no store
+- No storage constraints
+- Always up to date
+- Already won on desktop
+- url/linkable
+
+PWA
+- Discoverable by all
+- Fast/smooth
+- loads quickly
+- works offline
+- progressively installed
+
+Problems
+- integrations (android wear, macOS menu bar)
+
+
+See also Apps are faltering. But progressive web apps seem pretty legit. – Medium

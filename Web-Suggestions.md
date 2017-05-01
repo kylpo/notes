@@ -51,6 +51,22 @@ if (false) {
 - polyfill.io
   - [Andrew Betts on Twitter: "The marvellous people at the Guardian just went live with @polyfillio - now used by multiple major news sites! https://t.co/sFWGd9pJ1T"](https://twitter.com/triblondon/status/846707701220622336)
 
+## Polyfills
+If it’s new syntax, you can probably transpile it
+If it’s a new object or method, you can probably polyfill it
+If it’s something clever that the browser does outside of your code, you’re probably SOL
+
+https://hackernoon.com/polyfills-everything-you-ever-wanted-to-know-or-maybe-a-bit-less-7c8de164e423#.jfpsi4auo
+
+Polyfill fewer things by targeting only newer browsers
+Only send polyfills to browsers that need them
+Only polyfill things used in your code
+
+http://babeljs.io/docs/plugins/preset-env/ will reduce the amount of features that are polyfilled based on the browsers you are targeting.
+- doesn't actually shave off much: 6kb
+- polyfill.io instead to load polyfills iff the browser needs it
+
+
 # Theming
 - use css variables. They're now supported in all major browsers (Edge just landed support).
   - [Serg Hospodarets on Twitter: "Huge news! After Microsoft EDGE 15 release today, CSS Custom Properties (aka CSS Variables) work cross-browser!!! 🔥 https://t.co/UzL2IsxdEV https://t.co/Aku2rFlgxY"](https://twitter.com/malyw/status/851913674021371904)
@@ -69,19 +85,16 @@ thought about while reading https://css-tricks.com/seo-and-location/
 
 # Analytics
 
-# Polyfills
-If it’s new syntax, you can probably transpile it
-If it’s a new object or method, you can probably polyfill it
-If it’s something clever that the browser does outside of your code, you’re probably SOL
-
-https://hackernoon.com/polyfills-everything-you-ever-wanted-to-know-or-maybe-a-bit-less-7c8de164e423#.jfpsi4auo
-
-Polyfill fewer things by targeting only newer browsers
-Only send polyfills to browsers that need them
-Only polyfill things used in your code
-
-http://babeljs.io/docs/plugins/preset-env/ will reduce the amount of features that are polyfilled based on the browsers you are targeting.
-- doesn't actually shave off much: 6kb
-- polyfill.io instead to load polyfills iff the browser needs it
-
 # Events
+
+# Content
+https://www.usability.gov/how-to-and-tools/methods/writing-for-the-web.html
+
+people don't read web pages, they scan. On average, people only read 20–28% of web page content. Reading from screens is much slower than reading from paper. People will give up and leave your site unless information is easy to access and understand.
+
+https://developers.google.com/web/fundamentals/design-and-ui/responsive/content
+
+Web users are often action oriented, "leaning forward" in the hunt for answers to their current question, rather than leaning back to absorb a good book.
+https://www.nngroup.com/articles/concise-scannable-and-objective-how-to-write-for-the-web/
+
+Users tend to read in F pattern:
