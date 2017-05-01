@@ -26,3 +26,10 @@ https://css-tricks.com/line-clampin/
 "The only cross-browser solution is to use js afaik. Several solutions to the problem of multi-line truncation with ellipsis are discussed here: http://css-tricks.com/line-clampin/
 I hate them all, but welcome to web development."
 http://stackoverflow.com/questions/18763551/clamping-lines-without-webkit-line-clamp
+
+# Transforms affect `position: fixed` children
+A transformed element creates a containing block (it also becomes position: relative) for all its positioned descendants, even those that have been set to position: fixed. So, fixed-position children essentially become position: absolute to this continaing block, not the viewport!
+
+http://meyerweb.com/eric/thoughts/2011/09/12/un-fixing-fixed-elements-with-css-transforms/
+
+https://dev.opera.com/articles/css-will-change-property/

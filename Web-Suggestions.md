@@ -1,5 +1,7 @@
 _WIP_
 
+Things to consider before writing any code
+
 # Feature Flags
 - Build in a feature flag capability from the start. You'll eventually want it for A/B testing, staged releases, and potentially even a beta program.
 - [Feature flags in React](http://blog.rstankov.com/feature-flags-in-react/)
@@ -81,3 +83,5 @@ Only polyfill things used in your code
 http://babeljs.io/docs/plugins/preset-env/ will reduce the amount of features that are polyfilled based on the browsers you are targeting.
 - doesn't actually shave off much: 6kb
 - polyfill.io instead to load polyfills iff the browser needs it
+
+# Events

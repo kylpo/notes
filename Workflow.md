@@ -26,3 +26,7 @@ Instead of meeting in person, I need to be writing more.
 
 "Cal Newport describes it as paradox in our work culture. It is a paradox, because technologies from nowadays are well suited to distract us. E-Mail, instant messengers and social media are used whenever we feel the slightest sign of boredom. Push notifications keep us distracted all the time."
 - https://www.robinwieruch.de/lessons-learned-deep-work-flow/
+
+[Henrik Joreteg on Twitter: "My productivity seems to ebb and flow. It seems better to roll with it than fight it, but it can still be frustrating."](https://twitter.com/HenrikJoreteg/status/857458718056660992)
+
+[The Productivity Cycle - Alex Sexton](https://alexsexton.com/blog/2014/1/the-productivity-cycle/)

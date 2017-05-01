@@ -55,6 +55,7 @@ const style = gloss()
 # Babel transforms to help
 - [spredfast/babel-plugin-transform-hoist-jsx-style: Hoist pure objects passed to 'style' prop](https://github.com/spredfast/babel-plugin-transform-hoist-jsx-style)
 - [styled-components/babel-plugin-polished: Compile polished helper functions at build time](https://github.com/styled-components/babel-plugin-polished)
+- [soluml/pre-style: Pre-Style is a tool that lets you author CSS-in-JS (or CSS-in-Markup) while outputting highly efficient CSS.](https://github.com/soluml/pre-style)
 
 # Proposed solution
 - This is a tooling problem. Perf and UX must be the top priority. DX can be done with better tooling.

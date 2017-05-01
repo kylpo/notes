@@ -96,3 +96,7 @@ z  - note: ts has something like this in the works
 
 - Not naming things until it is absolutely necessary
   - BEM, for sure is friction. Just look at the code at https://css-tricks.com/build-custom-serverless-cms-part-2/
+
+- Function should do one thing
+  - [ryanmcdermott/clean-code-javascript: Clean Code concepts adapted for JavaScript](https://github.com/ryanmcdermott/clean-code-javascript#functions-should-do-one-thing) does a good job of explaining this
+  - 2 or fewer function arguments

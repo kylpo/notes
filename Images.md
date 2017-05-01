@@ -50,3 +50,16 @@ Image decoding can take more than a frame-worth of time. This is one of the majo
 
 
 https://facebook.github.io/react-native/docs/images.html
+
+
+---
+How to fill the entire page with an image, no white space, scales as needed, retains aspect ratio, and centered?
+
+```
+html {
+  background: url(images/bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+```
+
+or use `background-image: url(_)`
