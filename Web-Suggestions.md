@@ -73,6 +73,21 @@ http://babeljs.io/docs/plugins/preset-env/ will reduce the amount of features th
 - [How we made our product more personalized with CSS Variables and React](https://medium.com/geckoboard-under-the-hood/how-we-made-our-product-more-personalized-with-css-variables-and-react-b29298fde608)
 
 # SEO
+- [SEO best practices and requirements for modern sites | John Mueller - YouTube](https://www.youtube.com/watch?v=JlP5rBynK3E)
+  - URL most important
+  - 1 URL per content
+    - languages have disctinct urls, too
+  - make links w/ `<a>`, not onclick
+    - so googlebot can navigate your site
+  - hidden content is devalued, as it isn't primary content
+    - does this mean page transitions that fade in are missing out on SEO?
+    - what about lazy loaded images
+  - page transition delays might snapshot old page
+    - if route changes, and there is a transition out that takes a certain amount of time
+  - Google Search Console to check your sites
+- [Hidden text and links - Search Console Help](https://support.google.com/webmasters/answer/66353?hl=en)
+- SEO boosted by accessibility?
+
 SEO is related to "location, location, location".
 
 thought about while reading https://css-tricks.com/seo-and-location/

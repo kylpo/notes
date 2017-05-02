@@ -15,3 +15,4 @@ I think now, more than ever, we are set up for a wysiwyg builder to become hugel
 - [css-triggers - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.csstriggers)
   - Adds cost indicator to css properties in the form of inline decorations
   - ![](https://raw.githubusercontent.com/kisstkondoros/csstriggers/master/screenshot.png)
+- [Sam Saccone on Twitter: "The perf gutter in devtools makes it trivial to identify non-obvious costly paths in your code execution. 🔥💥💸🌶️🐐 https://t.co/MR86N0ijlj"](https://twitter.com/samccone/status/858753027036950528)

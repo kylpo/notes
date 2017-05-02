@@ -14,6 +14,10 @@ Let's standardize a Website's characteristics:
 Let's standardize a Webapp's characteristics:
 - Best thought of as scenes/screens instead of documents
 
+# Generalizations
+- Care about SEO? Site. Else, app.
+- Want an app bar? App. Else, site with tabs/links on top, probably.
+
 # App vs Site
 App has LHS "app-tabs" bar http://collectui.com/designers/pijusgraphics/monitoring-dashboard
 
