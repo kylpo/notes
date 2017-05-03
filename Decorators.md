@@ -185,6 +185,8 @@ React Native:
 - settings
 - push notifications
 
+## Conclusion
+Use global event decorators for a powerful abstraction that does wonders for DX.
 
 ---
 # Other notes
