@@ -1,8 +1,8 @@
-# Decorators for global events considered helpful
+# Decorators for Global Events Considered Helpful
 
-I think I've found a really cool use case for decorators and global events! They're perfect for attaching callbacks to global events.
+I think I've found a really cool use case for decorators. They're perfect for attaching callbacks to global events!
 
-Lets start with an example component that listens to `scroll` events.
+Lets start with an example component (without decorators) that listens to `scroll` events.
 
 ```jsx
 class MyComponent extends React.Component {
