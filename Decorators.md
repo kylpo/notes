@@ -1,6 +1,6 @@
-# Decorators Considered Helpful for Global Events
+# Decorators for global events considered helpful
 
-I think I've found a really cool use case for decorators and global events!
+I think I've found a really cool use case for decorators and global events! They're perfect for attaching callbacks to global events.
 
 Lets start with an example component that listens to `scroll` events.
 
@@ -72,9 +72,9 @@ Benefits of `@scroll` and `@resize`:
 - They register and clean up their listeners for you
 - They co-locate exactly what the `handle` function is used for
   - Maybe not necessary in our example `MyComponent` code, but the more `handle` functions it has, the nicer it is to see exactly what event it handles
-  - Also means it is SO much easier to copy/paste this functionality
+  - Even better: it is SO much easier to copy/paste this functionality
 
-Those benefits alone are worth using decorators for global events, but we can do better!
+They are useful enough to stop there, but we can do more!
 
 ```jsx
 class MyComponentUsingDecorators extends React.Component {
@@ -94,19 +94,25 @@ class MyComponentUsingDecorators extends React.Component {
 
 As shown, we can pass arguments to these decorators to throttle the event, auto-measure the window's width and height, and more. Convenient, and co-located.
 
-Just one more benefit to consider. Since I am standardizing my global events with these decorators, I can enforce using something like `subscribe-ui-events` to delegate events. The primary benefit of this event delegation is to only measure expensive things like `width` and `height` once, not for each listener. More on this in a future post.
+Just one more benefit to consider. Since we are standardizing our global events with these decorators, we can enforce using something like [subscribe-ui-event](https://github.com/yahoo/subscribe-ui-event) to delegate events. This event delegation allows us to only measure expensive things like `width` and `height` once, then pass them down, as opposed to the default of each listener making these measurements. More on this in a future post.
 
 ## Which global events are these decorators helpful for?
 I plan to use them for Web and React Native.
 
 Web:
-- `scroll`, scrollStart, scrollEnd
-- `resize`, resizeStart, resizeEnd
+- scroll
+  - `@scroll`
+  - `@scrollStart`
+  - `@scrollEnd`
+- resize
+  - `@resize`
+  - `@resizeStart`
+  - `@resizeEnd`
 - matchMedia
   - `@media('(min-width: 500px)')`
 - keypress
   - `@keydown('Escape')`
-- `visibilitychange`
+- visibilitychange
 
 React Native:
 - keyboard visibility
@@ -119,7 +125,6 @@ React Native:
 ---
 # Other notes
 
-Perfect for attaching callbacks to global events
 
 - [Enhancing React Components with decorators – Medium](https://medium.com/@gigobyte/enhancing-react-components-with-decorators-441320e8606a#.sjsi0hxct)
 - [JavaScript — Make your Code Cleaner with Decorators – Frontend Weekly – Medium](https://medium.com/front-end-hacking/javascript-make-your-code-cleaner-with-decorators-d34fc72af947)
