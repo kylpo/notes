@@ -186,7 +186,7 @@ I plan to use them for Web and React Native.
   - push notifications
 
 ## Conclusion
-Global event decorators do wonders for DX. Depending on what they abstract, they can even enforce performance and enable conveniences via decorator arguments.
+Global event decorators do wonders for DX! Their implementation could even lead to better UX by enforcing a performant handling of these events.
 
 ---
 # Other notes
