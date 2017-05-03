@@ -113,7 +113,7 @@ What do `@scroll` and `@resize` do?
 - They register and clean up their listeners for you
 - They co-locate exactly what the `handle` function is used for
   - Maybe not necessary in our example `MyComponent` code, but the more `handle` functions it has, the nicer it is to see exactly what event it handles
-  - Even better: it is SO much easier to copy/paste this functionality
+  - It is SO much easier to copy/paste this functionality
 
 Now, the refactor is a single cut/paste.
 
