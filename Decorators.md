@@ -159,7 +159,7 @@ class MyComponentUsingDecorators extends React.Component {
 As shown, we can pass arguments to these decorators to throttle the event, auto-measure the window's width and height, and more. Convenient, and co-located.
 
 ## A powerful abstraction
-Just one more benefit to consider. Since we are standardizing our global events with these decorators, we can enforce using something like [subscribe-ui-event](https://github.com/yahoo/subscribe-ui-event) to delegate events. This event delegation allows us to only measure expensive things like window `width` and `height` once, then pass them down, as opposed to the default of each listener making these measurements. More on this in a future post.
+Just one more benefit to consider. Since we are standardizing our global events with these decorators, we can enforce using something like [subscribe-ui-event](https://github.com/yahoo/subscribe-ui-event) to delegate events. This event delegation allows us to only measure expensive things like window `width` and `height` once, then pass them down, as opposed to the default of each listener making these measurements.
 
 ## Which global events are these decorators helpful for?
 I plan to use them for Web and React Native.
