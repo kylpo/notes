@@ -74,6 +74,8 @@ const style = gloss()
 
 [Guillermo Rauch on Twitter: "@threepointone yep but very very interesting approach. Makes for a small codebase and you solve the perf problem telling the browser about dynamic parts"](https://twitter.com/rauchg/status/857135883346202625)
 
+[Elliott Sprehn on Twitter: "@slightlylate @wardpeet @sebmarkbage @threepointone @addyosmani @kylemathews @kentcdodds @yeoman Inline style (.style.foo = ...) or setting .cssText is probably the slowest way to apply style. Classes and ids would be the fastest."](https://twitter.com/ElliottZ/status/859502609756962816)
+
 
 # vs functional css
 https://github.com/necolas/react-native-web/blob/master/performance/README.md

@@ -2,6 +2,8 @@ _WIP_
 
 Consider showing these docs with https://github.com/egoist/anydoc
 
+Position the reveal as a prototyping framework, focussed on speed and DX.
+
 # History
 evolution of constelation. Web div > RN > inline style > nice PR review experience > perf issues >
 

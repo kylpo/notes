@@ -62,3 +62,5 @@ State
 - all must provide `<Link />`
 - https://github.com/basarat/yester
 - https://github.com/elefanty/offramp
+
+State boils down to __sources of truth__

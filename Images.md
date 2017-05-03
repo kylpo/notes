@@ -8,6 +8,22 @@ Image tag is inline
 
 Style with backgroundImage, etc is background image. Because the inner View should be the one defining things like centering and margin/padding, not the some Image component...
 
+
+Considerations:
+Image
+
+background
+foreground/content
+svg (separate from image)
+
+Questions to answer:
+
+What to load?
+When to load?
+How to load?
+How does it scale?
+
+
 # Deferred vs Lazy Load
 - Deferred will load every non-main image (usually below the fold) after page load
   - Necessary for those long, anchor-linked, single page sites

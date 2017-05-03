@@ -2,6 +2,8 @@ _WIP_
 
 Things to consider before writing any code
 
+Fork this doc into Web Considerations and Web Suggestions. Suggestion style is like `DO: ___`, `WHY: ___`, like a style guide
+
 # Feature Flags
 - Build in a feature flag capability from the start. You'll eventually want it for A/B testing, staged releases, and potentially even a beta program.
 - [Feature flags in React](http://blog.rstankov.com/feature-flags-in-react/)
@@ -81,10 +83,16 @@ http://babeljs.io/docs/plugins/preset-env/ will reduce the amount of features th
     - so googlebot can navigate your site
   - hidden content is devalued, as it isn't primary content
     - does this mean page transitions that fade in are missing out on SEO?
+      - I asked John, and it seems like it should be OK. See https://www.youtube.com/watch?v=5TsGXF4wNqM&feature=youtu.be&t=43m9s.
+      - It did make me think that it should be done with css-animation (not js triggering a transition) for non-google SEO though
     - what about lazy loaded images
+      - I’m thinking lazy loaded/revealed content is bad for SEO, as it isn't rendered until scroll, which I don't think googlebot does
   - page transition delays might snapshot old page
     - if route changes, and there is a transition out that takes a certain amount of time
   - Google Search Console to check your sites
+- Fetch As Google tool to see how googlebot indexes your site
+- Is above the fold content ranked higher?
+  - no, googlebot sees all of the content. What matters is semantic markup to link related content. Otherwise, googlebot wouldn't know that a div on some part of the page is related to another div further down.
 - [Hidden text and links - Search Console Help](https://support.google.com/webmasters/answer/66353?hl=en)
 - SEO boosted by accessibility?
 

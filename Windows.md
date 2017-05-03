@@ -13,6 +13,8 @@ _WIP_
   - ![](https://pbs.twimg.com/media/C9eql3jUwAA_RaV.jpg)
 - OS-level emacs keybinds (like MacOS)
   - [usi3/emacs.ahk: An autohotkey script that allows you to use emacs-like key bindings on Windows environment](https://github.com/usi3/emacs.ahk)
+- [Neovim on Twitter: "#neovim 0.2 is out: https://t.co/PAWUEgPT8M * Official Windows support * Pre-build macOS package * :terminal improvements * ... and more!"](https://twitter.com/Neovim/status/859317754687631361)
 
 # Settings
 - [How To Reverse Scroll Direction In Windows 10](http://www.addictivetips.com/windows-tips/reverse-scroll-direction-in-windows-10/)
+- [Audit and Optimize your Windows 10 Search Indexing Options - Scott Hanselman](https://www.hanselman.com/blog/AuditAndOptimizeYourWindows10SearchIndexingOptions.aspx)
