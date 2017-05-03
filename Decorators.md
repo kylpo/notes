@@ -186,7 +186,7 @@ React Native:
 - push notifications
 
 ## Conclusion
-Use global event decorators for a powerful abstraction that does wonders for DX, and potentially performance.
+Global event decorators do wonders for DX. Depending on what they abstract, they can even enforce performance and enable conveniences via decorator arguments.
 
 ---
 # Other notes
