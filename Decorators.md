@@ -137,7 +137,8 @@ class MySubComponentUsingDecorators extends React.Component {
 }
 ```
 
-They are useful enough to stop here, but we can do more!
+## Decorator arguments
+Depending on your implementation, decorator arguments have the potential for more conveniences.
 
 ```jsx
 class MyComponentUsingDecorators extends React.Component {
