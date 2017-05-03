@@ -1,8 +1,9 @@
 # Decorators for Global Events Considered Helpful
 
-I think I've found a really cool use case for decorators. They're perfect for attaching callbacks to global events!
+I think I've found a really cool use case for decorators: they're perfect for attaching callbacks to global events!
 
-Lets start with an example component (without decorators) that listens to `scroll` events.
+## Without decorators
+Lets start with an example component that listens to `scroll` events.
 
 ```jsx
 class MyComponent extends React.Component {
@@ -50,7 +51,47 @@ class MyComponent extends React.Component {
 }
 ```
 
-Not a terrible DX (developer experience), but we can improve it with decorators!
+Not a terrible DX (developer experience).
+
+But you know what? This was actually the wrong call. The `resize` event only applies to a subcomponent, so we decide to extract it out. Now we have to cut/paste the `handleResize()` and cut/paste the `add`/`removeEventListener`.
+
+```jsx
+class MyComponent extends React.Component {
+  componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll)
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.handleScroll)
+  }
+
+  handleScroll = (e) => {
+    // ...
+  }
+
+  // ...
+}
+
+class MySubComponent extends React.Component {
+  componentDidMount() {
+    window.addEventListener('resize', this.handleResize)
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.handleResize)
+  }
+
+  handleResize = (e) => {
+    // ...
+  }
+
+  // ...
+}
+```
+
+Ugh, not the best DX.
+
+## We can do better with decorators!
 
 ```jsx
 class MyComponentUsingDecorators extends React.Component {
@@ -68,13 +109,35 @@ class MyComponentUsingDecorators extends React.Component {
 }
 ```
 
-Benefits of `@scroll` and `@resize`:
+What do `@scroll` and `@resize` do?
 - They register and clean up their listeners for you
 - They co-locate exactly what the `handle` function is used for
   - Maybe not necessary in our example `MyComponent` code, but the more `handle` functions it has, the nicer it is to see exactly what event it handles
   - Even better: it is SO much easier to copy/paste this functionality
 
-They are useful enough to stop there, but we can do more!
+Now, the refactor is a single cut/paste.
+
+```jsx
+class MyComponentUsingDecorators extends React.Component {
+  @scroll
+  handleScroll = (e) => {
+    // ...
+  }
+
+  // ...
+}
+
+class MySubComponentUsingDecorators extends React.Component {
+  @resize
+  handleResize = (e) => {
+    // ...
+  }
+
+  // ...
+}
+```
+
+They are useful enough to stop here, but we can do more!
 
 ```jsx
 class MyComponentUsingDecorators extends React.Component {
@@ -94,6 +157,7 @@ class MyComponentUsingDecorators extends React.Component {
 
 As shown, we can pass arguments to these decorators to throttle the event, auto-measure the window's width and height, and more. Convenient, and co-located.
 
+## A powerful abstraction
 Just one more benefit to consider. Since we are standardizing our global events with these decorators, we can enforce using something like [subscribe-ui-event](https://github.com/yahoo/subscribe-ui-event) to delegate events. This event delegation allows us to only measure expensive things like `width` and `height` once, then pass them down, as opposed to the default of each listener making these measurements. More on this in a future post.
 
 ## Which global events are these decorators helpful for?
