@@ -39,9 +39,8 @@ When a user loads your page, what should they see? Well, your image, right? Yes,
 If you serve a desktop sized retina image to a mobile user, you negatively affect TTI ([Time To Interactive](https://developers.google.com/web/tools/lighthouse/audits/time-to-interactive)) and scroll performance. On the other hand, if you serve your small mobile image to a 4k desktop user, s/he will surely insta-close that tab. So, we want to serve the smallest possible image that still looks good on the user's display. This is what is known as a *Responsive* or *ResponsiveLoad* Image.
 
 To accomplish this, we'll need to do two things:
-
-1: Create all permutations of image resolutions that you'll potentially serve
-2: Tell the browser which permutation to load, and when
+1. Create all permutations of image resolutions that you'll potentially serve
+2. Tell the browser which permutation to load, and when
 
 The first is either a lot of manual work in exporting, a decent amount of work in setting up a build process to auto-generate these, or a small amount of work and a little bit of money to have a 3rd part service do this work for you. More on this in the Tooling section
 
@@ -84,11 +83,12 @@ When a user visits your page, every single image is requested from a server (or 
 "Lazy loading can significantly speed up loading on long pages that include many images *below the fold* by loading them either as needed or when the primary content has finished loading and rendering. In addition to performance improvements, using lazy loading can create infinite scrolling experiences."
 - [Images | Web | Google Developers](https://developers.google.com/web/fundamentals/design-and-ui/responsive/images)
 
-Lazy Load monitors scroll position to load in images based on their proximity to the viewport
+Lazy Load monitors scroll position to load in images based on their proximity to the viewport (usually called a `threshold`)
 
 ### Deferred Loading
 - Deferred will load every non-main image (usually below the fold) after page load
-  - Necessary for those long, anchor-linked, single page sites
+  - Necessary for those long, anchor-linked, single page sites.
+    - If it were Lazy Loaded, clicking an anchor link with an animated scroll would look janky (since the images would dynamically be load in)
   - [Defer images without jQuery or lazy loading](https://varvy.com/pagespeed/defer-images.html)
     - ![](https://varvy.com/pagespeed/images/pageload.png)
     - ![](https://varvy.com/pagespeed/images/pageload-defer.png)
@@ -118,7 +118,16 @@ Lazy Load monitors scroll position to load in images based on their proximity to
 from comments section of https://www.sitepoint.com/lazy-loading-images-not-really-annoy-users/
 
 Posts like http://dinbror.dk/blog/lazy-load-images-seo-problem/ argue that noscript is no longer needed, but bing was not able to index the images, so we're not totally there yet
+
 #### SEO
+For images that are not visible on page load, how would SEO index them?
+
+Doesn't seem like it affects Google, but will affect any other search engines that do not run javascript (Bing)
+- [Lazy Loading Images SEO Experiment -](http://www.theseotailor.com.au/blog/lazy-loading-images-seo-experiment/)
+- [The lazy loading SEO problem, SOLVED! | dinbror](http://dinbror.dk/blog/lazy-load-images-seo-problem/)
+
+To test your site, google `site:your-site.com`, then switch to the Images tab, like https://goo.gl/42KNZQ
+
 
 #### Content jumping as images load in
 padding-bottom https://www.smashingmagazine.com/2013/09/responsive-images-performance-problem-case-study/
@@ -216,8 +225,8 @@ instead of loading multiple small images, consider spriting (single image with c
 ## Concepts/Terms we learned
 - Responsive -> send the smallest asset for the screen that still looks good
 - Art Direction -> more than just resizing, it is cropping (or replacing) for specific viewports
-- Lazy Loading -> defer loading until last possible moment to speed up TTI
-- Deferred Loading ->
+- Lazy Loading -> defer loading until last possible moment
+- Deferred Loading -> asynchronously load in all images below the fold after page load
 - ProgressiveLoad -> load blurry LQIP (Low Quality Image Placeholder), then full
 
 
@@ -230,3 +239,6 @@ instead of loading multiple small images, consider spriting (single image with c
 - What type is it?
   - [html - When to use IMG vs. CSS background-image? - Stack Overflow](http://stackoverflow.com/questions/492809/when-to-use-img-vs-css-background-image?rq=1)
   - [React Native - Image](https://facebook.github.io/react-native/docs/image.html)
+- Lazy Loading
+  - [Lazyload Images](https://modpagespeed.com/doc/filter-lazyload-images)
+  - [Five Techniques to Lazy Load Images for Website Performance — SitePoint](https://www.sitepoint.com/five-techniques-lazy-load-images-website-performance/)
