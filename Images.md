@@ -22,21 +22,54 @@ TODO: example picture with the two
 
 I actually can't think of a case where I've put content on top of content images, so maybe it'd be easier to think of the separation as background vs foreground/content images.
 
+TODO: image of decision tree
+
 ## What should load?
-When a user loads your page, what should they see? Well, your image, right? Not that easy, I'm afraid.
+When a user loads your page, what should they see? Well, your image, right? Yes, but its not that easy.
 
+### Responsive
+If you serve a desktop sized retina image to a mobile user, for example, you negatively affect page load time and scroll performance. On the other hand, if you serve your small mobile image to a 4k desktop user, s/he will surely insta-close that tab. So, we want to serve the smallest possible image that still looks good on the user's display. This is what is known as a *Responsive* or *ResponsiveLoad* Image.
 
-ResponsizeLoad -> use the smallest image that looks good with user's display
-Responsive - send the smallest asset for the screen that still looks good
-Art Direction - more than just resizing, it is cropping (or replacing) for specific viewports
+To accomplish this, we'll need to do two things:
+1: Create all permutations of image resolutions that you'll potentially serve
+2: Tell the browser which permutation to load, and when
 
+The first is either a lot of manual work in exporting, a decent amount of work in setting up a build process to auto-generate these, or a small amount of work and a little bit of money to have a 3rd part service do this work for you. More on this in the Tooling section
+
+The second step depends on the type of image.
+- Content -> use `srcset` of an `<img>` tag
+  - [Harry Roberts on Twitter: "The simplest way I’ve found (so far) to distill/explain `srcset` and `sizes`"](https://twitter.com/csswizardry/status/836960832789565440)
+  - ![](https://pbs.twimg.com/media/C517RYNWgAEqwy5.jpg)
+  - [Responsive Images: If you're just changing resolutions, use srcset. | CSS-Tricks](https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/)
+  - [The anatomy of responsive images - JakeArchibald.com](https://jakearchibald.com/2015/anatomy-of-responsive-images/)
+- Style -> either use `@media` queries, or `image-set` if you aren't worried about the browsers lacking the feature
+  - See [Responsive Images in CSS | CSS-Tricks](https://css-tricks.com/responsive-images-css/)
+
+### Art Direction
+What about going further than just resizing the same image depending on the viewport size? Maybe in a small viewport, you'd like to crop the image to zoom in and focus a specific part of it. Or perhaps you'd like a totally different image. This is *Art Direction*, and to accomplish it, we'll reach for the `<picture>` element for content, and `@media` queries for style.
+
+```html
+<picture>
+   <source media="(min-width: 36em)"
+      srcset="large.jpg  1024w,
+         medium.jpg 640w,
+         small.jpg  320w"
+      sizes="33.3vw" />
+   <source srcset="cropped-large.jpg 2x,
+         cropped-small.jpg 1x" />
+   <img src="small.jpg" alt="A rad wolf" />
+</picture>
+```
+from [Responsive Images Done Right: A Guide To And srcset](https://www.smashingmagazine.com/2014/05/responsive-images-done-right-guide-picture-srcset/)
+
+TODO: image of decision tree
 
 ## When should it load?
 Lazy Load - defer loading until last possible moment to speed up TTI
 lazy-load https://davidwalsh.name/lazyload-image-fade
 padding-bottom https://www.smashingmagazine.com/2013/09/responsive-images-performance-problem-case-study/
 
-# LazyLoad
+### LazyLoad
 The lazyload_images filter defers loading of images until they become visible in the client's viewport or the page's onload event fires. This avoids blocking the download of other critical resources necessary for rendering the above the fold section of the page.
 
 - https://developers.google.com/speed/pagespeed/module/filter-lazyload-images
@@ -97,6 +130,15 @@ Progressive JPEG
   - [React Native - Image](https://facebook.github.io/react-native/docs/image.html)
 
 # Perf
+## Format
+[Transparent JPG (With SVG) | CSS-Tricks](https://css-tricks.com/transparent-jpg-svg/)
+
+webp, transparent png
+
+## Compression
+- [Performance Calendar » Squeezing PNG Images](https://calendar.perfplanet.com/2016/squeezing-png-images/)
+
+## misc
 Even full loaded images can cause jank. When we had retina desktop images loaded on mobile, anchor scrolling and carousel scrolling were janky. Reducing image size was the fix.
 
 Also see Image section of https://medium.com/@paularmstrong/twitter-lite-and-high-performance-react-progressive-web-apps-at-scale-d28a00e780a3
@@ -167,3 +209,11 @@ http://rbrtsmith.com/2015/02/building-a-high-performance-lazy-load-module
 Initially this sounds very simple, on page-load we can just grab the offsetTop of the images and store the values in the array, but upon further investigation this presents a problem. When we scroll to an image and it loads in, it pushes the content below further down the page, rendering the remaning offset values invalid.
 ...
 One benefit I forgot to mention of the placeholder is that once the image loads the page will not have to be repainted unlike before because the placeholder already takes up that space so another +1 for the performance
+
+
+## Concepts/Terms we learned
+- ResponsizeLoad -> use the smallest image that looks good with user's display
+- Responsive -> send the smallest asset for the screen that still looks good
+- Art Direction -> more than just resizing, it is cropping (or replacing) for specific viewports
+- Lazy Load -> defer loading until last possible moment to speed up TTI
+- ProgressiveLoad -> load blurry LQIP (Low Quality Image Placeholder), then full

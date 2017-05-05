@@ -3,6 +3,8 @@ Start with story of always playing the hybrid class: druid. Burned by not ever b
 
 Desktop web and Mobile web should probably be in different categories. Salesforce, Google, etc embrace desktop web, but not mobile web.
 
+The realization of web-lite kind of goes counter to Mobile First design. Almost feels like we were led to think that we should build mobile apps on the web because of this Mobile First mantra.
+
 # Web vs Native
 - Web is for accessibility, especially PWA (offline)
 web is good for _content_
@@ -129,6 +131,7 @@ https://daverupert.com/2016/10/desktop-is-lava/ had some good points:
 - [james kyle on Twitter: "It makes no sense not to build 99% of desktop applications using @electronjs at this point"](https://twitter.com/thejameskyle/status/854530704071286784)
   - has issues (like web) with ram, lost frames, etc
 - [Electron is flash for the desktop](https://josephg.com/blog/electron-is-flash-for-the-desktop/)
+- [Put your Electron app on a diet with Electrino – DailyJS – Medium](https://medium.com/dailyjs/put-your-electron-app-on-a-diet-with-electrino-c7ffdf1d6297)
 - [ptmt/react-native-macos: React Native for macOS](https://github.com/ptmt/react-native-macos)
 - [jordanIsNotAFunction on Twitter: "Another cool project in conjunction is having a @reasonml native app stack on that WebKit shell, but no JS - native perf - instant startup."](https://twitter.com/jordwalke/status/828336937605828609)
 
