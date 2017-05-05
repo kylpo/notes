@@ -12,6 +12,10 @@ App State
 - UI
   - controls
 
+Maybe it would be better to think of app state scope in terms of "how long it should last". When thinking about a form, for example, your first inclination is to keep that as the form's local state. onSubmit it'll be sent somewhere and become data. But what about the scenario where a user goes Back, then Forward in history? If you want to retain the fields s/he has filled out, that state would need to live outside of the form's local state (since it'd be unmounted on the Back).
+
+So maybe it isn't so much about data > global > local, it is more about persisted > session > temporal?
+
 # Scene vs Stage
 Scene is an individual page. a sequence of continuous action in a play
 

@@ -1,6 +1,8 @@
 
 Start with story of always playing the hybrid class: druid. Burned by not ever being the best dmg dealer, tank, healer, etc.
 
+Desktop web and Mobile web should probably be in different categories. Salesforce, Google, etc embrace desktop web, but not mobile web.
+
 # Web vs Native
 - Web is for accessibility, especially PWA (offline)
 web is good for _content_
@@ -168,3 +170,5 @@ Problems
 
 
 See also Apps are faltering. But progressive web apps seem pretty legit. – Medium
+
+[(3) Steve Jobs Insult Response - YouTube](https://www.youtube.com/watch?v=FF-tKLISfPE) seems to apply. "You've gotta focus on the customer experience and work backwards to the technology. You can't start with the technology, and figure out where you're going to sell it." Focus on the user's experience. Not the tech, not the engineers. Focus on the cohesive experience as a whole.

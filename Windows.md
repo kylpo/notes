@@ -14,6 +14,8 @@ _WIP_
 - OS-level emacs keybinds (like MacOS)
   - [usi3/emacs.ahk: An autohotkey script that allows you to use emacs-like key bindings on Windows environment](https://github.com/usi3/emacs.ahk)
 - [Neovim on Twitter: "#neovim 0.2 is out: https://t.co/PAWUEgPT8M * Official Windows support * Pre-build macOS package * :terminal improvements * ... and more!"](https://twitter.com/Neovim/status/859317754687631361)
+- [johnlindquist ✌ on Twitter: "@reybango @rauchg @freebly @_developit @msdev @Microsoft @surface @richturn_ms In your `.hyper.js` (which is the hyper settings file) change the shell to "shell: 'c:\\windows\\System32\\bash.exe'," https://t.co/YSJOvDCFPP"](https://twitter.com/johnlindquist/status/859864517672488960)
+- [Jason Miller 🦊⚛ on Twitter: "People switching to Windows 10 from MacOS: Install this and bind it to ctrl + space. You're welcome. https://t.co/rWAHHsflAF"](https://twitter.com/_developit/status/859791623638716417)
 
 # Settings
 - [How To Reverse Scroll Direction In Windows 10](http://www.addictivetips.com/windows-tips/reverse-scroll-direction-in-windows-10/)

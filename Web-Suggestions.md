@@ -48,6 +48,8 @@ if (false) {
 - [Typography for Developers – CSS Wizardry – CSS Architecture, Web Performance Optimisation, and more, by Harry Roberts](https://csswizardry.com/2017/02/typography-for-developers/)
 - [Typography](https://robots.thoughtbot.com/typography)
 - Use `line-height` for text wrapping only
+- [Optimizing Web Fonts for Performance: the State of the Art — SitePoint](https://www.sitepoint.com/optimizing-web-fonts-for-performance-the-state-of-the-art/)
+- [Your Body Text Is Too Small - Marvel Blog](https://blog.marvelapp.com/body-text-small/?utm_source=frontendfocus&utm_medium=email)
 
 # Target browsers
 - polyfill.io
