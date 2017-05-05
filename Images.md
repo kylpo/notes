@@ -28,11 +28,15 @@ I actually can't think of a case where I've put content on top of content images
 
 TODO: image of decision tree
 
+
+
+
+
 ## What should load?
 When a user loads your page, what should they see? Well, your image, right? Yes, but its not that easy.
 
 ### Responsive
-If you serve a desktop sized retina image to a mobile user, you negatively affect page load time and scroll performance. On the other hand, if you serve your small mobile image to a 4k desktop user, s/he will surely insta-close that tab. So, we want to serve the smallest possible image that still looks good on the user's display. This is what is known as a *Responsive* or *ResponsiveLoad* Image.
+If you serve a desktop sized retina image to a mobile user, you negatively affect TTI ([Time To Interactive](https://developers.google.com/web/tools/lighthouse/audits/time-to-interactive)) and scroll performance. On the other hand, if you serve your small mobile image to a 4k desktop user, s/he will surely insta-close that tab. So, we want to serve the smallest possible image that still looks good on the user's display. This is what is known as a *Responsive* or *ResponsiveLoad* Image.
 
 To accomplish this, we'll need to do two things:
 
@@ -69,31 +73,41 @@ from [Responsive Images Done Right: A Guide To And srcset](https://www.smashingm
 
 TODO: image of decision tree
 
+
+
+
+
 ## When should it load?
-Lazy Load - defer loading until last possible moment to speed up TTI
-lazy-load https://davidwalsh.name/lazyload-image-fade
-padding-bottom https://www.smashingmagazine.com/2013/09/responsive-images-performance-problem-case-study/
+When a user visits your page, every single image is requested from a server (or local cache), then rendered on the page. It slows down TTI, but there is a solve for this.
 
-### LazyLoad
-The lazyload_images filter defers loading of images until they become visible in the client's viewport or the page's onload event fires. This avoids blocking the download of other critical resources necessary for rendering the above the fold section of the page.
+### Lazy Loading
+"Lazy loading can significantly speed up loading on long pages that include many images *below the fold* by loading them either as needed or when the primary content has finished loading and rendering. In addition to performance improvements, using lazy loading can create infinite scrolling experiences."
+- [Images | Web | Google Developers](https://developers.google.com/web/fundamentals/design-and-ui/responsive/images)
 
-- https://developers.google.com/speed/pagespeed/module/filter-lazyload-images
-- https://github.com/dinbror/blazy/blob/master/blazy.js
+Lazy Load monitors scroll position to load in images based on their proximity to the viewport
 
-Why Lazy Load?
-Images make up over 60% of an average page’s size, according to HTTP Archive. Images on a web page would be rendered once they are available. Without lazy loading, this could lead to a lot of data traffic that is not immediately necessary (such as images outside of the viewport) and longer waiting times. The problem? Visitors are not patient at all. By lazy loading, images outside of the viewport are loaded only when they would be visible to the user, thus saving valuable data and time.
+### Deferred Loading
+- Deferred will load every non-main image (usually below the fold) after page load
+  - Necessary for those long, anchor-linked, single page sites
+  - [Defer images without jQuery or lazy loading](https://varvy.com/pagespeed/defer-images.html)
+    - ![](https://varvy.com/pagespeed/images/pageload.png)
+    - ![](https://varvy.com/pagespeed/images/pageload-defer.png)
 
-Lazy loading is not limited to images. It can be used on pages with complex JavaScript, iframes and third-party widgets, delaying the loading of these resources until the user actually needs them.
+### Strategies
+`lazySizes` plugins show how complicated this feature can be: https://github.com/aFarkas/lazysizes#available-plugins-in-this-repo
 
-https://www.smashingmagazine.com/2015/02/redefining-lazy-loading-with-lazy-load-xt/
+- [Building a Media Player #9: Lazy-Loading Images - YouTube](https://www.youtube.com/watch?v=ncYQkOrKTaI&feature=youtu.be)
+  - uses `IntersectionObserver` instead of listening to `scroll`
+- [Simple Image Lazy Load and Fade](https://davidwalsh.name/lazyload-image-fade)
+- [lazysizes: High performance and SEO friendly lazy loader for images (responsive and normal), iframes and more, that detects any visibility changes triggered through user interaction, CSS or JavaScript without configuration.](https://github.com/aFarkas/lazysizes)
+- [Building a high performance lazy load module – Front-end architecture by Robert Smith](http://rbrtsmith.com/2015/02/building-a-high-performance-lazy-load-module)
+  - "Initially this sounds very simple, on page-load we can just grab the offsetTop of the images and store the values in the array, but upon further investigation this presents a problem. When we scroll to an image and it loads in, it pushes the content below further down the page, rendering the remaning offset values invalid. ... One benefit I forgot to mention of the placeholder is that once the image loads the page will not have to be repainted unlike before because the placeholder already takes up that space so another +1 for the performance"
 
-
-"Lazy loading can significantly speed up loading on long pages that include many images below the fold by loading them either as needed or when the primary content has finished loading and rendering. In addition to performance improvements, using lazy loading can create infinite scrolling experiences."
-
-----------
+### Considerations/Hurdles
+#### Relies on Javascript
 "What would happen if JavaScript failed or didn't load for whatever reason? (connectivity problems, bad 3G, JavaScript-blockers, third-party scripts fail... you name it)"
 
-In that case you need to use the noscript tag. Your final markup should look like:
+"In that case you need to use the noscript tag. Your final markup should look like:"
 
 ```jsx
 <img class="lazy" data-original="image-src.jpg" width="1200" height="600">
@@ -101,38 +115,29 @@ In that case you need to use the noscript tag. Your final markup should look lik
     <img src="image-src.jpg" width="1200" height="600">
 </noscript>
 ```
+from comments section of https://www.sitepoint.com/lazy-loading-images-not-really-annoy-users/
 
-https://www.sitepoint.com/lazy-loading-images-not-really-annoy-users/
+Posts like http://dinbror.dk/blog/lazy-load-images-seo-problem/ argue that noscript is no longer needed, but bing was not able to index the images, so we're not totally there yet
+#### SEO
 
-posts like http://dinbror.dk/blog/lazy-load-images-seo-problem/ argue that noscript is no longer needed, but bing was not able to index the images, so we're not totally there yet
+#### Content jumping as images load in
+padding-bottom https://www.smashingmagazine.com/2013/09/responsive-images-performance-problem-case-study/
+The lazyload_images filter defers loading of images until they become visible in the client's viewport or the page's onload event fires. This avoids blocking the download of other critical resources necessary for rendering the above the fold section of the page.
 
-----------------
+- https://developers.google.com/speed/pagespeed/module/filter-lazyload-images
 
-lazySizes plugins go into how complicated this feature can be: https://github.com/aFarkas/lazysizes#available-plugins-in-this-repo
 
-https://github.com/aFarkas/lazysizes/blob/gh-pages/src/lazysizes-core.js might be better than blazy since it uses rAF
 
-http://rbrtsmith.com/2015/02/building-a-high-performance-lazy-load-module
-
-Initially this sounds very simple, on page-load we can just grab the offsetTop of the images and store the values in the array, but upon further investigation this presents a problem. When we scroll to an image and it loads in, it pushes the content below further down the page, rendering the remaning offset values invalid.
-...
-One benefit I forgot to mention of the placeholder is that once the image loads the page will not have to be repainted unlike before because the placeholder already takes up that space so another +1 for the performance
-
-### Deferred vs Lazy Load
-- Deferred will load every non-main image (usually below the fold) after page load
-  - Necessary for those long, anchor-linked, single page sites
-  - [Defer images without jQuery or lazy loading](https://varvy.com/pagespeed/defer-images.html)
-    - ![](https://varvy.com/pagespeed/images/pageload.png)
-    - ![](https://varvy.com/pagespeed/images/pageload-defer.png)
-- Lazy Load monitors scroll position to load in images based on their proximity to the viewport
-
-Lazy Load -> defer loading
 
 
 ## How should it load?
 ProgressiveLoad -> load blurry LQIP (Low Quality Image Placeholder), then full
 
 In the browser if you don't give a size to an image, the browser is going to render a 0x0 element, download the image, and then render the image based with the correct size. The big issue with this behavior is that your UI is going to jump all around as images load, this makes for a very bad user experience.
+
+
+
+
 
 ## How should it respond to viewport changes?
 How to fill the entire page with an image, no white space, scales as needed, retains aspect ratio, and centered?
@@ -151,6 +156,10 @@ https://facebook.github.io/react-native/docs/pixelratio.html
 Aspect ratio controls the size of the undefined dimension of a node.
 - https://facebook.github.io/react-native/docs/layout-props.html#aspectratio
 
+
+
+
+
 ## Performance considerations
 Image decoding can take more than a frame-worth of time. This is one of the major sources of frame drops on the web because decoding is done in the main thread. In React Native, image decoding is done in a different thread. In practice, you already need to handle the case when the image is not downloaded yet, so displaying the placeholder for a few more frames while it is decoding does not require any code change.
 https://facebook.github.io/react-native/docs/images.html
@@ -161,10 +170,13 @@ Also see Image section of https://medium.com/@paularmstrong/twitter-lite-and-hig
 
 `sizes` is like the upfront, static form of react router. Pre-parser needs it to optimize performance, but it's a bummer. You'd rather just say that the responsive image is here, not find the right size to load (like RR v4).
 
-### Format
+### Format and Compression
 #### Which format to use?
 - [Transparent JPG (With SVG) | CSS-Tricks](https://css-tricks.com/transparent-jpg-svg/)
 - webp, transparent png, Progressive JPEG
+- [Saving Bandwidth by Using Images the Smart Way — SitePoint](https://www.sitepoint.com/saving-bandwidth-by-using-images-the-smart-way/)
+- [Performance Calendar » Squeezing PNG Images](https://calendar.perfplanet.com/2016/squeezing-png-images/)
+- [Image Optimization | Web | Google Developers](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization#image-optimization-checklist)
 
 #### How to deliver it?
 ```html
@@ -175,15 +187,15 @@ Also see Image section of https://medium.com/@paularmstrong/twitter-lite-and-hig
 ```
 from [The anatomy of responsive images - JakeArchibald.com](https://jakearchibald.com/2015/anatomy-of-responsive-images/) will deliver the `webp` if it is supported by the browser. Else it'll fall back to the `<img>`'s `jpg`.
 
-### Compression
-- [Performance Calendar » Squeezing PNG Images](https://calendar.perfplanet.com/2016/squeezing-png-images/)
-- [Image Optimization | Web | Google Developers](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization#image-optimization-checklist)
-
 ### IMG Sprites
 instead of loading multiple small images, consider spriting (single image with coordinates)
 
 ### Server considerations
 - [Performance Calendar » Even Faster Images using HTTP2 and Progressive JPEGs](https://calendar.perfplanet.com/2016/even-faster-images-using-http2-and-progressive-jpegs/)
+
+
+
+
 
 ## Automation
 - Build time solutions (great for a limited amount of images, but does not scale)
@@ -197,12 +209,20 @@ instead of loading multiple small images, consider spriting (single image with c
   - [Cloudinary - Cloud image service, upload, storage & CDN](http://cloudinary.com/)
   - [Let The Content Delivery Network Optimize Your Images – Smashing Magazine](https://www.smashingmagazine.com/2017/04/content-delivery-network-optimize-images/)
 
+
+
+
+
 ## Concepts/Terms we learned
-- ResponsizeLoad -> use the smallest image that looks good with user's display
 - Responsive -> send the smallest asset for the screen that still looks good
 - Art Direction -> more than just resizing, it is cropping (or replacing) for specific viewports
-- Lazy Load -> defer loading until last possible moment to speed up TTI
+- Lazy Loading -> defer loading until last possible moment to speed up TTI
+- Deferred Loading ->
 - ProgressiveLoad -> load blurry LQIP (Low Quality Image Placeholder), then full
+
+
+
+
 
 ## References
 - [Images | Web | Google Developers](https://developers.google.com/web/fundamentals/design-and-ui/responsive/images) good overview of many of these topics

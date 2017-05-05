@@ -36,8 +36,7 @@ Sites should strive for no global state?
 - Makes sense when you think of a site as a set of documents
   - searchable documents (and good for SEO)
 
-
 # Conclusions
 Overall, this distinction likely isn't helpful. Because as soon as you add global state to a site, it becomes an app, even if it still feels more like a site (like an e-commerce site). The more useful distinction is web vs native. I suppose it could be helpful, if you think of your product as a site, to limit it from app state for as long as possible. For example, modals are url accessible, all "state" is serialized to the URL. LINK TO APP STATE DOC
 
-Maybe it isn't about a website vs webapp. There are documents (blogs, news, collections like wikipedia) stores, e-commerce, forums, video stores. Where do apps, gmail, gmaps, etc fit in?
+Maybe it isn't about a website vs webapp. There are documents (blogs, news, collections like wikipedia, documentation (maybe this is just a collection, too?)) stores, e-commerce, forums, video stores. Where do apps, gmail, gmaps, etc fit in?
