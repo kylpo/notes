@@ -2,6 +2,8 @@ _WIP_
 
 Images on the web are hard. Straight up. You need to make many decisions, it is so much more work than "just throw an image in".
 
+[(3) High Performance Images - By O'Reilly & Akamai - YouTube](https://www.youtube.com/watch?v=UlrHvF_J-oI)
+
 Here are the major decisions you'll need to make
 - What type is it?
 - What should load?
@@ -10,11 +12,11 @@ Here are the major decisions you'll need to make
 - How should it respond to viewport changes?
 
 ## What type is it?
-In the wonderful developer experience world of React Native, we need only reach for one tool: `<Image>`. But on the web, we have more: `<img>`, `<picture>`, and `background-image` of a `<div>`.
+In the wonderful DX world of React Native, we need only reach for one tool: `<Image>`. But on the web, we have more to choose from: `<img>`, `<picture>`, and `background-image` of a `<div>`.
 
 So, which one should we use? Well, let me answer this question with a question. Is the image *content*?
 
-If it is something that you'd like indexed by SEO, and visible if a user printed the page, then it is content. Often these images are stand alone, like logos, images of a product on an e-commerce site, and images interspersed in a blog post, for example. This is the world of `<img>`s and `<picture>`s. Exactly which of these two you'll use is decided in a future question.
+If it is something that you'd like indexed by SEO, and visible if a user printed the page, then it is content. Often these images are stand-alone, like logos, images of a product on an e-commerce site, and images in a blog post, for example. This is the world of `<img>`s and `<picture>`s. Exactly which of these two you'll use is decided in a future question.
 
 If it is there to *enhance the display* of other content, like the background image of a header, then it is likely in the world of `<div>`s with `background-image` styles.
 
@@ -28,15 +30,16 @@ TODO: image of decision tree
 When a user loads your page, what should they see? Well, your image, right? Yes, but its not that easy.
 
 ### Responsive
-If you serve a desktop sized retina image to a mobile user, for example, you negatively affect page load time and scroll performance. On the other hand, if you serve your small mobile image to a 4k desktop user, s/he will surely insta-close that tab. So, we want to serve the smallest possible image that still looks good on the user's display. This is what is known as a *Responsive* or *ResponsiveLoad* Image.
+If you serve a desktop sized retina image to a mobile user, you negatively affect page load time and scroll performance. On the other hand, if you serve your small mobile image to a 4k desktop user, s/he will surely insta-close that tab. So, we want to serve the smallest possible image that still looks good on the user's display. This is what is known as a *Responsive* or *ResponsiveLoad* Image.
 
 To accomplish this, we'll need to do two things:
+
 1: Create all permutations of image resolutions that you'll potentially serve
 2: Tell the browser which permutation to load, and when
 
 The first is either a lot of manual work in exporting, a decent amount of work in setting up a build process to auto-generate these, or a small amount of work and a little bit of money to have a 3rd part service do this work for you. More on this in the Tooling section
 
-The second step depends on the type of image.
+The second step depends on the type of image:
 - Content -> use `srcset` of an `<img>` tag
   - [Harry Roberts on Twitter: "The simplest way I’ve found (so far) to distill/explain `srcset` and `sizes`"](https://twitter.com/csswizardry/status/836960832789565440)
   - ![](https://pbs.twimg.com/media/C517RYNWgAEqwy5.jpg)
@@ -109,11 +112,34 @@ posts like http://dinbror.dk/blog/lazy-load-images-seo-problem/ argue that noscr
 
 Lazy Load -> defer loading
 
-Image decoding can take more than a frame-worth of time. This is one of the major sources of frame drops on the web because decoding is done in the main thread. In React Native, image decoding is done in a different thread. In practice, you already need to handle the case when the image is not downloaded yet, so displaying the placeholder for a few more frames while it is decoding does not require any code change.
-https://facebook.github.io/react-native/docs/images.html
 
 ## How to load?
 ProgressiveLoad -> load blurry LQIP (Low Quality Image Placeholder), then full
+
+## Performance considerations
+Image decoding can take more than a frame-worth of time. This is one of the major sources of frame drops on the web because decoding is done in the main thread. In React Native, image decoding is done in a different thread. In practice, you already need to handle the case when the image is not downloaded yet, so displaying the placeholder for a few more frames while it is decoding does not require any code change.
+https://facebook.github.io/react-native/docs/images.html
+
+Even full loaded images can cause jank. When we had retina desktop images loaded on mobile, anchor scrolling and carousel scrolling were janky. Reducing image size was the fix.
+
+Also see Image section of https://medium.com/@paularmstrong/twitter-lite-and-high-performance-react-progressive-web-apps-at-scale-d28a00e780a3
+
+### Format
+#### Which format to use?
+- [Transparent JPG (With SVG) | CSS-Tricks](https://css-tricks.com/transparent-jpg-svg/)
+- webp, transparent png, Progressive JPEG
+
+#### How to deliver it?
+```html
+<picture>
+  <source type="image/webp" srcset="snow.webp"/>
+  <img alt="Hut in the snow" src="snow.jpg"/>
+</picture>
+```
+from [The anatomy of responsive images - JakeArchibald.com](https://jakearchibald.com/2015/anatomy-of-responsive-images/) will deliver the `webp` if it is supported by the browser. Else it'll fall back to the `<img>`'s `jpg`.
+
+### Compression
+- [Performance Calendar » Squeezing PNG Images](https://calendar.perfplanet.com/2016/squeezing-png-images/)
 
 ## Misc
 ### IMG Sprites
@@ -122,26 +148,13 @@ instead of loading multiple small images, consider spriting (single image with c
 https://github.com/mixtur/webpack-spritesmith
 https://github.com/tcoopman/image-webpack-loader
 
-Progressive JPEG
-
-## References
-- What type is it?
-  - [html - When to use IMG vs. CSS background-image? - Stack Overflow](http://stackoverflow.com/questions/492809/when-to-use-img-vs-css-background-image?rq=1)
-  - [React Native - Image](https://facebook.github.io/react-native/docs/image.html)
-
-# Perf
-## Format
-[Transparent JPG (With SVG) | CSS-Tricks](https://css-tricks.com/transparent-jpg-svg/)
-
-webp, transparent png
-
-## Compression
-- [Performance Calendar » Squeezing PNG Images](https://calendar.perfplanet.com/2016/squeezing-png-images/)
-
-## misc
-Even full loaded images can cause jank. When we had retina desktop images loaded on mobile, anchor scrolling and carousel scrolling were janky. Reducing image size was the fix.
-
-Also see Image section of https://medium.com/@paularmstrong/twitter-lite-and-high-performance-react-progressive-web-apps-at-scale-d28a00e780a3
+### Automation
+- Build time solutions (great for a limited amount of images, but does not scale)
+  - generate responsive permutations: [herrstucki/responsive-loader: A webpack loader for responsive images](https://github.com/herrstucki/responsive-loader)
+  - compression: [tcoopman/image-webpack-loader: Image loader module for webpack](https://github.com/tcoopman/image-webpack-loader)
+- 3rd party services
+  - [Cloudinary - Cloud image service, upload, storage & CDN](http://cloudinary.com/)
+  - [Let The Content Delivery Network Optimize Your Images – Smashing Magazine](https://www.smashingmagazine.com/2017/04/content-delivery-network-optimize-images/)
 
 
 RN Images
@@ -210,10 +223,14 @@ Initially this sounds very simple, on page-load we can just grab the offsetTop o
 ...
 One benefit I forgot to mention of the placeholder is that once the image loads the page will not have to be repainted unlike before because the placeholder already takes up that space so another +1 for the performance
 
-
 ## Concepts/Terms we learned
 - ResponsizeLoad -> use the smallest image that looks good with user's display
 - Responsive -> send the smallest asset for the screen that still looks good
 - Art Direction -> more than just resizing, it is cropping (or replacing) for specific viewports
 - Lazy Load -> defer loading until last possible moment to speed up TTI
 - ProgressiveLoad -> load blurry LQIP (Low Quality Image Placeholder), then full
+
+## References
+- What type is it?
+  - [html - When to use IMG vs. CSS background-image? - Stack Overflow](http://stackoverflow.com/questions/492809/when-to-use-img-vs-css-background-image?rq=1)
+  - [React Native - Image](https://facebook.github.io/react-native/docs/image.html)
