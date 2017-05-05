@@ -2,7 +2,7 @@ _WIP_
 
 Images on the web are hard. Straight up. You need to make many decisions, it is so much more work than "just throw an image in".
 
-[(3) High Performance Images - By O'Reilly & Akamai - YouTube](https://www.youtube.com/watch?v=UlrHvF_J-oI) is a good 1 minute video explanation of some challenges.
+[High Performance Images - By O'Reilly & Akamai](https://www.youtube.com/watch?v=UlrHvF_J-oI) is a good 1 minute video intro to some challenges.
 
 Here are the major decisions you'll need to make
 - What type is it?
@@ -107,6 +107,17 @@ https://www.sitepoint.com/lazy-loading-images-not-really-annoy-users/
 posts like http://dinbror.dk/blog/lazy-load-images-seo-problem/ argue that noscript is no longer needed, but bing was not able to index the images, so we're not totally there yet
 
 ----------------
+
+lazySizes plugins go into how complicated this feature can be: https://github.com/aFarkas/lazysizes#available-plugins-in-this-repo
+
+https://github.com/aFarkas/lazysizes/blob/gh-pages/src/lazysizes-core.js might be better than blazy since it uses rAF
+
+http://rbrtsmith.com/2015/02/building-a-high-performance-lazy-load-module
+
+Initially this sounds very simple, on page-load we can just grab the offsetTop of the images and store the values in the array, but upon further investigation this presents a problem. When we scroll to an image and it loads in, it pushes the content below further down the page, rendering the remaning offset values invalid.
+...
+One benefit I forgot to mention of the placeholder is that once the image loads the page will not have to be repainted unlike before because the placeholder already takes up that space so another +1 for the performance
+
 ### Deferred vs Lazy Load
 - Deferred will load every non-main image (usually below the fold) after page load
   - Necessary for those long, anchor-linked, single page sites
@@ -118,8 +129,27 @@ posts like http://dinbror.dk/blog/lazy-load-images-seo-problem/ argue that noscr
 Lazy Load -> defer loading
 
 
-## How to load?
+## How should it load?
 ProgressiveLoad -> load blurry LQIP (Low Quality Image Placeholder), then full
+
+In the browser if you don't give a size to an image, the browser is going to render a 0x0 element, download the image, and then render the image based with the correct size. The big issue with this behavior is that your UI is going to jump all around as images load, this makes for a very bad user experience.
+
+## How should it respond to viewport changes?
+How to fill the entire page with an image, no white space, scales as needed, retains aspect ratio, and centered?
+
+```
+html {
+  background: url(images/bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+```
+
+or use `background-image: url(_)`
+
+https://facebook.github.io/react-native/docs/pixelratio.html
+
+Aspect ratio controls the size of the undefined dimension of a node.
+- https://facebook.github.io/react-native/docs/layout-props.html#aspectratio
 
 ## Performance considerations
 Image decoding can take more than a frame-worth of time. This is one of the major sources of frame drops on the web because decoding is done in the main thread. In React Native, image decoding is done in a different thread. In practice, you already need to handle the case when the image is not downloaded yet, so displaying the placeholder for a few more frames while it is decoding does not require any code change.
@@ -128,6 +158,8 @@ https://facebook.github.io/react-native/docs/images.html
 Even full loaded images can cause jank. When we had retina desktop images loaded on mobile, anchor scrolling and carousel scrolling were janky. Reducing image size was the fix.
 
 Also see Image section of https://medium.com/@paularmstrong/twitter-lite-and-high-performance-react-progressive-web-apps-at-scale-d28a00e780a3
+
+`sizes` is like the upfront, static form of react router. Pre-parser needs it to optimize performance, but it's a bummer. You'd rather just say that the responsive image is here, not find the right size to load (like RR v4).
 
 ### Format
 #### Which format to use?
@@ -174,72 +206,7 @@ instead of loading multiple small images, consider spriting (single image with c
 
 ## References
 - [Images | Web | Google Developers](https://developers.google.com/web/fundamentals/design-and-ui/responsive/images) good overview of many of these topics
+- [An Event Apart News: Responsive Images Are Here. Now What? by Jason Grigsby—An Event Apart video](https://aneventapart.com/news/post/responsive-images-jason-grigsby-an-event-apart-video)
 - What type is it?
   - [html - When to use IMG vs. CSS background-image? - Stack Overflow](http://stackoverflow.com/questions/492809/when-to-use-img-vs-css-background-image?rq=1)
   - [React Native - Image](https://facebook.github.io/react-native/docs/image.html)
-
----
-
-RN Images
-- The packager knows the image dimensions, no need to duplicate it in the code.
-- Note that image sources required this way include size (width, height) info for the Image. If you need to scale the image dynamically (i.e. via flex), you may need to manually set { width: undefined, height: undefined } on the style attribute.
-
-In the browser if you don't give a size to an image, the browser is going to render a 0x0 element, download the image, and then render the image based with the correct size. The big issue with this behavior is that your UI is going to jump all around as images load, this makes for a very bad user experience.
-
-
-In React Native this behavior is intentionally not implemented. It is more work for the developer to know the dimensions (or aspect ratio) of the remote image in advance, but we believe that it leads to a better user experience. Static images loaded from the app bundle via the require('./my-icon.png') syntax can be automatically sized because their dimensions are available immediately at the time of mounting.
-
----
-
-Aspect ratio control the size of the undefined dimension of a node.
-https://facebook.github.io/react-native/docs/layout-props.html#aspectratio
-
----
-
-
-
----
-How to fill the entire page with an image, no white space, scales as needed, retains aspect ratio, and centered?
-
-```
-html {
-  background: url(images/bg.jpg) no-repeat center center fixed;
-  background-size: cover;
-}
-```
-
-or use `background-image: url(_)`
-
----
-
-RN
-https://facebook.github.io/react-native/docs/pixelratio.html
-https://facebook.github.io/react-native/docs/layout-props.html#aspectratio
-The Component
-<Image background lazy>
-	children <- implicit “background” ?
-</Image>
-
-For now, build <BackgroundImage> and <Image> because they might be complicated enough. Then, consolidate into <Image background /> if it is feasible.
-
-
-# Picture, srcset, sizes:
-- sizes is like the upfront, static form of react router. Pre-parser needs it to optimize performance, but it's a bummer. You'd rather just say that the responsive image is here, not find the right size to load (like RR v4).
-- https://aneventapart.com/news/post/responsive-images-jason-grigsby-an-event-apart-video
-- https://github.com/scottjehl/picturefill
-- https://afarkas.github.io/lazysizes/ (search for "picture") - see other polyfills
-
-
-
-------------------
-
-lazySizes plugins go into how complicated this feature can be: https://github.com/aFarkas/lazysizes#available-plugins-in-this-repo
-
-https://github.com/aFarkas/lazysizes/blob/gh-pages/src/lazysizes-core.js might be better than blazy since it uses rAF
-
------------------
-http://rbrtsmith.com/2015/02/building-a-high-performance-lazy-load-module
-
-Initially this sounds very simple, on page-load we can just grab the offsetTop of the images and store the values in the array, but upon further investigation this presents a problem. When we scroll to an image and it loads in, it pushes the content below further down the page, rendering the remaning offset values invalid.
-...
-One benefit I forgot to mention of the placeholder is that once the image loads the page will not have to be repainted unlike before because the placeholder already takes up that space so another +1 for the performance
