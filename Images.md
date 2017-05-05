@@ -2,7 +2,7 @@ _WIP_
 
 Images on the web are hard. Straight up. You need to make many decisions, it is so much more work than "just throw an image in".
 
-[(3) High Performance Images - By O'Reilly & Akamai - YouTube](https://www.youtube.com/watch?v=UlrHvF_J-oI)
+[(3) High Performance Images - By O'Reilly & Akamai - YouTube](https://www.youtube.com/watch?v=UlrHvF_J-oI) is a good 1 minute video explanation of some challenges.
 
 Here are the major decisions you'll need to make
 - What type is it?
@@ -19,6 +19,8 @@ So, which one should we use? Well, let me answer this question with a question. 
 If it is something that you'd like indexed by SEO, and visible if a user printed the page, then it is content. Often these images are stand-alone, like logos, images of a product on an e-commerce site, and images in a blog post, for example. This is the world of `<img>`s and `<picture>`s. Exactly which of these two you'll use is decided in a future question.
 
 If it is there to *enhance the display* of other content, like the background image of a header, then it is likely in the world of `<div>`s with `background-image` styles.
+
+Note: this writeup will not cover `svg` and icons. I think it is different enough to break out into its own.
 
 TODO: example picture with the two
 
@@ -85,6 +87,9 @@ Lazy loading is not limited to images. It can be used on pages with complex Java
 
 https://www.smashingmagazine.com/2015/02/redefining-lazy-loading-with-lazy-load-xt/
 
+
+"Lazy loading can significantly speed up loading on long pages that include many images below the fold by loading them either as needed or when the primary content has finished loading and rendering. In addition to performance improvements, using lazy loading can create infinite scrolling experiences."
+
 ----------
 "What would happen if JavaScript failed or didn't load for whatever reason? (connectivity problems, bad 3G, JavaScript-blockers, third-party scripts fail... you name it)"
 
@@ -140,22 +145,40 @@ from [The anatomy of responsive images - JakeArchibald.com](https://jakearchibal
 
 ### Compression
 - [Performance Calendar » Squeezing PNG Images](https://calendar.perfplanet.com/2016/squeezing-png-images/)
+- [Image Optimization | Web | Google Developers](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization#image-optimization-checklist)
 
-## Misc
 ### IMG Sprites
 instead of loading multiple small images, consider spriting (single image with coordinates)
 
-https://github.com/mixtur/webpack-spritesmith
-https://github.com/tcoopman/image-webpack-loader
+### Server considerations
+- [Performance Calendar » Even Faster Images using HTTP2 and Progressive JPEGs](https://calendar.perfplanet.com/2016/even-faster-images-using-http2-and-progressive-jpegs/)
 
-### Automation
+## Automation
 - Build time solutions (great for a limited amount of images, but does not scale)
-  - generate responsive permutations: [herrstucki/responsive-loader: A webpack loader for responsive images](https://github.com/herrstucki/responsive-loader)
-  - compression: [tcoopman/image-webpack-loader: Image loader module for webpack](https://github.com/tcoopman/image-webpack-loader)
+  - generate responsive permutations: [responsive-loader: A webpack loader for responsive images](https://github.com/herrstucki/responsive-loader)
+  - compression: [image-webpack-loader: Image loader module for webpack](https://github.com/tcoopman/image-webpack-loader)
+  - image sprite generation: [webpack-spritesmith: Webpack plugin that converts set of images into a spritesheet and SASS/LESS/Stylus mixins](https://github.com/mixtur/webpack-spritesmith)
+- Separate process/task from the usual build
+  - responsive and compression: [Performance Calendar » Image Optimization](https://calendar.perfplanet.com/2016/image-optimization/) - see the "Automating the asset creation process" section.
+  - image sprite generation: [gulp.spritesmith: Convert a set of images into a spritesheet and CSS variables via gulp](https://github.com/twolfson/gulp.spritesmith)
 - 3rd party services
   - [Cloudinary - Cloud image service, upload, storage & CDN](http://cloudinary.com/)
   - [Let The Content Delivery Network Optimize Your Images – Smashing Magazine](https://www.smashingmagazine.com/2017/04/content-delivery-network-optimize-images/)
 
+## Concepts/Terms we learned
+- ResponsizeLoad -> use the smallest image that looks good with user's display
+- Responsive -> send the smallest asset for the screen that still looks good
+- Art Direction -> more than just resizing, it is cropping (or replacing) for specific viewports
+- Lazy Load -> defer loading until last possible moment to speed up TTI
+- ProgressiveLoad -> load blurry LQIP (Low Quality Image Placeholder), then full
+
+## References
+- [Images | Web | Google Developers](https://developers.google.com/web/fundamentals/design-and-ui/responsive/images) good overview of many of these topics
+- What type is it?
+  - [html - When to use IMG vs. CSS background-image? - Stack Overflow](http://stackoverflow.com/questions/492809/when-to-use-img-vs-css-background-image?rq=1)
+  - [React Native - Image](https://facebook.github.io/react-native/docs/image.html)
+
+---
 
 RN Images
 - The packager knows the image dimensions, no need to duplicate it in the code.
@@ -208,8 +231,6 @@ For now, build <BackgroundImage> and <Image> because they might be complicated e
 
 
 
----------------
-
 ------------------
 
 lazySizes plugins go into how complicated this feature can be: https://github.com/aFarkas/lazysizes#available-plugins-in-this-repo
@@ -222,15 +243,3 @@ http://rbrtsmith.com/2015/02/building-a-high-performance-lazy-load-module
 Initially this sounds very simple, on page-load we can just grab the offsetTop of the images and store the values in the array, but upon further investigation this presents a problem. When we scroll to an image and it loads in, it pushes the content below further down the page, rendering the remaning offset values invalid.
 ...
 One benefit I forgot to mention of the placeholder is that once the image loads the page will not have to be repainted unlike before because the placeholder already takes up that space so another +1 for the performance
-
-## Concepts/Terms we learned
-- ResponsizeLoad -> use the smallest image that looks good with user's display
-- Responsive -> send the smallest asset for the screen that still looks good
-- Art Direction -> more than just resizing, it is cropping (or replacing) for specific viewports
-- Lazy Load -> defer loading until last possible moment to speed up TTI
-- ProgressiveLoad -> load blurry LQIP (Low Quality Image Placeholder), then full
-
-## References
-- What type is it?
-  - [html - When to use IMG vs. CSS background-image? - Stack Overflow](http://stackoverflow.com/questions/492809/when-to-use-img-vs-css-background-image?rq=1)
-  - [React Native - Image](https://facebook.github.io/react-native/docs/image.html)
