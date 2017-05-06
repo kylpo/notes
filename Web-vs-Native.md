@@ -1,3 +1,5 @@
+[What is the best platform: Web or Apps? – Phoomparin Mano – Medium](https://medium.com/@phoomparin/what-is-the-best-platform-web-or-apps-2017-1c6c5ff7cc16) nailed it.
+- web for lite, native for full
 
 Start with story of always playing the hybrid class: druid. Burned by not ever being the best dmg dealer, tank, healer, etc.
 
