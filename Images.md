@@ -14,11 +14,11 @@ Here are the major decisions you'll need to make
 ## What type is it?
 In the wonderful DX world of React Native, we need only reach for one tool: `<Image>`. But on the web, we have more to choose from: `<img>`, `<picture>`, and `background-image` of a `<div>`.
 
-So, which one should we use? Well, let me answer this question with a question. Is the image *content*?
+So, which one should we use? Well, let me answer this question with a question. Is the image **content**?
 
-If it is something that you'd like indexed by SEO, and visible if a user printed the page, then it is content. Often these images are stand-alone, like logos, images of a product on an e-commerce site, and images in a blog post, for example. This is the world of `<img>`s and `<picture>`s. Exactly which of these two you'll use is decided in a future question.
+If it is something that you'd like indexed by SEO, and visible if a user printed the page, then it is content. Often these images are stand-alone, like logos, images of a product on an e-commerce site, and images in a blog post. This is the world of `<img>`s and `<picture>`s. Exactly which of these two you'll use is decided in a future question.
 
-If it is there to *enhance the display* of other content, like the background image of a header, then it is likely in the world of `<div>`s with `background-image` styles.
+If it is there to **enhance the display** of other content, like the background image of a header, then it is likely in the world of `<div>`s with `background-image` styles.
 
 Note: this writeup will not cover `svg` and icons. I think it is different enough to break out into its own.
 
@@ -36,7 +36,7 @@ TODO: image of decision tree
 When a user loads your page, what should they see? Well, your image, right? Yes, but its not that easy.
 
 ### Responsive
-If you serve a desktop sized retina image to a mobile user, you negatively affect TTI ([Time To Interactive](https://developers.google.com/web/tools/lighthouse/audits/time-to-interactive)) and scroll performance. On the other hand, if you serve your small mobile image to a 4k desktop user, s/he will surely insta-close that tab. So, we want to serve the smallest possible image that still looks good on the user's display. This is what is known as a *Responsive* or *ResponsiveLoad* Image.
+If you serve a desktop sized retina image to a mobile user, you negatively affect TTI ([Time To Interactive](https://developers.google.com/web/tools/lighthouse/audits/time-to-interactive)) and page weight, which can seriously affect performance of animations, scrolling, interactivity, etc. On the other hand, if you serve your small mobile image to a 4k desktop user, s/he will surely insta-close that tab. So, we want to serve the smallest possible image that still looks good on the user's display. This is what is known as a **Responsive** Image.
 
 To accomplish this, we'll need to do two things:
 1. Create all permutations of image resolutions that you'll potentially serve
@@ -54,7 +54,7 @@ The second step depends on the type of image:
   - See [Responsive Images in CSS | CSS-Tricks](https://css-tricks.com/responsive-images-css/)
 
 ### Art Direction
-What about going further than just resizing the same image depending on the viewport size? Maybe in a small viewport, you'd like to crop the image to zoom in and focus a specific part of it. Or perhaps you'd like a totally different image. This is *Art Direction*, and to accomplish it, we'll reach for the `<picture>` element for content, and `@media` queries for style.
+What about going further than just resizing the same image depending on the viewport size? Maybe in a small viewport, you'd like to crop the image to zoom in and focus a specific part of it. Or perhaps you'd like a totally different image. This is **Art Direction**, and to accomplish it, we'll reach for the `<picture>` element for content, and `@media` queries for style.
 
 ```html
 <picture>
