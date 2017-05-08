@@ -9,12 +9,12 @@ Here are the major decisions you'll need to make
 - What should load?
 - When should it load?
 - How should it load?
-- How should it respond to viewport changes?
+- How should it fill its space?
 
 ## What type is it?
 In the wonderful DX world of React Native, we need only reach for one tool: `<Image>`. But on the web, we have more to choose from: `<img>`, `<picture>`, and `background-image` of a `<div>`.
 
-So, which one should we use? Well, let me answer this question with a question. Is the image **content**?
+So, which one should we use? Well, let me answer this question with a question: is the image **content**?
 
 If it is something that you'd like indexed by SEO, and visible if a user printed the page, then it is content. Often these images are stand-alone, like logos, images of a product on an e-commerce site, and images in a blog post. This is the world of `<img>`s and `<picture>`s. Exactly which of these two you'll use is decided in a future question.
 
@@ -179,7 +179,7 @@ Just use good ol' css to animate `opacity` from `0` to `1` after the image has l
 ---
 
 
-## How should it respond to viewport changes?
+## How should it fill its space?
 Should it maintain aspect ratio? Should it be bound by a certain height/width? Can it stretch and still look good?
 
 ### Content
@@ -211,8 +211,7 @@ or use `background-image: url(_)`
 - [React Native - Images](https://facebook.github.io/react-native/docs/images.html#why-not-automatically-size-everything)
   - In the browser if you don't give a size to an image, the browser is going to render a 0x0 element, download the image, and then render the image based with the correct size. The big issue with this behavior is that your UI is going to jump all around as images load, this makes for a very bad user experience.
   - Image decoding can take more than a frame-worth of time. This is one of the major sources of frame drops on the web because decoding is done in the main thread. In React Native, image decoding is done in a different thread. In practice, you already need to handle the case when the image is not downloaded yet, so displaying the placeholder for a few more frames while it is decoding does not require any code change.
-
-`<img>`'s `sizes` is like the upfront, static form of react router. Pre-parser needs it to optimize performance, but it's a bummer. You'd rather just say that the responsive image is here, not find the right size to load (like RR v4).
+- `<img>`'s `sizes` is like the upfront, static form of react router. Pre-parser needs it to optimize performance, but it's a bummer. You'd rather just say that the responsive image is here, not find the right size to load (like RR v4).
 
 ### Render the exact size if possible
 Even full loaded images can cause jank. When we had retina desktop images loaded on mobile, anchor scrolling and carousel scrolling were janky. This was because the browser does work to convert an images size if it is not the correct starting size. Reducing image size was the fix.
@@ -261,7 +260,7 @@ instead of loading multiple small images, consider spriting (single image with c
 ---
 
 
-## Concepts/Terms we learned
+## Concepts/Terms
 - Responsive -> send the smallest asset for the screen that still looks good
 - Art Direction -> more than just resizing, it is cropping (or replacing) for specific viewports
 - Lazy Loading -> defer loading until last possible moment
