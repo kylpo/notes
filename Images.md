@@ -1,4 +1,4 @@
-_WIP_
+# Image Considerations for the Web
 
 Images on the web are hard. Straight up. You need to make many decisions, it is so much more work than "just throw an image in".
 
@@ -206,16 +206,16 @@ or use `background-image: url(_)`
 
 
 ## Performance considerations
-Image decoding can take more than a frame-worth of time. This is one of the major sources of frame drops on the web because decoding is done in the main thread. In React Native, image decoding is done in a different thread. In practice, you already need to handle the case when the image is not downloaded yet, so displaying the placeholder for a few more frames while it is decoding does not require any code change.
-https://facebook.github.io/react-native/docs/images.html
+### Tell the browser its starting size
+- See Image section of [Twitter Lite and High Performance React Progressive Web Apps at Scale](https://medium.com/@paularmstrong/twitter-lite-and-high-performance-react-progressive-web-apps-at-scale-d28a00e780a3)
+- [React Native - Images](https://facebook.github.io/react-native/docs/images.html#why-not-automatically-size-everything)
+  - In the browser if you don't give a size to an image, the browser is going to render a 0x0 element, download the image, and then render the image based with the correct size. The big issue with this behavior is that your UI is going to jump all around as images load, this makes for a very bad user experience.
+  - Image decoding can take more than a frame-worth of time. This is one of the major sources of frame drops on the web because decoding is done in the main thread. In React Native, image decoding is done in a different thread. In practice, you already need to handle the case when the image is not downloaded yet, so displaying the placeholder for a few more frames while it is decoding does not require any code change.
 
-Even full loaded images can cause jank. When we had retina desktop images loaded on mobile, anchor scrolling and carousel scrolling were janky. Reducing image size was the fix.
+`<img>`'s `sizes` is like the upfront, static form of react router. Pre-parser needs it to optimize performance, but it's a bummer. You'd rather just say that the responsive image is here, not find the right size to load (like RR v4).
 
-Also see Image section of https://medium.com/@paularmstrong/twitter-lite-and-high-performance-react-progressive-web-apps-at-scale-d28a00e780a3
-
-In the browser if you don't give a size to an image, the browser is going to render a 0x0 element, download the image, and then render the image based with the correct size. The big issue with this behavior is that your UI is going to jump all around as images load, this makes for a very bad user experience.
-
-`sizes` is like the upfront, static form of react router. Pre-parser needs it to optimize performance, but it's a bummer. You'd rather just say that the responsive image is here, not find the right size to load (like RR v4).
+### Render the exact size if possible
+Even full loaded images can cause jank. When we had retina desktop images loaded on mobile, anchor scrolling and carousel scrolling were janky. This was because the browser does work to convert an images size if it is not the correct starting size. Reducing image size was the fix.
 
 ### Format and Compression
 #### Which format to use?
@@ -266,7 +266,8 @@ instead of loading multiple small images, consider spriting (single image with c
 - Art Direction -> more than just resizing, it is cropping (or replacing) for specific viewports
 - Lazy Loading -> defer loading until last possible moment
 - Deferred Loading -> asynchronously load in all images below the fold after page load
-- ProgressiveLoad -> load blurry LQIP (Low Quality Image Placeholder), then full
+- Progressive JPEG -> image that renders top-down, line by line
+- Interlaced GIF/PNG -> image that renders blurry, and progressively renders full image
 
 
 ---
