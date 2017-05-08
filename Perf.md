@@ -8,3 +8,9 @@ https://twitter.com/jordwalke/status/844854345329926146
 ^ perf is top priority for WebKit and trumps all. Never regress on perf.
 
 Maybe I should build all products as the `lite` version, first? Then add on polish/animations incrementally to the non-lite site. Always keep lite around for comparison, and users that want it. Lite acts as the master version. Polish is a branch.
+
+# Tools
+## Chrome devtools
+- [Timeline Profiling with Chrome DevTools — Librato Blog](http://blog.librato.com/posts/chrome-devtools)
+  - "Work to the bottom" (of flame charts)
+  - "Follow the red" (frames)

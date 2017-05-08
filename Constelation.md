@@ -1,5 +1,7 @@
 _WIP_
 
+Almost like React opened the flood gates for DX. We can have a good DX and not sacrifice performance!? React Native opened it even more with its default View styles and Animated. We took it to the extremes, like reduxing all the things, Radium for styling, etc. Now we are popping our heads up and analyzing what is realistic. Preact's creator is helping us strip down our bundle sizes and get back to putting UX first.
+
 Consider showing these docs with https://github.com/egoist/anydoc
 
 Position the reveal as a prototyping framework, focussed on speed and DX.

@@ -77,7 +77,15 @@ TODO: image of decision tree
 
 
 ## When should it load?
-When a user visits your page, every single image is requested from a server (or local cache), then rendered on the page. It slows down TTI, but there is a solve for this.
+When a user visits your page, every single image is requested from a server (or local cache), then rendered on the page. This can be wasteful, and slows down TTI.
+
+![](https://varvy.com/pagespeed/images/pageload.png)
+
+Fortunately, there is a solve for this: load *above the fold* images first, then use a strategy below to handle the rest.
+
+![](https://varvy.com/pagespeed/images/pageload-defer.png)
+
+*images from [Defer images without jQuery or lazy loading](https://varvy.com/pagespeed/defer-images.html)*
 
 ### Lazy Loading
 "Lazy loading can significantly speed up loading on long pages that include many images *below the fold* by loading them either as needed or when the primary content has finished loading and rendering. In addition to performance improvements, using lazy loading can create infinite scrolling experiences."
@@ -86,14 +94,17 @@ When a user visits your page, every single image is requested from a server (or 
 Lazy Load monitors scroll position to load in images based on their proximity to the viewport (usually called a `threshold`)
 
 ### Deferred Loading
-- Deferred will load every non-main image (usually below the fold) after page load
-  - Necessary for those long, anchor-linked, single page sites.
-    - If it were Lazy Loaded, clicking an anchor link with an animated scroll would look janky (since the images would dynamically be load in)
-  - [Defer images without jQuery or lazy loading](https://varvy.com/pagespeed/defer-images.html)
-    - ![](https://varvy.com/pagespeed/images/pageload.png)
-    - ![](https://varvy.com/pagespeed/images/pageload-defer.png)
+Deferred will load every non-main image (usually below the fold) after page load.
 
-### Strategies
+#### How is this different from lazy loading?
+Instead of monitoring the user's position to decide what should be loaded it, this strategy just loads every image (after the initial load), no matter the user's scroll position.
+
+#### When is this the preferred solution?
+Necessary for those long, anchor-linked, single page sites.
+
+If it were Lazy Loaded, clicking an anchor link with an animated scroll would look janky (since the images would dynamically be load in). [Defer images without jQuery or lazy loading](https://varvy.com/pagespeed/defer-images.html) for more.
+
+### Implementations
 `lazySizes` plugins show how complicated this feature can be: https://github.com/aFarkas/lazysizes#available-plugins-in-this-repo
 
 - [Building a Media Player #9: Lazy-Loading Images - YouTube](https://www.youtube.com/watch?v=ncYQkOrKTaI&feature=youtu.be)
@@ -233,7 +244,7 @@ instead of loading multiple small images, consider spriting (single image with c
 
 
 
-## References
+## Other Links
 - [Images | Web | Google Developers](https://developers.google.com/web/fundamentals/design-and-ui/responsive/images) good overview of many of these topics
 - [An Event Apart News: Responsive Images Are Here. Now What? by Jason Grigsby—An Event Apart video](https://aneventapart.com/news/post/responsive-images-jason-grigsby-an-event-apart-video)
 - What type is it?
