@@ -29,7 +29,7 @@ I actually can't think of a case where I've put content on top of content images
 TODO: image of decision tree
 
 
-
+---
 
 
 ## What should load?
@@ -73,7 +73,7 @@ from [Responsive Images Done Right: A Guide To And srcset](https://www.smashingm
 TODO: image of decision tree
 
 
-
+---
 
 
 ## When should it load?
@@ -87,13 +87,13 @@ Fortunately, there is a solve for this: load *above the fold* images first, then
 
 *images from [Defer images without jQuery or lazy loading](https://varvy.com/pagespeed/defer-images.html)*
 
-### Lazy Loading
+### Strategy: Lazy Loading
 "Lazy loading can significantly speed up loading on long pages that include many images *below the fold* by loading them either as needed or when the primary content has finished loading and rendering. In addition to performance improvements, using lazy loading can create infinite scrolling experiences."
 - [Images | Web | Google Developers](https://developers.google.com/web/fundamentals/design-and-ui/responsive/images)
 
 Lazy Load monitors scroll position to load in images based on their proximity to the viewport (usually called a `threshold`)
 
-### Deferred Loading
+### Strategy: Deferred Loading
 Deferred will load every non-main image (usually below the fold) after page load.
 
 #### How is this different from lazy loading?
@@ -147,16 +147,36 @@ The lazyload_images filter defers loading of images until they become visible in
 - https://developers.google.com/speed/pagespeed/module/filter-lazyload-images
 
 
-
+---
 
 
 ## How should it load?
-ProgressiveLoad -> load blurry LQIP (Low Quality Image Placeholder), then full
+After an image request has resolved, how should it appear on the screen? Based on its format, it may flash from nothing to visible, it may render top-down line by line (**progressive** JPEGs), or it may go from blurry to clear (**interlaced** GIF/PNG).
 
-In the browser if you don't give a size to an image, the browser is going to render a 0x0 element, download the image, and then render the image based with the correct size. The big issue with this behavior is that your UI is going to jump all around as images load, this makes for a very bad user experience.
+![](https://blog.codinghorror.com/content/images/uploads/2005/12/6a0120a85dcdae970b0128776fcab6970c-pi.gif) ![](https://blog.codinghorror.com/content/images/uploads/2005/12/6a0120a85dcdae970b0128776fcadb970c-pi.gif)
+
+*images from [Progressive Image Rendering](https://blog.codinghorror.com/progressive-image-rendering/)*
+
+Sure would be nice if we could have nice image renders based on the format alone, but saving them as *progressive* or *interlaced* adds to the file size, which is likely not worth it since we can show similar and better effects with `css` and `js`.
+
+### Strategy: LQIP
+load blurry LQIP (Low Quality Image Placeholder), then full
+- [How Medium does progressive image loading - JMPerez Blog](https://jmperezperez.com/medium-image-progressive-loading-placeholder/)
+- [The technology behind preview photos | Engineering Blog | Facebook Code](https://code.facebook.com/posts/991252547593574/the-technology-behind-preview-photos)
+  - ![](https://scontent.fsnc1-1.fna.fbcdn.net/v/t39.2365-6/11405147_157657891232533_1930722323_n.jpg?oh=c5ea1f9620d9aa33a369e6cd9d01c2b5&oe=59B7A9DB)
+  - ![](https://scontent.fsnc1-1.fna.fbcdn.net/v/t39.2365-6/11405195_892704657466957_1372817644_n.jpg?oh=ee0fc03de3fc3461796c249270c6570a&oe=59863D96)
+
+### Strategy: Colored Background Placeholder
+![](https://cdn-images-1.medium.com/max/800/0*QSSsKDNMDUCojsR6.gif)
+
+[Pinterest’s Colored Background Placeholders – Embedly Notes](https://blog.embed.ly/pinterests-colored-background-placeholders-4b4c9fb8bb77)
+
+### Strategy: Fade In
+Just use good ol' css to animate `opacity` from `0` to `1` after the image has loaded.
 
 
 
+---
 
 
 ## How should it respond to viewport changes?
@@ -177,7 +197,7 @@ Aspect ratio controls the size of the undefined dimension of a node.
 - https://facebook.github.io/react-native/docs/layout-props.html#aspectratio
 
 
-
+---
 
 
 ## Performance considerations
@@ -188,6 +208,8 @@ Even full loaded images can cause jank. When we had retina desktop images loaded
 
 Also see Image section of https://medium.com/@paularmstrong/twitter-lite-and-high-performance-react-progressive-web-apps-at-scale-d28a00e780a3
 
+In the browser if you don't give a size to an image, the browser is going to render a 0x0 element, download the image, and then render the image based with the correct size. The big issue with this behavior is that your UI is going to jump all around as images load, this makes for a very bad user experience.
+
 `sizes` is like the upfront, static form of react router. Pre-parser needs it to optimize performance, but it's a bummer. You'd rather just say that the responsive image is here, not find the right size to load (like RR v4).
 
 ### Format and Compression
@@ -197,6 +219,7 @@ Also see Image section of https://medium.com/@paularmstrong/twitter-lite-and-hig
 - [Saving Bandwidth by Using Images the Smart Way — SitePoint](https://www.sitepoint.com/saving-bandwidth-by-using-images-the-smart-way/)
 - [Performance Calendar » Squeezing PNG Images](https://calendar.perfplanet.com/2016/squeezing-png-images/)
 - [Image Optimization | Web | Google Developers](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization#image-optimization-checklist)
+- videos are way smaller than animated GIFs
 
 #### How to deliver it?
 ```html
@@ -214,7 +237,7 @@ instead of loading multiple small images, consider spriting (single image with c
 - [Performance Calendar » Even Faster Images using HTTP2 and Progressive JPEGs](https://calendar.perfplanet.com/2016/even-faster-images-using-http2-and-progressive-jpegs/)
 
 
-
+---
 
 
 ## Automation
@@ -230,7 +253,7 @@ instead of loading multiple small images, consider spriting (single image with c
   - [Let The Content Delivery Network Optimize Your Images – Smashing Magazine](https://www.smashingmagazine.com/2017/04/content-delivery-network-optimize-images/)
 
 
-
+---
 
 
 ## Concepts/Terms we learned
@@ -241,7 +264,7 @@ instead of loading multiple small images, consider spriting (single image with c
 - ProgressiveLoad -> load blurry LQIP (Low Quality Image Placeholder), then full
 
 
-
+---
 
 
 ## Other Links
