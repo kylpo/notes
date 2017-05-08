@@ -180,6 +180,16 @@ Just use good ol' css to animate `opacity` from `0` to `1` after the image has l
 
 
 ## How should it respond to viewport changes?
+Should it maintain aspect ratio? Should it be bound by a certain height/width? Can it stretch and still look good?
+
+### Content
+- [css - How to maintain aspect ratio using HTML IMG tag - Stack Overflow](http://stackoverflow.com/questions/12912048/how-to-maintain-aspect-ratio-using-html-img-tag)
+  - "Don't set height AND width. Use one or the other and the correct aspect ratio will be maintained."
+- [object-fit - CSS | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit?v=example)
+
+### Style
+- [background-size - CSS | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/background-size?v=example)
+
 How to fill the entire page with an image, no white space, scales as needed, retains aspect ratio, and centered?
 
 ```
@@ -190,11 +200,6 @@ html {
 ```
 
 or use `background-image: url(_)`
-
-https://facebook.github.io/react-native/docs/pixelratio.html
-
-Aspect ratio controls the size of the undefined dimension of a node.
-- https://facebook.github.io/react-native/docs/layout-props.html#aspectratio
 
 
 ---
