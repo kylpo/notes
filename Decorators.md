@@ -188,6 +188,9 @@ I plan to use them for Web and React Native.
 ## Conclusion
 Global event decorators do wonders for DX! Their implementation could even lead to better UX by enforcing a performant handling of these events.
 
+## Try it
+Feel free to try `constelation-{keydown-decorator,media-decorator,resize-decorator,scroll-decorator}`, but there is likely more value in making your own.
+
 ---
 # Other notes
 

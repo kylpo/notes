@@ -60,7 +60,7 @@ https://github.com/ModusCreateOrg/budgeting-sample-app-webpack2
 https://github.com/webpack/webpack/issues/2899
 https://github.com/mishoo/UglifyJS2/issues/1261
 
-loose: 
+loose:
 https://github.com/babel/babel/tree/master/packages/babel-preset-es2015
 http://www.2ality.com/2015/12/babel6-loose-mode.html
 

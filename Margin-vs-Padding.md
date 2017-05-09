@@ -1,8 +1,8 @@
-# I am no longer using css `margin`
+# Spacing in a Component World
 
 First, some clarifications:
-- Margin is a css property for spacing _outside_ of a component. A div with a yellow background and margin _will not_ see the yellow background in the margin spacing.
-- Padding is a css property for spacing _inside_ of a component. A div with a red background and padding _will_ see the red background in the padding spacing.
+- Margin is a css property for spacing __outside__ of a component. A div with a yellow background and margin __will not__ see the yellow background in the margin spacing.
+- Padding is a css property for spacing __inside__ of a component. A div with a red background and padding __will__ see the red background in the padding spacing.
 
 So, when building a component, how should the two properties be used?
 
@@ -10,7 +10,7 @@ Well, for the most part, components are a powerful construct because they only c
 
 But in the real world, we do need spacing outside of components for composing them into pages and scenes. And this is where `margin` creeps into component code: for spacing compositions of components.
 
-Should `margin` really be the concern of a component though? Given my `<Button />` component, should it really accept a `marginTop` or `marginLeft` prop? How about on a bigger scale? Should _ALL_ of my composite components accept these `margin` props? That doesn't seem scalable.
+Should `margin` really be the concern of a component though? Given my `<Button />` component, should it really accept a `marginTop` or `marginLeft` prop? How about on a bigger scale? Should __ALL__ of my composite components accept these `margin` props? That doesn't seem scalable.
 
 A better solution might be to wrap my Button component with another component whose sole purpose is to apply margin. Something like:
 ```jsx
@@ -42,16 +42,18 @@ The above button group is pretty difficult to skim and understand the spacing. W
 <Space size={20} />
 ```
 
-And this is what I've settled on using for page/scene spacing: the `<Space />` component. `Space` accepts a single `size` prop, which is used to set its `flex-basis`. Note: I can get away with only using `flex-basis` because I use flexbox exclusively, in React Native _and_ web.
+And this is what I've settled on using for page/scene spacing: the `<Space />` component. `Space` accepts a single `size` prop, which is used to set its `flex-basis`. Note: I can get away with only using `flex-basis` because I use flexbox exclusively, in React Native __and__ web.
 
 Conveniently, this ends the debate of [margin-bottom or margin-top](https://css-tricks.com/margin-bottom-margin-top/) for my code.
 
-Note: As always, I'd love to learn from your experience! Please let me know if you have any thoughts on the subject.
+## Try it
+Feel free to try `constelation-space` on web and native, or make your own
 
-## Credits:
+## Credits
 - props to [kilvin/Spacer.js](https://github.com/rofrischmann/kilvin/blob/master/modules/components/Spacer.js) for using `flex` css attribute and a `size` prop.
 - Android Studio actually has a [Space](https://developer.android.com/reference/android/widget/Space.html) widget in their wysiwyg editor
 
+Note: I publish these to learn from your responses! Please let me know if you have any thoughts on the subject.
 
 --------
 
