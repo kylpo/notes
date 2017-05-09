@@ -2,7 +2,7 @@
 Likely unfinished thoughts/research
 
 ## Published Notes
-- [Global Event Decorators](https://github.com/kylpo/notes/blob/master/Global-Event-Decorators.md) - [post](https://medium.com/@kylpo/global-event-decorators-dbb30d0920bc)
+- [Global Event Decorators](https://github.com/kylpo/notes/blob/master/published/Global-Event-Decorators.md) - [post](https://medium.com/@kylpo/global-event-decorators-dbb30d0920bc)
 
 
 ## Note
