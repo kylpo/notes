@@ -1,8 +1,8 @@
-# Spacing in a Component World
+# Spacing Components
 
 First, some clarifications:
-- Margin is a css property for spacing __outside__ of a component. A div with a yellow background and margin __will not__ see the yellow background in the margin spacing.
-- Padding is a css property for spacing __inside__ of a component. A div with a red background and padding __will__ see the red background in the padding spacing.
+- __Margin__ is a css property for spacing __outside__ of a component. A div with a yellow background and margin __will not__ see the yellow background in the margin spacing.
+- __Padding__ is a css property for spacing __inside__ of a component. A div with a red background and padding __will__ see the red background in the padding spacing.
 
 So, when building a component, how should the two properties be used?
 
@@ -52,6 +52,8 @@ Feel free to try `constelation-space` on web and native, or make your own
 ## Credits
 - props to [kilvin/Spacer.js](https://github.com/rofrischmann/kilvin/blob/master/modules/components/Spacer.js) for using `flex` css attribute and a `size` prop.
 - Android Studio actually has a [Space](https://developer.android.com/reference/android/widget/Space.html) widget in their wysiwyg editor
+
+---
 
 Note: I publish these to learn from your responses! Please let me know if you have any thoughts on the subject.
 

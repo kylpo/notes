@@ -1,16 +1,8 @@
 # Kylpo's Public Notes
 Likely unfinished thoughts/research
 
-## Table of contents
-- Coding
-  - [Frictionless Coding](https://github.com/kylpo/notes/blob/master/Frictionless-Coding.md)
-- Web
-  - [Margin vs Padding](https://github.com/kylpo/notes/blob/master/Margin-vs-Padding.md)
-  - [Websites vs Webapps](https://github.com/kylpo/notes/blob/master/Websites-vs-Webapps.md)
-- Design/Animation
-  - [Building Motion](https://github.com/kylpo/notes/blob/master/Building-Motion.md)
-- Misc
-  - [Newsletters and Digests](https://github.com/kylpo/notes/blob/master/Newsletters-Digests.md)
+## Published Notes
+- [Global Event Decorators](https://github.com/kylpo/notes/blob/master/Global-Event-Decorators.md) - [post](https://medium.com/@kylpo/global-event-decorators-dbb30d0920bc)
 
 
 ## Note

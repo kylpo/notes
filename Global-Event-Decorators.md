@@ -1,4 +1,4 @@
-# Decorators for Global Events Considered Helpful
+# Global Event Decorators
 
 I think I've found a really cool use case for decorators: they're perfect for attaching callbacks to global events!
 
@@ -192,6 +192,11 @@ Global event decorators do wonders for DX! Their implementation could even lead 
 Feel free to try `constelation-{keydown-decorator,media-decorator,resize-decorator,scroll-decorator}`, but there is likely more value in making your own.
 
 ---
+
+Note: I publish these to learn from your responses! Please let me know if you have any thoughts on the subject.
+
+--------------
+
 # Other notes
 
 
