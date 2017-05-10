@@ -173,6 +173,7 @@ PWA
 Problems
 - integrations (android wear, macOS menu bar)
 
+[https://pwa-directory.appspot.com](https://pwa-directory.appspot.com/)
 
 See also Apps are faltering. But progressive web apps seem pretty legit. – Medium
 

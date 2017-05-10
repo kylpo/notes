@@ -14,6 +14,9 @@ Let's standardize a Website's characteristics:
 Let's standardize a Webapp's characteristics:
 - Best thought of as scenes/screens instead of documents
 
+- [Read web pages offline with Chrome on Android](https://blog.google/products/chrome/read-web-pages-offline-chrome-android/)
+  - Wouldn't really be able to save an app offline ahead of time, would you? If so, would it be useful?
+
 # Generalizations
 - Care about SEO? Site. Else, app.
 - Want an app bar? App. Else, site with tabs/links on top, probably.
@@ -35,6 +38,8 @@ Sites should strive for no global state?
 - URL is the single source of truth for what is currently shown
 - Makes sense when you think of a site as a set of documents
   - searchable documents (and good for SEO)
+
+Divide seems to be more inline with if you care about SEO. Sites care deeply about SEO, and are built differently to handle it. Apps have affordances that do not care about SEO.
 
 # Conclusions
 Overall, this distinction likely isn't helpful. Because as soon as you add global state to a site, it becomes an app, even if it still feels more like a site (like an e-commerce site). The more useful distinction is web vs native. I suppose it could be helpful, if you think of your product as a site, to limit it from app state for as long as possible. For example, modals are url accessible, all "state" is serialized to the URL. LINK TO APP STATE DOC

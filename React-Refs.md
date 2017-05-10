@@ -1,3 +1,5 @@
+There are two magical props in React: `key` and `ref`. This post will cover `ref`.
+
 refs
 - callbacks, how to avoid boilerplate? called on when unmounted (passes null)?
 - how to reduce boilerplate with something like https://github.com/fresk-nc/babel-plugin-transform-jsx-ref-to-function?
