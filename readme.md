@@ -3,6 +3,8 @@ Likely unfinished thoughts/research
 
 ## Published Notes
 - [Global Event Decorators](https://github.com/kylpo/notes/blob/master/published/Global-Event-Decorators.md) - [post](https://medium.com/@kylpo/global-event-decorators-dbb30d0920bc)
+- [Spacing Components](https://github.com/kylpo/notes/blob/master/published/Spacing-Components.md) - [post](https://medium.com/@kylpo/spacing-components-612ec4cf97ee)
+- [How I Stay Informed as a Developer](https://github.com/kylpo/notes/blob/master/published/How-I-Stay-Informed-as-a-Developer.md)
 
 
 ## Note

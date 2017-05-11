@@ -4,7 +4,7 @@ With software development constantly in flux, it has taken quite an effort to di
 ## Digests
 I am a huge fan of digests/newsletters! There's just SO much information published every week/day/hour, and I am grateful that others are willing to dig through it all and publish what they think are the best parts. Some digests are sent daily, but I prefer the weekly ones.
 
-Also, I use [Google Inbox](https://inbox.google.com/)'s `Bundle` feature to collect all of these digests, and hide them until a designated time the next day. Sure wish the time of day was configurable, but 7am will do for now...
+Also, I use [Google Inbox](https://inbox.google.com/)'s `Bundle` feature to collect all of these digests, and hide them until a designated time the next day. I do wish the time of day was configurable, but 7am will do for now...
 
 #### Design
 - [FrontEnd Focus](http://frontendfocus.co/)
@@ -47,7 +47,7 @@ Also, I use [Google Inbox](https://inbox.google.com/)'s `Bundle` feature to coll
 I use Twitter for one thing: following developers. It is a great platform for following public discussions and seeing links/retweets of useful resources.
 
 #### Using the timeline
-I don't want to miss any tweets, so I have [Tweetmarker](http://tweetmarker.net/) save my position in the timeline. When I open [Tweetbot for Mac](https://tapbots.com/tweetbot/mac/) or [Flamingo for Android](https://play.google.com/store/apps/details?id=com.samruston.twitter&hl=en), I am able to pick up from where I left off, not just from the top of the timeline. Sure is nice to not have FOMO while I'm working!
+I don't want to miss any tweets, so I have [Tweetmarker](http://tweetmarker.net/) save my position in the timeline. When I open [Tweetbot for Mac](https://tapbots.com/tweetbot/mac/) or [Flamingo for Android](https://play.google.com/store/apps/details?id=com.samruston.twitter&hl=en), I am able to pick up from where I left off, not just from the top of the timeline. FOMO, no mo’!
 
 When I do have time to check Twitter, I skim it. If a tweet looks like something worth digging in to, I `Like` it and keep moving. At the end of the day, following the "Inbox Zero" approach, I try to read through all of these Likes, un-Liking them as I go. It doesn't matter what Twitter rebrands the feature to, I'll always use it as a read-it-later system.
 
@@ -81,7 +81,7 @@ I suppose I still use [Feedly](https://feedly.com/) as a reading list, but I fol
 #### Other
 - [xkcd: Random Obsessions](https://xkcd.com/)
 - [Signal v. Noise](https://m.signalvnoise.com/)
-- [The Blog of Author Tim Ferriss | Tim Ferriss's 4-Hour Workweek and Lifestyle Design Blog](http://tim.blog/)
+- [The Blog of Author Tim Ferriss](http://tim.blog/)
 - [zen habits](https://zenhabits.net/)
 - [Cal Newport - Author of Deep Work, Study Hacks Blog](http://calnewport.com/)
 
@@ -104,8 +104,7 @@ When I get in the car to drive to work, I turn on my [bluetooth receiver](https:
 - [GraphQL Radio](https://graphqlradio.com/)
 - [HTTP 203 Podcast](https://developers.google.com/web/shows/http203/podcast/)
 - [Software Engineering Daily](https://softwareengineeringdaily.com/)
-- [The Changelog with Adam Stacoviak and Jerod Santo | Changelog](https://changelog.com/podcast)
-- [Request For Commits with Nadia Eghbal and Mikeal Rogers | Changelog](https://changelog.com/rfc)
+- [The Changelog with Adam Stacoviak and Jerod Santo](https://changelog.com/podcast)
 
 #### Other
 - [The Tim Ferriss Show](http://tim.blog/podcast/)
@@ -116,6 +115,4 @@ When I get in the car to drive to work, I turn on my [bluetooth receiver](https:
 ## Wrapping it up
 I'm happy with this system. It isn't easy by any means--I spend at least an hour a day consuming content--but it has kept me sane, and well informed.
 
----
-
-Note: I publish these to learn from your responses! Please let me know if you have any thoughts on the subject.
+Do you have a system? I’d love to hear about it!
