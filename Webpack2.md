@@ -65,5 +65,6 @@ https://github.com/babel/babel/tree/master/packages/babel-preset-es2015
 http://www.2ality.com/2015/12/babel6-loose-mode.html
 
 Babili - fixes uglifier IIFE issue (but may be unstable?)
+[Adam Rackis on Twitter: "The new, ES6-compatible uglify-js https://t.co/SocuJH6ABf"](https://twitter.com/AdamRackis/status/862027473374109698)
 modules: false - able to tree-shake
 loose: true - smaller output, but won’t use modern es6 - what .ts does, too?

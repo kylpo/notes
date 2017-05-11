@@ -1,38 +1,30 @@
-_WIP_
-
-The right tool for the right job. I use apps and services with a specific purpose: Twitter and Github for following developers and their discussions, Newsletters, Blogs, and Podcasts.
-
 # How I Stay Informed
+With software development constantly in flux, it has taken quite an effort to dial in my system for staying informed. "The right tool for the right job" is the name of the game.
+
 ## Twitter
 I use Twitter for one thing: following developers. I appreciate tuning in to their public discussions and seeing links/retweets of useful resources.
 
-- All of these social media platforms are just about simplifying communication. Simplify in sending, and sharing/spreading.
-
 #### Using the timeline
-So, I treat the timeline like more of a reading list. I use tools that save the progress of where I am on the timeline. When I have time to go through it, I usually skim, adding a Star if it seems worth going back to. At the end of the day, I go through
+Because I treat the timeline like more of a reading list, I use [Tweetmarker](http://tweetmarker.net/) to save the progress of where I am. Sure is nice to not feel FOMO while I'm working. Why doesn't Twitter just build this into their platform?! Tweetmarker also works with [Tweetbot for Mac](https://tapbots.com/tweetbot/mac/) and [Flamingo for Android](https://play.google.com/store/apps/details?id=com.samruston.twitter&hl=en), keeping my progress synced across devices.
 
-I use Tweetbot to keep track of the placement in my timeline. That way I can read through the list a couple times/day instead of continuously.
-
-- Stars act as bookmarks
-  - Sticking with the "Inbox Zero" mantra, I try to go through and unstar all every night
+When I have a few free minutes (waiting for a build, taking a break, etc), I'll skim through the timeline, favoriting (read "bookmarking") if it seems worth going back to. And at the end of the day, following the "Inbox Zero" approach, I try to read through all of these favorites, unchecking them as I go.
 
 #### Focus
-Only follow developers (or whatever you most care about staying informed of)
-- Filter out tweets not related to your focus with Tweetbot's `Mute Filters`
-- Some mutes I currently use: 'Trump', 'Hilary', 'Clinton', 'election', etc
-- If some is too chatty or off-focus, I unsubscribe and rely on others to retweet the highlights
+Developers are people, with non-developery things they'd like to talk about. I have nothing against them, but their non-developer thoughts do not fit in with my Twitter utility. This is why I use Tweetbot's `Mute Filters` feature to hide tweets about things like 'Trump', 'Hilary', 'Clinton', 'election', 'religion', etc.
+
+Sometimes, despite a person having great thoughts and tweets, they're just too chatty for me to handle in my system. So, I just unsubscribe and rely on others to retweet the highlights.
 
 ## Github
-- Use the hell out of `subscribe`
-  - Dig through issues, PRs, etc and subscribe to the ones you want to know when they land
-  - Subscribe to github issues and PRs. Every week or so I'll browse some repos of what I use today for new exciting features.
+I use the hell out of Github's `subscribe` feature for Issues and Pull Requests, which sends me an email when someone responds in a thread. It helps me get a gauge for when a feature will land, and how it is being considered.
+
+When I have a pain point with a project, I'll search the repo for an active Issue/PR and `subscribe`. I'll also just periodically check repos of projects I rely on to see if there are new, good threads to subscribe to.
+
+Sometimes, I'll temporarily `watch` repos, which auto-subscribes me to all Issues/PRs.
 
 ## Digests
-I lean on others to cull through the many resources in the world.
+There's just SO much information out there every week/day/hour. So, I lean on others to cull through it, and provide me digests of what they think is most interesting. Some digests are sent daily, but I prefer the weekly ones.
 
-I completely rely on daily and weekly digests to keep me informed without being overwhelmed.
-
-I use Inbox's Bundle feature to collect all of these and configure them to only be shown once a day. Sure wish the time of day was configurable, but 7am will do...
+Also, I use [Inbox](https://inbox.google.com/)'s `Bundle` feature to collect all of these digests, and hide them until a designated time the next day. Sure wish the time of day was configurable, but 7am will do...
 
 #### Design
 - [FrontEnd Focus](http://frontendfocus.co/)
@@ -72,12 +64,31 @@ I use Inbox's Bundle feature to collect all of these and configure them to only 
 - Youtube (weekly email of subscriptions/recommendations)
 
 ## Blogs
-TODO
+Back in the Google Reader days, I was an avid RSS user, slurping in 100+ posts/day. I treated it the way I treat Twitter today: as a reading list.
 
-Feedly has been great
+I suppose I still use [Feedly](https://feedly.com/) as a reading list, but I follow significantly fewer blogs. I'd love to just be able to reduce this service into a single, weekly digest.
+
+#### Dev
+- [Codrops | Useful resources and inspiration for creative minds](https://tympanus.net/codrops/)
+- [CSS-Tricks](https://css-tricks.com/)
+- [Smashing Magazine – For Professional Web Designers and Developers](https://www.smashingmagazine.com/)
+- [Google Developers Blog](https://developers.googleblog.com/)
+- [David Walsh Blog - JavaScript Consultant](https://davidwalsh.name/)
+- [Tutorialzine | Web Development Tutorials & Resources](http://tutorialzine.com/)
+- [Giant Robots Smashing Into Other Giant Robots](https://robots.thoughtbot.com/)
+- [Chromium Blog](https://blog.chromium.org/)
+
+#### Other
+- [xkcd: Random Obsessions](https://xkcd.com/)
+- [Signal v. Noise](https://m.signalvnoise.com/)
+- [The Blog of Author Tim Ferriss | Tim Ferriss's 4-Hour Workweek and Lifestyle Design Blog](http://tim.blog/)
+- [zen habits](https://zenhabits.net/)
+- [Cal Newport - Author of Deep Work, Study Hacks Blog](http://calnewport.com/)
 
 ## Podcasts
-I use [Pocket Casts](http://www.shiftyjelly.com/pocketcasts/) because it is cross platform (including browser), syncs progress, and has a speed-up option. For speakers that do not have strong accents, I enjoy listening at 1.5x speed.
+I use [Pocket Casts](http://www.shiftyjelly.com/pocketcasts/) because it is cross platform (including browser), syncs progress, and has a speed-up option. For speakers without strong accents, I enjoy listening at 1.5x speed.
+
+When I get in the car to drive to work, I turn on my [bluetooth receiver](https://www.amazon.com/gp/product/B00MJMV0GU/ref=oh_aui_search_detailpage?ie=UTF8&psc=1). Turning it on auto-launches Android Auto on my phone, which has Pocket Casts positioned prominently at the top. Pocket Casts is configured to play through all downloaded podcasts, so I just press Play, and I'm on my way.
 
 #### Design
 - [Animalators](http://animalators.com/)
@@ -101,3 +112,5 @@ I use [Pocket Casts](http://www.shiftyjelly.com/pocketcasts/) because it is cros
 - [Hardcore History](http://www.dancarlin.com/hardcore-history-series/)
 - [Common Sense](http://www.dancarlin.com/common-sense-home-landing-page/)
 - [TED Talks | TED.com](https://www.ted.com/talks)
+
+Despite preaching for "the right tool for the right job", I sure would love to have one reading list tool to combine all of these consumption resources. Maybe someday...

@@ -58,6 +58,7 @@ z  - note: ts has something like this in the works
     - [recently started using Prettier across all my projects, no stress over code styles anymore](https://twitter.com/markacola/status/839396401595310080)
   - semicolons used to be a point of friction, so I stopped. Now prettier brings them back, but I don't have to type it
   - [Ben Teese on Twitter: "Using Prettier to format JS is like killing an unnecessary background process in your brain. It frees up cycles to think about other things."](https://twitter.com/benteese/status/849079655592325121)
+  - [Ben Frain on Twitter: "New post ⭐️: “Use linters for errors, formatters to fix style” https://t.co/6vg3OIvSoF"](https://twitter.com/benfrain/status/862309847072743426)
 
 - defensive coding
   - types enable me to not null-check everything

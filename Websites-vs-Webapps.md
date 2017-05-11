@@ -17,6 +17,8 @@ Let's standardize a Webapp's characteristics:
 - [Read web pages offline with Chrome on Android](https://blog.google/products/chrome/read-web-pages-offline-chrome-android/)
   - Wouldn't really be able to save an app offline ahead of time, would you? If so, would it be useful?
 
+- [Sam Saccone on Twitter: "For every 1 sec increase in page speed, engagement score increased by 5%. This translated into millions in revenue💰 https://t.co/v4Mn0y0PlX"](https://twitter.com/samccone/status/862329675841810433)
+
 # Generalizations
 - Care about SEO? Site. Else, app.
 - Want an app bar? App. Else, site with tabs/links on top, probably.
