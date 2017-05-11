@@ -1,30 +1,10 @@
-# How I Stay Informed
+# How I Stay Informed as a Developer
 With software development constantly in flux, it has taken quite an effort to dial in my system for staying informed. "The right tool for the right job" is the name of the game.
 
-## Twitter
-I use Twitter for one thing: following developers. I appreciate tuning in to their public discussions and seeing links/retweets of useful resources.
-
-#### Using the timeline
-Because I treat the timeline like more of a reading list, I use [Tweetmarker](http://tweetmarker.net/) to save the progress of where I am. Sure is nice to not feel FOMO while I'm working. Why doesn't Twitter just build this into their platform?! Tweetmarker also works with [Tweetbot for Mac](https://tapbots.com/tweetbot/mac/) and [Flamingo for Android](https://play.google.com/store/apps/details?id=com.samruston.twitter&hl=en), keeping my progress synced across devices.
-
-When I have a few free minutes (waiting for a build, taking a break, etc), I'll skim through the timeline, favoriting (read "bookmarking") if it seems worth going back to. And at the end of the day, following the "Inbox Zero" approach, I try to read through all of these favorites, unchecking them as I go.
-
-#### Focus
-Developers are people, with non-developery things they'd like to talk about. I have nothing against them, but their non-developer thoughts do not fit in with my Twitter utility. This is why I use Tweetbot's `Mute Filters` feature to hide tweets about things like 'Trump', 'Hilary', 'Clinton', 'election', 'religion', etc.
-
-Sometimes, despite a person having great thoughts and tweets, they're just too chatty for me to handle in my system. So, I just unsubscribe and rely on others to retweet the highlights.
-
-## Github
-I use the hell out of Github's `subscribe` feature for Issues and Pull Requests, which sends me an email when someone responds in a thread. It helps me get a gauge for when a feature will land, and how it is being considered.
-
-When I have a pain point with a project, I'll search the repo for an active Issue/PR and `subscribe`. I'll also just periodically check repos of projects I rely on to see if there are new, good threads to subscribe to.
-
-Sometimes, I'll temporarily `watch` repos, which auto-subscribes me to all Issues/PRs.
-
 ## Digests
-There's just SO much information out there every week/day/hour. So, I lean on others to cull through it, and provide me digests of what they think is most interesting. Some digests are sent daily, but I prefer the weekly ones.
+I am a huge fan of digests! There's just SO much information out there every week/day/hour. So, I lean on others to cull it down to the most interesting ones. Some digests are sent daily, but I prefer the weekly ones.
 
-Also, I use [Inbox](https://inbox.google.com/)'s `Bundle` feature to collect all of these digests, and hide them until a designated time the next day. Sure wish the time of day was configurable, but 7am will do...
+Also, I use [Google Inbox](https://inbox.google.com/)'s `Bundle` feature to collect all of these digests, and hide them until a designated time the next day. Sure wish the time of day was configurable, but 7am will do...
 
 #### Design
 - [FrontEnd Focus](http://frontendfocus.co/)
@@ -62,6 +42,26 @@ Also, I use [Inbox](https://inbox.google.com/)'s `Bundle` feature to collect all
 - Quora Digest
 - Pocket Hits
 - Youtube (weekly email of subscriptions/recommendations)
+
+## Twitter
+I use Twitter for one thing: following developers. It is a great platform for tuning in to public discussions and seeing links/retweets of useful resources.
+
+#### Using the timeline
+I don't want to miss any tweets, so I have [Tweetmarker](http://tweetmarker.net/) save my position in the timeline. When I open [Tweetbot for Mac](https://tapbots.com/tweetbot/mac/) or [Flamingo for Android](https://play.google.com/store/apps/details?id=com.samruston.twitter&hl=en), I am able to pick up from where I left off, not just from the top of the timeline. Sure is nice to not have FOMO while I'm working!
+
+When I do have time to check Twitter, I skim it. If a tweet looks like something worth digging in to, I `Like` it and keep moving. At the end of the day, following the "Inbox Zero" approach, I try to read through all of these Likes, unchecking them as I go.
+
+#### Focus
+Developers are people, with non-developery things they'd like to talk about. This is a great use of Twitter, but does not fit with how I want to utilize it. Fortunately, Tweetbot's `Mute Filters` feature has my back! It hides all tweets with words like 'Trump', 'Hilary', 'election', 'religion', etc in them.
+
+Sometimes, despite a person having great thoughts and tweets, they're just too chatty for me to handle in my system. So, I just `Unfollow` and rely on others to retweet the highlights.
+
+## Github
+I use the hell out of Github's `Subscribe` feature for Issues and Pull Requests, which sends me an email when someone responds in a thread. It helps me get a gauge for when a feature will land, and how it is being considered.
+
+When I have a pain point with a project, I search the repo for an active Issue/PR and `Subscribe`. I also periodically check repos of projects I rely on to see if there are new, good threads to subscribe to.
+
+Sometimes, when I really care about the activity of a repo, I temporarily `Watch` it. In doing so, I am auto-subscribed me to all Issue/PR activity.
 
 ## Blogs
 Back in the Google Reader days, I was an avid RSS user, slurping in 100+ posts/day. I treated it the way I treat Twitter today: as a reading list.
@@ -113,4 +113,9 @@ When I get in the car to drive to work, I turn on my [bluetooth receiver](https:
 - [Common Sense](http://www.dancarlin.com/common-sense-home-landing-page/)
 - [TED Talks | TED.com](https://www.ted.com/talks)
 
-Despite preaching for "the right tool for the right job", I sure would love to have one reading list tool to combine all of these consumption resources. Maybe someday...
+## Wrapping it up
+I'm happy with this system. It isn't easy by any means--I spend at least an hour a day consuming content--but it has kept me sane, and well informed.
+
+---
+
+Note: I publish these to learn from your responses! Please let me know if you have any thoughts on the subject.
