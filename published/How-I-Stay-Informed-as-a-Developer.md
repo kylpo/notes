@@ -2,7 +2,7 @@
 With software development constantly in flux, it has taken quite an effort to dial in my system for staying informed. "The right tool for the right job" is the name of the game.
 
 ## Digests
-I am a huge fan of digests/newsletters! There's just SO much information published every week/day/hour, and I am grateful that others are willing to dig through it all and publish what they think are the good parts. Some digests are sent daily, but I prefer the weekly ones.
+I am a huge fan of digests/newsletters! There's just SO much information published every week/day/hour, and I am grateful that others are willing to dig through it all and publish what they think are the best parts. Some digests are sent daily, but I prefer the weekly ones.
 
 Also, I use [Google Inbox](https://inbox.google.com/)'s `Bundle` feature to collect all of these digests, and hide them until a designated time the next day. Sure wish the time of day was configurable, but 7am will do for now...
 
