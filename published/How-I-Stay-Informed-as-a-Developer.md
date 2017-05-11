@@ -2,9 +2,9 @@
 With software development constantly in flux, it has taken quite an effort to dial in my system for staying informed. "The right tool for the right job" is the name of the game.
 
 ## Digests
-I am a huge fan of digests! There's just SO much information out there every week/day/hour. So, I lean on others to cull it down to the most interesting ones. Some digests are sent daily, but I prefer the weekly ones.
+I am a huge fan of digests/newsletters! There's just SO much information published every week/day/hour, and I am grateful that others are willing to dig through it all and publish what they think are the good parts. Some digests are sent daily, but I prefer the weekly ones.
 
-Also, I use [Google Inbox](https://inbox.google.com/)'s `Bundle` feature to collect all of these digests, and hide them until a designated time the next day. Sure wish the time of day was configurable, but 7am will do...
+Also, I use [Google Inbox](https://inbox.google.com/)'s `Bundle` feature to collect all of these digests, and hide them until a designated time the next day. Sure wish the time of day was configurable, but 7am will do for now...
 
 #### Design
 - [FrontEnd Focus](http://frontendfocus.co/)
@@ -44,24 +44,24 @@ Also, I use [Google Inbox](https://inbox.google.com/)'s `Bundle` feature to coll
 - Youtube (weekly email of subscriptions/recommendations)
 
 ## Twitter
-I use Twitter for one thing: following developers. It is a great platform for tuning in to public discussions and seeing links/retweets of useful resources.
+I use Twitter for one thing: following developers. It is a great platform for following public discussions and seeing links/retweets of useful resources.
 
 #### Using the timeline
 I don't want to miss any tweets, so I have [Tweetmarker](http://tweetmarker.net/) save my position in the timeline. When I open [Tweetbot for Mac](https://tapbots.com/tweetbot/mac/) or [Flamingo for Android](https://play.google.com/store/apps/details?id=com.samruston.twitter&hl=en), I am able to pick up from where I left off, not just from the top of the timeline. Sure is nice to not have FOMO while I'm working!
 
-When I do have time to check Twitter, I skim it. If a tweet looks like something worth digging in to, I `Like` it and keep moving. At the end of the day, following the "Inbox Zero" approach, I try to read through all of these Likes, unchecking them as I go.
+When I do have time to check Twitter, I skim it. If a tweet looks like something worth digging in to, I `Like` it and keep moving. At the end of the day, following the "Inbox Zero" approach, I try to read through all of these Likes, un-Liking them as I go. It doesn't matter what Twitter rebrands the feature to, I'll always use it as a read-it-later system.
 
 #### Focus
-Developers are people, with non-developery things they'd like to talk about. This is a great use of Twitter, but does not fit with how I want to utilize it. Fortunately, Tweetbot's `Mute Filters` feature has my back! It hides all tweets with words like 'Trump', 'Hilary', 'election', 'religion', etc in them.
+Developers are people, with non-developery things they'd like to talk about. This is a great use of Twitter, but does not fit with how I want to utilize it. Fortunately, Tweetbot's `Mute Filters` has my back! It hides all tweets with words like "Trump", "Hilary", "election", "religion", etc in them.
 
 Sometimes, despite a person having great thoughts and tweets, they're just too chatty for me to handle in my system. So, I just `Unfollow` and rely on others to retweet the highlights.
 
 ## Github
 I use the hell out of Github's `Subscribe` feature for Issues and Pull Requests, which sends me an email when someone responds in a thread. It helps me get a gauge for when a feature will land, and how it is being considered.
 
-When I have a pain point with a project, I search the repo for an active Issue/PR and `Subscribe`. I also periodically check repos of projects I rely on to see if there are new, good threads to subscribe to.
+When I have a pain point with a project, I search its repo for an active Issue/PR and `Subscribe`. I also periodically check repos of projects I rely on to see if there are new, good threads to subscribe to.
 
-Sometimes, when I really care about the activity of a repo, I temporarily `Watch` it. In doing so, I am auto-subscribed me to all Issue/PR activity.
+Sometimes, when I really care about the activity of a repo, I temporarily `Watch` it. In doing so, I am auto-subscribed to all Issue/PR activity.
 
 ## Blogs
 Back in the Google Reader days, I was an avid RSS user, slurping in 100+ posts/day. I treated it the way I treat Twitter today: as a reading list.
