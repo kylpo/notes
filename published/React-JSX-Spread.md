@@ -1,7 +1,7 @@
-# JSX Spread
-When I first learned about spreading props in JSX, I was thrilled! It is just SO convenient to pass props with `<MyComponent {...this.props} />`, and override props defined after the spread, like `<MyComponent {...this.props} text='override text prop' />`. I knew it made for a great developer experience, but I always wondered if it came with a cost. How does React handle it? Does it affect performance?
+# You Can Spread Props, But Should You?
+When I first learned about spreading props in JSX, I was thrilled! It is just so convenient to pass props with `<MyComponent {...this.props} />`, and override props defined after the spread, like `<MyComponent {...this.props} text='override text prop' />`. I knew it made for a great developer experience, but I always wondered if it came with a cost. How does React handle it? Does it affect performance?
 
-Well, it took me far too long, but I've finally answered my questions. Messing around with Babel's online repl was all it took. You're welcome to play around with the result [here], or read on.
+Well, it took me far too long, but I've finally answered my questions, thanks to Babel's online repl. You're welcome to play around with the result [here], or read on.
 
 ## Transpiling Explicit Props
 Let's start with our control.
