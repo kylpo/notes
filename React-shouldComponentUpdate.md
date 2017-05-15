@@ -12,6 +12,8 @@ be sure to look through your [gdoc](https://docs.google.com/document/d/1KfC1aoQb
 
 CDM: child, then parent
 
+reference https://facebook.github.io/react/docs/optimizing-performance.html
+
 cSU == false
 - still calls `willReceiveProps`
 
@@ -20,6 +22,7 @@ PureComponent re-rendering in Animate_
 - animate() doing something to force re-render?
 - I think it is a child mismatch problem
   - because child in render does not match what it returns?
+- [Ives van Hoorne on Twitter: "Really good point by @angelpiscola, creating objects in render will also force a rerender for pure components, even if props didn't change. https://t.co/shKMYVOg1c"](https://twitter.com/Ives13/status/863129346592178178)
 
 # Reduce re-renders by keeping stateful components shallow
 Spawned from "One of the best tactics that you can apply early on is to try to keep components shallow. It will help you see which props components actually use and cut an extra re-render computation." - comment of https://marmelab.com/blog/2017/02/06/react-is-slow-react-is-fast.html

@@ -112,6 +112,29 @@ When I get in the car to drive to work, I turn on my [bluetooth receiver](https:
 - [Common Sense](http://www.dancarlin.com/common-sense-home-landing-page/)
 - [TED Talks | TED.com](https://www.ted.com/talks)
 
+## Youtube
+Occasionally, I take a "Youtube Lunch": instead of going out, I watch something while I eat.
+
+Youtube's `Watch Later` list is really great for this. I am able to avoid any analysis paralysis on Youtube's landing page by just going straight to a list of videos I've already deemed worth watching. When I'm there, I let my energy level decide what to play. If I'm feeling productive and motivated, I watch a technical video (conference or meetup talk). If I'm feeling drained, I watch an entertaining, educational video (science or history), or I watch something inspirational (usually a TED talk).
+
+If I can clearly understand the speaker, I again enjoy watching at 1.25-1.5x speed. This speedup feature is amazing! I even sometimes avoid watching live content for the speedup option later.
+
+#### Technical
+- These usually come from Twitter, Digests, and Blogs
+- [Google Chrome Developers](https://www.youtube.com/channel/UCnUYZLuoy1rq1aVMwx4aTzw)
+- More specifically, the [Developer Diary](https://www.youtube.com/playlist?list=PLNYkxOF6rcIBykcJ7bvTpqU7vt-oey72J) series
+
+#### Educational Entertainment
+- [Vox](https://www.youtube.com/channel/UCLXo7UDZvByw2ixzpQCufnA)
+- [TED-Ed](https://www.youtube.com/channel/UCsooa4yRKGN_zEE8iknghZA)
+- [Veritasium](https://www.youtube.com/channel/UCHnyfMqiRRG1u-2MsSQLbXA)
+- [SmarterEveryDay](https://www.youtube.com/channel/UC6107grRI4m0o2-emgoDnAA)
+- [CrashCourse](https://www.youtube.com/channel/UCX6b17PVsYBQ0ip5gyeme-Q)
+- [AsapSCIENCE](https://www.youtube.com/channel/UCC552Sd-3nyi_tk2BudLUzA)
+- [minutephysics](https://www.youtube.com/user/minutephysics/videos)
+- [Kurzgesagt – In a Nutshell](https://www.youtube.com/user/Kurzgesagt/featured)
+- [Vsauce](https://www.youtube.com/channel/UC6nSFpj9HTCZ5t-N3Rm3-HA)
+
 ## Wrapping it up
 I'm happy with this system. It isn't easy by any means--I spend at least an hour a day consuming content--but it has kept me sane, and well informed.
 

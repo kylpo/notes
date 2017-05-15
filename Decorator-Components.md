@@ -1,5 +1,7 @@
 _WIP_
 
+Whether components that don't actually add anything to the dom is a good practice or not, I'd like to propose a naming convention to clearly identify them for skimmers and tools.
+
 Community naming conventions are great. `_private`, `$jQuerySelector`, `js-className`, etc
 
 `<Style_ />` simply decorates a child. `Name_` syntax implies that a single child is required.

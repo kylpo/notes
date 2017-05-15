@@ -7,6 +7,10 @@ _WIP_
 
 **Higher-Order Functions**, like redux's `connect`, are functions that return a **Higher-Order Component**
 
+Many articles call HOF's HOCs. I don't _think_ this is right, but I'm not the expert, either.
+
+[Write a Higher Order Component from Scratch - react Video Tutorial #free @eggheadio](https://egghead.io/lessons/react-write-a-higher-order-component-from-scratch) for a good intro to HOC (other than the terminology)
+
 # Conventions
 - see [Official Docs](https://facebook.github.io/react/docs/higher-order-components.html#convention-pass-unrelated-props-through-to-the-wrapped-component)
 - `passProps` that aren't related to HOC

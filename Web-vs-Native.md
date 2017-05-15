@@ -152,6 +152,10 @@ https://daverupert.com/2016/10/desktop-is-lava/ had some good points:
   - logged in
 - With mobile Safari bringing down the web as a whole, see __this__ link, I currently advize going native on mobile.
 
+Web for your "base". Native to enhance.
+- [Nicolas on Twitter: "Ultimately I think PWAs will make native Android apps and desktop wrappers unnecessary for most. Mobile-first PWA as the universal base app"](https://twitter.com/necolas/status/862923667067604992)
+- [Paul Lewis on Twitter: "@necolas Agree! I think the key for me is "base": it's a super starting point. If you need to switch up to native, sure, but maybe you won't."](https://twitter.com/aerotwist/status/862926400235462656)
+
 # More
 - For DEV: Seems like the real bang for your buck is standardizing paradigms like `components`, layouts like `flexbox` (via `yoga`), etc. See [Litho: Creating a custom Button component – Pavlos-Petros Tournaris – Medium](https://medium.com/@p.tournaris/litho-how-to-create-a-custom-button-b460b5a3b828).
 

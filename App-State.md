@@ -68,5 +68,6 @@ State
 - all must provide `<Link />`
 - https://github.com/basarat/yester
 - https://github.com/elefanty/offramp
+- [A different approach to routing in Single-Page Applications — Vincent Prouillet](https://vincent.is/testing-a-different-spa-routing/)
 
 State boils down to __sources of truth__

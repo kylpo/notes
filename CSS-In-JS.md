@@ -1,5 +1,7 @@
 _WIP_
 
+[js-style-library-wishlist.md](https://gist.github.com/satya164/d23b0031c24098c409fa01a396ac37ac)
+
 # Cons
 - [Alex Russell on Twitter: "PSA: embedding/applying CSS in JS is the surefire way to be on every slow path. Bloats memory, slows parsing & use, hurts caching. Avoid."](https://twitter.com/slightlylate/status/845435543647248384)
 - [Mark Dalgleish on Twitter: "Exactly why I still use CSS Modules, despite all the great work with CSS-in-JS. https://t.co/aOVXecnLi0"](https://twitter.com/markdalgleish/status/851210247880323072)

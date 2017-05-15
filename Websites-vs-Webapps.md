@@ -19,6 +19,8 @@ Let's standardize a Webapp's characteristics:
 
 - [Sam Saccone on Twitter: "For every 1 sec increase in page speed, engagement score increased by 5%. This translated into millions in revenue💰 https://t.co/v4Mn0y0PlX"](https://twitter.com/samccone/status/862329675841810433)
 
+Is it that you think of a scene, with independent "component" updates for an app, and a page with all dependent pieces for a site? Thought about from seeing image at https://medium.com/@l_e/prettyloader-a-pattern-for-wait-animations-in-react-3f7ec1451d40.
+
 # Generalizations
 - Care about SEO? Site. Else, app.
 - Want an app bar? App. Else, site with tabs/links on top, probably.

@@ -1,10 +1,123 @@
-_WIP_
+# JSX Spread
+When I first learned about spreading props in jsx, I was thrilled! It is just SO convenient to pass props with `<MyComponent {...this.props} />`, and override props defined after the spread, like `<MyComponent {...this.props} text='override text prop' />`. I knew it made for a great developer experience, but I always wondered if it came with a cost. How does React handle it? Does it affect performance?
 
-Just answered a question I’ve long had about spreading props in JSX. I intend to not use it as much as possible going forward. When I do use it, it’ll hopefully be the only props passed in. See this Babel repl link: https://babeljs.io/repl/#?babili=false&evaluate=true&lineWrap=false&presets=es2015%2Creact%2Cstage-2&targets=&browsers=&builtIns=false&code=const%20someProps%20%3D%20%7B%0A%20%20one%3A%201%2C%0A%20%20two%3A%202%2C%0A%7D%0A%0Aconst%20Comp%20%3D%20(props)%20%3D%3E%20(%0A%20%20%3Cdiv%20hi%3D'bye'%20yes%3D'no'%20%2F%3E%0A)%0A%0Aconst%20Comp2%20%3D%20(props)%20%3D%3E%20(%0A%20%20%3Cdiv%20%7B...someProps%7D%20%2F%3E%0A)%0A%0Aconst%20Comp3%20%3D%20(props)%20%3D%3E%20(%0A%20%20%3Cdiv%20%7B...someProps%7D%20%7B...props%7D%20%2F%3E%0A)%0A%0Aconst%20Comp4%20%3D%20(props)%20%3D%3E%20(%0A%20%20%3Cdiv%20%7B...someProps%7D%20hi%3D'bye'%20%2F%3E%0A)%0A%0A
+Well, it took me far too long, but I've finally answered my questions. Messing around with Babel's online repl was all it took. You're welcome to play around with the result [here], or read on.
+
+## Transpiling Explicit Props
+Let's start with our control.
+
+```jsx
+const Comp = (props) => (
+  <div hi='bye' yes='no' />
+)
+
+// transpiles to:
+
+var Comp = function Comp(props) {
+  return React.createElement('div', { hi: 'bye', yes: 'no' });
+};
+```
+
+Cool, this is showing how JSX is converted to `React.createElement()` and made into valid javascript. Also note that props are converted and passed as a single object literal.
+
+## Transpiling Spread Props
+```jsx
+const someProps = {
+  one: 1,
+  two: 2,
+}
+
+const OnlySpread = (props) => (
+  <div {...someProps} />
+)
+```
+
+Given the above, how do you expect `OnlySpread` to be transpiled?
+
+```jsx
+var someProps = {
+  one: 1,
+  two: 2
+};
+
+var OnlySpread = function OnlySpread(props) {
+  return React.createElement('div', someProps);
+};
+```
+
+Oooh, nice! It just passes in the already created object as its props. No cloning, just passing by reference.
+
+## Transpiling Spread AND Explicit Props
+```jsx
+const someProps = {
+  one: 1,
+  two: 2,
+}
+
+const SpreadAndExplicit = (props) => (
+  <div {...someProps} hi='bye' />
+)
+```
+
+Given the above, how do you expect `SpreadAndExplicit` to be transpiled?
+
+```jsx
+var someProps = {
+  one: 1,
+  two: 2
+};
+
+var SpreadAndExplicit = function SpreadAndExplicit(props) {
+  return React.createElement('div', Object.assign({}, someProps, { hi: 'bye' }));
+};
+```
+
+Bummer, no magic here. It just converts the explicit props to an object literal, then uses `Object.assign()` to merge the two. `Object.assign()` is a micro-perf hit compared to creating an object literal, as [this esbench](https://esbench.com/bench/58e7f6e899634800a0347ca1) shows.
+
+It would have been better to explicitly pass all props, not using a spread.
+
+```jsx
+const AllExplicit = (props) => (
+  <div one={1} two={2} hi='bye' />
+)
+
+// transpiles to:
+
+var AllExplicit = function AllExplicit(props) {
+  return React.createElement('div', { one: 1, two: 2, hi: 'bye' });
+};
+```
+
+We're back to a single object literal. Micro-perf win.
+
+## Transpiling Multiple Spread Props
+To be pedantic, lets see what happens when we spread two sets of props.
+
+```jsx
+const someProps = {
+  one: 1,
+  two: 2,
+}
+
+const TwoSpread = (props) => (
+  <div {...someProps} {...props} />
+)
+
+// transpiles to:
+
+var TwoSpread = function TwoSpread(props) {
+  return React.createElement('div', Object.assign({}, someProps, props));
+};
+```
+
+Again, no magic. Not surprised that it still uses `Object.assign()`.
+
+## Deopt For Production Transforms
+It is also worth noting that spread is a deoptimization for two babel transforms commonly used on production bundles: [React inline elements transform · Babel](https://babeljs.io/docs/plugins/transform-react-inline-elements/) and [React constant elements transformer · Babel](https://babeljs.io/docs/plugins/transform-react-constant-elements/)
+
+## Conclusion
+In my perfect world going forward, I'll only see JSX spreads if and only if they are not accompanied with other props. Else, they should all be explicitly declared. Of course, this is just a micro-perf optimization, so it will not be a hard rule, and I certainly will not be updating my old code with this rule any time soon.
 
 `Object.assign()` is more expensive than object literals. So, it’d be better to just explicitly pass in all props that you had spread. Except when you are only passing in spread props. Then it is ok: it just sends the object and doesn’t assign to a new one.
 
-Also, that first component is extra perf-special. It’s object literal of non-dynamic values is hoisted up, and out of the component render with a babel transform that we likely all have turned on in production. So, the object isn’t re-created on every render.
-
-
-https://esbench.com/bench/58e7f6e899634800a0347ca1 shows object.assign vs obj literal perf
+[here]: https://babeljs.io/repl/#?babili=false&evaluate=true&lineWrap=false&presets=es2015%2Creact%2Cstage-2&targets=&browsers=&builtIns=false&code=const%20someProps%20%3D%20%7B%0A%20%20one%3A%201%2C%0A%20%20two%3A%202%2C%0A%7D%0A%0Aconst%20Comp%20%3D%20(props)%20%3D%3E%20(%0A%20%20%3Cdiv%20hi%3D'bye'%20yes%3D'no'%20%2F%3E%0A)%0A%0Aconst%20Comp2%20%3D%20(props)%20%3D%3E%20(%0A%20%20%3Cdiv%20%7B...someProps%7D%20%2F%3E%0A)%0A%0Aconst%20Comp3%20%3D%20(props)%20%3D%3E%20(%0A%20%20%3Cdiv%20%7B...someProps%7D%20%7B...props%7D%20%2F%3E%0A)%0A%0Aconst%20Comp4%20%3D%20(props)%20%3D%3E%20(%0A%20%20%3Cdiv%20%7B...someProps%7D%20hi%3D'bye'%20%2F%3E%0A)%0A%0A

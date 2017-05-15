@@ -1,5 +1,11 @@
 _WIP_
 
+# Problems with an abstraction like View
+- Not able to benefit from something like [eslint-plugin-jsx-a11y/CHANGELOG.md at master · evcohen/eslint-plugin-jsx-a11y](https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/CHANGELOG.md)
+- Not able to benefit from some of the babel hoisting and such
+
+---
+
 Almost like React opened the flood gates for DX. We can have a good DX and not sacrifice performance!? React Native opened it even more with its default View styles and Animated. We took it to the extremes, like reduxing all the things, Radium for styling, etc. Now we are popping our heads up and analyzing what is realistic. Preact's creator is helping us strip down our bundle sizes and get back to putting UX first.
 
 Consider showing these docs with https://github.com/egoist/anydoc

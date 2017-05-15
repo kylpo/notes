@@ -1,5 +1,7 @@
 _WIP_
 
+[James Kyle on Twitter: "Major difference between adopting Flow vs TypeScript. Both are fairly easy, but Flow will give you higher type coverage much faster"](https://twitter.com/thejameskyle/status/863195583191728129)
+
 Note: this isn't just Flow vs TS, this is comparing the whole systems. e.g. Flow means we have Babel, which gives us a powerful tool in the way of plugins. TS doesn't have this.
 
 Prettier: [Kent C. Dodds on Twitter: "You know, prettier has given me another reason to choose @flowtype over @typescriptlang."](https://twitter.com/kentcdodds/status/853263564248944640)

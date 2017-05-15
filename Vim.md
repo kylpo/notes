@@ -1,4 +1,18 @@
 
+# Why I always come back to vim
+I get it. Your editor has better autocomplete. Your editor has better plugin management. Your editor has better syntax highlighting and theming.
+
+I get it.
+
+But what it does not have is the powerful combination of Buffers, Splits, and Tabs. I don't want or need an upside-down "L" shaped editor. I don't want a massive file tree explorer on the left side that when I click a file opens somewhere in the editor. I want to open a split, exactly where I want to open the file, open my tree view within that split, and open it right in that split.
+
+vscode gives you up to 3 vertical splits, OR 3 horizontal splits. Totally sufficient when I am coding on my laptop, but most of my coding time is in front of a big monitor, and I can comfortably view 8 splits in vim (4 vertical, with 2 horizontal each).
+
+Atom is much better with splits
+
+I want to fuzzy-open easily from my open buffers, not just the recent 10 files I've visited.
+
+And, no, I don't have any loyalty to vim or feel like my Schwartz is bigger than other nerds for using it. If this buffer/split/fileexplorer combination became available to vscode, I'd be there in a heart beat! Of course, then I might find something else that I miss too much from vim, like FZF, full control via keyboard, etc...
 
 # Oni
 - https://github.com/extr0py/oni#configuration

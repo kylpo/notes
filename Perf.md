@@ -9,6 +9,10 @@ https://twitter.com/jordwalke/status/844854345329926146
 
 Maybe I should build all products as the `lite` version, first? Then add on polish/animations incrementally to the non-lite site. Always keep lite around for comparison, and users that want it. Lite acts as the master version. Polish is a branch.
 
+[CSS and the First Meaningful Paint - Sessions by Pusher](https://pusher.com/sessions/meetup/london-css/css-and-the-first-meaningful-paint)
+
+[How browsers work](http://taligarsiel.com/Projects/howbrowserswork1.htm)
+
 # Tools
 ## Chrome devtools
 - [Timeline Profiling with Chrome DevTools — Librato Blog](http://blog.librato.com/posts/chrome-devtools)
