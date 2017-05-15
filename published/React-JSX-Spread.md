@@ -1,5 +1,5 @@
 # JSX Spread
-When I first learned about spreading props in jsx, I was thrilled! It is just SO convenient to pass props with `<MyComponent {...this.props} />`, and override props defined after the spread, like `<MyComponent {...this.props} text='override text prop' />`. I knew it made for a great developer experience, but I always wondered if it came with a cost. How does React handle it? Does it affect performance?
+When I first learned about spreading props in JSX, I was thrilled! It is just SO convenient to pass props with `<MyComponent {...this.props} />`, and override props defined after the spread, like `<MyComponent {...this.props} text='override text prop' />`. I knew it made for a great developer experience, but I always wondered if it came with a cost. How does React handle it? Does it affect performance?
 
 Well, it took me far too long, but I've finally answered my questions. Messing around with Babel's online repl was all it took. You're welcome to play around with the result [here], or read on.
 
@@ -117,6 +117,20 @@ It is also worth noting that spread is a deoptimization for two babel transforms
 
 ## Conclusion
 In my perfect world going forward, I'll only see JSX spreads if and only if they are not accompanied with other props. Else, they should all be explicitly passed. Of course, this is just a micro-perf optimization, so it will not be a hard rule, and I will certainly not be frantically updating legacy code.
+
+```jsx
+// GOOD
+<div {...this.props} />
+
+// GOOD
+<div one={1} two={2} />
+
+// BAD
+<div {...this.props} two={2} />
+
+// BAD
+<div {...this.props} {...otherProps} />
+```
 
 ---
 
