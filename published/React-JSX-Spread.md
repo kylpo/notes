@@ -1,7 +1,7 @@
 # You Can Spread Props In JSX, But Should You?
 When I first learned about spreading props in JSX, I was thrilled! It is just so convenient to pass props with `<MyComponent {...this.props} />`, and override props defined after the spread, like `<MyComponent {...this.props} text='override text prop' />`. I knew it made for a great developer experience, but I always wondered if it came with a cost. How does React handle it? Does it affect performance?
 
-Well, it took me far too long, but I've finally answered my questions, thanks to Babel's online repl. You're welcome to play around with it [here].
+Well, it took me far too long, but I've finally answered my questions. You're welcome to play around with [this code] using Babel's online repl.
 
 ## Transpiling Explicit Props
 Let's start with our control.
@@ -142,4 +142,4 @@ If your prioritize developer experience over performance, then go for it. Otherw
 
 Note: I publish these to learn from your responses! Please let me know if you have any thoughts on the subject.
 
-[here]: https://babeljs.io/repl/#?babili=false&evaluate=true&lineWrap=false&presets=es2015%2Creact%2Cstage-2&targets=&browsers=&builtIns=false&debug=false&code=const%20someProps%20%3D%20%7B%0A%20%20one%3A%201%2C%0A%20%20two%3A%202%2C%0A%7D%0A%0Aconst%20Comp%20%3D%20(props)%20%3D%3E%20(%0A%20%20%3Cdiv%20hi%3D'bye'%20yes%3D'no'%20%2F%3E%0A)%0A%0Aconst%20OnlySpread%20%3D%20(props)%20%3D%3E%20(%0A%20%20%3Cdiv%20%7B...someProps%7D%20%2F%3E%0A)%0A%0Aconst%20SpreadWithExplicit%20%3D%20(props)%20%3D%3E%20(%0A%20%20%3Cdiv%20%7B...someProps%7D%20hi%3D'bye'%20%2F%3E%0A)%0A%0Aconst%20AllExplicit%20%3D%20(props)%20%3D%3E%20(%0A%20%20%3Cdiv%20one%3D%7B1%7D%20two%3D%7B2%7D%20hi%3D'bye'%20%2F%3E%0A)%0A%0Aconst%20TwoSpread%20%3D%20(props)%20%3D%3E%20(%0A%20%20%3Cdiv%20%7B...someProps%7D%20%7B...props%7D%20%2F%3E%0A)
+[this code]: https://babeljs.io/repl/#?babili=false&evaluate=true&lineWrap=false&presets=es2015%2Creact%2Cstage-2&targets=&browsers=&builtIns=false&debug=false&code=const%20someProps%20%3D%20%7B%0A%20%20one%3A%201%2C%0A%20%20two%3A%202%2C%0A%7D%0A%0Aconst%20Comp%20%3D%20(props)%20%3D%3E%20(%0A%20%20%3Cdiv%20hi%3D'bye'%20yes%3D'no'%20%2F%3E%0A)%0A%0Aconst%20OnlySpread%20%3D%20(props)%20%3D%3E%20(%0A%20%20%3Cdiv%20%7B...someProps%7D%20%2F%3E%0A)%0A%0Aconst%20SpreadWithExplicit%20%3D%20(props)%20%3D%3E%20(%0A%20%20%3Cdiv%20%7B...someProps%7D%20hi%3D'bye'%20%2F%3E%0A)%0A%0Aconst%20AllExplicit%20%3D%20(props)%20%3D%3E%20(%0A%20%20%3Cdiv%20one%3D%7B1%7D%20two%3D%7B2%7D%20hi%3D'bye'%20%2F%3E%0A)%0A%0Aconst%20TwoSpread%20%3D%20(props)%20%3D%3E%20(%0A%20%20%3Cdiv%20%7B...someProps%7D%20%7B...props%7D%20%2F%3E%0A)
