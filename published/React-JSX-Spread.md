@@ -1,7 +1,7 @@
-# You Can Spread Props, But Should You?
+# You Can Spread Props In JSX, But Should You?
 When I first learned about spreading props in JSX, I was thrilled! It is just so convenient to pass props with `<MyComponent {...this.props} />`, and override props defined after the spread, like `<MyComponent {...this.props} text='override text prop' />`. I knew it made for a great developer experience, but I always wondered if it came with a cost. How does React handle it? Does it affect performance?
 
-Well, it took me far too long, but I've finally answered my questions, thanks to Babel's online repl. You're welcome to play around with the result [here], or read on.
+Well, it took me far too long, but I've finally answered my questions, thanks to Babel's online repl. You're welcome to play around with it [here].
 
 ## Transpiling Explicit Props
 Let's start with our control.
@@ -18,7 +18,7 @@ var Comp = function Comp(props) {
 };
 ```
 
-Cool, this is showing how JSX is converted to `React.createElement()` and made into valid javascript. Also note that props are converted and passed as a single object literal.
+Cool, this is showing how JSX is converted to `React.createElement()` and made into valid javascript. Also note that props are converted and passed as a single inline object literal.
 
 ## Transpiling Spread Props
 ```jsx
@@ -45,7 +45,7 @@ var OnlySpread = function OnlySpread(props) {
 };
 ```
 
-Oooh, nice! It just passes in the already created object as its props. No cloning, just passing by reference.
+Oooh, nice! It just uses the already created object as its props. No cloning, just passing by reference.
 
 ## Transpiling Spread AND Explicit Props
 ```jsx
@@ -113,7 +113,7 @@ var TwoSpread = function TwoSpread(props) {
 Again, no magic. Not surprised that it still uses `Object.assign()`.
 
 ## More to Consider
-From our exploration, we **could** conclude that JSX spreads are still good when they are not accompanied with other props.
+From our exploration, we **could** conclude that JSX spreads are good if and only if they are not accompanied with other props.
 
 ```jsx
 // GOOD
@@ -126,9 +126,11 @@ From our exploration, we **could** conclude that JSX spreads are still good when
 <div {...this.props} {...otherProps} />
 ```
 
-**But** there is more to consider. You see, spread is a deoptimization for two babel transforms used on production bundles: [transform-react-inline-elements](https://babeljs.io/docs/plugins/transform-react-inline-elements/) and [transform-react-constant-elements](https://babeljs.io/docs/plugins/transform-react-constant-elements/). I want to say this can be fixed by ordering Babel's plugins properly, but [this thread](https://github.com/facebook/react/issues/3228) explains that an inline object literal (not an object reference) is required as props. That means even if `transform-react-inline-elements` runs after `<div {...someProps} />` is converted to `React.createElement('div', someProps)`, it will not inline it. Why? Because `someProps` can contain a `ref`, which breaks the optimization. Even if it does not currently contain a `ref`, there is no way to guarantee that it doesn't have one in the future.
+**But** there is more to consider.
 
-## So, Should You Spread Props?
+You see, spread is a deoptimization for two babel transforms used on production bundles: [transform-react-inline-elements](https://babeljs.io/docs/plugins/transform-react-inline-elements/) and [transform-react-constant-elements](https://babeljs.io/docs/plugins/transform-react-constant-elements/). I want to say this can be fixed by ordering Babel's plugins properly, but [this thread](https://github.com/facebook/react/issues/3228) explains that an inline object literal (not an object reference) is required. Even if `transform-react-inline-elements` runs after `<div {...someProps} />` is converted to `React.createElement('div', someProps)`, it will not inline it. Why? Because `someProps` can contain a `ref`, which breaks the optimization. Even if it does not currently contain a `ref`, there is no way to guarantee that it doesn't have one in the future.
+
+## So, Should You Spread Props In JSX?
 If your prioritize developer experience over performance, then go for it. Otherwise, avoid it where you can.
 
 ```jsx
