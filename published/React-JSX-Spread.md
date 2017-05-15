@@ -91,7 +91,7 @@ var AllExplicit = function AllExplicit(props) {
 We're back to a single object literal. Micro-perf win!
 
 ## Transpiling Multiple Spread Props
-To be pedantic, lets see what happens when we spread two sets of props.
+To be pedantic, lets see what happens when we spread two objects.
 
 ```jsx
 const someProps = {
@@ -112,24 +112,28 @@ var TwoSpread = function TwoSpread(props) {
 
 Again, no magic. Not surprised that it still uses `Object.assign()`.
 
-## Deopt For Production Transforms
-It is also worth noting that spread is a deoptimization for two babel transforms commonly used on production bundles: [transform-react-inline-elements](https://babeljs.io/docs/plugins/transform-react-inline-elements/) and [transform-react-constant-elements](https://babeljs.io/docs/plugins/transform-react-constant-elements/)
-
-## Conclusion
-In my perfect world going forward, I'll only see JSX spreads if and only if they are not accompanied with other props. Else, they should all be explicitly passed. Of course, this is just a micro-perf optimization, so it will not be a hard rule, and I will certainly not be frantically updating legacy code.
+## More to Consider
+From our exploration, we **could** conclude that JSX spreads are still good when they are not accompanied with other props.
 
 ```jsx
 // GOOD
 <div {...this.props} />
-
-// GOOD
-<div one={1} two={2} />
 
 // BAD
 <div {...this.props} two={2} />
 
 // BAD
 <div {...this.props} {...otherProps} />
+```
+
+**But** there is more to consider. You see, spread is a deoptimization for two babel transforms used on production bundles: [transform-react-inline-elements](https://babeljs.io/docs/plugins/transform-react-inline-elements/) and [transform-react-constant-elements](https://babeljs.io/docs/plugins/transform-react-constant-elements/). I want to say this can be fixed by ordering Babel's plugins properly, but [this thread](https://github.com/facebook/react/issues/3228) explains that an inline object literal (not an object reference) is required as props. That means even if `transform-react-inline-elements` runs after `<div {...someProps} />` is converted to `React.createElement('div', someProps)`, it will not inline it. Why? Because `someProps` can contain a `ref`, which breaks the optimization. Even if it does not currently contain a `ref`, there is no way to guarantee that it doesn't have one in the future.
+
+## So, Should You Spread Props?
+If your prioritize developer experience over performance, then go for it. Otherwise, avoid it where you can.
+
+```jsx
+// BAD :(
+<div {...this.props} />
 ```
 
 ---

@@ -1,4 +1,5 @@
-# Refs
+# All About Refs
+# Refs: Beyond the Basics
 `ref` is one of React's magical props, in that it is used by React itself, not by the component that attach the `ref` to. If it is placed on a primitive like `<div ref={...} />`, it will give you the DOM node instance. If it is placed on a composite component like `<MyComponent ref={...} />`, it will give you the component instance.
 
 Cool, you likely already knew that, but did you know:
@@ -6,6 +7,10 @@ Cool, you likely already knew that, but did you know:
 If you haven't read the official docs or haven't read it in a year or so, I recommend you read it. It even covers functional components not being `ref`-able.
 
 I do have a few things to add to the topic that justify this post though.
+
+https://github.com/kylpo/react-playbook/blob/master/best-practices/react.md#refs
+
+https://facebook.github.io/react/docs/refs-and-the-dom.html#caveats
 
 ## no ref for functional components
 - You may not use the ref attribute on functional components because they don't have instances. https://facebook.github.io/react/docs/refs-and-the-dom.html#refs-and-functional-components
@@ -33,3 +38,7 @@ linkRef
 
 ## onLayout
 - https://facebook.github.io/react/docs/refs-and-the-dom.html#caveats
+
+https://github.com/necolas/react-native-web/issues/60
+
+https://github.com/constelation/monorepo/issues/79
