@@ -72,9 +72,9 @@ var SpreadAndExplicit = function SpreadAndExplicit(props) {
 };
 ```
 
-Bummer, no magic here. It just converts the explicit props to an object literal, then uses `Object.assign()` to merge the two. `Object.assign()` is a micro-perf hit compared to creating an object literal, as [this esbench](https://esbench.com/bench/58e7f6e899634800a0347ca1) shows.
+Bummer! No magic here. It just converts the explicit props to an object literal, then uses `Object.assign()` to merge the two.
 
-It would have been better to explicitly pass all props, not using a spread.
+`Object.assign()` is a micro-perf hit compared to creating an object literal, as [this esbench](https://esbench.com/bench/58e7f6e899634800a0347ca1) shows. So, it is better to explicitly pass all props and not use a spread at all.
 
 ```jsx
 const AllExplicit = (props) => (
@@ -88,7 +88,7 @@ var AllExplicit = function AllExplicit(props) {
 };
 ```
 
-We're back to a single object literal. Micro-perf win.
+We're back to a single object literal. Micro-perf win!
 
 ## Transpiling Multiple Spread Props
 To be pedantic, lets see what happens when we spread two sets of props.
@@ -113,11 +113,13 @@ var TwoSpread = function TwoSpread(props) {
 Again, no magic. Not surprised that it still uses `Object.assign()`.
 
 ## Deopt For Production Transforms
-It is also worth noting that spread is a deoptimization for two babel transforms commonly used on production bundles: [React inline elements transform · Babel](https://babeljs.io/docs/plugins/transform-react-inline-elements/) and [React constant elements transformer · Babel](https://babeljs.io/docs/plugins/transform-react-constant-elements/)
+It is also worth noting that spread is a deoptimization for two babel transforms commonly used on production bundles: [transform-react-inline-elements](https://babeljs.io/docs/plugins/transform-react-inline-elements/) and [transform-react-constant-elements](https://babeljs.io/docs/plugins/transform-react-constant-elements/)
 
 ## Conclusion
-In my perfect world going forward, I'll only see JSX spreads if and only if they are not accompanied with other props. Else, they should all be explicitly declared. Of course, this is just a micro-perf optimization, so it will not be a hard rule, and I certainly will not be updating my old code with this rule any time soon.
+In my perfect world going forward, I'll only see JSX spreads if and only if they are not accompanied with other props. Else, they should all be explicitly passed. Of course, this is just a micro-perf optimization, so it will not be a hard rule, and I will certainly not be frantically updating legacy code.
 
-`Object.assign()` is more expensive than object literals. So, it’d be better to just explicitly pass in all props that you had spread. Except when you are only passing in spread props. Then it is ok: it just sends the object and doesn’t assign to a new one.
+---
+
+Note: I publish these to learn from your responses! Please let me know if you have any thoughts on the subject.
 
 [here]: https://babeljs.io/repl/#?babili=false&evaluate=true&lineWrap=false&presets=es2015%2Creact%2Cstage-2&targets=&browsers=&builtIns=false&code=const%20someProps%20%3D%20%7B%0A%20%20one%3A%201%2C%0A%20%20two%3A%202%2C%0A%7D%0A%0Aconst%20Comp%20%3D%20(props)%20%3D%3E%20(%0A%20%20%3Cdiv%20hi%3D'bye'%20yes%3D'no'%20%2F%3E%0A)%0A%0Aconst%20Comp2%20%3D%20(props)%20%3D%3E%20(%0A%20%20%3Cdiv%20%7B...someProps%7D%20%2F%3E%0A)%0A%0Aconst%20Comp3%20%3D%20(props)%20%3D%3E%20(%0A%20%20%3Cdiv%20%7B...someProps%7D%20%7B...props%7D%20%2F%3E%0A)%0A%0Aconst%20Comp4%20%3D%20(props)%20%3D%3E%20(%0A%20%20%3Cdiv%20%7B...someProps%7D%20hi%3D'bye'%20%2F%3E%0A)%0A%0A
