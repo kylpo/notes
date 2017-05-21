@@ -23,6 +23,9 @@ Should it be re-titled as Compile-vs-Run-Time?
 # CDN
 - is essentially a way of serving static files
 
+# Static Sites
+- what's old is new again
+
 Prepack, like Svelte, compiles away
 
 css-in-js needs static queries and ahead-of-time optimization, too. Just like the recent Relay release.
