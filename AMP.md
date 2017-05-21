@@ -1,0 +1,1 @@
+[Malte Ubl @ #io17 on Twitter: "Yesterday at #io17 we announced we’re rolling out a change that reduces time to 1st contentful paint across the 2 billion+ AMP pages by ~50%"](https://twitter.com/cramforce/status/865205023495421952)

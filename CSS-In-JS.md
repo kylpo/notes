@@ -1,5 +1,7 @@
 _WIP_
 
+css-in-js represents a TOOLING problem. Our tools should let us show classes inline, but actually declare them outside of the file.
+
 [js-style-library-wishlist.md](https://gist.github.com/satya164/d23b0031c24098c409fa01a396ac37ac)
 
 # Cons

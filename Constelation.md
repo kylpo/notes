@@ -80,6 +80,7 @@ Flexbox everywhere
 
 Others working on this
 - [Leland Richardson on Twitter: "@mjackson i'm interested in working on getting react-primitives or react-native-web in use at airbnb, but nothing in production at the momen"](https://twitter.com/intelligibabble/status/844983578056257536)
+  - [Leland Richardson on Twitter: "@jlongster long story short, i put everything into two categories:"](https://twitter.com/intelligibabble/status/864183238222168064)
 - [@jongold stories on Twitter: "created a lil app with `react-primitives`; rendering real data + maps from the Foursquare API to Sketch + Browser at the same time https://t.co/0VXpK5WWU7"](https://twitter.com/jongold/status/848331554317316096)
 - [ReactXP](https://microsoft.github.io/reactxp/docs/getting-started.html)
 - [Dan Abramov on Twitter: ".@reactiflux @acdlite “Does Fiber change anything for styling?” https://t.co/S5B7OyqbWO"](https://twitter.com/dan_abramov/status/852507690840592384)

@@ -11,9 +11,14 @@ Should it be re-titled as Compile-vs-Run-Time?
 
 # Relay
 - Relay has found that an AOT (Ahead of Time) step to use its graphql queries has been a huge gain in perf.
+- [Building Relay Modern · wincent.com](https://wincent.com/blog/relay-modern)
 
 # Frameworks
 - Svelte is attempting to compile away itself. I need to learn more about the benefits to this.
+
+# CSS
+- what's old is new again. Declare styles ahead of time, apply at runtime via `class`, not using css-in-js.
+- or use css-in-js with babel transform
 
 # CDN
 - is essentially a way of serving static files

@@ -1,0 +1,14 @@
+- `git checkout branch_name -- filename` to fetch a file from another branch to the current one
+  - [Safia Abdalla on Twitter](https://twitter.com/captainsafia/status/864246151767261184)
+- how to show a gitk-like tree with git command line?
+  - `git log --graph --decorate`
+- how to delete remote branch named kyle
+  - `git push origin :kyle`
+- how to remove untracked files from git (all but those in .gitignore)?
+  - `git clean -x`
+- how to undo a git commit?
+  - `git reset --hard HEAD~1`
+- how to undo a pushed commit?
+  - `git push -f origin last_known_good_commit:branch_name`
+- undo all changes from last commit
+  - `git reset --HARD`

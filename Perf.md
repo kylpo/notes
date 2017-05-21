@@ -15,6 +15,7 @@ Maybe I should build all products as the `lite` version, first? Then add on poli
 
 # Tools
 ## Chrome devtools
+- [Performance Analysis Reference  |  Web  |  Google Developers](https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/reference)
 - [Timeline Profiling with Chrome DevTools — Librato Blog](http://blog.librato.com/posts/chrome-devtools)
   - "Work to the bottom" (of flame charts)
   - "Follow the red" (frames)

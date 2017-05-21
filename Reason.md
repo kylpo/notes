@@ -7,3 +7,7 @@ _WIP_
 [William Beard on Twitter: "Granted, it's a simple example, but @reasonml react components look similar to their JavaScript counterparts. Having JSX makes it familiar. https://t.co/wk5dZv33Sr"](https://twitter.com/thewillbeard/status/863249988536717312)
 
 [BuckleTypes/bs-react-native: BuckleScript bindings for React Native](https://github.com/BuckleTypes/bs-react-native)
+
+[Sascha Timme on Twitter: "React Navigation powered by @reasonml. Soon there are no excuses to build your next @reactnative app not with Reason! https://t.co/AphXmnc5CB"](https://twitter.com/s_timme/status/863902178053902337)
+
+[James Long on Twitter: "I want to start using reason-react, but lots to figure out, so until then..."](https://twitter.com/jlongster/status/865281398369898496)

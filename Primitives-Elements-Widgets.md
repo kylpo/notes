@@ -5,6 +5,9 @@ Value in distinguishing these?
 Primitives:
 - View, Text, ScrollView, Style_, Animate_
 - [rax/packages/rax-components/src at master · alibaba/rax](https://github.com/alibaba/rax/tree/master/packages/rax-components/src)
+- [Leland Richardson on Twitter: "@jlongster long story short, i put everything into two categories:"](https://twitter.com/intelligibabble/status/864183238222168064)
+  1. "universal component" things that can be implemented (even poorly so) with just the primitives or other universal components
+  2. "primitive component" things that need to be implemented individually for each platform they target (e.g. SVG or Video)
 
 Elements:
 - Button,

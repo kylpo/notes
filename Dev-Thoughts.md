@@ -62,3 +62,6 @@ Thought about while reading https://www.sitepoint.com/quick-tip-game-loop-in-jav
 I believe I am good at solving pain points and friction. It is really tempting to solve my own friction and go down the rabbit hole of developer experience, but I don't think that'll lead to long-term happiness. Long-term happiness comes from affecting myself AND others. Also, long-term happiness comes from building, often from building REAL things.
 
 This is a problem I think some dev celebreties face. They continue down the dev experience/tooling route because they are caught up in their fame. This is short-term happiness. They need to continue working in this area to stay relevant. They burn out eventually because they are stuck in a loop of only impacting themselves and other devs.
+
+- [Sunil Pai on Twitter: "At the risk of alienating some peeps... can't wait to write closed source code for real products again. Less noise, more prod."](https://twitter.com/threepointone/status/865709610623053824)
+- [Eric Clemmons on Twitter: "@threepointone You get more successes this way, too. I've stepped back from OSS because it's the ROI isn't there."](https://twitter.com/ericclemmons/status/865723597997867009)

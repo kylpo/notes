@@ -71,3 +71,11 @@ State
 - [A different approach to routing in Single-Page Applications — Vincent Prouillet](https://vincent.is/testing-a-different-spa-routing/)
 
 State boils down to __sources of truth__
+
+
+Data: [Rearchitecting Airbnb’s Frontend – Airbnb Engineering & Data Science – Medium](https://medium.com/airbnb-engineering/rearchitecting-airbnbs-frontend-5e213efc24d2)
+
+# Domain State
+- Stores: responsible for a _subdomain_ in the app: users, todos, view
+- Models: data model + actions for a _concept_ in the app: user, address, todo
+- from https://twitter.com/DavidBaldie/status/864418823881068544

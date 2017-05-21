@@ -7,6 +7,8 @@ Desktop web and Mobile web should probably be in different categories. Salesforc
 
 The realization of web-lite kind of goes counter to Mobile First design. Almost feels like we were led to think that we should build mobile apps on the web because of this Mobile First mantra.
 
+DOM has its issues, but it is an __extensible__ rendering platform. Extensions, user styling, etc.
+
 # Web vs Native
 - Web is for accessibility, especially PWA (offline)
 web is good for _content_
@@ -20,6 +22,7 @@ function over form
 - Think about games, Hangouts, etc. All would be better w/ native controls (like system-wide mic mute, full screen, etc)
 - SSR (bummer, wish we could try Preact, but Bing doesn't crawl js)
 
+Sites are so amazing for research. Links, headers, cmd-click tabs, etc. We should embrace this!
 
 Web for reach/exposure - Breadth
 - web for anything that should/could be viewed anonymously
@@ -119,6 +122,7 @@ https://daverupert.com/2016/10/desktop-is-lava/ had some good points:
   - "For any product that is growing and innovating, the apps tend to get more complicated, slower and buggier over time."
   - "That includes web apps. But the web is the only platform that also has counter-pressure, forcing apps to consider bloat a top level issue."
   - "That's a strategic advantage for the web. Twitter was actually incentivized to bring us a better mobile web experience."
+- "The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect.” — Tim Berners-Lee
 
 # Native
 - all about gestures and taps
@@ -136,6 +140,8 @@ https://daverupert.com/2016/10/desktop-is-lava/ had some good points:
 - [Put your Electron app on a diet with Electrino – DailyJS – Medium](https://medium.com/dailyjs/put-your-electron-app-on-a-diet-with-electrino-c7ffdf1d6297)
 - [ptmt/react-native-macos: React Native for macOS](https://github.com/ptmt/react-native-macos)
 - [jordanIsNotAFunction on Twitter: "Another cool project in conjunction is having a @reasonml native app stack on that WebKit shell, but no JS - native perf - instant startup."](https://twitter.com/jordwalke/status/828336937605828609)
+- [Mark Funk on Twitter: "I was really hoping Google would announce a partnership with @github at Google I/O to work on bringing down Electron resource usage."](https://twitter.com/MarkFunk/status/864917340508504064)
+- [Sindre Sorhus on Twitter: "Why I chose @electronjs for my Caprine app. https://t.co/KH5GU1PCma https://t.co/tqQzXAJtq0"](https://twitter.com/sindresorhus/status/864887242468335616)
 
 # Current Conclusions
 - When to use Web
@@ -177,8 +183,21 @@ PWA
 Problems
 - integrations (android wear, macOS menu bar)
 
+[Ken Wheeler on Twitter: "Hey PWA lovers, can you provide me the most native feeling PWA you know of? I need it, for research and shit."](https://twitter.com/ken_wheeler/status/865267013123530752)
+
+[MakeMyTrip.com’s new PWA delivers 3X improvement in conversion rates  |  Web  |  Google Developers](https://developers.google.com/web/showcase/2017/make-my-trip)
+- yes, it increases conversion rates __on web__. This is good! It is a better website!
+
 [https://pwa-directory.appspot.com](https://pwa-directory.appspot.com/)
+
+[Henrik Joreteg on Twitter: "2 billion active Android devices. Quite a PWA platform."](https://twitter.com/HenrikJoreteg/status/864890889318965248)
+
+[Progressive Web Apps — Yeh or Meh?](http://developer.telerik.com/topics/web-development/progressive-web-apps-yeh-meh/?utm_source=mobilewebweekly&utm_medium=email)
+
+PWA is probably really great for **sites** that would have low app engagement and installs, like Forbes: [Forbes - Redefining Modern Web Development - YouTube](https://www.youtube.com/watch?list=TLGGykzdoCyEWUAxNzA1MjAxNw&v=JmC0xkCMFCE). Should be called a Progressive Web Site, not App.
 
 See also Apps are faltering. But progressive web apps seem pretty legit. – Medium
 
 [(3) Steve Jobs Insult Response - YouTube](https://www.youtube.com/watch?v=FF-tKLISfPE) seems to apply. "You've gotta focus on the customer experience and work backwards to the technology. You can't start with the technology, and figure out where you're going to sell it." Focus on the user's experience. Not the tech, not the engineers. Focus on the cohesive experience as a whole.
+
+[Kent C. Dodds on Twitter: "@satya164 The big question everyone has about not using the DOM for web apps is: Accessibility."](https://twitter.com/kentcdodds/status/865278394354814976)

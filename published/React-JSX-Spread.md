@@ -18,7 +18,7 @@ var Comp = function Comp(props) {
 };
 ```
 
-Cool, this is showing how JSX is converted to `React.createElement()` and made into valid javascript. Also note that props are converted and passed as a single inline object literal.
+Cool, this shows how JSX gets converted to `React.createElement()` and made into valid javascript. Also note that props are converted and passed as an inline object literal.
 
 ## Transpiling Spread Props
 ```jsx
@@ -128,16 +128,17 @@ From our exploration, we **could** conclude that JSX spreads are good if and onl
 
 **But** there is more to consider.
 
-You see, spread is a deoptimization for two babel transforms used on production bundles: [transform-react-inline-elements](https://babeljs.io/docs/plugins/transform-react-inline-elements/) and [transform-react-constant-elements](https://babeljs.io/docs/plugins/transform-react-constant-elements/). I want to say this can be fixed by ordering Babel's plugins properly, but [this thread](https://github.com/facebook/react/issues/3228) explains that an inline object literal (not an object reference) is required for the optimization. Even if `transform-react-inline-elements` runs after `<div {...someProps} />` is converted to `React.createElement('div', someProps)`, it will not inline it. Why? Because `someProps` can contain a `ref`, which this transform can not optimize for. Even if the referenced object does not currently contain a `ref`, there is no way to guarantee that it won't have one in the future.
+You see, spread is a deoptimization for two babel transforms used on production bundles: [transform-react-inline-elements](https://babeljs.io/docs/plugins/transform-react-inline-elements/) and [transform-react-constant-elements](https://babeljs.io/docs/plugins/transform-react-constant-elements/). I want to say this can be fixed by ordering Babel's plugins properly, but [this thread](https://github.com/facebook/react/issues/3228) explains that an inline object literal (not an object reference) is required for the optimization. Even if `transform-react-inline-elements` runs after `<div {...someProps} />` gets converted to `React.createElement('div', someProps)`, it will not inline it. Why? Because `someProps` can contain a `ref`, which this transform can not optimize for. Even if the referenced object does not currently contain a `ref`, there is no way to guarantee that it won't have one in the future.
 
 ## So, Should You Spread Props In JSX?
-If your prioritize developer experience over performance, then go for it. Otherwise, avoid it where you can.
+If you prioritize developer experience over performance, then go for it. Otherwise, avoid it where you can.
 
 ```jsx
 // BAD :(
 <div {...this.props} />
 ```
 
+Maybe [Prepack](https://prepack.io/) will enable performant spreads in the future?
 ---
 
 Note: I publish these to learn from your responses! Please let me know if you have any thoughts on the subject.
