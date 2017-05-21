@@ -26,6 +26,8 @@ Should it be re-titled as Compile-vs-Run-Time?
 # Static Sites
 - what's old is new again
 
+[La nouvelle vague - Sunil Pai aka @threepointone at @ReactEurope](https://www.youtube.com/watch?v=yjVhjmM1FPc)
+
 Prepack, like Svelte, compiles away
 
 css-in-js needs static queries and ahead-of-time optimization, too. Just like the recent Relay release.

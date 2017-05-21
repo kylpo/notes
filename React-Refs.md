@@ -12,6 +12,8 @@ https://github.com/kylpo/react-playbook/blob/master/best-practices/react.md#refs
 
 https://facebook.github.io/react/docs/refs-and-the-dom.html#caveats
 
+## When to use ref
+
 ## no ref for functional components
 - You may not use the ref attribute on functional components because they don't have instances. https://facebook.github.io/react/docs/refs-and-the-dom.html#refs-and-functional-components
 

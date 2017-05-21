@@ -39,6 +39,8 @@ function enhance(WrappedComponent, config) {
 }
 ```
 
+Note: Redux's `connect(mapStateToProps, mapDispatchToProps)(MyComponent)` is also a HOC, it just looks a bit more fancy because it is also using currying.
+
 ### Back on topic
 OK, we know what a HOC is, but when should we use it?
 
@@ -62,7 +64,7 @@ ReactDom.Render(<EnhancedMyComponent />, /* ... */)
 
 Above, we are using a HOC to essentially _statically_ configure a new `MyComponent` definition (without mutating the original), then rendering an instance of it. It is used like a `mixin`, with the added benefit that it doesn't affect the original class.
 
-Note: consider using [recompose](https://github.com/acdlite/recompose) for a lodash-like helper to HOCs.
+Also, consider using [recompose](https://github.com/acdlite/recompose) for a lodash-like helper to HOCs.
 
 ### Dynamic Enhancement
 What happens if I want to change the enhancement of my component at runtime? When local state changes, for example.
@@ -89,17 +91,16 @@ class MyComponent extends React.Component {
 But then you'll be recreating the `Enhanced` component on **every** re-render and trigger unmounts and remounts. Read more from [the official docs](https://facebook.github.io/react/docs/higher-order-components.html#dont-use-hocs-inside-the-render-method).
 
 ## Enter `cloneElement`
-`React.cloneElement()` allows us to clone a runtime _element_ of a component, and apply an enhancement. With it, we can update our enhancement in our render and not worry about triggering unmounts and remounts!
+`React.cloneElement()` allows us to clone a runtime _element_, and apply an enhancement. With it, we can update our enhancement in our render and not worry about triggering unmounts and remounts!
 
 ```jsx
 class EnhancingCloneElement extends React.Component {
   render() {
-    // React.cloneElement() requires a single child, not array
+    // React.cloneElement() requires a single child
     const WrappedElement = React.Children.only(this.props.children)
 
     // return new element with an `enhance` prop
     return React.cloneElement(WrappedElement, {enhance: this.props.enhance})
-    )
   }
 }
 
