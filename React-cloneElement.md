@@ -1,24 +1,11 @@
-_WIP_
+# All about React's cloneElement()
+As mentioned in __TODO__, `React.cloneElement()` is used for **dynamic**, **runtime** component enhancement.
 
-As mentioned in __TODO__, `React.cloneElement` is used for **runtime** configuration.
+But using it isn't exactly easy or intuitive. Let's learn more about it.
 
-I've used cloneElement extensively, but it isn't exactly intuitive. Here are the notes I've taken as I've worked through gotcha and aha moments.
-
-What is that funny `Cloning_` syntax all about, you ask? Well, read about it [here](TODO)
-
-# Conventions
-- see [Official Docs](https://facebook.github.io/react/docs/higher-order-components.html#convention-pass-unrelated-props-through-to-the-wrapped-component)
-- `passProps` that aren't related to HOC
-- hoist statics
-- debug label w/ `displayName`
-
-# Considerations
-- `ref`s aren't passed through
-  - use `refNode` pattern
-  - TODO: link to my article
-
-# React.cloneElement() workings
+# How does it work?
 Given this page, what do we expect to see in console?
+
 ```jsx
 class Cloning_ extends React.Component {
   componentDidMount() {
@@ -65,7 +52,8 @@ export default class App extends React.Component {
   }
 }
 ```
-```bash
+
+```
 Cloning Render
 ChildProps:  Object {hi: "hi", bye: "bye"}
 Div Render
@@ -75,7 +63,8 @@ Cloning Mount
 ```
 
 Hmmm, how can `Cloning_` have the child `Div` without `Div` being rendered first? Ahhhh, it must create an instance of it, which `Cloning_` can use. So, lets `console.log()` in each of their `constructor()`s.
-```bash
+
+```
 Cloning Constructor
 Cloning Render
 ChildProps:  Object {hi: "hi", bye: "bye"}
@@ -92,6 +81,7 @@ Nope, that wasn't it.
 And why can we see its props - especially the `defaultProps`!? What about its state? If we gave it a state of `state = {why: 'why'}`, could `Cloning_` see it?
 
 First of all, no. `Cloning_` can not see it's child's state. Why? Well, because it doesn't exist yet. Keep in mind that JSX maps to `React.createElement()`, which returns an `element` (a simple object description React uses to apply to DOM).
+
 ```jsx
 React.createElement(
   Cloning_,
@@ -102,7 +92,9 @@ React.createElement(
   )
 )
 ```
+
 When `App` is rendered (from `ReactDOM.render()`), in creating a `Cloning_` element, it must first create the `Div` element. It is normal javascript execution order, but still nice to see:
+
 ```jsx
 function createElement(label, component, props, children) {
   console.log(`${label} element created`)
@@ -130,7 +122,8 @@ export default class App extends React.Component {
   }
 
 ```
-```bash
+
+```
 Div element created
 Cloning_ element created
 ```
@@ -166,7 +159,7 @@ export default class App extends React.Component {
   }
 }
 ```
-```bash
+```
 childProps:  Object {hi: "hi", bye: "bye"}
 cloneProps:  Object {hi: "bye", bye: "bye"}
 ```
@@ -257,7 +250,8 @@ ReactDOM.render(
   document.getElementById('root')
 )
 ```
-```bash
+
+```
 Div element
 Cloning_ element
 
@@ -270,7 +264,8 @@ Div Mount
 Cloning Mount
 ```
 
-Modified template of updates from [offical docs](https://facebook.github.io/react/docs/components-and-props.html)
+## Putting it all together
+The [offical docs](https://facebook.github.io/react/docs/components-and-props.html) have a template of how updates happen. Let's modify it with our use case:
 1. `ReactDOM.render()` is called with with the `<App />` element
 2. Using the `App` element, React creates and renders the `App` component
 3. Our `App` component creates `Div`, then `Cloning_` elements and returns the tree (`<Cloning_><Div hi='hi' /></Cloning_>`) as the result.
@@ -280,24 +275,28 @@ Modified template of updates from [offical docs](https://facebook.github.io/reac
 7. Our `Div` component returns a `<div />` element as the result.
 8. React DOM efficiently updates the DOM to match the tree of elements.
 
+# Performance Considerations
+## How does `cloneElement()` compare to `createElement()`?
+Basically just a React.createElement with a single `for` loop to copy over props passed. See its [source](https://github.com/facebook/react/blob/master/src/isomorphic/classic/element/ReactElement.js#L300-L369), and [this](https://twitter.com/spikebrehm/status/829032493286248448) tweet thread.
+
+## Re-renders
+Based on what we learned in TODO scu doc, these cloning wrappers will be re-rendering often. Consider caching the computation outside of `render` so its `render` can do as little work as possible. (Note: I have not tried this yet, but plan to.)
+
+# Nesting
 Think about nested `cloneElement()`s:
 ```jsx
 <Cloning_>
-  <Cloning_>
+  <Cloning2_>
     <Div />
-  </Cloning_>
+  </Cloning2_>
 </Cloning_>
 ```
 
-Powerful lifecyle hooks, but ultimately `Cloning_` just does work to compute props/children to be passed in to `Div`. `Div` will render last with the passed in props.
+To be a good cloning citizen, be sure to pass props through that are not related to yours. In the above example, `Cloning2_` should pass `Cloning_`'s props to `Div`, as well as its own.
 
-Props to the current official [docs](https://facebook.github.io/react/docs/components-and-props.html), which explain all of this nicely. I just needed more examples to solidify everything.
+# References
+- Props to the current official [docs](https://facebook.github.io/react/docs/components-and-props.html), which explain all of this nicely. I just needed more examples to solidify everything.
 
+---
 
-# `cloneElement()` of a PureComponent child
-see [shouldComponentUpdate doc](https://github.com/kylpo/notes/blob/master/shouldComponentUpdate.md#cloneelement-of-a-purecomponent-child)
-
-# Perf vs `createElement()`
-React.cloneElement perf. Basically just a React.createElement with a single for loop to copy over props passed. See its source https://github.com/facebook/react/blob/master/src/isomorphic/classic/element/ReactElement.js#L300-L369
-
-https://twitter.com/spikebrehm/status/829032493286248448
+Note: I publish these to learn from your responses! Please let me know if you have any thoughts on the subject.
