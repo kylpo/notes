@@ -22,7 +22,7 @@ export class InjectorComponent extends React.Component {
   something={something}
   another='another'
 >
-  <ChildToBeCloned />
+  <ChildToInjectTo />
 </InjectorComponent>
 ```
 
@@ -114,6 +114,10 @@ This naming convention helps developers understand the component's contract, and
 Naming conventions enable tooling. I've edited my vim color scheme to color injector components as props are colored, which further reinforces the concept and allows me to easily skim renders and identify them.
 
 ![](https://github.com/kylpo/notes/blob/master/assets/InjectorComponents.png?raw=true)
+
+In the future, we could also create lint rules to identify errors at code-time using this convention.
+
+**more naming conventions => more helpful tooling**
 
 ---
 
