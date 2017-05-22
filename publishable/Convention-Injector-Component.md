@@ -1,4 +1,4 @@
-# Naming Convention for Injector Components
+# A Naming Convention for Injector Components
 ## What is an "injector component"?
 
 An injector component takes props, optionally computes new ones, then injects them into its child via `React.cloneElement()`. Crucially, it also does not add any new components to the DOM. It only exists in React's virtual DOM.
