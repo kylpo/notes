@@ -1,7 +1,7 @@
 # Naming Convention for Injector Components
-Huh? What is an "Injector Component"?
+Huh? What is an "injector component"?
 
-An Injector Component takes props, optionally computes and converts from these props, then passes down new ones to its child via `React.cloneElement()`. Crucially, they also do not add any new components to do DOM! They just inject to their child.
+An injector component takes props, optionally computes and converts from these props, then passes down new ones to its child via `React.cloneElement()`. Crucially, they also do not add any new components to do DOM! They just inject to their child.
 
 ```jsx
 export class InjectorComponent extends React.Component {
@@ -26,11 +26,11 @@ export class InjectorComponent extends React.Component {
 ```
 
 ## When Are Injector Components Useful?
-In the prototyping framework, [constelation](https://github.com/constelation/monorepo), we use a LOT of Injector Components to abstract out logic and nicely separate concerns like style, animation, and interactions from our layout components.
+In the prototyping framework, [constelation](https://github.com/constelation/monorepo), we use a LOT of injector components to abstract out logic and nicely separate concerns like style, animation, and interactions from our layout components.
 
 React Native has also used this pattern in [TouchableWithoutFeedback](https://github.com/facebook/react-native/blob/master/Libraries/Components/Touchable/TouchableWithoutFeedback.js#L173).
 
-Here is an example render using many Injector Components:
+Here is an example render using many injector components:
 
 ```jsx
 <Event
@@ -62,7 +62,7 @@ Here is an example render using many Injector Components:
 But here's the thing, which of these components are injectors? How many elements are actually added to the DOM?
 
 ## The `<Injector_ >` Naming Convention
-With `constelation`, we've chosen to denote Injector Components with a postfix `_`. Think of the postfix `_` as being a blank space that needs to be filled by a child. Also, the name chains well. Below could read like: "an Evented, Animated, Styled View with a Text child"
+With `constelation`, we've chosen to denote injector components with a postfix `_`. Think of the postfix `_` as being a blank space that needs to be filled by a child. Also, the name chains well. Below could read like: "an Evented, Animated, Styled View with a Text child"
 
 ```jsx
 <Event_
@@ -105,12 +105,12 @@ Can you spot the errors in this render?
 </TouchableWithoutFeedback_>
 ```
 
-Yes! Injector Components should never be self-closing, and they should never wrap multiple children. We can fix this at code-time and not wait for the errors at runtime.
+Yes! Injector components should never be self-closing, and they should never wrap multiple children. We can fix this at code-time and not wait for the errors at runtime.
 
 This naming convention helps developers understand the component's contract, and certainly would've helped me better understand what `TouchableWithoutFeedback` and `TouchableOpacity` are doing under the hood.
 
 ## Even Better With Tooling
-Naming conventions enable tooling. I've edited my vim color scheme to color Injector Components as props are colored, which further reinforces the concept and allows me to easily skim renders and identify them.
+Naming conventions enable tooling. I've edited my vim color scheme to color injector components as props are colored, which further reinforces the concept and allows me to easily skim renders and identify them.
 
 ---
 
