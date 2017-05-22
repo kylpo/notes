@@ -1,29 +1,117 @@
-# Naming Convention for Decorator Components
-First of all, what do I mean by a `Decorator Component`. No, it isn't a class `@decorator`, but it does serve a similar function. "decorators provide a very simple syntax for calling higher-order functions" - from [Exploring EcmaScript Decorators – Google Developers – Medium](https://medium.com/google-developers/exploring-es7-decorators-76ecb65fb841). Decorator Components essentially call a HOF (createElement), which returns a HOC (via cloneElement).
+# Naming Convention for Injector Components
+Huh? What is an "Injector Component"?
 
-It isn't just a passProps because HOC's are also used to just passProps.
+An Injector Component takes props, optionally computes and converts from these props, then passes down new ones to its child via `React.cloneElement()`. Crucially, they also do not add any new components to do DOM! They just inject to their child.
 
-Can you spot which component does not contribute anything to the DOM?
+```jsx
+export class InjectorComponent extends React.Component {
+  render() {
+    const propsToPass = computePropsToPass(this.props)
 
-No? Why not?
+    // cloneElement requires a single child, no arrays
+    const Child = React.Children.only(this.props.children)
 
-Because we haven't established a convention for it yet.
+    return React.cloneElement(Child, propsToPass)
+  }
+}
 
-I propose we use...
+// Used later like...
 
-With conventions, we can even start building useful tooling for it. Check out my vim syntax highlighting, which colors these as props are highlighted.
+<InjectorComponent
+  something={something}
+  another='another'
+>
+  <ChildToBeCloned />
+</InjectorComponent>
+```
 
+## When Are Injector Components Useful?
+In the prototyping framework, [constelation](https://github.com/constelation/monorepo), we use a LOT of Injector Components to abstract out logic and nicely separate concerns like style, animation, and interactions from our layout components.
 
-## it gets better
-Now, can you spot the error in this render?
+React Native has also used this pattern in [TouchableWithoutFeedback](https://github.com/facebook/react-native/blob/master/Libraries/Components/Touchable/TouchableWithoutFeedback.js#L173).
+
+Here is an example render using many Injector Components:
+
+```jsx
+<Event
+  onClick={this.handleClick}
+>
+  <Animate
+    type='fadeIn'
+    duration='3000ms'
+    ref={node => this.animated = node}
+  >
+    <Style
+      backgroundColor='red'
+      border='1px solid black'
+      transition='opacity 10000ms ease'
+    >
+      <View
+        height='500px'
+        width='200px'
+        alignHorizontal='center'
+        alignVertical='center'
+      >
+        <Text>Click me</Text>
+      </View>
+    </Style>
+  </Animate>
+</Event>
+```
+
+But here's the thing, which of these components are injectors? How many elements are actually added to the DOM?
+
+## The `<Injector_ >` Naming Convention
+With `constelation`, we've chosen to denote Injector Components with a postfix `_`. Think of the postfix `_` as being a blank space that needs to be filled by a child. Also, the name chains well. Below could read like: "an Evented, Animated, Styled View with a Text child"
+
+```jsx
+<Event_
+  onClick={this.handleClick}
+>
+  <Animate_
+    type='fadeIn'
+    duration='3000ms'
+    ref={node => this.animated = node}
+  >
+    <Style_
+      backgroundColor='red'
+      border='1px solid black'
+      transition='opacity 10000ms ease'
+    >
+      <View
+        height='500px'
+        width='200px'
+        alignHorizontal='center'
+        alignVertical='center'
+      >
+        <Text>Click me</Text>
+      </View>
+    </Style_>
+  </Animate_>
+</Event_>
+```
+
+Notice how much easier it is to identify the injectors? Also, we can now easily see that there are two elements added to the DOM (two do not have a postfix `_`).
+
+## It Gets Better
+Can you spot the errors in this render?
 
 ```jsx
 <Style_ />
 
-<Style_>
+<TouchableWithoutFeedback_>
   <Child1 />
   <Child2 />
-</Style_>
+</TouchableWithoutFeedback_>
 ```
 
-Yes, they should never be self-closing. They always required a single child.
+Yes! Injector Components should never be self-closing, and they should never wrap multiple children. We can fix this at code-time and not wait for the errors at runtime.
+
+This naming convention helps developers understand the component's contract, and certainly would've helped me better understand what `TouchableWithoutFeedback` and `TouchableOpacity` are doing under the hood.
+
+## Even Better With Tooling
+Naming conventions enable tooling. I've edited my vim color scheme to color Injector Components as props are colored, which further reinforces the concept and allows me to easily skim renders and identify them.
+
+---
+
+Note: I publish these to learn from your responses! Please let me know if you have any thoughts on the subject.

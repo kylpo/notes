@@ -1,5 +1,14 @@
 _WIP_
 
+# Notes of shouldComponentUpdate
+React's `shouldComponentUpdate` is one of our main tools for optimizing components. Below are the notes I've gathered on the not-obvious topic.
+
+## tl;dr
+- should be renamed to `shouldRerender()`
+- keep stateful components shallow
+- never `PureComponent` a component with children
+- `cloneElement` of a `PureComponent` is tricky
+
 - [Dan Abramov on Twitter: "PSA: React.PureComponent can make your app slower if you use it everywhere."](https://twitter.com/dan_abramov/status/820668074223353858)
 - React.PureComponent, shallowCompare
 - stateless functional component can be pure, but it'll still rerender every time

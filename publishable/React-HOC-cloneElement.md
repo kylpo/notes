@@ -1,9 +1,9 @@
 # Enhancing Components
-Lets say you'd like to extract out some utility of a component for re-use with other components. It could be something that connects to stores, something that calculates values and passes them along, something that adds a loading spinner while retrieving data, etc. We'll broadly call that something an *enhancement* going forward, but you could also think of it as a configuration or manipulation.
+Lets say you'd like to extract out some utility code of a component for re-use with other components. It could be something that connects to stores, something that calculates values and passes them along, something that adds a loading spinner while retrieving data, etc. We'll broadly call that something an *enhancement* going forward, but you could also think of it as a configuration or manipulation.
 
 So, how do you go about extracting and reusing this enhancement? Well, you have a couple options.
 
-## TL;DR
+## tl;dr
 - Static enhancement? Use `HOC`.
 - Dynamic enhancement? Use `cloneElement`.
 
@@ -18,7 +18,8 @@ What does that mean?
 "Well, if a _higher-order function_ is a **function** that **takes a function** and **returns a new function** as the result, then a _higher-order component_ must be a **component** that **takes a component** and **returns a new component** as the result, right?" That is often the community's response, but isn't that just a component with children? Or how about the description that "A Higher Order Component is just a React Component that wraps another one"? Again, isn't that just a component with children?
 
 Fortunately, [React's Official Docs](https://facebook.github.io/react/docs/higher-order-components.html) have been updated with a description that makes more sense:
-> a higher-order component is a **function** that **takes a component** and **returns a new component**
+
+"a higher-order component is a **function** that **takes a component** and **returns a new component**"
 
 Ahh, good. A HOC is the `function` that returns the component, not the component itself.
 
@@ -44,7 +45,7 @@ Note: Redux's `connect(mapStateToProps, mapDispatchToProps)(MyComponent)` is als
 ### Back on topic
 OK, we know what a HOC is, but when should we use it?
 
-> Consider using a HOC when it is an enhancement to a component definition. I.e. it is used outside of a `render`, often at the end of a file as the default `export`.
+**Consider using a HOC when it is an enhancement to a component definition. I.e. it is used outside of a `render`, often at the end of a file as the default `export`.**
 
 ```jsx
 class MyComponent extends React.Component {

@@ -3,6 +3,8 @@
   - compiles to `js`, too: [TodoItem.kt](https://github.com/andrewoma/reakt/blob/master/todo/src/main/kotlin/todo/components/TodoItem.kt)
   - [Introduction to Kotlin at IO 2017](https://www.youtube.com/watch?v=X1RVYt2QKQE)
   - [Why you should totally switch to Kotlin – Magnus Vinther – Medium](https://medium.com/@magnus.chatt/why-you-should-totally-switch-to-kotlin-c7bbde9e10d5)
+  - [Accessing JQuery From Kotlin? - JavaScript - Kotlin Discussions](https://discuss.kotlinlang.org/t/accessing-jquery-from-kotlin/2297/12)
+    - stdlib-js bundled with your output js. No real active work on reducing this atm.
 - Debugging
   - [Android Performance: An Overview (Google I/O '17) - YouTube](https://www.youtube.com/watch?v=Qfo5fdoXrTU)
     - systrace from `catapult` repo

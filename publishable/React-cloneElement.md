@@ -282,6 +282,9 @@ Basically just a React.createElement with a single `for` loop to copy over props
 ## Re-renders
 Based on what we learned in TODO scu doc, these cloning wrappers will be re-rendering often. Consider caching the computation outside of `render` so its `render` can do as little work as possible. (Note: I have not tried this yet, but plan to.)
 
+## `cloneElement()` of a PureComponent child
+See **TODO** for details
+
 # Nesting
 Think about nested `cloneElement()`s:
 ```jsx
