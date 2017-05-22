@@ -112,6 +112,8 @@ This naming convention helps developers understand the component's contract, and
 ## Even Better With Tooling
 Naming conventions enable tooling. I've edited my vim color scheme to color injector components as props are colored, which further reinforces the concept and allows me to easily skim renders and identify them.
 
+![](https://github.com/kylpo/notes/blob/master/assets/InjectorComponents.png?raw=true)
+
 ---
 
 Note: I publish these to learn from your responses! Please let me know if you have any thoughts on the subject.
