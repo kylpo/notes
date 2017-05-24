@@ -1,5 +1,7 @@
 _WIP_
 
+[Jason Miller 🦊⚛ on Twitter: "found this lying around https://t.co/2FYSvqw6XX https://t.co/BZSNNjN8b6"](https://twitter.com/_developit/status/867120306539954176)
+
 # Notes of shouldComponentUpdate
 React's `shouldComponentUpdate` is one of our main tools for optimizing components. Below are the notes I've gathered on the not-obvious topic.
 

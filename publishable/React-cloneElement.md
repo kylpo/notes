@@ -131,6 +131,7 @@ Cloning_ element created
 Back on topic: `Cloning_` is acting on the `element` of `Div`, and returning a new `element`. The returned `element` is a clone, with potentially modified passed in props.
 
 Oh, is it like `Object.assign()` then? Almost like `Object.assign({}, divElement, {newProp: 'newProp'})`?
+
 Yes, actually. The clone's props will even override the child props. Seen here:
 ```jsx
 class Cloning_ extends React.Component {

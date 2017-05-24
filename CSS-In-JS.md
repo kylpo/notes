@@ -1,8 +1,12 @@
 _WIP_
 
+[A Unified Styling Language – SEEK blog – Medium](https://medium.com/seek-blog/a-unified-styling-language-d0c208de2660)
+
 css-in-js represents a TOOLING problem. Our tools should let us show classes inline, but actually declare them outside of the file.
 
 [js-style-library-wishlist.md](https://gist.github.com/satya164/d23b0031c24098c409fa01a396ac37ac)
+
+[James Long on Twitter: "Lots of css-in-js libs still force you to come up with var names. Go a step further, just put styles on the comp! https://t.co/jLCWy9Wabb"](https://twitter.com/jlongster/status/867088608364290051)
 
 # Cons
 - [Alex Russell on Twitter: "PSA: embedding/applying CSS in JS is the surefire way to be on every slow path. Bloats memory, slows parsing & use, hurts caching. Avoid."](https://twitter.com/slightlylate/status/845435543647248384)
