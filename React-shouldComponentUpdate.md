@@ -1,5 +1,7 @@
 _WIP_
 
+Did you know that you should never pure a comp with children? I certainly didn't before I did some digging. Join my on that adventure, then sick around for done other goodies if you'd like.
+
 [Jason Miller 🦊⚛ on Twitter: "found this lying around https://t.co/2FYSvqw6XX https://t.co/BZSNNjN8b6"](https://twitter.com/_developit/status/867120306539954176)
 
 # Notes of shouldComponentUpdate

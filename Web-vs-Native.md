@@ -196,6 +196,8 @@ Problems
 
 PWA is probably really great for **sites** that would have low app engagement and installs, like Forbes: [Forbes - Redefining Modern Web Development - YouTube](https://www.youtube.com/watch?list=TLGGykzdoCyEWUAxNzA1MjAxNw&v=JmC0xkCMFCE). Should be called a Progressive Web Site, not App.
 
+Stop using titles like [Progressive Web Apps: Great Experiences Everywhere (Google I/O '17) - YouTube](https://www.youtube.com/watch?v=m-sCdS0sQO8)
+
 See also Apps are faltering. But progressive web apps seem pretty legit. – Medium
 
 [(3) Steve Jobs Insult Response - YouTube](https://www.youtube.com/watch?v=FF-tKLISfPE) seems to apply. "You've gotta focus on the customer experience and work backwards to the technology. You can't start with the technology, and figure out where you're going to sell it." Focus on the user's experience. Not the tech, not the engineers. Focus on the cohesive experience as a whole.

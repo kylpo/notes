@@ -29,4 +29,5 @@ _WIP_
   - [How to not suck at design, a 5 minute guide for the non-designer.](https://medium.com/@hemeon/how-to-not-suck-at-design-a-5-minute-guide-for-the-non-designer-291efac43037)
 
 # Navigation
-- [Basic Patterns of Mobile Navigation | Creative Cloud blog by Adobe](https://blogs.adobe.com/creativecloud/basic-patterns-of-mobile-navigation/)
+- [Basic Patterns For Mobile Navigation: Pros And Cons – Smashing Magazine](https://www.smashingmagazine.com/2017/05/basic-patterns-mobile-navigation/)
+- [Best Practices for Horizontal Lists in Mobile – uxdesign.cc](https://uxdesign.cc/best-practices-for-horizontal-lists-in-mobile-21480b9b73e5)

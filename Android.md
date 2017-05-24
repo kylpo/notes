@@ -5,6 +5,8 @@
   - [Why you should totally switch to Kotlin – Magnus Vinther – Medium](https://medium.com/@magnus.chatt/why-you-should-totally-switch-to-kotlin-c7bbde9e10d5)
   - [Accessing JQuery From Kotlin? - JavaScript - Kotlin Discussions](https://discuss.kotlinlang.org/t/accessing-jquery-from-kotlin/2297/12)
     - stdlib-js bundled with your output js. No real active work on reducing this atm.
+  - [Kotlin/kotlin-fullstack-sample: Kotlin Full-stack Application Example](https://github.com/Kotlin/kotlin-fullstack-sample)
+  - [Using Kotlin to make Android APIs fun again – Signal v. Noise](https://m.signalvnoise.com/using-kotlin-to-make-android-apis-fun-again-14690975afb6)
 - Debugging
   - [Android Performance: An Overview (Google I/O '17) - YouTube](https://www.youtube.com/watch?v=Qfo5fdoXrTU)
     - systrace from `catapult` repo
@@ -18,6 +20,8 @@
     - "Did you also know that an all-white display can use up to seven times more power than a black display in interactive mode?"
     - "It also wants developers to be smarter with design choices to reduce battery suck, including making use of ambient mode and using fewer animations"
     - "did you know that Bluetooth is way more battery intensive than LTE or Wi-FI? Well it is, and Google wants developers to use the latter when possible to transfer data to Wear devices. It also wants developers to reduce the amount of vibrations and location checks."
+- Animation
+  - [Nick Butcher on Twitter: "ConstraintSets + Transitions are 🤘 That's basically how we built this interaction in the I/O app. https://t.co/KiSpdKLS4e https://t.co/PhlVGXn3Wj"](https://twitter.com/crafty/status/867376535019368448)
 
 
 [Dimensions](https://dimensionssprint.withgoogle.com/)
