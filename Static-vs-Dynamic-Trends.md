@@ -26,6 +26,10 @@ Should it be re-titled as Compile-vs-Run-Time?
 # Static Sites
 - what's old is new again
 
+# Testing
+- Static Analysis via eslint, flow, ts
+  - https://youtu.be/tRNL-WAPb98?t=7m21s
+
 [La nouvelle vague - Sunil Pai aka @threepointone at @ReactEurope](https://www.youtube.com/watch?v=yjVhjmM1FPc)
 
 Prepack, like Svelte, compiles away

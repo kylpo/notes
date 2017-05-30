@@ -1,5 +1,8 @@
 _WIP_
 
+- [James Kyle on Twitter: "Some @flowtype tricks: Inference, Comment syntax, and typeof, all working together https://t.co/xoDxjY9YfC"](https://twitter.com/thejameskyle/status/868148120504356864)
+![](https://pbs.twimg.com/media/DAxIHJYUwAAyaiM.jpg:large)
+
 - [Patrick Stapfer on Twitter: "I need to rephrase: Stop annotating excessively inside your function bodies... stay flexible inside, make the input / output well-typed https://t.co/pHLWQgWRNA"](https://twitter.com/ryyppy/status/850035450811228160)
 
 https://blog.callstack.io/type-checking-react-and-redux-thunk-with-flow-part-1-ad12de935c36#.50qcniea3

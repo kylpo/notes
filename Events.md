@@ -1,5 +1,7 @@
 _WIP_
 
+[Event Bubbling in JavaScript? Event Propagation Explained](https://www.sitepoint.com/event-bubbling-javascript/)
+
 # RN
 [AppAndFlow/react-native-touchable: React-Native button helper library](https://github.com/AppAndFlow/react-native-touchable)
 

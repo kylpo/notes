@@ -2,6 +2,8 @@ _WIP_
 
 [FormidableLabs/freactal: Clean and robust state management for React and React-like libs.](https://github.com/FormidableLabs/freactal)
 
+[When Does a Project Need React? | CSS-Tricks](https://css-tricks.com/project-need-react/#article-header-id-0)
+
 Maybe it should be rephrased to: Global (not app) vs Local state. I like this better because I don't like calling sites "apps"
 
 Started with a question: "Types of App “state”: `data` (that you usually render), `routes` (url and history), `UI` (controls like open panes). Can anyone think of a missing category in that list?"

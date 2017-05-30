@@ -1,5 +1,12 @@
 _WIP_
 
+# Types in general
+- [Patrick Stapfer on Twitter: "First super simple example I tried... From left to right #TypeScript -> #Flow -> #ReasonML ... I prefer 100% over 80% in my type system https://t.co/lVMvRMXBmX"](https://twitter.com/ryyppy/status/869208354371010560)
+  - [Sven SAULEAU on Twitter: "@ryyppy wow TIL: TypeScript has no inference whatsoever. 👇is completely fine since implicit any. https://t.co/ohOiZZAUtM"](https://twitter.com/svensauleau/status/869211688746274817)
+  - [Roman Zanettin 🇨🇭 on Twitter: "@ryyppy @Jakeherringbone @svensauleau that's what make me happy and confident in TS. do not rely on inference and know that i have to type 100% to get the best result 😊"](https://twitter.com/roman_zanettin/status/869279235621494784)
+- [Roman Liutikov on Twitter: "@svensauleau It's about type inference like in OCaml and writing types everywhere in Java."](https://twitter.com/roman01la/status/863727468276047873)
+  - [Sven SAULEAU on Twitter: "@roman01la Yes I see, Java is aware of this and recently added very limited type inference https://t.co/BNRMuFh2PE"](https://twitter.com/svensauleau/status/863729233415294977)
+
 [James Kyle on Twitter: "Major difference between adopting Flow vs TypeScript. Both are fairly easy, but Flow will give you higher type coverage much faster"](https://twitter.com/thejameskyle/status/863195583191728129)
 
 Note: this isn't just Flow vs TS, this is comparing the whole systems. e.g. Flow means we have Babel, which gives us a powerful tool in the way of plugins. TS doesn't have this.

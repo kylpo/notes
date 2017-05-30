@@ -1,5 +1,10 @@
 _WIP_
 
+# Simple
+- [Default to simplicity to design better user experiences](https://uxplanet.org/default-to-simplicity-to-design-better-user-experiences-854895396450)
+> Simplicity is the ultimate sophistication. -Leonardo da Vinci
+> Everything should be as simple as possible but no simpler. -Albert Einstein
+
 # "Design for scanning, not reading"
 - [F-Shaped Pattern for Reading Content – UX Planet](https://uxplanet.org/f-shaped-pattern-for-reading-content-80af79cd3394)
 

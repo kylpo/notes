@@ -4,6 +4,8 @@ Did you know that you should never pure a comp with children? I certainly didn't
 
 [Jason Miller 🦊⚛ on Twitter: "found this lying around https://t.co/2FYSvqw6XX https://t.co/BZSNNjN8b6"](https://twitter.com/_developit/status/867120306539954176)
 
+[Optimizing React Rendering (Part 1) – Flexport Engineering](https://flexport.engineering/optimizing-react-rendering-part-1-9634469dca02)
+
 # Notes of shouldComponentUpdate
 React's `shouldComponentUpdate` is one of our main tools for optimizing components. Below are the notes I've gathered on the not-obvious topic.
 

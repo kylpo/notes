@@ -142,6 +142,7 @@ https://daverupert.com/2016/10/desktop-is-lava/ had some good points:
 - [jordanIsNotAFunction on Twitter: "Another cool project in conjunction is having a @reasonml native app stack on that WebKit shell, but no JS - native perf - instant startup."](https://twitter.com/jordwalke/status/828336937605828609)
 - [Mark Funk on Twitter: "I was really hoping Google would announce a partnership with @github at Google I/O to work on bringing down Electron resource usage."](https://twitter.com/MarkFunk/status/864917340508504064)
 - [Sindre Sorhus on Twitter: "Why I chose @electronjs for my Caprine app. https://t.co/KH5GU1PCma https://t.co/tqQzXAJtq0"](https://twitter.com/sindresorhus/status/864887242468335616)
+- [Logan Collins on Twitter: "native_apps_are_old_news.gif https://t.co/ifrwNCXEf5"](https://twitter.com/logancollins/status/867022856890142720)
 
 # Current Conclusions
 - When to use Web
@@ -196,7 +197,11 @@ Problems
 
 PWA is probably really great for **sites** that would have low app engagement and installs, like Forbes: [Forbes - Redefining Modern Web Development - YouTube](https://www.youtube.com/watch?list=TLGGykzdoCyEWUAxNzA1MjAxNw&v=JmC0xkCMFCE). Should be called a Progressive Web Site, not App.
 
-Stop using titles like [Progressive Web Apps: Great Experiences Everywhere (Google I/O '17) - YouTube](https://www.youtube.com/watch?v=m-sCdS0sQO8)
+[Mike Grabowski on Twitter: "Interesting experience, just switched back to Twitter Native from PWA and fonts are much smaller!"](https://twitter.com/grabbou/status/867636983123902467)
+
+# STOP
+- Stop using titles like [Progressive Web Apps: Great Experiences Everywhere (Google I/O '17) - YouTube](https://www.youtube.com/watch?v=m-sCdS0sQO8)
+- [Twitter Lite is a PWA Win - Thurrott.com](https://www.thurrott.com/cloud/116841/twitter-lite-pwa-win)
 
 See also Apps are faltering. But progressive web apps seem pretty legit. – Medium
 

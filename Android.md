@@ -15,6 +15,7 @@
   - [Android Developers Blog: Android Studio 3.0 Canary 1](https://android-developers.googleblog.com/2017/05/android-studio-3-0-canary1.html)
 - Architecture Components
   - [Android Developers Blog: Android and Architecture](https://android-developers.googleblog.com/2017/05/android-and-architecture.html)
+  - [Exploring the new Android Architecture Components library](https://medium.com/@hitherejoe/exploring-the-new-android-architecture-components-c33b15d89c23)
 - Wear
   - [From Actions to battery life, these updates will make Android Wear 2.0 even better](https://www.wareable.com/android-wear/android-wear-updates-actions-battery-life-456)
     - "Did you also know that an all-white display can use up to seven times more power than a black display in interactive mode?"

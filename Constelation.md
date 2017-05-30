@@ -18,6 +18,7 @@ evolution of constelation. Web div > RN > inline style > nice PR review experien
 See Sketch file, know exactly how to break it down to code.
 
 Dream would be to have a wysiwyg editor for scaffolding/setup. Like CRA for starting project, then "eject" to code for more complicated tasks. Works well if wysiwyg builds on constelation primitives and elements.
+- [Mark Dalgleish on Twitter: "Prediction: WYSIWYG got a bad name in the document era, but we'll see it come back in the component era where it makes way more sense."](https://twitter.com/markdalgleish/status/867950728626585600)
 
 scene/stage/etc
 
