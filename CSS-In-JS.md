@@ -3,6 +3,7 @@ _WIP_
 [Emotion - css prop for all](https://github.com/tkh44/emotion)
 - [Kye Hohenberger on Twitter: "@threepointone what do you think of this for glam? css call result would be applied to the parent element. Too magic? https://t.co/x3cWhNZRzv"](https://twitter.com/tkh44/status/867804230475763712)
 - [Kye Hohenberger on Twitter: "glam plugin done 😉 glamor, cxs, and restyles coming up. https://t.co/r0FklRMN1S"](https://twitter.com/tkh44/status/868308967340068864)
+- [Kye Hohenberger on Twitter: "We've come full circle from inline styles in HTML 😅 https://t.co/AzyfJVB817 https://t.co/E4W4HmlmT0"](https://twitter.com/tkh44/status/869583496079183872)
 
 [A Unified Styling Language – SEEK blog – Medium](https://medium.com/seek-blog/a-unified-styling-language-d0c208de2660)
 
