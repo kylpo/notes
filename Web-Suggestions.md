@@ -134,6 +134,10 @@ thought about while reading https://css-tricks.com/seo-and-location/
 # Layers system
 - Interesting idea to formalize z-index and layers: https://github.com/fckt/react-layer-stack#rationale. This is the Layers tab of your WYSIWYG.
 
+# SSR
+- [Sunil Pai on Twitter: "Based on responses... *any* SPA (react/wc/ember/whatever) is invisible to search engines except google ? SSR your pages, peeps. https://t.co/MtHr4MbJ2O"](https://twitter.com/threepointone/status/870638919695699969)
+  - [Jordan Schroter on Twitter: "@threepointone Often forgot about but SSR is also beneficial for sharing urls on most social media sites. For reference: https://t.co/FS6bZIdfEl"](https://twitter.com/_jschr/status/870641437121097729)
+
 # Analytics
 
 # Events

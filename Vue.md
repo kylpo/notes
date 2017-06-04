@@ -5,6 +5,7 @@ _WIP_
 - [Switching From React To Vue.js](http://vuejsdevelopers.com/2017/05/28/switch-from-react-to-vue-js/)
 - [How To (Safely) Use A jQuery Plugin With Vue.js](http://vuejsdevelopers.com/2017/05/20/vue-js-safely-jquery-plugin/)
 - [Nuxt.js on Twitter: "A little schema to explain how Nuxt.js works https://t.co/MQDLtRJPHV"](https://twitter.com/nuxt_js/status/869134582901342208)
+- [Between the Wires: An interview with Vue.js creator Evan You](https://medium.freecodecamp.com/between-the-wires-an-interview-with-vue-js-creator-evan-you-e383cbf57cc4)
 
 # Against it
 - Template strings

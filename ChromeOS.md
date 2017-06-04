@@ -1,0 +1,3 @@
+- [The Best Chromebook: Samsung Chromebook Plus/Pro vs ASUS Chromebook Flip C302CA](https://9to5google.com/2017/03/17/samsung-chromebook-pro-plus-vs-asus-chromebook-c302a/)
+- [Samsung Chromebook Plus VS Pro - YouTube](https://www.youtube.com/watch?v=DplNov4w9cc)
+- [Windows Weekly 520 Digging Up Jason Voorhees](https://twit.tv/shows/windows-weekly/episodes/520) at 34:00

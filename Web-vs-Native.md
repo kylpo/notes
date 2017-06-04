@@ -1,6 +1,13 @@
 [What is the best platform: Web or Apps? – Phoomparin Mano – Medium](https://medium.com/@phoomparin/what-is-the-best-platform-web-or-apps-2017-1c6c5ff7cc16) nailed it.
 - web for lite, native for full
 
+[Rand Fishkin on Twitter: "REMINDER: Mobile didn't kill desktop; it just killed all our free time. (via https://t.co/LrVP58PU5M) https://t.co/9GRvbUHqF0"](https://twitter.com/randfish/status/870712507916197889)
+
+[Sebastian Markbåge on Twitter: "I think most people don't consider the possibility that Android or UIKit could become a *standard*. #fireandclosethetwitterapp"](https://twitter.com/sebmarkbage/status/870842436494307330)
+
+[Chrome won | Andreas Gal](https://andreasgal.com/2017/05/25/chrome-won/?utm_source=frontendfocus&utm_medium=email)
+- basically just Chrome and Safari
+
 Start with story of always playing the hybrid class: druid. Burned by not ever being the best dmg dealer, tank, healer, etc.
 
 Desktop web and Mobile web should probably be in different categories. Salesforce, Google, etc embrace desktop web, but not mobile web.
@@ -114,6 +121,9 @@ https://daverupert.com/2016/10/desktop-is-lava/ had some good points:
 - [Das Surma on Twitter: "Take a look at https://t.co/Tf6DgrspF6 Do the touch interactions feel like a native app to you? If not: What is breaking the illusion?"](https://twitter.com/DasSurma/status/854820902386647040)
   - so many issues found. Works nicely on first interaction maybe, but then you find the warts quickly after.
 - [Ken Wheeler on Twitter: "Gave a talk today about react native where i talked a bunch of shit on the mobile web, slides: https://t.co/pHIBQWr5A4"](https://twitter.com/ken_wheeler/status/854472950388596741)
+- [Ken Wheeler on Twitter: "Hey its friday night and the feelings right but dont forget the DOM is a piece of shit and we deserve a better development target"](https://twitter.com/ken_wheeler/status/870812249992122368)
+  - DOM just isn't a good app platform. It is a document/site platform!
+- [rtorr on Twitter: "I'm glad hacker news is the high bar for modern apps. It looks like it was made in 1993. Platform is ready."](https://twitter.com/richardiii/status/871197129074556928)
 
 ## Pros
 - ["Available anywhere, on-demand, low storage, low power use, etc. These are things both users and companies want from apps. Web nearly there"](https://twitter.com/necolas/status/850437592285708288)

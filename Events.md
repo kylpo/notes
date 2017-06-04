@@ -17,6 +17,9 @@ Hammer should probably eventually be replaced by Pointer Events or some new abst
 
 # Event Bubbling vs Capture, and propagation
 
+![](https://cdn-images-1.medium.com/max/2000/1*RFoWN84SnVea2paCDehHSw.png)
+from [Monitoring Jank: How we found the slowest parts of our UI](https://fulcrum.lever.co/monitoring-jank-how-we-found-the-slowest-parts-of-our-ui-b6ffd7386896)
+
 onClick, browser captures the event top-down, from html, to body, all the way down to the div. If the listener set capture to true, it would call the function on its way down. This is set to false be default though, so when it makes it to the deepest node, it will then fire its function and work its way back up.
 
 e.stopPropagation() stops it from bubling up or capturing down any further.

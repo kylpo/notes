@@ -7,6 +7,7 @@
     - stdlib-js bundled with your output js. No real active work on reducing this atm.
   - [Kotlin/kotlin-fullstack-sample: Kotlin Full-stack Application Example](https://github.com/Kotlin/kotlin-fullstack-sample)
   - [Using Kotlin to make Android APIs fun again – Signal v. Noise](https://m.signalvnoise.com/using-kotlin-to-make-android-apis-fun-again-14690975afb6)
+  - [The Ugly Truth about Extension Functions in Kotlin – Rahul Chowdhury's Blog](http://blog.rahulchowdhury.co/the-ugly-truth-about-extension-functions-in-kotlin/)
 - Debugging
   - [Android Performance: An Overview (Google I/O '17) - YouTube](https://www.youtube.com/watch?v=Qfo5fdoXrTU)
     - systrace from `catapult` repo
@@ -16,6 +17,7 @@
 - Architecture Components
   - [Android Developers Blog: Android and Architecture](https://android-developers.googleblog.com/2017/05/android-and-architecture.html)
   - [Exploring the new Android Architecture Components library](https://medium.com/@hitherejoe/exploring-the-new-android-architecture-components-c33b15d89c23)
+  - [Joaquim Ley on Twitter: "Excited to get this article out 🙌 Android Architecture Components + MVVM + Open source - #androiddev #mvvm https://t.co/bdn0xxzXfg"](https://twitter.com/JoaquimLey/status/869834859241406464)
 - Wear
   - [From Actions to battery life, these updates will make Android Wear 2.0 even better](https://www.wareable.com/android-wear/android-wear-updates-actions-battery-life-456)
     - "Did you also know that an all-white display can use up to seven times more power than a black display in interactive mode?"

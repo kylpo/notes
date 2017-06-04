@@ -13,6 +13,9 @@ Maybe I should build all products as the `lite` version, first? Then add on poli
 
 [How browsers work](http://taligarsiel.com/Projects/howbrowserswork1.htm)
 
+[Javascript Classes v. Closures (2/3) – Engineering@Livestream – Medium](https://medium.com/engineering-livestream/javascript-classes-v-closures-2-3-9fa3b1296b16)
+- use classes over closures. Classes leverage prototypes and sharing methods, which conserves memory usage. Also, classes are better on CPU.
+
 # Tools
 ## Chrome devtools
 - [Performance Analysis Reference  |  Web  |  Google Developers](https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/reference)

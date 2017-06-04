@@ -14,3 +14,5 @@ Small bundles, all the way down
 css-in-js
 - [Sebastien Lorber on Twitter: "@kentcdodds @thejameskyle can't we use glamor without naming anything? like <div {...css({border: "solid"})/> ? cc @threepointone"](https://twitter.com/sebastienlorber/status/864124126763646978)
 - [Christopher Biscardi on Twitter: "@thejameskyle @threepointone @sebastienlorber @kentcdodds I believe that's why babel-plugin-glamor exists, which hoists: https://t.co/QdPafezE2S"](https://twitter.com/chrisbiscardi/status/864125734675075072)
+- Glam and Emotion
+  - ["emotion - ~2kb including glam - styled components api - css prop on all elements - css files gen during build https://t.co/AzyfJVjwCx https://t.co/o2WO6PsUxS"](https://twitter.com/tkh44/status/870516183325327364)

@@ -4,6 +4,8 @@ _WIP_
 
 [When Does a Project Need React? | CSS-Tricks](https://css-tricks.com/project-need-react/#article-header-id-0)
 
+[Michel Weststrate on Twitter: "State management is not about eliminating mutability or side effects, but about controlling them. Usually by applying FP in some areas"](https://twitter.com/mweststrate/status/870552901613002753)
+
 Maybe it should be rephrased to: Global (not app) vs Local state. I like this better because I don't like calling sites "apps"
 
 Started with a question: "Types of App “state”: `data` (that you usually render), `routes` (url and history), `UI` (controls like open panes). Can anyone think of a missing category in that list?"

@@ -1,5 +1,7 @@
 _WIP_
 
+[James Kyle on Twitter: "Just open sourced a Babel plugin for converting Flow types to PropTypes even across modules: https://t.co/U4m53mmv4C https://t.co/Ovbd0i9bFj"](https://twitter.com/thejameskyle/status/870762618599817216)
+
 - [James Kyle on Twitter: "Some @flowtype tricks: Inference, Comment syntax, and typeof, all working together https://t.co/xoDxjY9YfC"](https://twitter.com/thejameskyle/status/868148120504356864)
 ![](https://pbs.twimg.com/media/DAxIHJYUwAAyaiM.jpg:large)
 
