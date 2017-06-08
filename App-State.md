@@ -6,6 +6,10 @@ _WIP_
 
 [Michel Weststrate on Twitter: "State management is not about eliminating mutability or side effects, but about controlling them. Usually by applying FP in some areas"](https://twitter.com/mweststrate/status/870552901613002753)
 
+- [Redux is the Pivotal Frontend Innovation – Max Lynch – Medium](https://medium.com/@maxlynch/redux-is-the-pivotal-frontend-innovation-a406736552cb)
+  - [Kristofer Baxter on Twitter: "Great state management makes everyone on your team more productive. Investment here is important. https://t.co/MxQmqhXmsN"](https://twitter.com/kristoferbaxter/status/872507897137078272)
+  - [(1) Dion Almaer on Twitter: "State and data. Offline and syncing. Real-time and not. Massive knowledge graphs and small personal sets. Let's do this. https://t.co/uDdjxKaiee"](https://twitter.com/dalmaer/status/872503383554260993)
+
 Maybe it should be rephrased to: Global (not app) vs Local state. I like this better because I don't like calling sites "apps"
 
 Started with a question: "Types of App “state”: `data` (that you usually render), `routes` (url and history), `UI` (controls like open panes). Can anyone think of a missing category in that list?"

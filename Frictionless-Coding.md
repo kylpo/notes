@@ -91,6 +91,8 @@ z  - note: ts has something like this in the works
 
 - colocation
   - why Relay is amazing
+  - "Code is read many more times than it is written. Writing code costs something, but over time the cost of reading is often higher. Anyone who ever looks at a piece of code has to invest brain-power into figuring out what it does."
+    [The Half-Life of Code — Sandi Metz](https://www.sandimetz.com/blog/2017/6/1/the-half-life-of-code)
 
 - Seeing results immediately
   - HMR

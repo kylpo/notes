@@ -20,6 +20,8 @@ See Sketch file, know exactly how to break it down to code.
 Dream would be to have a wysiwyg editor for scaffolding/setup. Like CRA for starting project, then "eject" to code for more complicated tasks. Works well if wysiwyg builds on constelation primitives and elements.
 - [Mark Dalgleish on Twitter: "Prediction: WYSIWYG got a bad name in the document era, but we'll see it come back in the component era where it makes way more sense."](https://twitter.com/markdalgleish/status/867950728626585600)
 
+Big update that brings design closer to code. Draw & create layouts in Framer, then switch to code to add interaction.
+
 Design with GUI, then drop in to code, like: [Framer on Twitter: "Meet Framer Design. Draw & create layouts in Framer, then switch to Code to add interaction. A complete workflow at https://t.co/0QuedjsrmR https://t.co/pds5PawUsv"](https://twitter.com/framer/status/869933736313278464)
 
 scene/stage/etc
@@ -124,6 +126,11 @@ DX means:
 
 Surprising wins:
 - base absraction shielded us from css-in-js churn
+
+
+[The Half-Life of Code — Sandi Metz](https://www.sandimetz.com/blog/2017/6/1/the-half-life-of-code)
+> "Code is read many more times than it is written. Writing code costs something, but over time the cost of reading is often higher. Anyone who ever looks at a piece of code has to invest brain-power into figuring out what it does."
+
 
 # The case for Row
 Row tells the developer to go against the usual skim flow and read left to right, not top-down.

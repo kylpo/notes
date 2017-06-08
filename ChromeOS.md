@@ -4,3 +4,5 @@
 - [Optimizing Apps for Chromebooks | Android Developers](https://developer.android.com/topic/arc/index.html)
 - [Android Development on Chrome OS (Example)](https://coderwall.com/p/fv0xrq/android-development-on-chrome-os)
 - [Instant tethering is coming to Chrome OS to make it easier to get online | TechRadar](http://www.techradar.com/news/instant-tethering-is-coming-to-chrome-os-to-make-it-easier-to-get-online)
+
+- [How to get Google Now in your Chromebook Start menu - TechRepublic](https://www.techrepublic.com/article/pro-tip-get-google-now-in-your-chromebook-start-menu/)

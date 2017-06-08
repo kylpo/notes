@@ -1,4 +1,7 @@
-Relay
+Data Fetching
+- Relay
+- or consider [wiretie: A Higher Order Component for Preact that resolves (async) values from a model and passes them down as props.](https://github.com/synacor/wiretie)
+  - [Jason Miller 🦊⚛ on Twitter: "📣 Introducing Wiretie ⚡️ A 1.3kb solution for working with async data in Preact. https://t.co/qPDvv6RArb https://t.co/QNgEMTVhOH"](https://twitter.com/_developit/status/872230700610715648)
 
 Smitty (for small state solution)
 - https://github.com/tkh44/smitty

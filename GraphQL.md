@@ -1,5 +1,6 @@
 _WIP_
 
+- [Episode 02 - GraphQL Clients w/ Lee Byron, Joe Savona, Sashko Stubailo, and Jonas Helfer - YouTube](https://www.youtube.com/watch?v=pvgvcilFj9M)
 
 # Who is using it
 - Facebook (of course)

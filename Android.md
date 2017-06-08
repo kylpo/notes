@@ -30,3 +30,9 @@
 [Dimensions](https://dimensionssprint.withgoogle.com/)
 - [Dimensions: Uniquely Android - YouTube](https://www.youtube.com/watch?v=J4pQK2463qs)
   - about openness of the platform: sharing, replacing defaults, broadcasting events, etc. Basically everything that made me choose Android from the start.
+
+# My Android setup
+## Chrome config
+- [How to customize Chrome's terrible New Tab page](http://www.androidpolice.com/2017/04/27/customize-chromes-terrible-new-tab-page/)
+- chrome://flags#ntp-condensed-layout - enabled
+- #enable-chrome-home

@@ -15,3 +15,6 @@ You can, but should you?
   - also, future tooling and debugging efforts
 - [You can tell which apps are built on React Native from the app size. 200MB - 300MB seems common. A full featured true native app: ~50MB](https://twitter.com/MugOfPaul/status/862659087254773761)
   - I think this refers to on Android though, not ios
+- [Integrating React Native with Native Infrastructure - Mehdi Mulani at @ReactEurope 2017 - YouTube](https://www.youtube.com/watch?list=PLCC436JpVnK3KpieWtxYN6aC2-exR_IxH&v=QOAoLF6FV7A)
+- Perf
+  - wix still employs native engineers to avoid the bridge. See [tal's talk](https://youtu.be/OmiXlJ4ZzAo?t=20m27s)

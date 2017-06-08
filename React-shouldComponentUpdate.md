@@ -50,6 +50,10 @@ How would this apply to Page level components?
 
 "By removing the draft Tweet state from updating the main Redux state on every keypress and keeping things local in the React component’s state, we were able to reduce the overhead by over 50% (above, right)." - https://medium.com/@paularmstrong/twitter-lite-and-high-performance-react-progressive-web-apps-at-scale-d28a00e780a3
 
+- https://twitter.com/_developit/status/872068281628282880
+- ![](https://pbs.twimg.com/media/DBo1eKqV0AEms32.jpg)
+- "Ok, that make sense. The more depth your tree has the more time the diffing will take."
+
 ---
 Connect components that are as deep in the tree as possible. Changes affect fewer components for updates. Vs changing something at the root.
 

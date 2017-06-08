@@ -36,7 +36,8 @@ _WIP_
 # Navigation
 - [Basic Patterns For Mobile Navigation: Pros And Cons – Smashing Magazine](https://www.smashingmagazine.com/2017/05/basic-patterns-mobile-navigation/)
 - [Best Practices for Horizontal Lists in Mobile – uxdesign.cc](https://uxdesign.cc/best-practices-for-horizontal-lists-in-mobile-21480b9b73e5)
-- [All Thumbs, Why Reach Navigation Should Replace the Navbar in iOS Design](https://medium.com/tall-west/lets-ditch-the-nav-bar-3692cb17cc67)
+- Reach Navigation
+  - [All Thumbs, Why Reach Navigation Should Replace the Navbar in iOS Design](https://medium.com/tall-west/lets-ditch-the-nav-bar-3692cb17cc67)
   - Nav near bottom for thumbs
 
 # Motion
