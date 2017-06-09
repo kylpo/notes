@@ -39,6 +39,8 @@ _WIP_
 - Reach Navigation
   - [All Thumbs, Why Reach Navigation Should Replace the Navbar in iOS Design](https://medium.com/tall-west/lets-ditch-the-nav-bar-3692cb17cc67)
   - Nav near bottom for thumbs
+- Circles
+  - [My life - Your health tracking by Johny vino™](https://dribbble.com/shots/3531446-My-life-Your-health-tracking)
 
 # Motion
 - [Meaningful Motion with Action Driven Animation | Tobias Ahlin](http://tobiasahlin.com/blog/meaningful-motion-w-action-driven-animation/)

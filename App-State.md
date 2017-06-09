@@ -10,6 +10,10 @@ _WIP_
   - [Kristofer Baxter on Twitter: "Great state management makes everyone on your team more productive. Investment here is important. https://t.co/MxQmqhXmsN"](https://twitter.com/kristoferbaxter/status/872507897137078272)
   - [(1) Dion Almaer on Twitter: "State and data. Offline and syncing. Real-time and not. Massive knowledge graphs and small personal sets. Let's do this. https://t.co/uDdjxKaiee"](https://twitter.com/dalmaer/status/872503383554260993)
 
+[React State vs. Redux State: When and Why?](https://spin.atomicobject.com/2017/06/07/react-state-vs-redux-state/)
+- short, medium, and long term
+- breadth and depth
+
 Maybe it should be rephrased to: Global (not app) vs Local state. I like this better because I don't like calling sites "apps"
 
 Started with a question: "Types of App “state”: `data` (that you usually render), `routes` (url and history), `UI` (controls like open panes). Can anyone think of a missing category in that list?"

@@ -16,5 +16,6 @@ _WIP_
 
 # Common combos
 - sticky sidebar
+  - [Sticky Sidebar jQuery](https://abouolia.github.io/sticky-sidebar/)
 - sticky navbar
 - modal overlay

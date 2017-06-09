@@ -25,6 +25,12 @@ Does ts have an import type option? How else to type props coming in using Provi
 runtime checking option for Flow: https://codemix.github.io/flow-runtime/#/
 - but is this _really_ needed?
 
+[Adopting Flow & TypeScript – Thinkmill – Medium](https://medium.com/the-thinkmill/adopting-flow-typescript-3549a3a36d51)
+- "Flow only requires us to type the exports of a file and the external modules. Everything else can be inferred."
+- "Just because Flow can infer types everywhere doesn’t mean that you shouldn’t add type annotate your code."
+- "With Flow you’ll be adding types to make errors nicer, not to uncover them."
+- comments are also relevant: TS offers more than just type checking.
+
 # flow frustrations
 http://artsy.github.io/blog/2017/02/05/Front-end-JavaScript-at-Artsy-2017/
 

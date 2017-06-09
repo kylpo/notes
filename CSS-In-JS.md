@@ -13,6 +13,9 @@ css-in-js represents a TOOLING problem. Our tools should let us show classes inl
 
 [James Long on Twitter: "Lots of css-in-js libs still force you to come up with var names. Go a step further, just put styles on the comp! https://t.co/jLCWy9Wabb"](https://twitter.com/jlongster/status/867088608364290051)
 
+- ["JS objects are *not* a perfect data structure for styles. Duplicate props, media queries, etc."](https://twitter.com/DavidKPiano/status/872794724087869440)
+- ["Duplicate props are commonly used for fallbacks, e.g., CSS variables: .button { color: blue; color: var(--color, blue); }"](https://twitter.com/DavidKPiano/status/872798064494465025)
+
 # Cons
 - [Alex Russell on Twitter: "PSA: embedding/applying CSS in JS is the surefire way to be on every slow path. Bloats memory, slows parsing & use, hurts caching. Avoid."](https://twitter.com/slightlylate/status/845435543647248384)
 - [Mark Dalgleish on Twitter: "Exactly why I still use CSS Modules, despite all the great work with CSS-in-JS. https://t.co/aOVXecnLi0"](https://twitter.com/markdalgleish/status/851210247880323072)

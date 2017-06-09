@@ -153,6 +153,7 @@ https://daverupert.com/2016/10/desktop-is-lava/ had some good points:
 - [Mark Funk on Twitter: "I was really hoping Google would announce a partnership with @github at Google I/O to work on bringing down Electron resource usage."](https://twitter.com/MarkFunk/status/864917340508504064)
 - [Sindre Sorhus on Twitter: "Why I chose @electronjs for my Caprine app. https://t.co/KH5GU1PCma https://t.co/tqQzXAJtq0"](https://twitter.com/sindresorhus/status/864887242468335616)
 - [Logan Collins on Twitter: "native_apps_are_old_news.gif https://t.co/ifrwNCXEf5"](https://twitter.com/logancollins/status/867022856890142720)
+- Figma written in C++ and runs in browser with WebAssembly: [WebAssembly cut Figma’s load time by 3x – Figma Design](https://blog.figma.com/webassembly-cut-figmas-load-time-by-3x-76f3f2395164)
 
 # Current Conclusions
 - When to use Web

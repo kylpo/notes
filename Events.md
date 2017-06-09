@@ -5,6 +5,10 @@ _WIP_
 # RN
 [AppAndFlow/react-native-touchable: React-Native button helper library](https://github.com/AppAndFlow/react-native-touchable)
 
+# Pointer Events
+- [Pointing the Way Forward  |  Web  |  Google Developers](https://developers.google.com/web/updates/2016/10/pointer-events)
+- [Pointer events - Web APIs | MDN](https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events)
+
 # Hammer Events
 
 Best generic term for click, touch, etc is *onPress*
