@@ -210,6 +210,8 @@ PWA is probably really great for **sites** that would have low app engagement an
 
 [Mike Grabowski on Twitter: "Interesting experience, just switched back to Twitter Native from PWA and fonts are much smaller!"](https://twitter.com/grabbou/status/867636983123902467)
 
+PWA with Android Intents: What if you click link twice? Will it open two "apps"?
+
 # STOP
 - Stop using titles like [Progressive Web Apps: Great Experiences Everywhere (Google I/O '17) - YouTube](https://www.youtube.com/watch?v=m-sCdS0sQO8)
 - [Twitter Lite is a PWA Win - Thurrott.com](https://www.thurrott.com/cloud/116841/twitter-lite-pwa-win)

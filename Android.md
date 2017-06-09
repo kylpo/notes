@@ -26,7 +26,6 @@
 - Animation
   - [Nick Butcher on Twitter: "ConstraintSets + Transitions are 🤘 That's basically how we built this interaction in the I/O app. https://t.co/KiSpdKLS4e https://t.co/PhlVGXn3Wj"](https://twitter.com/crafty/status/867376535019368448)
 
-
 [Dimensions](https://dimensionssprint.withgoogle.com/)
 - [Dimensions: Uniquely Android - YouTube](https://www.youtube.com/watch?v=J4pQK2463qs)
   - about openness of the platform: sharing, replacing defaults, broadcasting events, etc. Basically everything that made me choose Android from the start.

@@ -15,6 +15,9 @@ https://blog.callstack.io/type-checking-react-and-redux-thunk-with-flow-part-1-a
 
 [Flow type cheat sheet - SaltyCrane Blog](https://www.saltycrane.com/blog/2016/06/flow-type-cheat-sheet/)
 
+[thejameskyle/babel-plugin-react-flow-props-to-prop-types: Convert Flow React props annotation to PropTypes](https://github.com/thejameskyle/babel-plugin-react-flow-props-to-prop-types)
+- ![](https://pbs.twimg.com/media/DBWR8agUQAApEmb.jpg)
+
 # FAQ
 ## Children
 ```jsx
