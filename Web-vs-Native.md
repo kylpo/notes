@@ -202,6 +202,9 @@ Problems
 
 [https://pwa-directory.appspot.com](https://pwa-directory.appspot.com/)
 
+[tastejs/hacker-news-pwas: Hacker News readers as Progressive Web Apps 📱](https://github.com/tastejs/hacker-news-pwas)
+
+
 [Henrik Joreteg on Twitter: "2 billion active Android devices. Quite a PWA platform."](https://twitter.com/HenrikJoreteg/status/864890889318965248)
 
 [Progressive Web Apps — Yeh or Meh?](http://developer.telerik.com/topics/web-development/progressive-web-apps-yeh-meh/?utm_source=mobilewebweekly&utm_medium=email)

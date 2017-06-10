@@ -115,6 +115,7 @@ http://babeljs.io/docs/plugins/preset-env/ will reduce the amount of features th
       - It did make me think that it should be done with css-animation (not js triggering a transition) for non-google SEO though
     - what about lazy loaded images
       - I’m thinking lazy loaded/revealed content is bad for SEO, as it isn't rendered until scroll, which I don't think googlebot does
+    - [How Does Google Handle CSS + Javascript "Hidden" Text? - Whiteboard Friday - Moz](https://moz.com/blog/google-css-javascript-hidden-text)
   - page transition delays might snapshot old page
     - if route changes, and there is a transition out that takes a certain amount of time
   - Google Search Console to check your sites
