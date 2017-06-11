@@ -20,3 +20,5 @@ css-in-js
 - [Christopher Biscardi on Twitter: "@thejameskyle @threepointone @sebastienlorber @kentcdodds I believe that's why babel-plugin-glamor exists, which hoists: https://t.co/QdPafezE2S"](https://twitter.com/chrisbiscardi/status/864125734675075072)
 - Glam and Emotion
   - ["emotion - ~2kb including glam - styled components api - css prop on all elements - css files gen during build https://t.co/AzyfJVjwCx https://t.co/o2WO6PsUxS"](https://twitter.com/tkh44/status/870516183325327364)
+  - [Kye Hohenberger on Twitter: "Another great feature, the css prop can be used on any element. emotion takes care of attaching the className for you. https://t.co/yZ4W0snRx0"](https://twitter.com/tkh44/status/873731354575372288)
+  - ![](https://pbs.twimg.com/media/DCAdkGAUIAE-LO2.jpg)

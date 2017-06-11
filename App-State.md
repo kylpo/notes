@@ -40,6 +40,8 @@ App state is temporal?
 
 Relay to manage __DATA__. Redux to manage __App state__.
 
+When user is entering form data, it is app/local state. As soon as submit, that state is cleared and replaced by Data.
+
 # Scene vs Stage
 Scene is an individual page. a sequence of continuous action in a play
 

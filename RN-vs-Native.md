@@ -18,3 +18,6 @@ You can, but should you?
 - [Integrating React Native with Native Infrastructure - Mehdi Mulani at @ReactEurope 2017 - YouTube](https://www.youtube.com/watch?list=PLCC436JpVnK3KpieWtxYN6aC2-exR_IxH&v=QOAoLF6FV7A)
 - Perf
   - wix still employs native engineers to avoid the bridge. See [tal's talk](https://youtu.be/OmiXlJ4ZzAo?t=20m27s)
+- [An iOS Dev’s Experience with React Native – Made by Windmill](https://blog.madebywindmill.com/an-ios-devs-experience-with-react-native-559275b5a4e8)
+- Swift and Kotlin are pretty damn good
+  - As js has gotten better with ES2015, so too have native languages

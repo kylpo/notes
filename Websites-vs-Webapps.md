@@ -17,6 +17,7 @@ Let's standardize a Webapp's characteristics:
 - [Read web pages offline with Chrome on Android](https://blog.google/products/chrome/read-web-pages-offline-chrome-android/)
   - Wouldn't really be able to save an app offline ahead of time, would you? If so, would it be useful?
 - [Ricky Mondello on Twitter: "Safari 11 and iOS 11 have something really special for Safari Reader users — setting it to activate automatically. https://t.co/PTth8ZtNfv"](https://twitter.com/rmondello/status/871830117240066049)
+- always-on Reader mode in Safari for High Sierra
 
 - [Sam Saccone on Twitter: "For every 1 sec increase in page speed, engagement score increased by 5%. This translated into millions in revenue💰 https://t.co/v4Mn0y0PlX"](https://twitter.com/samccone/status/862329675841810433)
 

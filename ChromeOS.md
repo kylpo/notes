@@ -6,3 +6,4 @@
 - [Instant tethering is coming to Chrome OS to make it easier to get online | TechRadar](http://www.techradar.com/news/instant-tethering-is-coming-to-chrome-os-to-make-it-easier-to-get-online)
 
 - [How to get Google Now in your Chromebook Start menu - TechRepublic](https://www.techrepublic.com/article/pro-tip-get-google-now-in-your-chromebook-start-menu/)
+- [Visual Studio Code for Chromebooks and Raspberry Pi](https://code.headmelted.com/)

@@ -91,6 +91,8 @@ Others working on this
 - [Dan Abramov on Twitter: ".@reactiflux @acdlite “Does Fiber change anything for styling?” https://t.co/S5B7OyqbWO"](https://twitter.com/dan_abramov/status/852507690840592384)
   - looking in to components for Layout
 - [idibidiart/react-native-responsive-grid: Responsive Grid Layout for React Native](https://github.com/idibidiart/react-native-responsive-grid)
+- [Rethinking Style - Google Slides](https://docs.google.com/presentation/d/1s7VPbvuv6m9-S7ePm0R5loqRnHsZEHHVbZALJpWAARo/edit#slide=id.g1f5f3b47d0_0_684)
+  - [mdgriffith/style-elements: Create styles that don't mysteriously break!](https://github.com/mdgriffith/style-elements)
 
 No More "alphabetize vs logical" css ordering arguments
 - [Alphabetize your CSS properties, for crying out loud](https://medium.com/@jerrylowm/alphabetize-your-css-properties-for-crying-out-loud-780eb1852153)
