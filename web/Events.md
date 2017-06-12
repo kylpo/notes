@@ -1,5 +1,17 @@
 _WIP_
 
+What is the order of events fired for touch and mouse?
+1. touchstart
+2. touchmove
+3. touchend
+
+4. mouseover
+5. mousemove
+6. mousedown
+7. mouseup
+
+8. click
+
 [Event Bubbling in JavaScript? Event Propagation Explained](https://www.sitepoint.com/event-bubbling-javascript/)
 
 # RN
