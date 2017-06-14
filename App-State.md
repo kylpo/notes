@@ -1,5 +1,35 @@
 _WIP_
 
+# What is "App State"?
+"Uhhh, obviously things that your app keeps in its state?" But really, what is it?
+
+Is it data that comes from you server or client's cache? No.
+
+Is it state stored in your React component's `this.state`? It could be, but not always.
+
+Is it anything that lives in your Redux stores? Not necessarily - there are really useful Redux libs for forms, which only exist on a single page.
+
+So, what is it?
+
+# What it isn't
+Let's start with what it isn't. It isn't _Data_. Data is fetched from something like Relay, Firebase client, a Service Worker, a client cache, or your own home-rolled solution using `fetch()` or `ajax`.
+
+Had a hard time answering this when I asked it to myself.
+
+
+Data vs State
+
+# Characteristics of App State
+
+Breadth and Depth
+Temporal and Persistent
+Can have multiple sources of truth
+- url, global.appState, redux/mobx store
+Is different from data
+
+
+I'll be thinking through this as a React developer using components to build apps, but the concepts should apply broadly.
+
 [FormidableLabs/freactal: Clean and robust state management for React and React-like libs.](https://github.com/FormidableLabs/freactal)
 
 [When Does a Project Need React? | CSS-Tricks](https://css-tricks.com/project-need-react/#article-header-id-0)

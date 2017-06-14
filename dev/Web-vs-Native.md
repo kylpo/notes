@@ -106,6 +106,7 @@ https://daverupert.com/2016/10/desktop-is-lava/ had some good points:
 - Good for temporal services
 - [Jason Miller 🦊⚛ on Twitter: "PWA's don't require new browser features, they leverage them. "Progressive" implies resilience, not dependence."](https://twitter.com/_developit/status/855427754619269124)
   - I think of this as similar to pc games that allow you to dial up/down graphic settings. The game should work with the lowest settings, then ramp up its experience when opted in.
+- [Mark Dalgleish on Twitter: "One thing that web apps are wayyy better at that nobody talks about—when you *know* you're looking at stale data, you can just hit refresh."](https://twitter.com/markdalgleish/status/874400896100089856)
 
 ## Cons
 - [Think you know the top web browsers? – Samsung Internet Developers – Medium](https://medium.com/samsung-internet-dev/think-you-know-the-top-web-browsers-458a0a070175)

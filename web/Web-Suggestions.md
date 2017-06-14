@@ -35,6 +35,7 @@ Fork this doc into Web Considerations and Web Suggestions. Suggestion style is l
 - [react-bits/29.feature-flags-using-redux.md](https://github.com/vasanthk/react-bits/blob/master/patterns/29.feature-flags-using-redux.md)
 - [ember-cli/babel-plugin-feature-flags: A babel transform for managing feature flags](https://github.com/ember-cli/babel-plugin-feature-flags) seems like a great approach. Features flags statically, and dynamically.
 - [How to quickly set up A/B testing for React websites](https://medium.com/@yilingchen/how-to-quickly-set-up-a-b-testing-for-react-websites-dcb321fcd1f)
+- [Jason Miller 🦊⚛ on Twitter: "⚙️ Preconf: build configurable components. https://t.co/1hW0n37eFr https://t.co/icJPDyVtzN"](https://twitter.com/_developit/status/874675422608412676)
 
 ```js
 import isEnabled from 'my-features';
