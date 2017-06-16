@@ -25,6 +25,9 @@
     - "did you know that Bluetooth is way more battery intensive than LTE or Wi-FI? Well it is, and Google wants developers to use the latter when possible to transfer data to Wear devices. It also wants developers to reduce the amount of vibrations and location checks."
 - Animation
   - [Nick Butcher on Twitter: "ConstraintSets + Transitions are 🤘 That's basically how we built this interaction in the I/O app. https://t.co/KiSpdKLS4e https://t.co/PhlVGXn3Wj"](https://twitter.com/crafty/status/867376535019368448)
+- Accessibility
+  - [Developing Accessible Apps for Blind and Visually-Impaired Users](https://www.youtube.com/watch?v=1by5J7c5Vz4)
+  - [Developing Accessible Apps for Users with Motor Impairments](https://www.youtube.com/watch?v=ElifzykHt7U)
 
 [Dimensions](https://dimensionssprint.withgoogle.com/)
 - [Dimensions: Uniquely Android - YouTube](https://www.youtube.com/watch?v=J4pQK2463qs)

@@ -61,6 +61,7 @@ z  - note: ts has something like this in the works
   - [Ben Teese on Twitter: "Using Prettier to format JS is like killing an unnecessary background process in your brain. It frees up cycles to think about other things."](https://twitter.com/benteese/status/849079655592325121)
   - [Ben Frain on Twitter: "New post ⭐️: “Use linters for errors, formatters to fix style” https://t.co/6vg3OIvSoF"](https://twitter.com/benfrain/status/862309847072743426)
   - [support eslint --fix · Issue #51 · sbdchd/neoformat](https://github.com/sbdchd/neoformat/issues/51)
+  - [How to become a more productive React Developer – Jakob Lind](http://blog.jakoblind.no/2017/06/15/how-to-become-a-more-productive-react-developer/?utm_campaign=React%2BNewsletter&utm_medium=email&utm_source=React_Newsletter_75)
 
 - defensive coding
   - types enable me to not null-check everything

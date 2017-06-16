@@ -8,6 +8,8 @@ Smitty (for small state solution)
 - https://github.com/tkh44/smitty
 - and connect it to router http://codepen.io/seveves/pen/ryyNYz
 
+Look in to [luisvinicius167/dutier: A small (1kb) and simple state management solution for Javascript applications.](https://github.com/luisvinicius167/dutier?utm_source=mobilewebweekly&utm_medium=email)
+
 Preact
 - [developit/preact-cli: 😺 Your next Preact PWA starts in 30 seconds.](https://github.com/developit/preact-cli)
 

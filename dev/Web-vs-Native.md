@@ -125,6 +125,8 @@ https://daverupert.com/2016/10/desktop-is-lava/ had some good points:
 - [Ken Wheeler on Twitter: "Hey its friday night and the feelings right but dont forget the DOM is a piece of shit and we deserve a better development target"](https://twitter.com/ken_wheeler/status/870812249992122368)
   - DOM just isn't a good app platform. It is a document/site platform!
 - [rtorr on Twitter: "I'm glad hacker news is the high bar for modern apps. It looks like it was made in 1993. Platform is ready."](https://twitter.com/richardiii/status/871197129074556928)
+- [Mobile Safari (Whyyyy?!) | Engineering Blog](https://www.eventbrite.com/engineering/mobile-safari-why/)
+  - no bottom CTAs
 
 ## Pros
 - ["Available anywhere, on-demand, low storage, low power use, etc. These are things both users and companies want from apps. Web nearly there"](https://twitter.com/necolas/status/850437592285708288)

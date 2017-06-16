@@ -1,6 +1,33 @@
 _WIP_
 
-# What is "App State"?
+# App State and App Data
+For the purpose of this post, let's define `Data` as being data from a persistent source. It may be from a server, a client cache, a static json/xml file, a database. Either way, it is persistent and static.
+
+What then is App State? The oposite of Data?
+
+Sometimes App Data is all you need. Or maybe it is that they are the same (both exist in URL). No, because URL isn't temporal. It is idempodent even.
+
+Data is updated as a transaction
+
+Something that muddies this is optomistic updates. It is state until server comes back as success, then it is data. Or is it just state for the lifetime of your app, then becomes data on refreshes?
+
+Data is still used to hydrate state.
+
+
+
+# Sources of truth in your app
+How many sources of truth do you have in your app/site?
+
+
+
+# Data and State
+Lets talk about Data. Data and State. Persistent data, and temporal state.
+
+
+
+
+
+
 "Uhhh, obviously things that your app keeps in its state?"
 
 But really, what is it?
@@ -90,7 +117,7 @@ What about auth state and feature flags?
 
 “current tab” made me think about renaming `routes` to `browser state`
 
-Great questions, @tdreyno. Is the url just a serialized form of UI state? Plenty of sites preserve everything in the url, even form input. Like the Babel repl.
+Is the url just a serialized form of UI state? Plenty of sites preserve everything in the url, even form input. Like the Babel repl.
 
 In that sense, App state is actually UI state. Data is just stuff from the server (and likely cached locally maybe in mobx/redux, but shouldn't be considered app state). Maybe there’s an advantage in treating them separately, not “just in MobX”, or “just in /stores”.
 

@@ -32,6 +32,10 @@ runtime checking option for Flow: https://codemix.github.io/flow-runtime/#/
 - comments are also relevant: TS offers more than just type checking.
 
 # flow frustrations
+catalyst was showing off flow's autocompletion to a coworker. I said the only thing I'm really craving is a way to describe these values with jsdoc or something. He said "oh, cool, and does it give intellisense for the prop's value!?" - well, no, no it does. Why?
+
+This sent me down the rabbit hole of Typescript again. TS does provide intellisense for values, AND you can add a descriptive comment.
+
 [Flow vs. Typescript | Jan Varwig](http://jan.varwig.org/2017/02/15/flow-vs-typescript.html)
 
 http://artsy.github.io/blog/2017/02/05/Front-end-JavaScript-at-Artsy-2017/

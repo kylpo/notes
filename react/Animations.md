@@ -11,6 +11,9 @@ _WIP_
 The "Heart Beat" of your site/app, like a Game Loop, is 60fps.
 
 
+TODO watch [Animating the Virtual DOM - Sarah Drasner aka @sarah_edo at @ReactEurope 2017 - YouTube](https://www.youtube.com/watch?utm_campaign=React%2BNewsletter&utm_medium=email&utm_source=React_Newsletter_75&v=W5AdUcJDHo0)
+
+
 # links
 - [Animation Add-Ons - React](https://facebook.github.io/react/docs/animation.html)
 - [10 principles for smooth web animations](https://blog.gyrosco.pe/smooth-css-animations-7d8ffc2c1d29)
