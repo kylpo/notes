@@ -1,4 +1,4 @@
-# Kylpo's Public Notes
+# [kylpo](https://twitter.com/kylpo)'s Public Notes
 Likely unfinished thoughts/research
 
 ## Note
