@@ -62,6 +62,8 @@ z  - note: ts has something like this in the works
   - [Ben Frain on Twitter: "New post ⭐️: “Use linters for errors, formatters to fix style” https://t.co/6vg3OIvSoF"](https://twitter.com/benfrain/status/862309847072743426)
   - [support eslint --fix · Issue #51 · sbdchd/neoformat](https://github.com/sbdchd/neoformat/issues/51)
   - [How to become a more productive React Developer – Jakob Lind](http://blog.jakoblind.no/2017/06/15/how-to-become-a-more-productive-react-developer/?utm_campaign=React%2BNewsletter&utm_medium=email&utm_source=React_Newsletter_75)
+  - [Guillermo Rauch on Twitter: "As far as I'm concerned, prettier could style my code like this and I'd still use it. It saves us so much time! https://t.co/jjvMNoohh2 https://t.co/pR5FyAiFJl"](https://twitter.com/rauchg/status/876888344621338624)
+  - [Nicholas C. Zakas on Twitter: "Ok, this needs to be said: Prettier is not a replacement for ESLint. Prettier is a source code formatter. ESLint is a code quality tool."](https://twitter.com/slicknet/status/877194938508656641)
 
 - defensive coding
   - types enable me to not null-check everything

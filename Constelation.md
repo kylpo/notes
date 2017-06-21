@@ -93,6 +93,8 @@ Others working on this
 - [idibidiart/react-native-responsive-grid: Responsive Grid Layout for React Native](https://github.com/idibidiart/react-native-responsive-grid)
 - [Rethinking Style - Google Slides](https://docs.google.com/presentation/d/1s7VPbvuv6m9-S7ePm0R5loqRnHsZEHHVbZALJpWAARo/edit#slide=id.g1f5f3b47d0_0_684)
   - [mdgriffith/style-elements: Create styles that don't mysteriously break!](https://github.com/mdgriffith/style-elements)
+- [Travis Arnold on Twitter: "🍰 once you have strong primitives https://t.co/RuXap4maur"](https://twitter.com/souporserious/status/876578753769488385)
+- [Kent C. Dodds on Twitter: "@rauchg And the built-in components so you don't have to give things names like "Container" or "Wrapper" but just inline it. <Div margin={20} />"](https://twitter.com/kentcdodds/status/875824332735483905)
 
 No More "alphabetize vs logical" css ordering arguments
 - [Alphabetize your CSS properties, for crying out loud](https://medium.com/@jerrylowm/alphabetize-your-css-properties-for-crying-out-loud-780eb1852153)

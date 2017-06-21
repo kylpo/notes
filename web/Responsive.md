@@ -1,5 +1,9 @@
 _WIP_
 
+- [Mike Riethmuller on Twitter: "I'm convinced that in almost all cases, responsive design logic should now be contained in CSS variables."](https://twitter.com/MikeRiethmuller/status/876364460616593408)
+- [Matt Greenfield on Twitter: "@MikeRiethmuller Interesting, you mean just changing the variables in media queries, and nothing else?"](https://twitter.com/MattGreenfield2/status/876383259634147328)
+- [Using CSS variables correctly - Mike Riethmuller](https://madebymike.com.au/writing/using-css-variables/)
+
 Use css media queries for all layout-based concerns
 
 Only use `MatchMedia` (js hook to media queries) when it is a functionality concern

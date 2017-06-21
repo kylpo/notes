@@ -14,6 +14,8 @@ What is the order of events fired for touch and mouse?
 
 [Event Bubbling in JavaScript? Event Propagation Explained](https://www.sitepoint.com/event-bubbling-javascript/)
 
+[DOM handleEvent: a cross-platform standard since year 2000](https://medium.com/@WebReflection/dom-handleevent-a-cross-platform-standard-since-year-2000-5bf17287fd38)
+
 # RN
 [AppAndFlow/react-native-touchable: React-Native button helper library](https://github.com/AppAndFlow/react-native-touchable)
 
