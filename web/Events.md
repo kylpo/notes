@@ -16,6 +16,8 @@ What is the order of events fired for touch and mouse?
 
 [DOM handleEvent: a cross-platform standard since year 2000](https://medium.com/@WebReflection/dom-handleevent-a-cross-platform-standard-since-year-2000-5bf17287fd38)
 
+[An Introduction To DOM Events – Smashing Magazine](https://www.smashingmagazine.com/2013/11/an-introduction-to-dom-events/)
+
 # RN
 [AppAndFlow/react-native-touchable: React-Native button helper library](https://github.com/AppAndFlow/react-native-touchable)
 

@@ -8,3 +8,7 @@ _WIP_
   - Interest
   - Desire
   - Action
+
+# Semicolons and dashes
+- [This Video Explains How to Properly Use Semicolons In Your Writing](http://lifehacker.com/this-video-explains-how-to-properly-use-semicolons-in-y-1716090559)
+- [This Video Explains How to Properly Use the Hyphen, En Dash, and Em Dash](http://lifehacker.com/this-video-explains-how-to-properly-use-the-hyphen-en-1723462806)

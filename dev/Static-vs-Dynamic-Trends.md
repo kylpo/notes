@@ -48,5 +48,6 @@ React Web would also benefit from View Flattening.
 Inline text strings are like the css problem for UX vs DX. We need a tool to extract them, because inline is better DX. Does the runtime already do this?
 
 
+[Code is Fashion – Eric Florenzano – Medium](https://medium.com/@ericflo/code-is-fashion-3d5583e8a6f8)
 
 [Statuscode on Twitter: "Gixy is a static analyzer for your @nginx config files: https://t.co/jVkazOdriv .. detects flaws, potential security tweaks, etc."](https://twitter.com/statuscode/status/862680882276118529)

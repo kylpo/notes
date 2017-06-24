@@ -60,6 +60,7 @@ if (false) {
   - used by twitter lite
 - `Strings` files so that they can all be translated. No inline text, not even the text of an "OK" button.
 - [Jason Miller 🦊⚛ on Twitter: "@threepointone @nekrtemplar we use it a lot for internationalization: <Text id="HELLO">hello world</Text>"](https://twitter.com/_developit/status/856196870179258368)
+- [Este strategy for i18n (multiple languages) – Daniel Steigerwald – Medium](https://medium.com/@steida/este-strategy-for-i18n-multiple-languages-8a0f0162f176)
 
 # Accessibility (a11y)
 - [A11Y Style Guide](http://a11y-style-guide.com/style-guide/)
@@ -69,6 +70,7 @@ if (false) {
 - [Intro to the 8-Point Grid System – Built to Adapt – Medium](https://medium.com/built-to-adapt/intro-to-the-8-point-grid-system-d2573cde8632#.5wpma8ukx)
 - [8pt Material Design GUI Templates – Medium](https://medium.com/@_bklmn/8pt-gui-templates-ed8798badab3#.3dtnmoq8h)
 - [Metrics & keylines - Layout - Material design guidelines](https://material.io/guidelines/layout/metrics-keylines.html#)
+- [Sketch Workflow — 8 point Soft Grids](https://medium.com/sketch-app-sources/8-point-soft-grids-in-sketch-e8f1d5ca2cd4)
 
 # Typography
 - [Bricolage | Typefaces: The easiest way to self-host open-source fonts](https://www.bricolage.io/typefaces-easiest-way-to-self-host-fonts/)
@@ -144,6 +146,9 @@ thought about while reading https://css-tricks.com/seo-and-location/
 
 # Events
 
+# Continuous Integration (CI)
+- [ebidel/lighthouse-ci: Lighthouse CI](https://github.com/ebidel/lighthouse-ci)
+
 # Content
 https://www.usability.gov/how-to-and-tools/methods/writing-for-the-web.html
 
@@ -155,3 +160,6 @@ Web users are often action oriented, "leaning forward" in the hunt for answers t
 https://www.nngroup.com/articles/concise-scannable-and-objective-how-to-write-for-the-web/
 
 Users tend to read in F pattern:
+
+# Favicon
+- [Favicons, Touch Icons, Tile Icons, etc. Which Do You Need? | CSS-Tricks](https://css-tricks.com/favicon-quiz/)

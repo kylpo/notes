@@ -17,6 +17,7 @@ _WIP_
   - "From the user standpoint, very few people will complain that it has too much whitespace. Lack of emptiness causes visual noise."
   - ![](https://cdn-images-1.medium.com/max/1000/1*i6eqOryTciPPD8DZQ7nwEQ.png)
   - ![](https://cdn-images-1.medium.com/max/1000/1*dS5lb3X6eBXYs4kkWQoqEw.png)
+- [6 ways to tighten up your designs - InVision Blog](https://www.invisionapp.com/blog/6-ways-to-tighten-up-your-designs/)
 
 # Fundamentals
 - [Before you can master design, you must first master the fundamentals](https://medium.freecodecamp.com/before-you-can-master-design-you-must-first-master-the-fundamentals-1981a2af1fda)
@@ -47,6 +48,11 @@ _WIP_
 - [Meaningful Motion with Action Driven Animation | Tobias Ahlin](http://tobiasahlin.com/blog/meaningful-motion-w-action-driven-animation/)
   - "when animations fail to be meaningful they often fail because of the same reason; failed animations simply visualize objects morphing between being hidden and visible, rather than visualizing the actions unfolding on screen. A window rarely just closes or opens; a message is sent, a draft is discarded, an item is used."
   - state driven animation vs. action driven animation
+- [Motion Design is the Future of UI](https://blog.prototypr.io/motion-design-is-the-future-of-ui-fc83ce55c02f)
+
 
 # Innovate in at least one area
 "Think about what makes your website stand out. Try to come up with at least one thing, large or small, that you’ve done differently than other sites. Whats your site’s x factor so to speak? What little thing will people remember from your site? A really cool transition, hover effect or a large elaborate interaction. It could even just be really well-written content or a unique tone of voice. Much like in pop songs where there is this one hook that gets stuck in your head, you should have that one thing that makes your site memorable." - [How to design award-winning websites – Lasse Kristensen](https://medium.com/@lassekristensen_95506/how-to-design-award-winning-websites-6f4d2a71495?UX_Design_Weekly_Issue_50)
+
+# States
+- Empty States: [The Most Overlooked Aspect Of UX Design Could Be The Most Important](https://blog.prototypr.io/the-most-overlooked-aspect-of-ux-design-could-be-the-most-important-f1df7a5729e9)

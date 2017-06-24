@@ -112,6 +112,7 @@ I tried to think of everything you'd need in a WYSIWYG to build an app/site toda
 - Animation
 - Layers (z-index)
 - Timeline
+  - like [jondot/react-flight: The best way to build animation compositions for React.](https://github.com/jondot/react-flight)?
 
 # Still semantic
 - `tag` prop
