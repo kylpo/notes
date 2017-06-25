@@ -65,3 +65,6 @@ This is a problem I think some dev celebreties face. They continue down the dev 
 
 - [Sunil Pai on Twitter: "At the risk of alienating some peeps... can't wait to write closed source code for real products again. Less noise, more prod."](https://twitter.com/threepointone/status/865709610623053824)
 - [Eric Clemmons on Twitter: "@threepointone You get more successes this way, too. I've stepped back from OSS because it's the ROI isn't there."](https://twitter.com/ericclemmons/status/865723597997867009)
+- [TJ Holowaychuk's answer to Has TJ Holowaychuk been as prolific in the Golang community as he was in the Node.js community? - Quora](https://www.quora.com/Has-TJ-Holowaychuk-been-as-prolific-in-the-Golang-community-as-he-was-in-the-Node-js-community/answer/TJ-Holowaychuk)
+  - "my new goal is to live a better life. In the end open-source doesn’t pay the bills so it’s best to focus on other things if you can"
+  - "I write code 2–3 hours a day unless I’m really into something. Time is your real currency!"

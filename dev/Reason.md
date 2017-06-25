@@ -13,3 +13,5 @@ _WIP_
 [James Long on Twitter: "I want to start using reason-react, but lots to figure out, so until then..."](https://twitter.com/jlongster/status/865281398369898496)
 
 [Protoship: design, develop, and scale successful web applications](https://protoship.io/blog/2017/05/10/an-invitation-to-reasonml.html)
+
+[A First Reason React app for Javascript developers | James Friend](https://jamesfriend.com.au/a-first-reason-react-app-for-js-developers)

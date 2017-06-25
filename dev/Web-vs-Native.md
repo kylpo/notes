@@ -157,6 +157,9 @@ https://daverupert.com/2016/10/desktop-is-lava/ had some good points:
 - [Sindre Sorhus on Twitter: "Why I chose @electronjs for my Caprine app. https://t.co/KH5GU1PCma https://t.co/tqQzXAJtq0"](https://twitter.com/sindresorhus/status/864887242468335616)
 - [Logan Collins on Twitter: "native_apps_are_old_news.gif https://t.co/ifrwNCXEf5"](https://twitter.com/logancollins/status/867022856890142720)
 - Figma written in C++ and runs in browser with WebAssembly: [WebAssembly cut Figma’s load time by 3x – Figma Design](https://blog.figma.com/webassembly-cut-figmas-load-time-by-3x-76f3f2395164)
+- [Adam Bell on Twitter: "Text editor built using the web™ realizes that DOM is a bottleneck and native code is the best way to render text 🤔 https://t.co/45t2baZxHg"](https://twitter.com/b3ll/status/877957498702921728)
+- "Most common anti-pattern among Developers: making choices based on speed of initial development rather than ease of debugging." - [@mikeal](https://twitter.com/mikeal/status/878380425529393152)
+  - "Developers spend far more time debugging than on initial development yet consistently optimize the choices of their stack for initial dev."
 
 # Current Conclusions
 - When to use Web

@@ -21,6 +21,7 @@ _WIP_
 
 # Fundamentals
 - [Before you can master design, you must first master the fundamentals](https://medium.freecodecamp.com/before-you-can-master-design-you-must-first-master-the-fundamentals-1981a2af1fda)
+- [Explaining graphic design to four-year-olds – Dean Vipond – Medium](https://medium.com/@deanvipond/explaining-graphic-design-to-four-year-olds-fe9257ffaf3d)
 
 # Consistency
 - [Design principle: Consistency – UX Planet](https://uxplanet.org/design-principle-consistency-6b0cf7e7339f)
@@ -43,12 +44,17 @@ _WIP_
   - [Bottom Navigation Interface – Prototyping: From UX to Front End](https://blog.prototypr.io/bottom-navigation-interface-fa4bff52065f)
 - Circles
   - [My life - Your health tracking by Johny vino™](https://dribbble.com/shots/3531446-My-life-Your-health-tracking)
+- "design is never done: the YouTube Android app edition." - [Luke Wroblewski](https://twitter.com/lukew/status/878024465254301696)
+  - ![](https://pbs.twimg.com/media/DC9emJSWsAEgT62.jpg:large)
 
 # Motion
 - [Meaningful Motion with Action Driven Animation | Tobias Ahlin](http://tobiasahlin.com/blog/meaningful-motion-w-action-driven-animation/)
   - "when animations fail to be meaningful they often fail because of the same reason; failed animations simply visualize objects morphing between being hidden and visible, rather than visualizing the actions unfolding on screen. A window rarely just closes or opens; a message is sent, a draft is discarded, an item is used."
   - state driven animation vs. action driven animation
 - [Motion Design is the Future of UI](https://blog.prototypr.io/motion-design-is-the-future-of-ui-fc83ce55c02f)
+- [Designer’s Toolkit: Motion Design Storytelling | Cooper](https://www.cooper.com/journal/2015/7/designers-toolkit-motion-design-storytelling?utm_campaign=UX_Design_Weekly_Issue_47&utm_medium=email&utm_source=uxdesignweekly.com?)
+  - Friendly ![](https://www.cooper.com/uploads/4/5/friendly_1_small.gif)
+  - Sleek ![](https://www.cooper.com/uploads/4/9/sleek_2_small.gif)
 
 
 # Innovate in at least one area

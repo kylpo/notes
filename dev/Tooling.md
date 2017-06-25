@@ -16,3 +16,6 @@ I think now, more than ever, we are set up for a wysiwyg builder to become hugel
   - Adds cost indicator to css properties in the form of inline decorations
   - ![](https://raw.githubusercontent.com/kisstkondoros/csstriggers/master/screenshot.png)
 - [Sam Saccone on Twitter: "The perf gutter in devtools makes it trivial to identify non-obvious costly paths in your code execution. 🔥💥💸🌶️🐐 https://t.co/MR86N0ijlj"](https://twitter.com/samccone/status/858753027036950528)
+- ![](https://pbs.twimg.com/media/DDGh0oHWsAEw4Td.jpg) - [src](https://twitter.com/Ashley_J_W/status/878661693743783936)
+- [Ingvar Stepanyan on Twitter: "Quokka is such an awesome tool for quickly prototyping something in JavaScript. If you're using VSCode, give it a try. https://t.co/1aWfcPx9xM"](https://twitter.com/RReverser/status/878326193983848448)
+- Annotation view. Editor shows code on left, and annotated comments on right, like Docco.
