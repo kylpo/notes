@@ -4,3 +4,20 @@
 - [amphtml/getting-started-e2e.md at master · ampproject/amphtml](https://github.com/ampproject/amphtml/blob/master/contributing/getting-started-e2e.md#building-amp-and-starting-a-local-server)
 - [I decided to disable AMP on my site](https://www.alexkras.com/i-decided-to-disable-amp-on-my-site/)
 
+---
+
+![](https://github.com/kylpo/notes/blob/master/assets/the-fold.png?raw=true)
+
+And by creating this strict, statically laid out environment, it enables platforms such as Google Search to get one step closer to “instant” by preloading just the first viewport.
+
+https://www.smashingmagazine.com/2016/12/progressive-web-amps/
+
+To make the experience reliably fast, you need to live with some constraints when implementing AMP pages. AMP isn’t useful when you need highly dynamic functionality, such as Push Notifications or Web Payments, or really anything requiring additional JavaScript. In addition, since AMP pages are usually served from an AMP Cache, you won’t get the biggest Progressive Web App benefits on that first click, since your own Service Worker can’t run. On the other hand, a Progressive Web App can never be as fast as AMP on that first click, as platforms can safely and cheaply prerender AMP pages – a feature that also makes embedding simpler (e.g. into an inline viewer).
+
+
+
+https://ampbyexample.com/#components
+
+https://choumx.github.io/amp-pwa
+
+Interesting that the AMP dev advocate is the creator of jQuery UI: Paul Bakaus. Wonder if he was frustrated with trying to make web more app-like and just settled on how I am currently thinking the web should act.
