@@ -4,23 +4,23 @@ _WIP_
 See Rules: Design
 
 App Controls (widgets/components? - can’t think of a good name)
-Store constants like AppBar height in /shared/APP.js
-Dialog/Modal (overlay),
-Stage Left, Stage Right
+- Store constants like AppBar height in /shared/APP.js
+- Dialog/Modal (overlay),
+- Stage Left, Stage Right
 - or Left Sheet, Right Sheet, Bottom Sheet: [Bottom Sheets - Material Components for Android](https://material.io/components/android/catalog/bottom-sheet-behavior/)
 UIControls.showModal(<Content />)
 
 Media Queries
 
 Mobile Navigation Experiences
-nav stacks + tabs (twitter)
-accordion (google inbox)
-hamburger "drawer"
-swipe left/right "paging"
-shared element transitions
-Safari (iOS) shows tabs as a 3D stack, grid in landscape mode.
-modal navigation: Show modal, navigate like regular, remove modal
-https://twitter.com/ryanflorence/status/803665049826906112
+- nav stacks + tabs (twitter)
+- accordion (google inbox)
+- hamburger "drawer"
+- swipe left/right "paging"
+- shared element transitions
+- Safari (iOS) shows tabs as a 3D stack, grid in landscape mode.
+- modal navigation: Show modal, navigate like regular, remove modal
+- https://twitter.com/ryanflorence/status/803665049826906112
 
 
 ---

@@ -5,3 +5,7 @@ http://markdowntomedium.com/create
 
 # Code image
 http://instaco.de/
+
+# Hotkeys
+- [Keyboard shortcuts – Medium Support](https://help.medium.com/hc/en-us/articles/214672207-Keyboard-shortcuts)
+- `cmd k` - Link

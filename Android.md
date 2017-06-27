@@ -8,6 +8,8 @@
   - [Kotlin/kotlin-fullstack-sample: Kotlin Full-stack Application Example](https://github.com/Kotlin/kotlin-fullstack-sample)
   - [Using Kotlin to make Android APIs fun again – Signal v. Noise](https://m.signalvnoise.com/using-kotlin-to-make-android-apis-fun-again-14690975afb6)
   - [The Ugly Truth about Extension Functions in Kotlin – Rahul Chowdhury's Blog](http://blog.rahulchowdhury.co/the-ugly-truth-about-extension-functions-in-kotlin/)
+  - [Kotlin's hidden costs - Benchmarks - Renato Athaydes](https://sites.google.com/a/athaydes.com/renato-athaydes/posts/kotlinshiddencosts-benchmarks)
+  - [Why I Started Learning Kotlin - DZone Java](https://dzone.com/articles/why-i-started-learning-kotlin)
 - Debugging
   - [Android Performance: An Overview (Google I/O '17) - YouTube](https://www.youtube.com/watch?v=Qfo5fdoXrTU)
     - systrace from `catapult` repo

@@ -68,3 +68,4 @@ This is a problem I think some dev celebreties face. They continue down the dev 
 - [TJ Holowaychuk's answer to Has TJ Holowaychuk been as prolific in the Golang community as he was in the Node.js community? - Quora](https://www.quora.com/Has-TJ-Holowaychuk-been-as-prolific-in-the-Golang-community-as-he-was-in-the-Node-js-community/answer/TJ-Holowaychuk)
   - "my new goal is to live a better life. In the end open-source doesn’t pay the bills so it’s best to focus on other things if you can"
   - "I write code 2–3 hours a day unless I’m really into something. Time is your real currency!"
+- "And this is why many open source developers join large companies and disappear. Because open source sucks." "I don't think I can do open source ever again. We built @yarnpkg in private and then open sourced. Quickly after I lost all motivation." - [Sebastian McKenzie](https://twitter.com/sebmck/status/879283865902346244)

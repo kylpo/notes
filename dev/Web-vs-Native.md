@@ -127,6 +127,10 @@ https://daverupert.com/2016/10/desktop-is-lava/ had some good points:
 - [rtorr on Twitter: "I'm glad hacker news is the high bar for modern apps. It looks like it was made in 1993. Platform is ready."](https://twitter.com/richardiii/status/871197129074556928)
 - [Mobile Safari (Whyyyy?!) | Engineering Blog](https://www.eventbrite.com/engineering/mobile-safari-why/)
   - no bottom CTAs
+- ["The mobile web in 2017"](https://twitter.com/sbholtrop/status/878611398527520768)
+  - ![](https://pbs.twimg.com/media/DDF0ZvSXYAI3XGc.jpg)
+  - ["Updated: The mobile web in 2017, **now with web fonts!**"](https://twitter.com/markdalgleish/status/879144162389393409)
+  - ![](https://pbs.twimg.com/media/DDNYuuVVoAAasvH.jpg)
 
 ## Pros
 - ["Available anywhere, on-demand, low storage, low power use, etc. These are things both users and companies want from apps. Web nearly there"](https://twitter.com/necolas/status/850437592285708288)
