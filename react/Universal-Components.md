@@ -1,5 +1,12 @@
 _WIP_
 
+
+Talk about sharing code in one npm package via .native.js and .js, with an index file requiring them.
+
+Also talk about the current .flow.js issue and how file_ext could be fixed in the future to not need the current `declar module` workaround
+
+---
+
 - `files` whitelist to keep down on the size
   - [Mateusz Zatorski on Twitter: "If you're a maintainer of an OSS library please make sure you ship to npm only what's needed. No docs, no dev files, no unneeded files."](https://twitter.com/matzatorski/status/832926885277532160)
 
