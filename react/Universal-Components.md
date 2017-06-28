@@ -1,5 +1,16 @@
 _WIP_
 
+Title like: "Sharing code between platforms: my approach to ReactJS and React Native" - https://www.ckl.io/blog/sharing-code-reactjs-react-native/
+
+https://medium.com/@aakashns/sharing-components-between-react-and-react-native-f6ce3713658a#.3epieyu3x
+
+https://github.com/sesteva/react-shared-components
+
+
+Problem with flow:
+Flow does not support Native's platform files: https://github.com/facebook/flow/issues/945
+
+---
 
 Talk about sharing code in one npm package via .native.js and .js, with an index file requiring them.
 

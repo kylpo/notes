@@ -30,3 +30,9 @@ Instead of meeting in person, I need to be writing more.
 [Henrik Joreteg on Twitter: "My productivity seems to ebb and flow. It seems better to roll with it than fight it, but it can still be frustrating."](https://twitter.com/HenrikJoreteg/status/857458718056660992)
 
 [The Productivity Cycle - Alex Sexton](https://alexsexton.com/blog/2014/1/the-productivity-cycle/)
+
+# Refactoring Components
+The boilerplate steps of making many components really sucks. Creating file and folder, adding to index, passing the props down, etc. This is why I should first make monolithic components, then once I get sick of working/seeing those components, I'll refactor into smaller, cleaner components.
+
+This replaces a burdensome, procrastination-inducing task with a happy one, where I vanquish monoliths, and clean up dirty code.
+

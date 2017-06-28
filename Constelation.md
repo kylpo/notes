@@ -166,6 +166,18 @@ Within Conventions
 - rules
 - style
 
+# Single Responsibility Components
+consider the Category component. It could just be a single div with a background-image, onClick, onHover, and a child text, but that is complicated and completely not reusable.
+
+A better way to think of it would be Text wrapped in Col wrapped in BackgroundImage wrapped in Clickable. The only weirdness is the onHover, which would need to be done at the BackgroundImage level for the insetShadow.
+
+---
+
+range of component concerns (completely isolated, app-aware, route-aware)
+
+saying we can have all modular components is like saying the best security is turning off your computer and burying it 100 feet deep. They're just impractical.
+
+
 # In prep for conf talk
 Building quickly for web and native gives me rare insights. Something I should leverage.
 

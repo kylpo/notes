@@ -163,3 +163,12 @@ Users tend to read in F pattern:
 
 # Favicon
 - [Favicons, Touch Icons, Tile Icons, etc. Which Do You Need? | CSS-Tricks](https://css-tricks.com/favicon-quiz/)
+
+# Time
+- use https://date-fns.org/docs/I18n#supported-languages if you don't need much for lang support
+- else use Moment
+
+# animated images
+- use <video> instead of animated GIFs
+- Gifs are bigger
+

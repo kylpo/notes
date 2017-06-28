@@ -108,6 +108,13 @@ https://daverupert.com/2016/10/desktop-is-lava/ had some good points:
   - I think of this as similar to pc games that allow you to dial up/down graphic settings. The game should work with the lowest settings, then ramp up its experience when opted in.
 - [Mark Dalgleish on Twitter: "One thing that web apps are wayyy better at that nobody talks about—when you *know* you're looking at stale data, you can just hit refresh."](https://twitter.com/markdalgleish/status/874400896100089856)
 
+"So, web folks, I'm trying to #usetheplatform. But the platform can't smoothly collapse variable length content. Help?"
+- https://twitter.com/jamespearce/status/807398999049191425
+
+See also: https://github.com/w3c/csswg-drafts/issues/626
+
+And http://n12v.com/css-transition-to-from-auto/ with the current best practice
+
 ## Cons
 - [Think you know the top web browsers? – Samsung Internet Developers – Medium](https://medium.com/samsung-internet-dev/think-you-know-the-top-web-browsers-458a0a070175)
 - [Ken Wheeler on Twitter: "Let me be clear: PWAs are awesome & worth doing: ✅ PWAs are as good as native apps: ❌"](https://twitter.com/ken_wheeler/status/854699025928531968) thread basically sums up how I feel
@@ -205,6 +212,9 @@ PWA
 Problems
 - integrations (android wear, macOS menu bar)
 
+
+See also [Apps are faltering. But progressive web apps seem pretty legit. – Medium](https://medium.com/@cameronmoll/apps-are-dying-2f27baef21dd#.k7dc6wh3j)
+
 [Ken Wheeler on Twitter: "Hey PWA lovers, can you provide me the most native feeling PWA you know of? I need it, for research and shit."](https://twitter.com/ken_wheeler/status/865267013123530752)
 
 [MakeMyTrip.com’s new PWA delivers 3X improvement in conversion rates  |  Web  |  Google Developers](https://developers.google.com/web/showcase/2017/make-my-trip)
@@ -229,8 +239,18 @@ PWA with Android Intents: What if you click link twice? Will it open two "apps"?
 - Stop using titles like [Progressive Web Apps: Great Experiences Everywhere (Google I/O '17) - YouTube](https://www.youtube.com/watch?v=m-sCdS0sQO8)
 - [Twitter Lite is a PWA Win - Thurrott.com](https://www.thurrott.com/cloud/116841/twitter-lite-pwa-win)
 
-See also Apps are faltering. But progressive web apps seem pretty legit. – Medium
-
 [(3) Steve Jobs Insult Response - YouTube](https://www.youtube.com/watch?v=FF-tKLISfPE) seems to apply. "You've gotta focus on the customer experience and work backwards to the technology. You can't start with the technology, and figure out where you're going to sell it." Focus on the user's experience. Not the tech, not the engineers. Focus on the cohesive experience as a whole.
 
 [Kent C. Dodds on Twitter: "@satya164 The big question everyone has about not using the DOM for web apps is: Accessibility."](https://twitter.com/kentcdodds/status/865278394354814976)
+
+# Websites that I like
+https://www.lily.camera/
+- uses native scroller as primary interaction tool
+https://www.doubleclickbygoogle.com/articles/mobile-speed-adds-up/
+- adapting state of top appbar is just really nice, I think
+
+Long-form learnings:
+https://medium.com/retronator-magazine/pixels-and-voxels-the-long-answer-5889ecc18190#.yysvlewsf
+- bunch of great, supporting images/videos/gifs
+
+
