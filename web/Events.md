@@ -18,6 +18,8 @@ What is the order of events fired for touch and mouse?
 
 [An Introduction To DOM Events – Smashing Magazine](https://www.smashingmagazine.com/2013/11/an-introduction-to-dom-events/)
 
+[Event Delegation in JavaScript: An Easy Explanation • Calvin Koepke](https://calvinkoepke.com/event-delegation-javascript/)
+
 # RN
 [AppAndFlow/react-native-touchable: React-Native button helper library](https://github.com/AppAndFlow/react-native-touchable)
 
