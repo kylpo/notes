@@ -3,6 +3,7 @@
 - [What Google AMP means for the JavaScript community · molily](https://molily.de/amp/)
 - [amphtml/getting-started-e2e.md at master · ampproject/amphtml](https://github.com/ampproject/amphtml/blob/master/contributing/getting-started-e2e.md#building-amp-and-starting-a-local-server)
 - [I decided to disable AMP on my site](https://www.alexkras.com/i-decided-to-disable-amp-on-my-site/)
+- [Content Performance Policy, an alternative to AMP?](https://dev.to/damienjubeau/content-performance-policy-an-alternative-to-amp?utm_source=mobilewebweekly&utm_medium=email)
 
 ---
 
@@ -21,3 +22,5 @@ https://ampbyexample.com/#components
 https://choumx.github.io/amp-pwa
 
 Interesting that the AMP dev advocate is the creator of jQuery UI: Paul Bakaus. Wonder if he was frustrated with trying to make web more app-like and just settled on how I am currently thinking the web should act.
+
+---

@@ -62,3 +62,6 @@ _WIP_
 
 # States
 - Empty States: [The Most Overlooked Aspect Of UX Design Could Be The Most Important](https://blog.prototypr.io/the-most-overlooked-aspect-of-ux-design-could-be-the-most-important-f1df7a5729e9)
+
+# Typography
+- [10 Tips On Typography in Web Design](https://uxplanet.org/10-tips-on-typography-in-web-design-13a378f4aa0d)
