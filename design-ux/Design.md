@@ -34,6 +34,10 @@ _WIP_
 # Color
 - "Almost Black is easier to read than Black"
   - [How to not suck at design, a 5 minute guide for the non-designer.](https://medium.com/@hemeon/how-to-not-suck-at-design-a-5-minute-guide-for-the-non-designer-291efac43037)
+- [Red, White, and Blue – Springboard](https://medium.springboard.com/a-designers-guide-to-selecting-colors-for-your-product-9944756838d4)
+  - Try to follow 60-30-10 rule
+  - ![](https://cdn-images-1.medium.com/max/1600/0*_pzRUmoLR4Ma3Z-a.)
+  - Avoid using color Black
 
 # Navigation
 - [Basic Patterns For Mobile Navigation: Pros And Cons – Smashing Magazine](https://www.smashingmagazine.com/2017/05/basic-patterns-mobile-navigation/)
