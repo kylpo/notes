@@ -4,6 +4,7 @@
 - [amphtml/getting-started-e2e.md at master · ampproject/amphtml](https://github.com/ampproject/amphtml/blob/master/contributing/getting-started-e2e.md#building-amp-and-starting-a-local-server)
 - [I decided to disable AMP on my site](https://www.alexkras.com/i-decided-to-disable-amp-on-my-site/)
 - [Content Performance Policy, an alternative to AMP?](https://dev.to/damienjubeau/content-performance-policy-an-alternative-to-amp?utm_source=mobilewebweekly&utm_medium=email)
+- [The bloat of AMP](https://lolware.net/2017/07/04/amp-bloat.html)
 
 ---
 

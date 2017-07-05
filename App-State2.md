@@ -25,6 +25,8 @@ Lets talk about Data. Data and State. Persistent data, and temporal state.
 
 
 
+# UI State
+- [How To Manage UI State With Redux – codeburst](https://codeburst.io/how-to-manage-ui-state-with-redux-24deb6cf0d57)
 
 
 
