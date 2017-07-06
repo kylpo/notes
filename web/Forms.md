@@ -6,3 +6,7 @@ _WIP_
 # Validation
 - [Form Validation Part 1: Constraint Validation in HTML | CSS-Tricks](https://css-tricks.com/form-validation-part-1-constraint-validation-html/)
 - [Inline validation is problematic – Simple = Human – Medium](https://medium.com/simple-human/inline-validation-is-problematic-399dd01d436f)
+
+# Design
+- [Dropdown alternatives for better (mobile) forms](https://medium.com/@kollinz/dropdown-alternatives-for-better-mobile-forms-53e40d641b53)
+  - ![](https://cdn-images-1.medium.com/max/800/1*RgJCeUgLsW6YImsJeDep7A.png)

@@ -16,5 +16,8 @@ _WIP_
 
 [A First Reason React app for Javascript developers | James Friend](https://jamesfriend.com.au/a-first-reason-react-app-for-js-developers)
 
+# Tutorial
+- [A ReasonReact Tutorial | Jared Forsyth.com](https://jaredforsyth.com/2017/07/05/a-reason-react-tutorial/)
+
 # React Native
 - [How to setup ReasonML for a React Native project – Tech Distillation](https://blog.behrends.io/how-to-setup-reasonml-for-a-react-native-project-8c51f1cc1d34)
