@@ -1,5 +1,11 @@
 _WIP_
 
+
+# CSS-in-JS vs Style-Objects-in-JS
+- [Guillermo Rauch on Twitter: "@threepointone @natebirdman @tkh44 @ken_wheeler Yeah and ultimately I agree with @tkh44 strongly. I tried CSS in objects extensively but there's great conveniences to the CSS DSL for web"](https://twitter.com/rauchg/status/881591905481510912)
+- more copy/pastable for chrome devtools and Stack Overflow
+- not all css features can be represented as objects in js
+
 [Emotion - css prop for all](https://github.com/tkh44/emotion)
 - [Kye Hohenberger on Twitter: "@threepointone what do you think of this for glam? css call result would be applied to the parent element. Too magic? https://t.co/x3cWhNZRzv"](https://twitter.com/tkh44/status/867804230475763712)
 - [Kye Hohenberger on Twitter: "glam plugin done 😉 glamor, cxs, and restyles coming up. https://t.co/r0FklRMN1S"](https://twitter.com/tkh44/status/868308967340068864)

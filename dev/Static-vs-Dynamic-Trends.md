@@ -32,6 +32,10 @@ Should it be re-titled as Compile-vs-Run-Time?
 
 [La nouvelle vague - Sunil Pai aka @threepointone at @ReactEurope](https://www.youtube.com/watch?v=yjVhjmM1FPc)
 
+[Kent C. Dodds on Twitter: "I want to see more libraries disguised as babel plugins. Put more at compile-time and less at runtime FTW!"](https://twitter.com/kentcdodds/status/881211867057737728)
+
+[kentcdodds/babel-plugin-preval: Pre-evaluate code at build-time](https://github.com/kentcdodds/babel-plugin-preval)
+
 Prepack, like Svelte, compiles away
 
 css-in-js needs static queries and ahead-of-time optimization, too. Just like the recent Relay release.

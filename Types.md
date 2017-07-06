@@ -16,6 +16,9 @@ Header using Text's union string prop
   - [Sven SAULEAU on Twitter: "@roman01la Yes I see, Java is aware of this and recently added very limited type inference https://t.co/BNRMuFh2PE"](https://twitter.com/svensauleau/status/863729233415294977)
 
 # Type Inference
-"Type inference doesn't mean code is unreadable. The opposite. It means *everything* becomes readable, not just the manually annotated code!" - [@jordwalke](https://twitter.com/jordwalke/status/874525331171848192)
+- "Type inference doesn't mean code is unreadable. The opposite. It means *everything* becomes readable, not just the manually annotated code!" - [@jordwalke](https://twitter.com/jordwalke/status/874525331171848192)
 
 ![](https://pbs.twimg.com/media/DCLviWFUMAAciZV.jpg)
+
+- "we have to infer reason types when code reviewing =/" - [the unlearner on Twitter](https://twitter.com/meoyawn/status/881148463907561472)
+  -  "Let's make better code review tools that show us the types! I'm working on something related right now" - [Jared Forsyth on Twitter](https://twitter.com/jaredforsyth/status/881149609728454656)

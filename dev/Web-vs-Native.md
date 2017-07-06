@@ -138,6 +138,7 @@ And http://n12v.com/css-transition-to-from-auto/ with the current best practice
   - ![](https://pbs.twimg.com/media/DDF0ZvSXYAI3XGc.jpg)
   - ["Updated: The mobile web in 2017, **now with web fonts!**"](https://twitter.com/markdalgleish/status/879144162389393409)
   - ![](https://pbs.twimg.com/media/DDNYuuVVoAAasvH.jpg)
+- [Leland Richardson on Twitter: "randomly looking for some blackjack games on phone and on web... becomes painfully obvious why the web is losing to native mobile"](https://twitter.com/intelligibabble/status/881958748985581568)
 
 ## Pros
 - ["Available anywhere, on-demand, low storage, low power use, etc. These are things both users and companies want from apps. Web nearly there"](https://twitter.com/necolas/status/850437592285708288)
