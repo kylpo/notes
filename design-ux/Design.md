@@ -51,6 +51,8 @@ _WIP_
   - [My life - Your health tracking by Johny vino™](https://dribbble.com/shots/3531446-My-life-Your-health-tracking)
 - "design is never done: the YouTube Android app edition." - [Luke Wroblewski](https://twitter.com/lukew/status/878024465254301696)
   - ![](https://pbs.twimg.com/media/DC9emJSWsAEgT62.jpg:large)
+- [A Primer on Android navigation – Google Design](https://medium.com/google-design/a-primer-on-android-navigation-75e57d9d63fe)
+  - "As soon as you link two screens together in an app, you have navigation. That link—whatever it may be—is the vehicle that carries users between those screens."
 
 # Motion
 - [Meaningful Motion with Action Driven Animation | Tobias Ahlin](http://tobiasahlin.com/blog/meaningful-motion-w-action-driven-animation/)

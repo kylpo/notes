@@ -24,3 +24,6 @@ css-in-js
   - ["emotion - ~2kb including glam - styled components api - css prop on all elements - css files gen during build https://t.co/AzyfJVjwCx https://t.co/o2WO6PsUxS"](https://twitter.com/tkh44/status/870516183325327364)
   - [Kye Hohenberger on Twitter: "Another great feature, the css prop can be used on any element. emotion takes care of attaching the className for you. https://t.co/yZ4W0snRx0"](https://twitter.com/tkh44/status/873731354575372288)
   - ![](https://pbs.twimg.com/media/DCAdkGAUIAE-LO2.jpg)
+
+Fast
+- [Luke Edwards on Twitter: "Tiny (124B) replacement for `Array.proto.map` It's 30X faster than native & can modify proto if feeling rebellious 😎 https://t.co/FoaO63R4l9"](https://twitter.com/lukeed05/status/882797698608357376)

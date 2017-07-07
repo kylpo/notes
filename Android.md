@@ -10,6 +10,7 @@
   - [The Ugly Truth about Extension Functions in Kotlin – Rahul Chowdhury's Blog](http://blog.rahulchowdhury.co/the-ugly-truth-about-extension-functions-in-kotlin/)
   - [Kotlin's hidden costs - Benchmarks - Renato Athaydes](https://sites.google.com/a/athaydes.com/renato-athaydes/posts/kotlinshiddencosts-benchmarks)
   - [Why I Started Learning Kotlin - DZone Java](https://dzone.com/articles/why-i-started-learning-kotlin)
+  - [A Whirlwind Tour of the Kotlin Type Hierarchy](http://natpryce.com/articles/000818.html)
 - Debugging
   - [Android Performance: An Overview (Google I/O '17) - YouTube](https://www.youtube.com/watch?v=Qfo5fdoXrTU)
     - systrace from `catapult` repo
@@ -30,6 +31,8 @@
 - Accessibility
   - [Developing Accessible Apps for Blind and Visually-Impaired Users](https://www.youtube.com/watch?v=1by5J7c5Vz4)
   - [Developing Accessible Apps for Users with Motor Impairments](https://www.youtube.com/watch?v=ElifzykHt7U)
+- Navigation
+  - [A Primer on Android navigation – Google Design](https://medium.com/google-design/a-primer-on-android-navigation-75e57d9d63fe)
 
 [Dimensions](https://dimensionssprint.withgoogle.com/)
 - [Dimensions: Uniquely Android - YouTube](https://www.youtube.com/watch?v=J4pQK2463qs)

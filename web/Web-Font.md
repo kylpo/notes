@@ -1,3 +1,8 @@
+[Addy Osmani on Twitter: "Use Web Fonts? Have a solid font loading strategy to deliver the best user experience 🔥 https://t.co/7HThUtp0AZ https://t.co/n7pxwLdNzP https://t.co/fHahqqfcRA"](https://twitter.com/addyosmani/status/883002839995301888)
+
+![](https://pbs.twimg.com/media/DEEKLTlUQAAFdyo.jpg)
+
+
 # Decisions to make
 
 rem, em, px

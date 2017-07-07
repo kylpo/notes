@@ -21,3 +21,6 @@ You can, but should you?
 - [An iOS Dev’s Experience with React Native – Made by Windmill](https://blog.madebywindmill.com/an-ios-devs-experience-with-react-native-559275b5a4e8)
 - Swift and Kotlin are pretty damn good
   - As js has gotten better with ES2015, so too have native languages
+- Seems like those that care about perf drop down to native anyways
+  - [Intro to React Native for an iOS Developer - Artsy Engineering](http://artsy.github.io/blog/2017/07/06/React-Native-for-iOS-devs/#React.Native) and [Doing it right per platform](http://artsy.github.io/blog/2017/07/06/React-Native-for-iOS-devs/#Doing.it.right.per.platform)
+    - "For most users of React Native, native development has always been unavailable to them, and now it's not, because React Native has lowered the barrier to entry. This means many people are aiming to make cross-platform React Native apps that are entirely in JavaScript ( see Create React Native App. ) They are just trying to get something shipped, which could be different from what you the reader are probably doing. As a native dev, you're probably more interested in making something really fit the platform and shine. Lots of probablys, yes, but it fits the questions we're being asked."
