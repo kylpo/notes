@@ -11,6 +11,7 @@
   - [Kotlin's hidden costs - Benchmarks - Renato Athaydes](https://sites.google.com/a/athaydes.com/renato-athaydes/posts/kotlinshiddencosts-benchmarks)
   - [Why I Started Learning Kotlin - DZone Java](https://dzone.com/articles/why-i-started-learning-kotlin)
   - [A Whirlwind Tour of the Kotlin Type Hierarchy](http://natpryce.com/articles/000818.html)
+  - [Migrating an Android project to Kotlin – Ben Weiss – Medium](https://medium.com/@keyboardsurfer/migrating-an-android-project-to-kotlin-f93ecaa329b7)
 - Debugging
   - [Android Performance: An Overview (Google I/O '17) - YouTube](https://www.youtube.com/watch?v=Qfo5fdoXrTU)
     - systrace from `catapult` repo
@@ -33,6 +34,12 @@
   - [Developing Accessible Apps for Users with Motor Impairments](https://www.youtube.com/watch?v=ElifzykHt7U)
 - Navigation
   - [A Primer on Android navigation – Google Design](https://medium.com/google-design/a-primer-on-android-navigation-75e57d9d63fe)
+- Icons
+  - [Nick Butcher on Twitter: "Check out my 🔥 tips for implementing adaptive icons https://t.co/tWYAHKSmnx"](https://twitter.com/crafty/status/885122099626594304) whole thread is helpful
+  - [Understanding Android Adaptive Icons – Google Design – Medium](https://medium.com/google-design/understanding-android-adaptive-icons-cee8a9de93e2)
+  - [Designing Adaptive Icons – Google Design – Medium](https://medium.com/google-design/designing-adaptive-icons-515af294c783)
+  - [nickbutcher/AdaptiveIconPlayground: An Android app for experimenting with Adaptive Icons.](https://github.com/nickbutcher/AdaptiveIconPlayground)
+  - [Implementing Adaptive Icons – Google Developers – Medium](https://medium.com/google-developers/implementing-adaptive-icons-1e4d1795470e)
 
 [Dimensions](https://dimensionssprint.withgoogle.com/)
 - [Dimensions: Uniquely Android - YouTube](https://www.youtube.com/watch?v=J4pQK2463qs)

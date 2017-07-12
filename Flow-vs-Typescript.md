@@ -38,6 +38,8 @@ This sent me down the rabbit hole of Typescript again. TS does provide intellise
 
 [Flow vs. Typescript | Jan Varwig](http://jan.varwig.org/2017/02/15/flow-vs-typescript.html)
 
+[Caleb Meredith on Twitter: "@sethreidnz @BrendanEich @flowtype We are going to spend a lot of effort this half improving editor support for VSCode and Atom. Hopefully we can make this easier 😊"](https://twitter.com/calebmer/status/884961593745825792)
+
 http://artsy.github.io/blog/2017/02/05/Front-end-JavaScript-at-Artsy-2017/
 
 http://djcordhose.github.io/flow-vs-typescript/2017_jfocus_elm.html#/5
