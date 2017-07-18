@@ -1,6 +1,9 @@
 _WIP_
 
 
+"It's funny how most css in js authors (including myself) don't feel static extraction  is that great. Wonder why peeps still want it. 🤔" - [@tkh44](https://twitter.com/tkh44/status/885925961346297857) "It can be really nice if you have a static site or page, but when dynamic values are involved extract vs inline use the same api. no real" "I would add in you can get some incredible code splits with inline mode and react-loader. You get your styles with js on demand."
+
+
 # CSS-in-JS vs Style-Objects-in-JS
 - [Guillermo Rauch on Twitter: "@threepointone @natebirdman @tkh44 @ken_wheeler Yeah and ultimately I agree with @tkh44 strongly. I tried CSS in objects extensively but there's great conveniences to the CSS DSL for web"](https://twitter.com/rauchg/status/881591905481510912)
 - more copy/pastable for chrome devtools and Stack Overflow

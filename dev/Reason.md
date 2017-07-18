@@ -16,6 +16,11 @@ _WIP_
 
 [A First Reason React app for Javascript developers | James Friend](https://jamesfriend.com.au/a-first-reason-react-app-for-js-developers)
 
+# Getting started
+- [Jeremy Morrell on Twitter: "@HunterLoftis @reasonml Strategy of converting one class at a time proving highly effective so far https://t.co/ozDyGyPyeR"](https://twitter.com/JeremyMorrell/status/886808084299083776)
+  - ![](https://pbs.twimg.com/media/DE6TM2nU0AAoaUs.jpg)
+- [Jeremy Morrell on Twitter: "@HunterLoftis @reasonml Require @reasonml directly from JS with bs-loader for webpack 😲 https://t.co/POF91jhFOr https://t.co/mnxU1WiGBH"](https://twitter.com/JeremyMorrell/status/886808588135563264)
+
 # Tutorial
 - [A ReasonReact Tutorial | Jared Forsyth.com](https://jaredforsyth.com/2017/07/05/a-reason-react-tutorial/)
 

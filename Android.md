@@ -12,6 +12,7 @@
   - [Why I Started Learning Kotlin - DZone Java](https://dzone.com/articles/why-i-started-learning-kotlin)
   - [A Whirlwind Tour of the Kotlin Type Hierarchy](http://natpryce.com/articles/000818.html)
   - [Migrating an Android project to Kotlin – Ben Weiss – Medium](https://medium.com/@keyboardsurfer/migrating-an-android-project-to-kotlin-f93ecaa329b7)
+  - [Understanding Generics and Variance in Kotlin – Tomek Polański – Medium](https://medium.com/@tpolansk/understanding-generics-and-variance-in-kotlin-714c14564c47)
 - Debugging
   - [Android Performance: An Overview (Google I/O '17) - YouTube](https://www.youtube.com/watch?v=Qfo5fdoXrTU)
     - systrace from `catapult` repo
@@ -40,6 +41,7 @@
   - [Designing Adaptive Icons – Google Design – Medium](https://medium.com/google-design/designing-adaptive-icons-515af294c783)
   - [nickbutcher/AdaptiveIconPlayground: An Android app for experimenting with Adaptive Icons.](https://github.com/nickbutcher/AdaptiveIconPlayground)
   - [Implementing Adaptive Icons – Google Developers – Medium](https://medium.com/google-developers/implementing-adaptive-icons-1e4d1795470e)
+  - ![](https://github.com/nickbutcher/AdaptiveIconPlayground/raw/master/screenshots/adaptive-icon-playground-demo.webp)
 
 [Dimensions](https://dimensionssprint.withgoogle.com/)
 - [Dimensions: Uniquely Android - YouTube](https://www.youtube.com/watch?v=J4pQK2463qs)

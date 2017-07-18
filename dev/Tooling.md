@@ -19,3 +19,4 @@ I think now, more than ever, we are set up for a wysiwyg builder to become hugel
 - ![](https://pbs.twimg.com/media/DDGh0oHWsAEw4Td.jpg) - [src](https://twitter.com/Ashley_J_W/status/878661693743783936)
 - [Ingvar Stepanyan on Twitter: "Quokka is such an awesome tool for quickly prototyping something in JavaScript. If you're using VSCode, give it a try. https://t.co/1aWfcPx9xM"](https://twitter.com/RReverser/status/878326193983848448)
 - Annotation view. Editor shows code on left, and annotated comments on right, like Docco.
+- [ǝl͊ʎ̓̏ʞ̄ͧ s̒͑ǝ̇ɯ̃ɐ̐ſ on Twitter: "Wanted: An Atom plugin that will translate normal strings into template strings if I type ${ and hit tab or something."](https://twitter.com/thejameskyle/status/882535449482244096)

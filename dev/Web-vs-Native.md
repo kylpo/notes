@@ -140,6 +140,7 @@ And http://n12v.com/css-transition-to-from-auto/ with the current best practice
   - ![](https://pbs.twimg.com/media/DDNYuuVVoAAasvH.jpg)
 - [Leland Richardson on Twitter: "randomly looking for some blackjack games on phone and on web... becomes painfully obvious why the web is losing to native mobile"](https://twitter.com/intelligibabble/status/881958748985581568)
 - "Is the web ever going to support multiline-text truncation? (Don't @ me about the broken mess that is -webkit-line-clamp)" - [Necolas](https://twitter.com/necolas/status/885150869448085504)
+- [Mark Dalgleish on Twitter: "@ryanflorence "Use the platform to display an app install banner""](https://twitter.com/markdalgleish/status/886692085490794496)
 
 ## Pros
 - ["Available anywhere, on-demand, low storage, low power use, etc. These are things both users and companies want from apps. Web nearly there"](https://twitter.com/necolas/status/850437592285708288)
@@ -173,6 +174,7 @@ And http://n12v.com/css-transition-to-from-auto/ with the current best practice
 - [Adam Bell on Twitter: "Text editor built using the web™ realizes that DOM is a bottleneck and native code is the best way to render text 🤔 https://t.co/45t2baZxHg"](https://twitter.com/b3ll/status/877957498702921728)
 - "Most common anti-pattern among Developers: making choices based on speed of initial development rather than ease of debugging." - [@mikeal](https://twitter.com/mikeal/status/878380425529393152)
   - "Developers spend far more time debugging than on initial development yet consistently optimize the choices of their stack for initial dev."
+- [jordanIsNotAFunction on Twitter: "@floydophone @_chenglou Electron apps do embed inside the IDE since they share runtime, but then it ends up like Atom with 4s startup times. Next, you try lazy."](https://twitter.com/jordwalke/status/883819204377325568)
 
 # Current Conclusions
 - When to use Web
