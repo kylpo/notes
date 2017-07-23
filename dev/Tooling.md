@@ -20,3 +20,5 @@ I think now, more than ever, we are set up for a wysiwyg builder to become hugel
 - [Ingvar Stepanyan on Twitter: "Quokka is such an awesome tool for quickly prototyping something in JavaScript. If you're using VSCode, give it a try. https://t.co/1aWfcPx9xM"](https://twitter.com/RReverser/status/878326193983848448)
 - Annotation view. Editor shows code on left, and annotated comments on right, like Docco.
 - [ǝl͊ʎ̓̏ʞ̄ͧ s̒͑ǝ̇ɯ̃ɐ̐ſ on Twitter: "Wanted: An Atom plugin that will translate normal strings into template strings if I type ${ and hit tab or something."](https://twitter.com/thejameskyle/status/882535449482244096)
+- ![](https://camo.githubusercontent.com/53350e9c6d303f60101e1644605fe62f529e45f2/687474703a2f2f672e7265636f726469742e636f2f643576695542385859372e676966)
+  - [algolia/atom-autocomplete-module-import: ⚛️ Search & install npm packages from import/require statements.](https://github.com/algolia/atom-autocomplete-module-import)

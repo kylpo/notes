@@ -1,5 +1,8 @@
 _WIP_
 
+
+[URLs are UI - Scott Hanselman](https://www.hanselman.com/blog/URLsAreUI.aspx)
+
 # App State and App Data
 For the purpose of this post, let's define `Data` as being data from a persistent source. It may be from a server, a client cache, a static json/xml file, a database. Either way, it is persistent and static.
 
