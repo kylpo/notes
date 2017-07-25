@@ -1,3 +1,25 @@
+
+---
+
+started from [Lin Clark on Twitter: "Trying to learn more about web app vs. native app tradeoffs. What are your fave links? RTs appreciated"](https://twitter.com/linclark/status/887689585878237184)
+
+[Why “Progressive Web Apps vs. native” is the wrong question to ask](https://medium.com/dev-channel/why-progressive-web-apps-vs-native-is-the-wrong-question-to-ask-fb8555addcbb)
+
+PWAs lack:
+- contacts, calendar and browser bookmarks access (though lack of access to these could be viewed as a feature by privacy-conscious users)
+- alarms
+- telephony features — intercept SMSes or calls, send SMS/MMS, get the user’s phone number, read voice mail, make phone calls without the Dialer dialog
+- low-level access to some hardware features and sensors: flashlight, atmospheric pressure sensor
+- system access: task management, modifying system settings, logs
+- registering to handle custom URL schemes and protocol, or file types
+
+
+[The surprising tradeoff at the center of the question whether to build a Native or Web App](https://medium.com/@owencm/the-surprising-tradeoff-at-the-center-of-question-whether-to-build-an-native-or-web-app-d2ad00c40fb2)
+
+"@linclark In my experience (built many native and web apps) is: web is cheaper to get started, but native is cheaper to maintain & get to 98%." - [Rasmus Andersson](https://twitter.com/rsms/status/887913115433574400)
+
+---
+
 [What is the best platform: Web or Apps? – Phoomparin Mano – Medium](https://medium.com/@phoomparin/what-is-the-best-platform-web-or-apps-2017-1c6c5ff7cc16) nailed it.
 - web for lite, native for full
 

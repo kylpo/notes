@@ -64,11 +64,14 @@ if (false) {
 - `Strings` files so that they can all be translated. No inline text, not even the text of an "OK" button.
 - [Jason Miller 🦊⚛ on Twitter: "@threepointone @nekrtemplar we use it a lot for internationalization: <Text id="HELLO">hello world</Text>"](https://twitter.com/_developit/status/856196870179258368)
 - [Este strategy for i18n (multiple languages) – Daniel Steigerwald – Medium](https://medium.com/@steida/este-strategy-for-i18n-multiple-languages-8a0f0162f176)
+- [React.JS Localization v0.2 – Dmitry Kudryavtsev – Medium](https://medium.com/@skwee357/react-js-localization-v0-2-4589bbd4a26a)
 
 # Accessibility (a11y)
 - [A11Y Style Guide](http://a11y-style-guide.com/style-guide/)
 - ![](https://pbs.twimg.com/media/DD4waUsXcAAHIwL.jpg:large)
   - [Manuel Matuzović on Twitter: "#a11y posters: Dos and don'ts on designing for accessibility https://t.co/QU8a2C0Iaf https://t.co/tUUSe6xMVN"](https://twitter.com/mmatuzo/status/882195808619286528) 
+- [🎥 Does reordering content affect accessibility?](https://www.youtube.com/watch?v=8MAvH6vYbDo)
+  - When changing position, like flexbox's `order`, you can mess up tab order. Try to keep position in your `html`.
 
 # Use an 8-point grid system
 - (spacial) Consistency is important to the overall feel of a product

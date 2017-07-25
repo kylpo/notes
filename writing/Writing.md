@@ -12,3 +12,8 @@ _WIP_
 # Semicolons and dashes
 - [This Video Explains How to Properly Use Semicolons In Your Writing](http://lifehacker.com/this-video-explains-how-to-properly-use-semicolons-in-y-1716090559)
 - [This Video Explains How to Properly Use the Hyphen, En Dash, and Em Dash](http://lifehacker.com/this-video-explains-how-to-properly-use-the-hyphen-en-1723462806)
+
+# Remove adjectives
+![](https://pbs.twimg.com/media/DFayDSIXkAAPJbE.jpg)
+- [Simon Kuestenmacher on Twitter: "List of words to use instead of "very" is actually very helpful. https://t.co/CHLbqodEwE https://t.co/ZpGAQXfVJG"](https://twitter.com/simongerman600/status/889093748864552960)
+- The adverb is not your friend - Stephen King

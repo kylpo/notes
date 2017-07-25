@@ -1,5 +1,13 @@
 _WIP_
 
+[Addy Osmani on Twitter](https://twitter.com/addyosmani/status/886169338671112192)
+
+1. Keep your JS small & fast
+2. Lazy-load non-critical assets
+3. Preload late-discovered resources
+4. Optimize Web Fonts
+5. Compress images
+
 [Leveraging the Performance Metrics that Most Affect User Experience  |  Web  |  Google Developers](https://developers.google.com/web/updates/2017/06/user-centric-performance-metrics)
 
 # Good reads

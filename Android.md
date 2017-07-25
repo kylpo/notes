@@ -13,6 +13,8 @@
   - [A Whirlwind Tour of the Kotlin Type Hierarchy](http://natpryce.com/articles/000818.html)
   - [Migrating an Android project to Kotlin – Ben Weiss – Medium](https://medium.com/@keyboardsurfer/migrating-an-android-project-to-kotlin-f93ecaa329b7)
   - [Understanding Generics and Variance in Kotlin – Tomek Polański – Medium](https://medium.com/@tpolansk/understanding-generics-and-variance-in-kotlin-714c14564c47)
+  - [Writing custom lint rules for your Kotlin project with Detekt](https://medium.com/@annayan/writing-custom-lint-rules-for-your-kotlin-project-with-detekt-653e4dbbe8b9)
+  - [Java is slowing Android’s growth and Kotlin is not the answer](https://medium.com/@togru/java-is-slowing-androids-growth-and-kotlin-is-not-the-answer-cd316d303ac1) - controversial read. Read comments, too.
 - Debugging
   - [Android Performance: An Overview (Google I/O '17) - YouTube](https://www.youtube.com/watch?v=Qfo5fdoXrTU)
     - systrace from `catapult` repo
@@ -30,6 +32,7 @@
     - "did you know that Bluetooth is way more battery intensive than LTE or Wi-FI? Well it is, and Google wants developers to use the latter when possible to transfer data to Wear devices. It also wants developers to reduce the amount of vibrations and location checks."
 - Animation
   - [Nick Butcher on Twitter: "ConstraintSets + Transitions are 🤘 That's basically how we built this interaction in the I/O app. https://t.co/KiSpdKLS4e https://t.co/PhlVGXn3Wj"](https://twitter.com/crafty/status/867376535019368448)
+  - [Nick Butcher on Twitter: "Here are the slides from @doris4lt and my #AnDev360 advanced Android animation talk (hit ℹ️ for notes): https://t.co/lVeLUBfQnI"](https://twitter.com/crafty/status/887298579483824128)
 - Accessibility
   - [Developing Accessible Apps for Blind and Visually-Impaired Users](https://www.youtube.com/watch?v=1by5J7c5Vz4)
   - [Developing Accessible Apps for Users with Motor Impairments](https://www.youtube.com/watch?v=ElifzykHt7U)

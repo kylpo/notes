@@ -6,6 +6,12 @@
 - [Content Performance Policy, an alternative to AMP?](https://dev.to/damienjubeau/content-performance-policy-an-alternative-to-amp?utm_source=mobilewebweekly&utm_medium=email)
 - [The bloat of AMP](https://lolware.net/2017/07/04/amp-bloat.html)
 - [Should I implement AMP? 5 meaningless, not proven or misleading assumptions that may lead you to the wrong decision - Blog de Christian Oliveira](https://www.christianoliveira.com/blog/en/web-analytics/should-i-implement-amp/)
+- [AMP Project on Twitter: "Meet the⚡️ ShadowReader, a production-ready PWA+AMP sample that uses real data from @guardian. Learn all about it 👇 https://t.co/jpPEPXLWLZ"](https://twitter.com/AMPhtml/status/888181282168946688)
+---
+
+AMP has already won. This screenshot taken from my Google Feed in July 2017.
+
+![](https://github.com/kylpo/notes/blob/master/assets/AMP-won.png?raw=true)
 
 ---
 
