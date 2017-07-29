@@ -1,6 +1,8 @@
 _WIP_
 
 
+Some of my notes: https://drive.google.com/open?id=0B25-OD6y7G4ZOXhrNXFnYjdhSFk
+
 [Kent C. Dodds on Twitter: "Oh snap, look at what babel-plugin-preval has done 😱 https://t.co/4Jpx0UT2qg https://t.co/DCi2zIYK9o"](https://twitter.com/kentcdodds/status/885951024174780416)
 
 ![](https://pbs.twimg.com/media/DEuH9sxUwAAGA6u.jpg:large)
