@@ -120,11 +120,13 @@ http://babeljs.io/docs/plugins/preset-env/ will reduce the amount of features th
 - doesn't actually shave off much: 6kb
 - polyfill.io instead to load polyfills iff the browser needs it
 
-
 # Theming
 - use css variables. They're now supported in all major browsers (Edge just landed support).
   - [Serg Hospodarets on Twitter: "Huge news! After Microsoft EDGE 15 release today, CSS Custom Properties (aka CSS Variables) work cross-browser!!! 🔥 https://t.co/UzL2IsxdEV https://t.co/Aku2rFlgxY"](https://twitter.com/malyw/status/851913674021371904)
 - [How we made our product more personalized with CSS Variables and React](https://medium.com/geckoboard-under-the-hood/how-we-made-our-product-more-personalized-with-css-variables-and-react-b29298fde608)
+
+# Onboarding
+![](https://github.com/kylpo/notes/blob/master/assets/onboarding.png?raw=true)
 
 # SEO
 - [SEO best practices and requirements for modern sites | John Mueller - YouTube](https://www.youtube.com/watch?v=JlP5rBynK3E)
@@ -149,6 +151,8 @@ http://babeljs.io/docs/plugins/preset-env/ will reduce the amount of features th
 - [Hidden text and links - Search Console Help](https://support.google.com/webmasters/answer/66353?hl=en)
 - SEO boosted by accessibility?
 - [The Lazy Writer’s Guide to 30-Minute Keyword Research - Moz](https://moz.com/blog/30-minute-keyword-research)
+
+![](https://github.com/kylpo/notes/blob/master/assets/seo-hidden-text.png?raw=true)
 
 SEO is related to "location, location, location".
 

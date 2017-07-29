@@ -1,6 +1,6 @@
 # Testing
 - "Learnt a useful tip: Add a 'data-test' attribute to dom elements so they can be easily found in tests." - [tweet](https://twitter.com/kentcdodds/status/886939162070335489)
-
+- [Screener.io: Automated Visual Testing](https://screener.io/) - diffs screenshots
 
 # Continuous Integration (CI)
 - [lighthouse-ci: Lighthouse CI](https://github.com/ebidel/lighthouse-ci)

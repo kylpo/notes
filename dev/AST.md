@@ -16,6 +16,7 @@ I found [babel-plugin-tester](https://github.com/babel-utils/babel-plugin-tester
 
 # Transforms
 - https://github.com/gaearon/babel-plugin-react-transform#transforms
+-  `["react-remove-properties", {"properties": ["data-test"]}], ` to remove test data props!
 
 
 # Others getting psyched on this

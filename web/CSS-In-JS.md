@@ -4,6 +4,23 @@ First of all, css is not just css. It is complicated, just check out [Methods to
 
 "It's funny how most css in js authors (including myself) don't feel static extraction  is that great. Wonder why peeps still want it. 🤔" - [@tkh44](https://twitter.com/tkh44/status/885925961346297857) "It can be really nice if you have a static site or page, but when dynamic values are involved extract vs inline use the same api. no real" "I would add in you can get some incredible code splits with inline mode and react-loader. You get your styles with js on demand."
 
+---
+
+![](https://github.com/kylpo/notes/blob/master/assets/constelation-to-classNames.png?raw=true)
+
+![](https://github.com/kylpo/notes/blob/master/assets/yucky-classNames.png?raw=true)
+
+---
+
+[Guillermo Rauch on Twitter: "@ericclemmons @conorwade @tkh44 @giuseppegurgone @nkzawa @thysultan We already support constants / imports. Dynamic styles coming soon via CSS variables. Inline styles in the meantime."](https://twitter.com/rauchg/status/880705303687331843)
+
+---
+
+Consider putting in `css-vars`
+
+![](https://github.com/kylpo/notes/blob/master/assets/css-vars.png?raw=true)
+
+---
 
 # CSS-in-JS vs Style-Objects-in-JS
 - [Guillermo Rauch on Twitter: "@threepointone @natebirdman @tkh44 @ken_wheeler Yeah and ultimately I agree with @tkh44 strongly. I tried CSS in objects extensively but there's great conveniences to the CSS DSL for web"](https://twitter.com/rauchg/status/881591905481510912)
