@@ -3,6 +3,7 @@ _WIP_
 # React Native
 You can, but should you?
 
+- [You’ve got React Native all wrong – DailyJS – Medium](https://medium.com/dailyjs/youve-got-react-native-all-wrong-3b268eca99f4)
 - [Investigating React Native – Twitch Blog](https://blog.twitch.tv/investigating-react-native-6032ecced610)
   - great list of cons to React Native
 - [ReactJS News on Twitter: "What React native components do you wish existed, or had a better component api?"](https://twitter.com/ReactJSNews/status/862330083134115840)

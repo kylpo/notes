@@ -38,6 +38,8 @@
   - [Developing Accessible Apps for Users with Motor Impairments](https://www.youtube.com/watch?v=ElifzykHt7U)
 - Navigation
   - [A Primer on Android navigation – Google Design](https://medium.com/google-design/a-primer-on-android-navigation-75e57d9d63fe)
+- Platform Features
+  - [Dieter Bohn on Twitter: "I can’t tell you how much I love these draggable shortcuts in Android. Wait I can: I love them a lot. https://t.co/m8yCpO33lK"](https://twitter.com/backlon/status/890276148399046656)
 - Icons
   - [Nick Butcher on Twitter: "Check out my 🔥 tips for implementing adaptive icons https://t.co/tWYAHKSmnx"](https://twitter.com/crafty/status/885122099626594304) whole thread is helpful
   - [Understanding Android Adaptive Icons – Google Design – Medium](https://medium.com/google-design/understanding-android-adaptive-icons-cee8a9de93e2)
@@ -45,6 +47,8 @@
   - [nickbutcher/AdaptiveIconPlayground: An Android app for experimenting with Adaptive Icons.](https://github.com/nickbutcher/AdaptiveIconPlayground)
   - [Implementing Adaptive Icons – Google Developers – Medium](https://medium.com/google-developers/implementing-adaptive-icons-1e4d1795470e)
   - ![](https://github.com/nickbutcher/AdaptiveIconPlayground/raw/master/screenshots/adaptive-icon-playground-demo.webp)
+- Testing
+  - [Android Developers Blog: Android Testing Support Library 1.0 is here!](https://android-developers.googleblog.com/2017/07/android-testing-support-library-10-is.html)
 
 [Dimensions](https://dimensionssprint.withgoogle.com/)
 - [Dimensions: Uniquely Android - YouTube](https://www.youtube.com/watch?v=J4pQK2463qs)

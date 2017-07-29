@@ -37,8 +37,9 @@ Fork this doc into Web Considerations and Web Suggestions. Suggestion style is l
 - [Feature flags in React](http://blog.rstankov.com/feature-flags-in-react/)
 - [react-bits/29.feature-flags-using-redux.md](https://github.com/vasanthk/react-bits/blob/master/patterns/29.feature-flags-using-redux.md)
 - [ember-cli/babel-plugin-feature-flags: A babel transform for managing feature flags](https://github.com/ember-cli/babel-plugin-feature-flags) seems like a great approach. Features flags statically, and dynamically.
-- [How to quickly set up A/B testing for React websites](https://medium.com/@yilingchen/how-to-quickly-set-up-a-b-testing-for-react-websites-dcb321fcd1f)
 - [Jason Miller 🦊⚛ on Twitter: "⚙️ Preconf: build configurable components. https://t.co/1hW0n37eFr https://t.co/icJPDyVtzN"](https://twitter.com/_developit/status/874675422608412676)
+- [Using React in Multiple Environments](https://daveceddia.com/multiple-environments-with-react/#configure-feature-flags-at-build-time)
+  - and using `.env` files
 
 ```js
 import isEnabled from 'my-features';
@@ -56,7 +57,19 @@ if (false) {
 }
 ```
 
+## A/B Testing
+- [How to quickly set up A/B testing for React websites](https://medium.com/@yilingchen/how-to-quickly-set-up-a-b-testing-for-react-websites-dcb321fcd1f)
+- [dollarshaveclub/study: A simple, progressive, client/server AB testing library 📚](https://github.com/dollarshaveclub/study)
+- [Split Testing | Netlify](https://www.netlify.com/docs/split-testing/)
+
+## Feature Flag vs A/B Testing
+- Is the line a build-time vs runtime thing? A/B testing is pushed on to you. Feature flags are configurable.
+- All depends if it is implemented server-side or client-side. So really, the question is: do you want this configurability at build-time? Or run-time?
+
+
 # Internationalization
+- First, do you need this? If it is a site, google's built in conversion tool may be desired. If it is an app, probably want to internationalize.
+- [Add Internationalization (i18n) to a React app using React Intl - Course by @damon_bauer @eggheadio](https://egghead.io/courses/add-internationalization-i18n-to-a-react-app-using-react-intl)
 - Important for reach, and difficult to bolt on after the fact. Build in Internationalization from the start.
 - [Internationalizing React Apps – Smashing Magazine](https://www.smashingmagazine.com/2017/01/internationalizing-react-apps/)
 - [globalizejs/globalize: A JavaScript library for internationalization and localization that leverages the official Unicode CLDR JSON data](https://github.com/globalizejs/globalize)
@@ -135,6 +148,7 @@ http://babeljs.io/docs/plugins/preset-env/ will reduce the amount of features th
   - no, googlebot sees all of the content. What matters is semantic markup to link related content. Otherwise, googlebot wouldn't know that a div on some part of the page is related to another div further down.
 - [Hidden text and links - Search Console Help](https://support.google.com/webmasters/answer/66353?hl=en)
 - SEO boosted by accessibility?
+- [The Lazy Writer’s Guide to 30-Minute Keyword Research - Moz](https://moz.com/blog/30-minute-keyword-research)
 
 SEO is related to "location, location, location".
 
@@ -151,6 +165,7 @@ thought about while reading https://css-tricks.com/seo-and-location/
   - [Jordan Schroter on Twitter: "@threepointone Often forgot about but SSR is also beneficial for sharing urls on most social media sites. For reference: https://t.co/FS6bZIdfEl"](https://twitter.com/_jschr/status/870641437121097729)
 
 # Analytics
+- [The Browser Statistics That Matter](http://mediatemple.net/blog/tips/browser-statistics-matter/)
 
 # Events
 

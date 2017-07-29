@@ -25,6 +25,10 @@ Thomas's problematic example of having 0 lineheight on desktop, then when sizing
 
 # Custom Web Fonts
 
+[A Comprehensive Guide to Font Loading Strategies—zachleat.com](https://www.zachleat.com/web/comprehensive-webfonts/#font-display)
+
+"🚨 NOT A DRILL 🚨 `font-display` is available on now-stable Chrome 60! CSS-only FOUT is here!! Read more: https://t.co/cMASBYtzOH https://t.co/Y3GFIfrYmy" - [Zach Leatherman on Twitter](https://twitter.com/zachleat/status/890242957386944516)
+
 Declaring the webfont as first in family will cause a FOIT (Flash of invisible text) while the client downloads your font. How to fix this? Lazy load your font, then apply a css class to your html to use the newly downloaded font-family.
 
 The invisible content flash is fixed, but now there is a flash of unstyled text (FOUT). How to fix this? Well, you can't really fix it, since you want your readers to view content asap. You can however lessen the effect of text shifting when your primary font has loaded by setting the secondary font to one that matches the character height and width. The font will change, but the content won't shift much, and should appear as an enhancement.

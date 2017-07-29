@@ -1,5 +1,6 @@
 _WIP_
 
+First of all, css is not just css. It is complicated, just check out [Methods to Organize CSS | CSS-Tricks](https://css-tricks.com/methods-organize-css/).
 
 "It's funny how most css in js authors (including myself) don't feel static extraction  is that great. Wonder why peeps still want it. 🤔" - [@tkh44](https://twitter.com/tkh44/status/885925961346297857) "It can be really nice if you have a static site or page, but when dynamic values are involved extract vs inline use the same api. no real" "I would add in you can get some incredible code splits with inline mode and react-loader. You get your styles with js on demand."
 

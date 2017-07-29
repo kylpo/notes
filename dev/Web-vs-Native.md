@@ -1,3 +1,4 @@
+[Apple’s refusal to support Progressive Web Apps is a detriment to future of the web](https://m.phillydevshop.com/apples-refusal-to-support-progressive-web-apps-is-a-serious-detriment-to-future-of-the-web-e81b2be29676)
 
 ---
 
@@ -172,6 +173,8 @@ And http://n12v.com/css-transition-to-from-auto/ with the current best practice
   - "That includes web apps. But the web is the only platform that also has counter-pressure, forcing apps to consider bloat a top level issue."
   - "That's a strategic advantage for the web. Twitter was actually incentivized to bring us a better mobile web experience."
 - "The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect.” — Tim Berners-Lee
+- "The "update all the apps" ritual that happens when I plug in my phone at night seems rather archaic in light of what can be done with PWAs." - [Henrik Joreteg on Twitter](https://twitter.com/HenrikJoreteg/status/890094427049472000)
+  - "Imagine how much bandwidth must be getting wasted on app updates for apps that will never even be opened again." - [Henrik Joreteg on Twitter](https://twitter.com/HenrikJoreteg/status/890096198740299777)
 
 # Native
 - all about gestures and taps

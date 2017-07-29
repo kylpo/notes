@@ -1,3 +1,7 @@
+[Interview with Jesper Louis Andersen about Erlang, Haskell, OCaml, Go, Idris, the JVM, software and…](https://notamonadtutorial.com/interview-with-jesper-louis-andersen-about-erlang-haskell-ocaml-go-idris-the-jvm-software-and-b0de06440fbd)
+
+---
+
 Handles states first, then build transitions
 - e.g. Supply w/ starting route
 

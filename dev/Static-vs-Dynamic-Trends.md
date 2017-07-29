@@ -2,6 +2,15 @@ _WIP_
 
 Should it be re-titled as Compile-vs-Run-Time?
 
+---
+from [babel-handbook/plugin-handbook.md at master · thejameskyle/babel-handbook](https://github.com/thejameskyle/babel-handbook/blob/master/translations/en/plugin-handbook.md#toc-pre-and-post-in-plugins)
+
+Babel is a generic multi-purpose compiler for JavaScript. More than that it is a collection of modules that can be used for many different forms of static analysis.
+
+> Static analysis is the process of analyzing code without executing it. (Analysis of code while executing it is known as dynamic analysis). The purpose of static analysis varies greatly. It can be used for linting, compiling, code highlighting, code transformation, optimization, minification, and much more.
+
+---
+
 # Dynamic vs Static styles
 - really interesting thing going on with css-in-js solutions. We love their APIs, but are finding that shipping a css runtime that evaluates JS strings/objects is essentially double taxation (double parse, to be exact) for the user. This was not a problem with traditional css, where all styles are statically defined. The dynamism was done by changing classes, and reaching to js to set styles for anything truly dynamic and measured/discovered at runtime.
 

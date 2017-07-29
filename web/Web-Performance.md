@@ -1,5 +1,12 @@
 _WIP_
 
+
+[Kent C. Dodds on Twitter: "Oh snap, look at what babel-plugin-preval has done 😱 https://t.co/4Jpx0UT2qg https://t.co/DCi2zIYK9o"](https://twitter.com/kentcdodds/status/885951024174780416)
+
+![](https://pbs.twimg.com/media/DEuH9sxUwAAGA6u.jpg:large)
+
+---
+
 [Addy Osmani on Twitter](https://twitter.com/addyosmani/status/886169338671112192)
 
 1. Keep your JS small & fast

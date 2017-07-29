@@ -7,6 +7,17 @@
 - [The bloat of AMP](https://lolware.net/2017/07/04/amp-bloat.html)
 - [Should I implement AMP? 5 meaningless, not proven or misleading assumptions that may lead you to the wrong decision - Blog de Christian Oliveira](https://www.christianoliveira.com/blog/en/web-analytics/should-i-implement-amp/)
 - [AMP Project on Twitter: "Meet the⚡️ ShadowReader, a production-ready PWA+AMP sample that uses real data from @guardian. Learn all about it 👇 https://t.co/jpPEPXLWLZ"](https://twitter.com/AMPhtml/status/888181282168946688)
+
+## Against it
+- [One Month Without AMP](https://www.alexkras.com/one-month-without-amp/)
+> Unless you run a News site that HAS to compete for a spot in Google Carousel enabling AMP is not worth the effort. AMP is an alternative publishing format and most small site can’t afford to maintain two (quality) versions of itself.
+
+## Using it
+
+
+## Removing it
+- [Remove AMP Content from Google Search  |  Google Developers](https://developers.google.com/search/docs/guides/remove-amp)
+
 ---
 
 AMP has already won. This screenshot taken from my Google Feed in July 2017.

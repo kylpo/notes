@@ -1,5 +1,20 @@
 _WIP_
 
+---
+
+[React.js: The Hard Parts](https://www.aomran.com/react-the-hard-parts/)
+
+Program state has a long history in computer science, but essentially it’s just the “condition” that our program is in. If we’re rendering a tweet, then its state will be things like contents, the number of likes, the number of retweets, whether it’s expanded or collapsed, etc.
+
+In traditional server-rendered apps we don’t have to worry about state changes. If a user interacts with your application or refreshes the page, then we’ll look up state at that moment and rebuild the page.
+
+In dynamic apps, like ones built using React, state change has to be dealt with immediately. If a user clicks “retweet” then the rendered tweet needs to change instantaneously.
+
+If your app is very dynamic (hence React) then you’ll be juggling a lot of states. To complicate things even further, what if someone from a different computer clicks “retweet” – how do we update state for everyone looking at that tweet? Moreover, some states are user-specific and possibly not saved at all, for example, whether navigation on the page is fully open or collapsed.
+
+- Read the "Single Source of Truth" parts, too.
+
+---
 
 [URLs are UI - Scott Hanselman](https://www.hanselman.com/blog/URLsAreUI.aspx)
 
@@ -25,6 +40,8 @@ How many sources of truth do you have in your app/site?
 
 # Data and State
 Lets talk about Data. Data and State. Persistent data, and temporal state.
+
+[Shape your redux store like your database – Hacker Noon](https://hackernoon.com/shape-your-redux-store-like-your-database-98faa4754fd5)
 
 
 

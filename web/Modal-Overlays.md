@@ -41,3 +41,5 @@ Setting `position: fixed` on `html` works well, but jumps to the top of the page
 [javascript - How to disable scrolling temporarily? - Stack Overflow](http://stackoverflow.com/questions/4770025/how-to-disable-scrolling-temporarily)
 
 [html - Is `position: fixed` on `<body>` problematic? - Stack Overflow](http://stackoverflow.com/questions/37584726/is-position-fixed-on-body-problematic)
+
+I like the name `ModalManager` from http://blog.isquaredsoftware.com/2017/07/practical-redux-part-10-managing-modals/

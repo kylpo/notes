@@ -39,6 +39,7 @@ _WIP_
   - Try to follow 60-30-10 rule
   - ![](https://cdn-images-1.medium.com/max/1600/0*_pzRUmoLR4Ma3Z-a.)
   - Avoid using color Black
+- [The Most Important Color In UI Design](https://uxplanet.org/the-most-important-color-in-ui-design-d4f23aefffdf) why Blue is so common
 
 # Navigation
 - [Basic Patterns For Mobile Navigation: Pros And Cons – Smashing Magazine](https://www.smashingmagazine.com/2017/05/basic-patterns-mobile-navigation/)
