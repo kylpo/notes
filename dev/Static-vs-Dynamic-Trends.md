@@ -3,6 +3,10 @@ _WIP_
 Should it be re-titled as Compile-vs-Run-Time?
 
 ---
+
+[Kristofer Baxter on Twitter: "@cpojer Build time optimizations. So much left to explore here."](https://twitter.com/kristoferbaxter/status/892189558971838464)
+
+---
 from [babel-handbook/plugin-handbook.md at master · thejameskyle/babel-handbook](https://github.com/thejameskyle/babel-handbook/blob/master/translations/en/plugin-handbook.md#toc-pre-and-post-in-plugins)
 
 Babel is a generic multi-purpose compiler for JavaScript. More than that it is a collection of modules that can be used for many different forms of static analysis.
