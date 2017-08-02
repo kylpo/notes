@@ -21,6 +21,11 @@ _WIP_
   - ![](https://pbs.twimg.com/media/DE6TM2nU0AAoaUs.jpg)
 - [Jeremy Morrell on Twitter: "@HunterLoftis @reasonml Require @reasonml directly from JS with bs-loader for webpack 😲 https://t.co/POF91jhFOr https://t.co/mnxU1WiGBH"](https://twitter.com/JeremyMorrell/status/886808588135563264)
 
+# CSS-in-js
+- [Brandon Dail on Twitter: "CSS-in-@reasonml powered by Glamor 👨‍💻 https://t.co/8QL3PV3V5f"](https://twitter.com/aweary/status/892143880669245440)
+  - [reasonml on Twitter: "Look ma, no bindings & no runtime cost! https://t.co/LxhIxHSkjV"](https://twitter.com/reasonml/status/892149572469833728)
+![](https://pbs.twimg.com/media/DGGH7EUUAAArHkR.jpg)
+
 # Tutorial
 - [A ReasonReact Tutorial | Jared Forsyth.com](https://jaredforsyth.com/2017/07/05/a-reason-react-tutorial/)
 

@@ -1,5 +1,7 @@
 _WIP_
 
+[Thoughts on React Native from an iOS developer – Weihang Lo – Medium](https://medium.com/@weihanglo/thoughts-on-react-native-from-an-ios-developer-57609c33b2f6)
+
 # React Native
 You can, but should you?
 

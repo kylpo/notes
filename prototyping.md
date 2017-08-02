@@ -1,3 +1,10 @@
+
+[César Andreu on Twitter: "@markdalgleish @andrewingram @mjackson Design tooling I've seen usually doesn't help with many cases: i18n, l10n, accessibility, min/max size, empty state, failures"](https://twitter.com/CesarAndreu/status/891156950477451264)
+
+[Mark Dalgleish on Twitter: "@CesarAndreu @andrewingram @mjackson Loading states, partially loaded states, transitions, whitespace mechanics, microinteraction logic, shared constants, the list goes on..."](https://twitter.com/markdalgleish/status/891159993608675329)
+
+---
+
 [Interview with Jesper Louis Andersen about Erlang, Haskell, OCaml, Go, Idris, the JVM, software and…](https://notamonadtutorial.com/interview-with-jesper-louis-andersen-about-erlang-haskell-ocaml-go-idris-the-jvm-software-and-b0de06440fbd)
 
 ---

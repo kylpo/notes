@@ -20,6 +20,7 @@ I found [babel-plugin-tester](https://github.com/babel-utils/babel-plugin-tester
 
 
 # Others getting psyched on this
+- [AST’s and JavaScript: Write Code that Writes Code – Super Development](https://superdevelopment.com/2017/07/24/asts-and-javascript-write-code-that-writes-code/)
 - "Writing custom babel plugins considered "approachable" and "teach you ... about the language" 🎉 #tryit 😃 https://t.co/FsRQTHjTSI" - [Kent C. Dodds](https://twitter.com/kentcdodds/status/887878863325245440)
 - "If you're a JS dev and you haven't tried writing a Babel plugin yet, try it! Didn't realize learning about ASTs and Babel would be so fun" - [Matt Hamil ᕕ( ᐛ )ᕗ](https://twitter.com/_matthamil/status/888145499680886784)
 - "Published my first @babeljs plugin last night 🎉! Check it out https://t.co/wie5JEOWfX. Thanks @kentcdodds for your talk on ASTs 👏 https://t.co/ZbbzwcIfCx" - [Matt Phillips](https://twitter.com/mattphillipsio/status/887684639158140928)

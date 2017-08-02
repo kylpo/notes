@@ -15,6 +15,7 @@
   - [Understanding Generics and Variance in Kotlin – Tomek Polański – Medium](https://medium.com/@tpolansk/understanding-generics-and-variance-in-kotlin-714c14564c47)
   - [Writing custom lint rules for your Kotlin project with Detekt](https://medium.com/@annayan/writing-custom-lint-rules-for-your-kotlin-project-with-detekt-653e4dbbe8b9)
   - [Java is slowing Android’s growth and Kotlin is not the answer](https://medium.com/@togru/java-is-slowing-androids-growth-and-kotlin-is-not-the-answer-cd316d303ac1) - controversial read. Read comments, too.
+  - [The Case Against Kotlin – Pinterest Engineering](https://medium.com/@Pinterest_Engineering/the-case-against-kotlin-2c574cb87953)
 - Debugging
   - [Android Performance: An Overview (Google I/O '17) - YouTube](https://www.youtube.com/watch?v=Qfo5fdoXrTU)
     - systrace from `catapult` repo

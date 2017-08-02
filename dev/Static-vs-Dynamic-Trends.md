@@ -15,6 +15,11 @@ Babel is a generic multi-purpose compiler for JavaScript. More than that it is a
 
 ---
 
+# Templates (vs jsx components)
+- [Jason Miller 🦊⚛ on Twitter: "who likes templates"](https://twitter.com/_developit/status/890729645750046721)
+  - [Ben Lesh 🛋️👑🔥 on Twitter: "@_developit I do. Contextually. I like static analysis and build-time optimizations."](https://twitter.com/BenLesh/status/890781512580202496)
+  - ^ ftw
+
 # Dynamic vs Static styles
 - really interesting thing going on with css-in-js solutions. We love their APIs, but are finding that shipping a css runtime that evaluates JS strings/objects is essentially double taxation (double parse, to be exact) for the user. This was not a problem with traditional css, where all styles are statically defined. The dynamism was done by changing classes, and reaching to js to set styles for anything truly dynamic and measured/discovered at runtime.
 

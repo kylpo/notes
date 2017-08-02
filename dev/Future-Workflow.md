@@ -5,6 +5,8 @@ _WIP_
 - Current options:
   - [CodeSandbox — An online React editor 🏖 – Ives van Hoorne – Medium](https://medium.com/@ives.v.h/codesandbox-an-online-react-editor-b8945ce095d2)
 - "Nagging feeling that text files/editors are holding backing programming advances" - [Sunil Pai](https://twitter.com/threepointone/status/887343948859092994)
+- use ML to get starting layout: [tonybeltramelli/pix2code: pix2code: Generating Code from a Graphical User Interface Screenshot](https://github.com/tonybeltramelli/pix2code)
+  - [pix2code - YouTube](https://www.youtube.com/watch?v=pqKeXkhFA3I&feature=youtu.be)
 
 # Phone workstation
 ![](https://cdn.vox-cdn.com/thumbor/qh3FgigXpfigJbpwGYFCqneWpOw=/1600x0/filters:no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/8869987/Screen_Shot_2017_07_18_at_1.38.13_PM.png)
