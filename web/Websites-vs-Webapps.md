@@ -10,6 +10,9 @@ Let's standardize a Website's characteristics:
   - [example](https://developer.android.com/training/gestures/scale.html#pan) of frustrating experience where anchor links exist, but not discovered by clicking on the Header:
 - `h1`, `h2`, etc make sense and are relevant
   - same with `main`, `section`, `article`, `aside`, etc
+- links to a homepage
+  - [Best Practices for Homepage Links on websites](https://www.nngroup.com/articles/homepage-links/?utm_source=frontendfocus&utm_medium=email)
+  - "Going back to the homepage is a **common task**. People often go to the homepage when they’re disoriented, they have gone too deep into a site, or they’re ready to start a new task. Because of their dependency on **search** engines, most users enter websites through an interior page and bypass the homepage entirely. Easy access to the homepage provides a new starting point for those who are on the wrong page or want to explore other parts of the site."
 
 Let's standardize a Webapp's characteristics:
 - Best thought of as scenes/screens instead of documents

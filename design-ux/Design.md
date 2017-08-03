@@ -54,6 +54,8 @@ _WIP_
   - ![](https://pbs.twimg.com/media/DC9emJSWsAEgT62.jpg:large)
 - [A Primer on Android navigation – Google Design](https://medium.com/google-design/a-primer-on-android-navigation-75e57d9d63fe)
   - "As soon as you link two screens together in an app, you have navigation. That link—whatever it may be—is the vehicle that carries users between those screens."
+- [Mobile Subnavigation](https://www.nngroup.com/articles/mobile-subnavigation/)
+  - "Accordions, sequential menus, section menus and category landing pages are popular options for implementing mobile subnavigation."
 
 # Motion
 - [Meaningful Motion with Action Driven Animation | Tobias Ahlin](http://tobiasahlin.com/blog/meaningful-motion-w-action-driven-animation/)
