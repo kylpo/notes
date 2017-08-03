@@ -5,6 +5,9 @@ from Amit Singh @ google IO:
 
 
 # AR
+- [Why is ARKit better than the alternatives? – Super Ventures Blog](https://medium.com/super-ventures-blog/why-is-arkit-better-than-the-alternatives-af8871889d6a)
+  - ARKit vs Tango vs Vuforia and how AR works on phones.
+- [Big AR: Android vs iOS](https://medium.com/@kevinmise/big-ar-android-vs-ios-3a683579eec8)
 - ![](https://pbs.twimg.com/media/DE-DxppUIAAfutQ.jpg)
   - [Luke Wroblewski on Twitter: "appending to reality vs. augmenting reality https://t.co/aYewrKEuVU"](https://twitter.com/lukew/status/887072545559556096)
 - [Michelle Tilley 🌈 on Twitter: "HOLY SHIT the art in our new office addition is SO COOL 🎨 https://t.co/kA4UyX0hip"](https://twitter.com/BinaryMuse/status/887008494401998849)
