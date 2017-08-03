@@ -1,5 +1,20 @@
 _WIP_
 
+[The Critical Request | CSS-Tricks](https://css-tricks.com/the-critical-request/)
+
+---
+
+"If you can't measure it, you can't improve it."
+
+[Siddharth Kshetrapal on Twitter: "1/ Here are the resources from my talk on web performance @js_channel https://t.co/yZTWRB9tAS"](https://twitter.com/siddharthkp/status/890845810748817408)
+
+[Siddharth Kshetrapal on Twitter: "14/ Performance tip #4: Eagerly fetch and cache resources for the next step in the user journey using service workers. https://t.co/1VMCECtKeB"](https://twitter.com/siddharthkp/status/890846397708115968)
+
+[Siddharth Kshetrapal on Twitter: "17/ Use bundlesize and put your javascript on a diet. https://t.co/Rov9JvfHZ5 https://t.co/qyht6vmnzg"](https://twitter.com/siddharthkp/status/890846559918735360)
+
+[Siddharth Kshetrapal on Twitter: "18/ Use perfbench to automate performance audits on every pull request before merging. https://t.co/7gFjbKdFHR https://t.co/mq9zerxuIQ"](https://twitter.com/siddharthkp/status/890846587768807424)
+
+---
 
 Some of my notes: https://drive.google.com/open?id=0B25-OD6y7G4ZOXhrNXFnYjdhSFk
 

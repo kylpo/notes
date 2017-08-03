@@ -6,6 +6,8 @@
 - [lighthouse-ci: Lighthouse CI](https://github.com/ebidel/lighthouse-ci)
 - [bundlesize: Keep your bundle size in check](https://github.com/siddharthkp/bundlesize)
 - [bundle-buddy: A tool to identify bundle duplication across splits.](https://github.com/samccone/bundle-buddy)
+- [perfbench: Continuous integration for performance monitoring](https://github.com/siddharthkp/perfbench)
+
 
 # Accessibility
 - "Accessibility in UI tends to enforce that important information is somehow introspectable/testable. Good forcing function for engineering." - [jordanIsNotAFunction](https://twitter.com/jordwalke/status/881404629140905984)

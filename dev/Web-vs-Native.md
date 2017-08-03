@@ -1,4 +1,8 @@
 
+[LukeW | Mobile Web vs. Native Apps or Why You Want Both](https://www.lukew.com/ff/entry.asp?1954)
+
+---
+
 "For ten years now, we've been talking about web apps that "feel native". It has never been true even once, but we just keep repeating it." - [Gary Bernhardt on Twitter: ](https://twitter.com/garybernhardt/status/891434819493666817)
 - "There's no reason to suspect that any of this is going to change. It's been like this for as long as I've been any good at computering. Probably because a mixture of (1) many programmers use small subsets of UI capabilities and (2) programmers become ideologically invested."
 ---

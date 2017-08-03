@@ -1,3 +1,10 @@
+
+[The Critical Request | CSS-Tricks](https://css-tricks.com/the-critical-request/)
+
+"I'd suggest using `font-display: swap;`, which will show the fallback font until the web font has loaded—at which point it'll be replaced."
+
+---
+
 [Addy Osmani on Twitter: "Use Web Fonts? Have a solid font loading strategy to deliver the best user experience 🔥 https://t.co/7HThUtp0AZ https://t.co/n7pxwLdNzP https://t.co/fHahqqfcRA"](https://twitter.com/addyosmani/status/883002839995301888)
 
 ![](https://pbs.twimg.com/media/DEEKLTlUQAAFdyo.jpg)
