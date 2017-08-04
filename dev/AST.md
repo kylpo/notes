@@ -27,3 +27,7 @@ I found [babel-plugin-tester](https://github.com/babel-utils/babel-plugin-tester
 - "Published my first @babeljs plugin last night 🎉! Check it out https://t.co/wie5JEOWfX. Thanks @kentcdodds for your talk on ASTs 👏 https://t.co/ZbbzwcIfCx" - [Matt Phillips](https://twitter.com/mattphillipsio/status/887684639158140928)
 
 "We should always ask ourselves 'Can I do this at compile time?' while reading or writing code. With new solutions like preval and babel-macros it has become easier and more accessible to do this. And knowledge of ASTs and babel plugins is more important than ever before." - [Ives van Hoorne on Twitter](https://twitter.com/CompuIves/status/890069509050073088) of codesandbox.io fame
+
+# Problems
+- [Christoph Nakazawa on Twitter: "@kentcdodds @threepointone It's one of the plugins that potentially significantly increase compile time which many will blame babel for. Plugin architectures worry me."](https://twitter.com/cpojer/status/893122067595505665)
+  - "This is a plugin architecture within a plugin architecture of sorts, therefore losing complete control over compile times, I worry."
