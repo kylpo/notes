@@ -113,6 +113,7 @@ I tried to think of everything you'd need in a WYSIWYG to build an app/site toda
 - Layers (z-index)
 - Timeline
   - like [jondot/react-flight: The best way to build animation compositions for React.](https://github.com/jondot/react-flight)?
+  - [madou/yubaba: ✨ Orchestrated page transitions made easy](https://github.com/madou/yubaba)
 
 # Still semantic
 - `tag` prop
