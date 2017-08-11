@@ -75,3 +75,7 @@ _WIP_
 
 # Typography
 - [10 Tips On Typography in Web Design](https://uxplanet.org/10-tips-on-typography-in-web-design-13a378f4aa0d)
+
+# Device size/type
+- [How To Make A Physiology\-Friendly Application For The iPad](https://uxplanet.org/how-to-make-user-friendly-application-ipad-physiology-b1b6b65a3374)
+  - ![](https://cdn-images-1.medium.com/max/1600/0*bWushxRbEpp6mlAH.jpg)

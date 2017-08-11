@@ -58,6 +58,7 @@ if (false) {
 ```
 
 ## A/B Testing
+- [The Tenets of A/B Testing from Duolingo’s Master Growth Hacker \| First Round Review](http://firstround.com/review/the-tenets-of-a-b-testing-from-duolingos-master-growth-hacker/)
 - [How to quickly set up A/B testing for React websites](https://medium.com/@yilingchen/how-to-quickly-set-up-a-b-testing-for-react-websites-dcb321fcd1f)
 - [dollarshaveclub/study: A simple, progressive, client/server AB testing library 📚](https://github.com/dollarshaveclub/study)
 - [Split Testing | Netlify](https://www.netlify.com/docs/split-testing/)

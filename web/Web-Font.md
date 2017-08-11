@@ -3,6 +3,8 @@
 
 "I'd suggest using `font-display: swap;`, which will show the fallback font until the web font has loaded—at which point it'll be replaced."
 
+[If you really dislike FOUT, \`font\-display: optional\` might be your jam \| CSS\-Tricks](https://css-tricks.com/really-dislike-fout-font-display-optional-might-jam/)
+
 ---
 
 [Addy Osmani on Twitter: "Use Web Fonts? Have a solid font loading strategy to deliver the best user experience 🔥 https://t.co/7HThUtp0AZ https://t.co/n7pxwLdNzP https://t.co/fHahqqfcRA"](https://twitter.com/addyosmani/status/883002839995301888)

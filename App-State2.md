@@ -2,6 +2,15 @@ _WIP_
 
 ---
 
+[How to choose the right database for your microservices \- SD Times](http://sdtimes.com/choose-right-database-microservices/)
+
+- Ephemeral Data (client cache)
+- Transient Data (logs, messages, signals (high volume))
+- Operation Data (user session, shopping cart)
+- Transactional Data (permanent records requiring ACID)
+
+---
+
 [React.js: The Hard Parts](https://www.aomran.com/react-the-hard-parts/)
 
 Program state has a long history in computer science, but essentially it’s just the “condition” that our program is in. If we’re rendering a tweet, then its state will be things like contents, the number of likes, the number of retweets, whether it’s expanded or collapsed, etc.

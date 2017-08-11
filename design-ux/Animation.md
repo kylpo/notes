@@ -1,3 +1,8 @@
+[Dion Almaer on Twitter: "An animation feature that I love in Elevate is how you can always skip to the end of the animation with a tap\. https://t\.co/rCakWmh9ZG"](https://twitter.com/dalmaer/status/893936268668579840)
+
+---
+
+
 Transitions transform elements that already exist. Else, they need to enter from off screen.
 
 Opacity fade in to grab attention or make an enter less harsh.
