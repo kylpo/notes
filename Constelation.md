@@ -95,6 +95,7 @@ Others working on this
   - [mdgriffith/style-elements: Create styles that don't mysteriously break!](https://github.com/mdgriffith/style-elements)
 - [Travis Arnold on Twitter: "🍰 once you have strong primitives https://t.co/RuXap4maur"](https://twitter.com/souporserious/status/876578753769488385)
 - [Kent C. Dodds on Twitter: "@rauchg And the built-in components so you don't have to give things names like "Container" or "Wrapper" but just inline it. <Div margin={20} />"](https://twitter.com/kentcdodds/status/875824332735483905)
+- [Robin Frischmann on Twitter: "@kentcdodds @glenmaddern @markdalgleish @threepointone @mxstbr @oleg008 @\_philpl @rtsao @jongold In general we always have primitives \(View, Text, \.\.\.\) which are used to create styleguide components \(Heading1\-6, Button, \.\.\.\)"](https://twitter.com/rofrischmann/status/896234973384118273)
 
 No More "alphabetize vs logical" css ordering arguments
 - [Alphabetize your CSS properties, for crying out loud](https://medium.com/@jerrylowm/alphabetize-your-css-properties-for-crying-out-loud-780eb1852153)
