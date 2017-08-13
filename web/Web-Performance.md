@@ -180,6 +180,11 @@ https://gist.github.com/paulirish/5d52fb081b3570c81e3a
 "The handler computes the image's left CSS style proeprty on the the image's offsetTop value. This forces Chrome to perform a new layout immediately to make sure it provides the correct value." from https://developer.chrome.com/devtools/docs/demos/too-much-layout
 
 
+**Read, then write** as mentioned in [Performant Web Animations and Interactions: Achieving 60 FPS \- Milliseconds Matter](https://blog.algolia.com/performant-web-animations/)
+
+> The correct term for the side effects of back and forth reading and writing to the DOM is “forced synchronous layouts”, and when done in quick succession it’s known by the more illustrative term “layout thrashing”. As mentioned previously, the browser tracks “dirty” elements and queues up changes until necessary. By reading certain properties, you force the browser to perform premature calculations. This back and forth of read / write will cause reflows. Fortunately, this anti-pattern has an easy fix: read, and then write.
+
+
 ---
 
 What is Layout Thrashing?

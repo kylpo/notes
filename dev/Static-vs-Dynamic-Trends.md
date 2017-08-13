@@ -37,6 +37,7 @@ Babel is a generic multi-purpose compiler for JavaScript. More than that it is a
 # CSS
 - what's old is new again. Declare styles ahead of time, apply at runtime via `class`, not using css-in-js.
 - or use css-in-js with babel transform
+- [Robin Frischmann on Twitter: "Currently working on babel\-plugin\-fela\. Fela will get even faster \(up to 50% 😱\) Prerendering static styles during compile\-time = 🚀 \#cssinjs https://t\.co/xaIzuhbr2C"](https://twitter.com/rofrischmann/status/895918362299125760)
 
 # CDN
 - is essentially a way of serving static files
