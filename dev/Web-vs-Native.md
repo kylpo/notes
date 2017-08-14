@@ -1,4 +1,18 @@
 
+Things I know I prefer as native:
+- music player
+
+Things I know I prefer as web:
+- feed reader
+
+---
+
+Is it OK to live in a sandbox (*app*, whether web or native)? Or does it need hook into the platform it lives on (native *extensions*)?
+
+begs the question: *app* vs *extension*
+
+---
+
 [LukeW | Mobile Web vs. Native Apps or Why You Want Both](https://www.lukew.com/ff/entry.asp?1954)
 
 ---

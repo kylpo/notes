@@ -1,5 +1,5 @@
-# Where should it live?
-## Mac
+# Mac
+## Where should it live?
 ![](http://a4.mzstatic.com/us/r30/Purple30/v4/56/3f/83/563f8369-43cb-8d3a-ed9c-800fe86b7618/screen800x500.jpeg)
 
 from [Mini Calendar](https://itunes.apple.com/us/app/mini-calendar/id1088779979?mt=12)
@@ -32,13 +32,8 @@ Considerations:
 - global hotkeys?
 - full screen mode?
 
-
-#### Notification Widget
-- [Timey 2 — Nice Apps](http://www.getniceapps.com/timey-2)
-- ![](https://static1.squarespace.com/static/5231f9d9e4b063fed6fd45db/56bb26e3c6fc08b78db6b9f3/580607635016e176c8d3d2d8/1476790167032/Screen+Shot+2016-10-14+at+22.42.35.png?format=1000w)
-
-
 #### Window
+- [Window Anatomy \- Windows and Views \- Human Interface Guidelines for macOS Apps](https://developer.apple.com/macos/human-interface-guidelines/windows-and-views/window-anatomy/)
 - Titlebar
 - [NSWindow title bar and toolbar showcase](http://robin.github.io/cocoa/mac/2016/03/28/title-bar-and-toolbar-showcase/)
 - Multiple windows? (like [Day One](https://itunes.apple.com/us/app/day-one/id1055511498?mt=12))
@@ -115,11 +110,6 @@ Considerations:
 - ![](https://github.com/kylpo/notes/blob/master/assets/activity-monitor-icon.png?raw=true)
 - Can also launch popups, like those shown in menubar.
 
-#### Context Menu
-- Not necessarily where it lives, more of how it is invoked. This is an `extension`.
-- ![](http://a1.mzstatic.com/us/r30/Purple118/v4/86/f8/26/86f82620-182a-e7ab-4c31-ffd036ed14f5/screen800x500.jpeg)
-- [Context Menu Lite](https://itunes.apple.com/us/app/context-menu-lite/id1261373706?mt=12)
-
 #### Misc
 Note that you can use webviews to display web content in these locations, too. [Notes for Google Keep](https://itunes.apple.com/us/app/notes-for-google-keep/id981433563?mt=12) and [Miya Notes for Google Keep](https://itunes.apple.com/us/app/miya-notes-for-google-keep/id1262772973?mt=12) are good examples of this.
 
@@ -130,3 +120,68 @@ Note that you can use webviews to display web content in these locations, too. [
 ![](http://a5.mzstatic.com/us/r30/Purple118/v4/ce/af/d9/ceafd933-0013-efd4-d913-35845bfee566/screen800x500.jpeg)
 
 ![](http://a5.mzstatic.com/us/r30/Purple118/v4/4d/a7/7f/4da77fa5-5e9a-03bf-37d8-1dd728b62473/screen800x500.jpeg)
+
+## Extension Points
+### Open to all types
+#### Notifications
+- "Apps can use notifications to provide timely and important information anytime, even when the screen is locked. For example, notifications may occur when a message arrives, an event occurs, new data is available, or the status of something has changed. Notifications can be **local or remote**. Local notifications originate and are delivered on the same device. A to-do list app, for example, might use local notifications to alert someone about an upcoming meeting or due date. Remote notifications, also called push notifications, come from a server. A multiplayer game might use remote notifications to let players know when it’s their move." - [Notifications \- System Capabilities \- Human Interface Guidelines for macOS Apps](https://developer.apple.com/macos/human-interface-guidelines/system-capabilities/notifications/)
+- ![](https://developer.apple.com/macos/human-interface-guidelines/images/notifications_2x.png)
+- User enable/disable-able on a per-app basis via System Preferences
+- Two types:
+    - **Banner** - "Appears at the top of the screen for a few seconds while the Mac is in use, then disappears. May include up to two buttons for taking action. If a banner includes buttons, they appear only when the pointer is positioned over the notification."
+    - ![](https://developer.apple.com/macos/human-interface-guidelines/images/notifications_Banner_2x.png)
+    - **Alert** - "Appears at the top of the screen while the Mac is in use and stays there until manually dismissed. Includes one or two buttons for dismissing the alert and taking action."
+    - ![](https://developer.apple.com/macos/human-interface-guidelines/images/notifications_Alert_2x.png)
+
+#### Notification Widget
+- [Timey 2 — Nice Apps](http://www.getniceapps.com/timey-2)
+- ![](https://static1.squarespace.com/static/5231f9d9e4b063fed6fd45db/56bb26e3c6fc08b78db6b9f3/580607635016e176c8d3d2d8/1476790167032/Screen+Shot+2016-10-14+at+22.42.35.png?format=1000w)
+
+#### Context Menu (in Finder)
+- Not necessarily where it lives, more of how it is invoked. This is an `extension`.
+- ![](http://a1.mzstatic.com/us/r30/Purple118/v4/86/f8/26/86f82620-182a-e7ab-4c31-ffd036ed14f5/screen800x500.jpeg)
+- [Context Menu Lite](https://itunes.apple.com/us/app/context-menu-lite/id1261373706?mt=12)
+
+#### Actions
+- "An Action extension lets people initiate content-specific tasks, such as editing an inline image, adding a bookmark, or displaying selected text in another language, without leaving the current context." - [Action Extensions \- Extensions \- Human Interface Guidelines for macOS Apps](https://developer.apple.com/macos/human-interface-guidelines/extensions/action-extensions/)
+- Two types of Action
+    - Viewer - display content in a custom way
+        - ![](https://developer.apple.com/macos/human-interface-guidelines/images/actionExtensions_A_2x.png)
+    - Editor - edit content, then replace original with new
+        - ![](https://developer.apple.com/macos/human-interface-guidelines/images/actionExtensions_B_2x.png)
+- Triggered via hovering over certain content (like images), or pressing buttons.
+
+#### Automator Actions
+- "Automator lets people automate time consuming and repetitive tasks by constructing workflows. A workflow consists of one or more actions, each of which performs a single, specialized task in the system or an app—such as opening a file, resizing an image, or opening a webpage. When a workflow runs, its actions execute sequentially, working together toward a common goal." - [Automator Actions \- Extensions \- Human Interface Guidelines for macOS Apps](https://developer.apple.com/macos/human-interface-guidelines/extensions/automator-actions/)
+
+#### Share
+- "Share extensions provide a convenient way to share information from the current context to apps, social media accounts, and other services. People access share extensions by clicking a Share button in the toolbar or choosing Share in a contextual menu." - [Share Extensions \- Extensions \- Human Interface Guidelines for macOS Apps](https://developer.apple.com/macos/human-interface-guidelines/extensions/share-extensions/)
+- ![](https://developer.apple.com/macos/human-interface-guidelines/images/shareExtensions_2x.png)
+- ![](https://developer.apple.com/macos/human-interface-guidelines/images/ShareExtensionsModal_2x.png)
+
+#### Services
+"Services let people access functionality in one app from within another app." - [Services \- Extensions \- Human Interface Guidelines for macOS Apps](https://developer.apple.com/macos/human-interface-guidelines/extensions/services/)
+
+![](https://developer.apple.com/macos/human-interface-guidelines/images/Services_2x.png)
+
+**Question: Service vs Share**
+
+The two are really similar and should probably just be consolidated in the future, but as far as I can tell, *Service* is for primitive selected content (text, image, etc). *Share* is for non-primitive content, sometimes selected (Finder file select, Things 3 task select) or not selected (current webpage in Safari).
+
+### If your app is document-based
+#### Spotlight
+[Search and Spotlight \- System Capabilities \- Human Interface Guidelines for macOS Apps](https://developer.apple.com/macos/human-interface-guidelines/system-capabilities/search-and-spotlight/)
+
+![](https://developer.apple.com/macos/human-interface-guidelines/images/search_Spotlight_2x.png)
+
+#### Quicklook
+Provide a Quick Look generator if your app creates custom or uncommon types of documents.
+
+[Quick Look \- System Capabilities \- Human Interface Guidelines for macOS Apps](https://developer.apple.com/macos/human-interface-guidelines/system-capabilities/quick-look/)
+
+![](https://developer.apple.com/macos/human-interface-guidelines/images/quicklook_2x.png)
+
+#### Printing
+[Printing \- System Capabilities \- Human Interface Guidelines for macOS Apps](https://developer.apple.com/macos/human-interface-guidelines/system-capabilities/printing/)
+
+![](https://developer.apple.com/macos/human-interface-guidelines/images/Print_DialogCollapsed_2x.png)
