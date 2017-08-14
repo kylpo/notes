@@ -34,6 +34,8 @@ Thomas's problematic example of having 0 lineheight on desktop, then when sizing
 
 # Custom Web Fonts
 
+[Web fonts: when you need them, when you don’t – Hacker Noon](https://hackernoon.com/web-fonts-when-you-need-them-when-you-dont-a3b4b39fe0ae)
+
 [A Comprehensive Guide to Font Loading Strategies—zachleat.com](https://www.zachleat.com/web/comprehensive-webfonts/#font-display)
 
 "🚨 NOT A DRILL 🚨 `font-display` is available on now-stable Chrome 60! CSS-only FOUT is here!! Read more: https://t.co/cMASBYtzOH https://t.co/Y3GFIfrYmy" - [Zach Leatherman on Twitter](https://twitter.com/zachleat/status/890242957386944516)
