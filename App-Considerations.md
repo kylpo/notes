@@ -11,6 +11,12 @@ from [Mini Calendar](https://itunes.apple.com/us/app/mini-calendar/id1088779979?
 - ![](http://a2.mzstatic.com/us/r30/Purple/v4/6c/c8/1c/6cc81c65-0f79-1e79-a4e5-9bd1c68a77c8/screen800x500.jpeg)
 - [Copied – Copy and Paste Everywhere](https://itunes.apple.com/us/app/copied-copy-and-paste-everywhere/id1026349850?mt=12)
 - ![](http://a3.mzstatic.com/us/r30/Purple2/v4/87/25/27/87252792-e331-6309-b6f0-6e5854224970/screen800x500.jpeg)
+- [Notesey \- notes in your menu bar](https://itunes.apple.com/us/app/notesey-notes-in-your-menu-bar/id1214201055?mt=12)
+- ![](http://a4.mzstatic.com/us/r30/Purple111/v4/57/e4/ee/57e4ee01-3b64-7547-0569-54fbe0824084/screen800x500.jpeg)
+
+Within the menubar, you could basically house a mobile app, like [Chrono Plus – Time Tracker & Timesheet on the Mac App Store](https://itunes.apple.com/us/app/chrono-plus-time-tracker-timesheet/id946047238?mt=12):
+
+![](http://a5.mzstatic.com/us/r30/Purple1/v4/83/96/41/839641cc-e1fb-b386-326b-0c7b5f9fc140/screen800x500.jpeg)
 
 Menubar Capabilities:
 
@@ -20,10 +26,36 @@ Menubar Capabilities:
 - Can dynamically resize the window once it is opened. Even full-screen it.
 - See [NoteAway — Your Thoughts in the Cloud](https://itunes.apple.com/us/app/noteaway-your-thoughts-in-the-cloud/id559541463?mt=12) for an example of all of these.
 
+Considerations:
+
+- dark vs light theme
+- global hotkeys?
+- full screen mode?
+
+
 #### Notification Widget
+- [Timey 2 — Nice Apps](http://www.getniceapps.com/timey-2)
+- ![](https://static1.squarespace.com/static/5231f9d9e4b063fed6fd45db/56bb26e3c6fc08b78db6b9f3/580607635016e176c8d3d2d8/1476790167032/Screen+Shot+2016-10-14+at+22.42.35.png?format=1000w)
+
 
 #### Window
 - Titlebar
+- [NSWindow title bar and toolbar showcase](http://robin.github.io/cocoa/mac/2016/03/28/title-bar-and-toolbar-showcase/)
+- Multiple windows? (like [Day One](https://itunes.apple.com/us/app/day-one/id1055511498?mt=12))
+- ![](http://a4.mzstatic.com/us/r30/Purple69/v4/c2/db/b1/c2dbb156-afe5-e025-39f7-bd9b8f9c06a7/screen800x500.jpeg)
+- Similarly, pop out controls to separate windows? (like [Bear](https://itunes.apple.com/us/app/bear/id1091189122?mt=12))
+- ![](http://a3.mzstatic.com/us/r30/Purple71/v4/3d/94/3f/3d943fc0-2b03-5976-d3da-507065206231/screen800x500.jpeg)
+
+Considerations:
+
+- custom titlebar?
+    - ![](http://a4.mzstatic.com/us/r30/Purple122/v4/21/1d/bd/211dbdff-c8df-bb76-ec3a-0ce9d77686d3/screen800x500.jpeg)
+    - from [DaisyDisk on the Mac App Store](https://itunes.apple.com/us/app/daisydisk/id411643860?mt=12)
+    - transparent?
+    - ![](https://raw.githubusercontent.com/robin/TitlebarAndToolbar/master/images/transparent_title.png)
+- dark vs light theme?
+- global hotkeys?
+- full screen mode?
 
 #### Floating window
 - Above all others
@@ -47,13 +79,35 @@ Menubar Capabilities:
 - Even add some creative new gestures, like [AppsBar](https://itunes.apple.com/us/app/appsbar/id595978941?mt=12)
     - ![](http://a3.mzstatic.com/us/r30/Purple6/v4/a4/24/1c/a4241c43-b758-f746-b8c4-cf206fa9dd0e/screen800x500.jpeg)
     - ![](http://a1.mzstatic.com/us/r30/Purple6/v4/b8/8d/1f/b88d1f77-58ee-3514-0327-5f0f7ee249e7/screen800x500.jpeg)
+    - and [Unclutter \- Files, Notes and Clipboard Manager for Mac](https://unclutterapp.com/)
+    - ![](https://unclutterapp.com/images/unclutter/v3/app-pocket-index@2x.png)
+
+
+Considerations:
+
+- adjustable opacity?
+- adjustable style (to match user's background)?
+- able to toggle "always on top"?
+- resizable?
+- global hotkeys?
+- full screen mode?
 
 #### Pinned to desktop (Desktop Widget)
 - Pinned
 - No titlebar
+- Power users would have "easy" access to these via the `f11` hotkey to `Show Desktop` (found in `Mission Control` settings)
 ![](http://a3.mzstatic.com/us/r30/Purple71/v4/f8/99/0f/f8990f8d-3ed1-ab4c-53c0-b71e747669d4/screen800x500.jpeg)
 
 from [Countdown Timer Plus on the Mac App Store](https://itunes.apple.com/us/app/countdown-timer-plus/id1150771803?mt=12)
+
+
+Considerations:
+
+- adjustable opacity?
+- adjustable style (to match user's background)?
+- able to toggle "always on top"?
+- resizable?
+- global hotkeys?
 
 #### Dock
 - Not just for launching. Can also show information.
