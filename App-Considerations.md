@@ -145,9 +145,9 @@ Note that you can use webviews to display web content in these locations, too. [
 #### Actions
 - "An Action extension lets people initiate content-specific tasks, such as editing an inline image, adding a bookmark, or displaying selected text in another language, without leaving the current context." - [Action Extensions \- Extensions \- Human Interface Guidelines for macOS Apps](https://developer.apple.com/macos/human-interface-guidelines/extensions/action-extensions/)
 - Two types of Action
-    - Viewer - display content in a custom way
+    - **Viewer** - display content in a custom way
         - ![](https://developer.apple.com/macos/human-interface-guidelines/images/actionExtensions_A_2x.png)
-    - Editor - edit content, then replace original with new
+    - **Editor** - edit content, then replace original with new
         - ![](https://developer.apple.com/macos/human-interface-guidelines/images/actionExtensions_B_2x.png)
 - Triggered via hovering over certain content (like images), or pressing buttons.
 
