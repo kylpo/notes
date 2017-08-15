@@ -134,6 +134,7 @@ Note that you can use webviews to display web content in these locations, too. [
     - ![](https://developer.apple.com/macos/human-interface-guidelines/images/notifications_Alert_2x.png)
 
 #### Notification Widget
+- "A widget is an extension that displays a small amount of timely, useful information or app-specific functionality in the Today pane of Notification Center." - [Notification Center Widgets \- Extensions \- Human Interface Guidelines for macOS Apps](https://developer.apple.com/macos/human-interface-guidelines/extensions/notification-center-widgets/)
 - [Timey 2 — Nice Apps](http://www.getniceapps.com/timey-2)
 - ![](https://static1.squarespace.com/static/5231f9d9e4b063fed6fd45db/56bb26e3c6fc08b78db6b9f3/580607635016e176c8d3d2d8/1476790167032/Screen+Shot+2016-10-14+at+22.42.35.png?format=1000w)
 
