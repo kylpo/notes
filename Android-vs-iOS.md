@@ -33,15 +33,46 @@ Android: formerly Daydream, now called "Screen Saver". Can be enabled when plugg
 # Navigation
 Android's back button is vastly supperior to iOS's top-left back buttons, imo.
 
-# Multi-window
-## Android
-#### Split Windows
-Android has this on phones, but I basically never use it.
+# Windowing
+## Split Windows
+Android:
+- [Multi\-Window Support \| Android Developers](https://developer.android.com/guide/topics/ui/multi-window.html#overview)
+- Android has this on phones, but I basically never use it.
+- ![](https://developer.android.com/images/android-7.0/mw-splitscreen_2x.png)
 
-#### Freeform
+iOS:
+- iPad only
 
-## iOS
-iOS only has it on tablets.
+## Floating Windows
+Android:
+- [Supported](https://developer.android.com/reference/android/view/Window.html#isFloating()): app can float over other apps
+    - [Floating Apps Free \- multitask \- Android Apps on Google Play](https://play.google.com/store/apps/details?id=com.lwi.android.flapps&hl=en)
+    - ![](https://lh3.googleusercontent.com/EJH65kwc5c8E4IQK7o5LBKage6iKWhwnkjCM5duNRjDf9WmHtF-1VaM0ENErSEEO1d8u=h900-rw)
+    - [Simple Launcher \- Android Apps on Google Play](https://play.google.com/store/apps/details?id=ace.jun.shortcuts)
+    - ![](https://lh3.googleusercontent.com/YtlHCRPqhshxZBR_ed4oZ7ZoGcZj1iEf1WM5fcakLFNbpFGu_SERELxDlF2BgBJWQHQ=h900-rw)
+    - [Quick Swipe \- Android Apps on Google Play](https://play.google.com/store/apps/details?id=com.quickswipe)
+- Also supports `freeform` with Developer option enabled.
+    - freeform enables all apps to be launched as floating and resizable, just like our desktop windows
+    - [Taskbar \- Android Apps on Google Play](https://play.google.com/store/apps/details?id=com.farmerbb.taskbar&rdid=com.farmerbb.taskbar) even provides a Windows-like start menu and Taskbar. Could be amazing with tablets + keyboard + mouse, as it also offers keyboard hotkeys.
+    - ![](https://www1-lw.xda-cdn.com/files/2017/01/unnamed-768x540.png)
+- `pip` supported
+
+Widget essentially pins to desktop. Float let's it float over apps. Default state of app is full screen (or 100% x 100%). Split mode just adds another full app and allows user to change the line that they stretch to.
+
+iOS:
+- only `pip` supported
+
+## Lock Window
+Android:
+- Screen Pinning ([Android 5\.0 APIs \| Android Developers](https://developer.android.com/about/versions/android-5.0.html#ScreenPinning)) allows a user to "pin" current app to the front to prevent access to the rest of the OS. Only that app is usable until it is unpinned (hold Back + Overview). When unpinned, user is first set back to lock screen.
+    - Note: this is different from kiosk mode.
+
+# Multi-user
+Android:
+- Supported on tablets - [Android 4\.2 APIs \| Android Developers](https://developer.android.com/about/versions/android-4.2.html#MultipleUsers)
+
+iOS:
+- Not supported (iPad is designed to be a single-user device)
 
 # Launcher
 Android's is replaceable
@@ -58,3 +89,6 @@ iOS is not
     - drop rates, current subs
 
 ## iOS
+
+# Lite apps
+This section is just a nod to the Go apps that google is building and promoting for developing regions
