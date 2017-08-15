@@ -7,13 +7,46 @@ iOS is locked in to Safari, iMessage, etc.
 
 iOS is starting to open up a bit more though. The keyboard is now replacable.
 
+# Launcher
+Android's is replaceable
+
+iOS is not
+
+# Shortcuts
+
 # Widgets
-Android widgets live on desktop screens. I.e. it is glancable in your launcher/dashboard.
+Android:
+- ![](https://lh4.ggpht.com/fCw_Uc7Po4BQz_AZ5Go3uwzQjymNsKRPQscuvDTS47Z_hpeFpBiuym10EOXiplPFiUc=h900-rw)
+- widgets live on desktop screens. I.e. it is glancable in your launcher/dashboard.
+- from an app, hit `home` to see it immediately, or swipe left/right to the screen that houses it
+- since it exists on your launcher, it can take up rectangular sections (and are often resizable), meaning widgets can exist next to eachother, they do not take entire rows.
 
-iOS widgets exist in Today section of Notification Center. It has a designated area, not necessarily glancable.
+iOS:
+- ![](https://developer.apple.com/ios/human-interface-guidelines/images/widget_search_2x.png)
+- widgets exist in Today section of Notification Center and on the Search screen from the launcher. It has a designated area, not necessarily glancable.
+- from app, hit `home` to go see launcher. Swipe left to furthest left screen that houses search.
+- OR, from app, swipe down from top to see Notification Center. If `Today` was selected before, you might see it immediately (or you might need to scroll down). Otherwise, press `Today` tab.
+- may also need to expand widget to see all of its content.
+- each widget takes up a full row, so no stacking up with others in a single row.
+- [How to use widgets on iPhone and iPad \| iMore](https://www.imore.com/how-use-lock-screen-widgets-iphone-and-ipad) for a great write-up
+- and [Best Today view widgets for iPhone and iPad \| iMore](https://www.imore.com/best-today-view-widgets) for some of the better ones out there
 
-# Lock Screen Widgets
+## Lock Screen Widgets
 Android used to have this. No more. From v4.2 - 4.4. See [DashClock Widget \- Android Apps on Google Play](https://play.google.com/store/apps/details?id=net.nurik.roman.dashclock) for an example.
+
+Now, it relies on Notifications and their associated actions for functionality. iOS employs the same approach.
+
+# Quick Actions
+Android:
+- Long press an icon
+- ![](https://3.bp.blogspot.com/-RyUlkuAMRJ4/WXqNtz786XI/AAAAAAAAEZE/fzyd3tA3HnMV8O0dB1zq_kwFxQzrNrjaQCLcBGAs/s400/Screen%2BShot%2B2017-07-27%2Bat%2B6.00.55%2BPM.png)
+- `O` release allows you to go further with pinning actions to your launcher. Almost like a widget.
+    - "I can’t tell you how much I love these draggable shortcuts in Android. Wait I can: I love them a lot." - [Dieter Bohn on Twitter](https://twitter.com/backlon/status/890276148399046656)
+- ![](https://1.bp.blogspot.com/-n5bjAMGzSOE/WXqN03qRVtI/AAAAAAAAEZI/UOTyzKKX-yIrTqdSaypuxoDftTsQb3msACLcBGAs/s400/Screen%2BShot%2B2017-07-27%2Bat%2B6.01.05%2BPM.png)
+
+iOS:
+- 3D Touch an icon
+- ![](https://devimages-cdn.apple.com/ios/3d-touch/images/quick-actions_2x.jpg)
 
 # Tablet
 Android tablets are essentially non-existant at this point. Chromebooks are taking their place though.
@@ -23,12 +56,28 @@ iPad just received a surge of new hype from the recent OS.
 # Notifications
 Actionable?
 
+## Icon Badges
+iOS:
+- Had these for a long time now
+
+Android:
+- [Notification Badges](https://developer.android.com/preview/features/notification-badges.html) recently added with `O` release
+
 # Screen Saver
 Android: formerly Daydream, now called "Screen Saver". Can be enabled when plugged in and/or docked.
 
 # Share
+Android:
+- [Smart Sharing](https://developer.android.com/preview/api-overview.html#smsh) learns about users' personalized sharing preferences and better understands for each type of content which are the right apps to share with. For example, if a user takes a photo of a receipt, Android O can suggest an expense-tracking app; if the user takes a selfie, a social media app can better handle the image.
 
 # Quick Settings
+Android:
+- Swipe down from top for a row of actions. Swipe again for expanded rows.
+- Apps CAN hook in to this to add custom actions.
+
+iOS:
+- Swipe up from bottom for a full page of actionable controls.
+- Apps CAN NOT hook in to this to add custom controls.
 
 # Navigation
 Android's back button is vastly supperior to iOS's top-left back buttons, imo.
@@ -55,7 +104,7 @@ Android:
     - freeform enables all apps to be launched as floating and resizable, just like our desktop windows
     - [Taskbar \- Android Apps on Google Play](https://play.google.com/store/apps/details?id=com.farmerbb.taskbar&rdid=com.farmerbb.taskbar) even provides a Windows-like start menu and Taskbar. Could be amazing with tablets + keyboard + mouse, as it also offers keyboard hotkeys.
     - ![](https://www1-lw.xda-cdn.com/files/2017/01/unnamed-768x540.png)
-- `pip` supported
+- [PIP](https://developer.android.com/preview/api-overview.html#opip) supported in O release
 
 Widget essentially pins to desktop. Float let's it float over apps. Default state of app is full screen (or 100% x 100%). Split mode just adds another full app and allows user to change the line that they stretch to.
 
@@ -74,10 +123,19 @@ Android:
 iOS:
 - Not supported (iPad is designed to be a single-user device)
 
-# Launcher
-Android's is replaceable
+# Work Profile
+Android
+- "On a device with a work profile, users can toggle work mode. When work mode is off the managed user is temporarily shut down, which disables work profile apps, background sync, and notifications. This includes the profile owner application. When work mode is off, the system displays a persistent status icon to remind the user that they can't launch work apps. The launcher indicates that work apps and widgets are not accessible." - [Android 7\.0 for Developers \| Android Developers](https://developer.android.com/about/versions/nougat/android-7.0.html#android_for_work)
 
-iOS is not
+# Device Accessories
+Android
+- Keyboard
+    - `Meta /` to trigger a Keyboard Shortcuts screen that displays all shortcuts available both from the system and from the app in focus.
+- Mouse
+
+iOS
+- Keyboard
+- (no mouse)
 
 # AR
 
