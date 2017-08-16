@@ -1,11 +1,13 @@
 # Lock in
-Android allows replacing browser, keyboard, messenger, etc.
+Android:
+- allows replacing browser, keyboard, messenger, etc.
+- [Dimensions: Uniquely Android - YouTube](https://www.youtube.com/watch?v=J4pQK2463qs)
+  - about openness of the platform: sharing, replacing defaults, broadcasting events, etc. Basically everything that made me choose Android from the start.
 
-iOS is locked in to Safari, iMessage, etc.
-
-> This infuriates me!
-
-iOS is starting to open up a bit more though. The keyboard is now replacable.
+iOS:
+- locked in to Safari, iMessage, etc.
+    - This infuriates me!
+- iOS is starting to open up a bit more though. The keyboard is now replacable.
 
 # Launcher
 Android's is replaceable
