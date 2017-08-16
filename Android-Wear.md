@@ -3,7 +3,8 @@ Note: Below's notes are just summarizing [Introduction \- Android Wear \- Androi
 # Architecture
 Android Wear 2.0 is all about 1-dimensional, vertical columns. Horizontal can still play a role, but it is secondary, and lives inline to the vertical column (think carousels).
 
-![](https://storage.googleapis.com/material-design/publish/wear_v_3/assets/0B5QhgrCEXHzxZExrQUxveTFTa2s/optimize_for_vertical_layout_1.png) vs ![](https://storage.googleapis.com/material-design/publish/wear_v_3/assets/0B5QhgrCEXHzxNW1aLUFGanJWNjA/optimize_for_vertical_layout_2.png)
+<img src="https://storage.googleapis.com/material-design/publish/wear_v_3/assets/0B5QhgrCEXHzxZExrQUxveTFTa2s/optimize_for_vertical_layout_1.png" width="1000" style="display: inline-block" />
+<img src="https://storage.googleapis.com/material-design/publish/wear_v_3/assets/0B5QhgrCEXHzxNW1aLUFGanJWNjA/optimize_for_vertical_layout_2.png" width="1000" style="display: inline-block" />
 
 ## 3 Primary Stages
 ### Main
@@ -14,14 +15,16 @@ Your default column houses your `Watch Face` at the top, and any `notifications`
 ### App
 
 # Display Modes
+![](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Android-Wear-watches.gif)
+
+from [Android Wear: wear what you want, get what you need](https://www.blog.google/products/android-wear/android-wear-wear-what-you-want-get/)
+
 ## Active Mode
 Shows all, bright colors and animations. You just pressed something to wake up the watch.
 
 ![](https://storage.googleapis.com/material-design/publish/wear_v_3/assets/0B2SJIKn8-BKoMzMxWlRWd0JvU3c/pfadm-01.png)
 
 ## Always-on Mode (also called Ambient Mode)
-![](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Android-Wear-watches.gif)
-
 Dims screen to grayscale to conserve battery. The more black space on the screen, the more battery is saved.
 
 ![](https://storage.googleapis.com/material-design/publish/wear_v_3/assets/0B2SJIKn8-BKoNF9aRzdSci1mSTg/pfadm-02.png)
