@@ -1,5 +1,7 @@
 _WIP_
 
+[Gestures \- User Interaction \- iOS Human Interface Guidelines](https://developer.apple.com/ios/human-interface-guidelines/interaction/gestures/) for OS-level gestures
+
 - [Moving Beyond Animations to User Interactions at 60 FPS in React Native – Medium](https://medium.com/@talkol/moving-beyond-animations-to-user-interactions-at-60-fps-in-react-native-b6b1fa0ba525#.lmyx17wfr)
   - "After the specs of the interaction have been declared as props in the JavaScript realm, they are serialized by React Native during initialization and sent over the bridge once to the native realm. Our general purpose native driver will receive these specs and drive the interaction entirely from native. There will be no more passes over the bridge required to calculate each frame, resulting in overhead-free execution at 60 FPS."
 - [kmagiera/react-native-gesture-handler: Experimental implementation of a new declarative API for gesture handling in react-native](https://github.com/kmagiera/react-native-gesture-handler)

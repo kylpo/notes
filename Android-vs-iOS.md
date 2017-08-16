@@ -20,6 +20,7 @@ Android:
 - widgets live on desktop screens. I.e. it is glancable in your launcher/dashboard.
 - from an app, hit `home` to see it immediately, or swipe left/right to the screen that houses it
 - since it exists on your launcher, it can take up rectangular sections (and are often resizable), meaning widgets can exist next to eachother, they do not take entire rows.
+- ![](https://developer.android.com/design/media/widgets_resizing01.png)
 
 iOS:
 - ![](https://developer.apple.com/ios/human-interface-guidelines/images/widget_search_2x.png)
@@ -54,7 +55,24 @@ Android tablets are essentially non-existant at this point. Chromebooks are taki
 iPad just received a surge of new hype from the recent OS.
 
 # Notifications
-Actionable?
+Android:
+- Actionable buttons in notification.
+- ![](https://developer.android.com/images/ui/notifications/notification_drawer.png)
+- Somewhat of a Detail View via an additional swipe down (sometimes need to use two fingers). Called an `Expanded Notification`
+- Notifications are groupable. Called "channels", I think.
+
+iOS:
+- Actionable buttons not shown in collapsed state of notification (I think)
+    - to see buttons in "notification" (like Android), it'd need to be a widget?
+- ![](https://img.gadgethacks.com/img/89/74/63632351201726/0/people-are-pissed-about-ios-11s-new-notification-system.w1456.jpg)
+- Full Detail View by pressing notification, now there may be action buttons
+- ![](https://developer.apple.com/ios/human-interface-guidelines/images/notifications_detail_2x.png)
+- ![](https://cdn-images-1.medium.com/max/2000/1*SJnbSScIPdGOANN_reQCOg.gif)
+    - from https://news.dueapp.com/ios-10-notifications-one-step-forward-one-step-back-fe712469184e
+- Notifications are not groupable.
+
+
+Regarding the Detial View: Why not just open the app to see these? Do you really need to reply to iMessage and stay in the notification (not the app) to continue conversations back/forth? Seems unnecessary, but perhaps I'm just missing the point since I'm used to Android's solution.
 
 ## Icon Badges
 iOS:
@@ -65,6 +83,8 @@ Android:
 
 # Screen Saver
 Android: formerly Daydream, now called "Screen Saver". Can be enabled when plugged in and/or docked.
+
+iOS: none
 
 # Share
 Android:
@@ -138,6 +158,11 @@ iOS
 - (no mouse)
 
 # AR
+Android:
+- Tango - requires hardware that most devices do not currently have
+
+iOS:
+- ARKit - no additional hardware. Uses normal sensors and software. Means it is accessible to all, as soon as iOS 11 is released.
 
 # Store tools
 ## Android
@@ -149,4 +174,4 @@ iOS
 ## iOS
 
 # Lite apps
-This section is just a nod to the Go apps that google is building and promoting for developing regions
+This section is just a nod to the Go apps that google is building and promoting for developing regions. The Youtube Go, for example, show exactly how big a video is and allows users to opt-in to downloading it--it isn't automatically downloaded.
