@@ -1,0 +1,1 @@
+[Why I’m dumping Firebase for Web? – Michael Lugassy — The Trillest](https://lugassy.net/why-im-dumping-firebase-for-web-cd64a78cb43e)

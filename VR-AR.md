@@ -17,3 +17,4 @@ from Amit Singh @ google IO:
 - [Made With ARKit on Twitter: "🤔 measuring a kitchen shouldn't be this satisfying...like, at all 🤔 https://t.co/7nhacasdnO → app by @SmartPicture3D 📏 https://t.co/eztjNbDVyL"](https://twitter.com/madewithARKit/status/885217993088782339)
 - [Andrew Hart on Twitter: "ARKit + CoreLocation https://t.co/nTdKyGrBmv"](https://twitter.com/AndrewProjDent/status/886916872683343872)
 - [James Long on Twitter: "Apple is doing all these things that everyone one else dreamed of. All action, little hype. Where's magic leap now? https://t.co/QVN9Wd57z0"](https://twitter.com/jlongster/status/885338063555186688)
+- [ARKit Weekly on Twitter: "🤳 1\. Hold up your iPhone → 2\. Find your festival friends → 3\. Rock on 🤟 Courtesy of ARKit 💖 Demo = @neonapp by @mrdavidurbina 🦄 https://t\.co/S9mp5Mjlal"](https://twitter.com/ARKitweekly/status/897471070202187776)

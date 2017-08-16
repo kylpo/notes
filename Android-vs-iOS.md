@@ -14,8 +14,6 @@ Android's is replaceable
 
 iOS is not
 
-# Shortcuts
-
 # Widgets
 Android:
 - ![](https://lh4.ggpht.com/fCw_Uc7Po4BQz_AZ5Go3uwzQjymNsKRPQscuvDTS47Z_hpeFpBiuym10EOXiplPFiUc=h900-rw)
@@ -122,6 +120,8 @@ Android:
     - [Simple Launcher \- Android Apps on Google Play](https://play.google.com/store/apps/details?id=ace.jun.shortcuts)
     - ![](https://lh3.googleusercontent.com/YtlHCRPqhshxZBR_ed4oZ7ZoGcZj1iEf1WM5fcakLFNbpFGu_SERELxDlF2BgBJWQHQ=h900-rw)
     - [Quick Swipe \- Android Apps on Google Play](https://play.google.com/store/apps/details?id=com.quickswipe)
+    - [Floating Stickies \- Android Apps on Google Play](https://play.google.com/store/apps/details?id=genius.mohammad.floating.stickies)
+    - ![](https://lh3.ggpht.com/akLK7K0gNWmbIMYjbK_8f-29PKwKOUqsPrhrWNTG_SbRY3S2e25nxYJyAg1y6OCQmniW=h900-rw)
 - Also supports `freeform` with Developer option enabled.
     - freeform enables all apps to be launched as floating and resizable, just like our desktop windows
     - [Taskbar \- Android Apps on Google Play](https://play.google.com/store/apps/details?id=com.farmerbb.taskbar&rdid=com.farmerbb.taskbar) even provides a Windows-like start menu and Taskbar. Could be amazing with tablets + keyboard + mouse, as it also offers keyboard hotkeys.
