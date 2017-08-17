@@ -11,6 +11,7 @@
 ## Against it
 - [One Month Without AMP](https://www.alexkras.com/one-month-without-amp/)
 > Unless you run a News site that HAS to compete for a spot in Google Carousel enabling AMP is not worth the effort. AMP is an alternative publishing format and most small site can’t afford to maintain two (quality) versions of itself.
+- [Using Google AMP for e\-commerce might not be the best choice currently](https://thirtybees.com/blog/amp-is-bad-for-e-commerce/)
 
 ## Using it
 

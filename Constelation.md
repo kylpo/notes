@@ -115,6 +115,18 @@ I tried to think of everything you'd need in a WYSIWYG to build an app/site toda
 - Timeline
   - like [jondot/react-flight: The best way to build animation compositions for React.](https://github.com/jondot/react-flight)?
   - [madou/yubaba: ✨ Orchestrated page transitions made easy](https://github.com/madou/yubaba)
+  - [react\-inview\-monitor Example](https://snipsco.github.io/react-inview-monitor/) - interesting idea to just apply the className, like `ReactCSSTransitionGroup`.
+```jsx
+return (
+  <InViewMonitor
+    intoViewRatioShownThreshold={0}
+    classNameInitial='tabs'
+    classNameScrolledPastView='tabs tabs--fixed'
+  >
+    <TabsHere />
+  </InViewMonitor>
+)
+```
 
 # Still semantic
 - `tag` prop
