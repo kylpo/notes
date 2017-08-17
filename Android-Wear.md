@@ -3,7 +3,7 @@ Note: Below's notes are just summarizing [Introduction \- Android Wear \- Androi
 # Architecture
 Android Wear 2.0 is all about 1-dimensional, vertical columns. Horizontal can still play a role, but it is secondary, and lives inline to the vertical column (think carousels).
 
-This <img src="https://storage.googleapis.com/material-design/publish/wear_v_3/assets/0B5QhgrCEXHzxZExrQUxveTFTa2s/optimize_for_vertical_layout_1.png" width="200"/>, not <img src="https://storage.googleapis.com/material-design/publish/wear_v_3/assets/0B5QhgrCEXHzxNW1aLUFGanJWNjA/optimize_for_vertical_layout_2.png" width="200px"/>
+This <img src="https://storage.googleapis.com/material-design/publish/wear_v_3/assets/0B5QhgrCEXHzxZExrQUxveTFTa2s/optimize_for_vertical_layout_1.png" width="300"/>, not <img src="https://storage.googleapis.com/material-design/publish/wear_v_3/assets/0B5QhgrCEXHzxNW1aLUFGanJWNjA/optimize_for_vertical_layout_2.png" width="300"/>
 
 ## 3 Primary Views/Columns
 ### Main
@@ -26,6 +26,8 @@ Your default column houses your `Watch Face` at the top, and any `collapsed noti
 from [Notifications \- Patterns \- Android Wear design guidelines](https://www.google.com/design/spec-wear/patterns/notifications.html#notifications-templates)
 
 ### Notification Detail (expanded notification)
+Upon clicking on a collapsed notification, you are taken to a new view/column: the expanded notification. To get back to the main column, swipe right. Imagine expanded notifications living in a column to the right of the main column.
+
 ![](https://storage.googleapis.com/material-design/publish/wear_v_3/assets/0B7l-XnaAL2nDY3VBNXdBZENkVHc/notifications_anatomy_appoid_callouts.png)
 
 1. A content title
@@ -126,3 +128,7 @@ from [Official Android Blog: Android Wear: Always\-on apps](https://android.goog
     - "Did you also know that an all-white display can use up to seven times more power than a black display in interactive mode?"
     - "It also wants developers to be smarter with design choices to reduce battery suck, including making use of ambient mode and using fewer animations"
     - "did you know that Bluetooth is way more battery intensive than LTE or Wi-FI? Well it is, and Google wants developers to use the latter when possible to transfer data to Wear devices. It also wants developers to reduce the amount of vibrations and location checks."
+
+# Tips
+- [Android Wear tips and tricks: The hidden smartwatch secrets](https://www.wareable.com/android-wear/android-wear-hidden-secrets-tips-and-tricks)
+  - pin favorite apps by holding it down in the launcher for a second
