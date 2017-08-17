@@ -53,11 +53,11 @@ When it is active, its view takes over (much like an expanded notification), but
 - content (text, images, etc)
 - a optional, big [Primary action button](https://www.google.com/design/spec-wear/components/primary-action-buttons.html#) (hierarchically outside of content)
 
-<img src="https://storage.googleapis.com/material-design/publish/wear_v_3/assets/0B7l-XnaAL2nDM2IwX0hYcnVkeUE/primary_button_label.png" style="max-width: 200px;" />
+<img src="https://storage.googleapis.com/material-design/publish/wear_v_3/assets/0B7l-XnaAL2nDM2IwX0hYcnVkeUE/primary_button_label.png" width="200;" />
 
 - and optional [Inline action buttons \- Components \- Android Wear design guidelines](https://www.google.com/design/spec-wear/components/inline-action-buttons.html#) shown after content (hierarchically inside of content)
 
-<img src="https://storage.googleapis.com/material-design/publish/wear_v_3/assets/0B7l-XnaAL2nDdXJmVURqczJxNEk/inline_action_button.png" style="max-width: 200px;" />
+<img src="https://storage.googleapis.com/material-design/publish/wear_v_3/assets/0B7l-XnaAL2nDdXJmVURqczJxNEk/inline_action_button.png" width="200" />
 
 #### [Navigation Drawer](https://www.google.com/design/spec-wear/components/navigation-drawer.html#navigation-drawer-behavior)
 If used, will have 2+ horizontal tabs that when actived change the `Viewport`. Much like tabs in your browser.
@@ -66,14 +66,14 @@ If used, will have 2+ horizontal tabs that when actived change the `Viewport`. M
 
 Can also be collapsed into a single page of multiple buttons.
 
-<img src="https://storage.googleapis.com/material-design/publish/wear_v_3/assets/0B7l-XnaAL2nDZjZrTWhhbTZzZUU/navigation_drawer_singlepage.png" style="max-width: 300px;"/>
+<img src="https://storage.googleapis.com/material-design/publish/wear_v_3/assets/0B7l-XnaAL2nDZjZrTWhhbTZzZUU/navigation_drawer_singlepage.png" width="200;"/>
 
 
 #### [Action Drawer](https://www.google.com/design/spec-wear/components/action-drawer.html#)
 A vertical sheet that, when expanded, includes additional actions.
 
-<!-- <img src="" style="max-width: 300px;"/> -->
-<img src="https://storage.googleapis.com/material-design/publish/wear_v_3/assets/0B5QhgrCEXHzxQm5QRFZyTzhnQU0/action_drawer_open.png" style="max-width: 300px;"/>
+<!-- <img src="" width="300"/> -->
+<img src="https://storage.googleapis.com/material-design/publish/wear_v_3/assets/0B5QhgrCEXHzxQm5QRFZyTzhnQU0/action_drawer_open.png" width="200"/>
 
 # Display Modes
 ![](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Android-Wear-watches.gif)
