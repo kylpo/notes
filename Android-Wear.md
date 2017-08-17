@@ -43,23 +43,37 @@ from [Notifications \- Patterns \- Android Wear design guidelines](https://www.g
 ### App
 An app is navigated to by a pre-programmed hardware key, by voice, or by the app launcher (shown below).
 
-When it is active, its view takes over (much like an expanded notification), but has some additional components to leverage. Best to think of it as a `Viewport` layer at the lowest position, and two layers floating over it at the top position (`Navigation Drawer`) and bottom position (`Action Drawer`).
+![](https://storage.googleapis.com/material-design/publish/wear_v_3/assets/0B5QhgrCEXHzxRXBTZ2JhR2ZrZDA/03_apps.png)
+
+When it is active, its view takes over (much like an expanded notification), but has some additional components to leverage. Best to think of it as a `Viewport` layer at the lowest position, and two layers floating over it at the top position (`Navigation Drawer`) and bottom position (`Action Drawer`). Note: both drawers use a `peek` animation to inform the user of their existence.
 
 ![](https://storage.googleapis.com/material-design/publish/wear_v_3/assets/0B5QhgrCEXHzxRGhucC1XZ0w3eGs/orthographic_view_of_app.png)
 
-The `Viewport` contains:
+#### The `Viewport` contains:
 - content (text, images, etc)
 - a optional, big [Primary action button](https://www.google.com/design/spec-wear/components/primary-action-buttons.html#) (hierarchically outside of content)
 
-<img src="https://storage.googleapis.com/material-design/publish/wear_v_3/assets/0B7l-XnaAL2nDM2IwX0hYcnVkeUE/primary_button_label.png" style="max-width: 200px" />
+<img src="https://storage.googleapis.com/material-design/publish/wear_v_3/assets/0B7l-XnaAL2nDM2IwX0hYcnVkeUE/primary_button_label.png" style="max-width: 200px;" />
 
 - and optional [Inline action buttons \- Components \- Android Wear design guidelines](https://www.google.com/design/spec-wear/components/inline-action-buttons.html#) shown after content (hierarchically inside of content)
 
-<img src="https://storage.googleapis.com/material-design/publish/wear_v_3/assets/0B7l-XnaAL2nDdXJmVURqczJxNEk/inline_action_button.png" style="max-width: 200px" />
+<img src="https://storage.googleapis.com/material-design/publish/wear_v_3/assets/0B7l-XnaAL2nDdXJmVURqczJxNEk/inline_action_button.png" style="max-width: 200px;" />
 
-The `Navigation Drawer`, if used, will have 2+ horizontal tabs that when actived change the `Viewport`. Much like tabs in your browser.
+#### [Navigation Drawer](https://www.google.com/design/spec-wear/components/navigation-drawer.html#navigation-drawer-behavior)
+If used, will have 2+ horizontal tabs that when actived change the `Viewport`. Much like tabs in your browser.
 
-The `Action Drawer` is a vertical sheet that includes additional actions 
+![](https://storage.googleapis.com/material-design/publish/wear_v_3/assets/0B7l-XnaAL2nDMUl1WVVfcHlhS28/usage.png)
+
+Can also be collapsed into a single page of multiple buttons.
+
+<img src="https://storage.googleapis.com/material-design/publish/wear_v_3/assets/0B7l-XnaAL2nDZjZrTWhhbTZzZUU/navigation_drawer_singlepage.png" style="max-width: 300px;"/>
+
+
+#### [Action Drawer](https://www.google.com/design/spec-wear/components/action-drawer.html#)
+A vertical sheet that, when expanded, includes additional actions.
+
+<!-- <img src="" style="max-width: 300px;"/> -->
+<img src="https://storage.googleapis.com/material-design/publish/wear_v_3/assets/0B5QhgrCEXHzxQm5QRFZyTzhnQU0/action_drawer_open.png" style="max-width: 300px;"/>
 
 # Display Modes
 ![](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Android-Wear-watches.gif)
