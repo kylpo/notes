@@ -3,8 +3,7 @@ Note: Below's notes are just summarizing [Introduction \- Android Wear \- Androi
 # Architecture
 Android Wear 2.0 is all about 1-dimensional, vertical columns. Horizontal can still play a role, but it is secondary, and lives inline to the vertical column (think carousels).
 
-This <img src="https://storage.googleapis.com/material-design/publish/wear_v_3/assets/0B5QhgrCEXHzxZExrQUxveTFTa2s/optimize_for_vertical_layout_1.png" width="200" style="display: inline-block" />, not 
-<img src="https://storage.googleapis.com/material-design/publish/wear_v_3/assets/0B5QhgrCEXHzxNW1aLUFGanJWNjA/optimize_for_vertical_layout_2.png" width="200px" style="display: inline-block" />
+This <img src="https://storage.googleapis.com/material-design/publish/wear_v_3/assets/0B5QhgrCEXHzxZExrQUxveTFTa2s/optimize_for_vertical_layout_1.png" width="200"/>, not <img src="https://storage.googleapis.com/material-design/publish/wear_v_3/assets/0B5QhgrCEXHzxNW1aLUFGanJWNjA/optimize_for_vertical_layout_2.png" width="200px"/>
 
 ## 3 Primary Views/Columns
 ### Main
@@ -52,8 +51,7 @@ When it is active, its view takes over (much like an expanded notification), but
 #### The `Viewport` contains:
 - content (text, images, etc). See [Content containers \- System overview \- Android Wear design guidelines](https://www.google.com/design/spec-wear/system-overview/content-containers.html) for more.
 
-<img src="https://storage.googleapis.com/material-design/publish/wear_v_3/assets/0B7l-XnaAL2nDMkIzMFRNZ2dqcmc/vert_page.png" width="400" style="display: inline-block;"/>
-<img src="https://storage.googleapis.com/material-design/publish/wear_v_3/assets/0B7l-XnaAL2nDMFVIckI1dXJqbVE/pannable_view.png" width="400" style="display: inline-block;"/>
+<img src="https://storage.googleapis.com/material-design/publish/wear_v_3/assets/0B7l-XnaAL2nDMkIzMFRNZ2dqcmc/vert_page.png" width="400"/> <img src="https://storage.googleapis.com/material-design/publish/wear_v_3/assets/0B7l-XnaAL2nDMFVIckI1dXJqbVE/pannable_view.png" width="400"/>
 
 - a optional, big [Primary action button](https://www.google.com/design/spec-wear/components/primary-action-buttons.html#) (hierarchically outside of content)
 
