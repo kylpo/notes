@@ -50,7 +50,11 @@ When it is active, its view takes over (much like an expanded notification), but
 ![](https://storage.googleapis.com/material-design/publish/wear_v_3/assets/0B5QhgrCEXHzxRGhucC1XZ0w3eGs/orthographic_view_of_app.png)
 
 #### The `Viewport` contains:
-- content (text, images, etc)
+- content (text, images, etc). See [Content containers \- System overview \- Android Wear design guidelines](https://www.google.com/design/spec-wear/system-overview/content-containers.html) for more.
+
+<img src="https://storage.googleapis.com/material-design/publish/wear_v_3/assets/0B7l-XnaAL2nDMkIzMFRNZ2dqcmc/vert_page.png" width="400" style="display: inline-block;"/>
+<img src="https://storage.googleapis.com/material-design/publish/wear_v_3/assets/0B7l-XnaAL2nDMFVIckI1dXJqbVE/pannable_view.png" width="400" style="display: inline-block;"/>
+
 - a optional, big [Primary action button](https://www.google.com/design/spec-wear/components/primary-action-buttons.html#) (hierarchically outside of content)
 
 <img src="https://storage.googleapis.com/material-design/publish/wear_v_3/assets/0B7l-XnaAL2nDM2IwX0hYcnVkeUE/primary_button_label.png" width="200;" />
