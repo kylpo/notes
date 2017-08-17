@@ -3,7 +3,7 @@ Things I know I prefer as native:
 - music player
 
 Things I know I prefer as web:
-- feed reader
+- feed reader (something that produces more tabs/links (`cmd + click`))
 
 ---
 
