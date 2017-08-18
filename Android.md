@@ -18,6 +18,7 @@
   - [The Case Against Kotlin – Pinterest Engineering](https://medium.com/@Pinterest_Engineering/the-case-against-kotlin-2c574cb87953)
 ## Dev
 - [20\+ Awesome Open\-Source Android Apps To Boost Your Development Skills](https://blog.aritraroy.in/20-awesome-open-source-android-apps-to-boost-your-development-skills-b62832cf0fa4)
+- [Android Developers Blog: Google releases source for Google I/O 2017 for Android](https://android-developers.googleblog.com/2017/08/google-releases-source-for-google-io.html)
 - [Android Distribution: A 5 Year Look at Android Version Adoption](http://www.droid-life.com/2017/08/09/android-o-almost-heres-android-distribution-past-5-years/)
   - ![](http://www.droid-life.com/wp-content/uploads/2017/08/android-distribution-stacked.jpg)
 - [Florina Muntenescu on Twitter: "\#Kotlin \+ ViewModels \+ Room \+ \#RxJava = 👩‍💻❤️ New sample here: https://t\.co/BbDUokgCLC \#AndroidDev"](https://twitter.com/FMuntenescu/status/895295774220800001)
