@@ -1,3 +1,14 @@
+
+# Why I like it
+Steel is Democratic metal, just like android.
+
+![](https://o.aolcdn.com/images/dims?quality=100&image_uri=http%3A%2F%2Fwww.blogcdn.com%2Fwww.engadget.com%2Fmedia%2F2013%2F10%2Fdsc08051.jpg&client=cbc79c14efcebee57402&signature=aa83a04c9bf4894207acf309a6bfaf09ffc7c15c)
+
+from [Lenovo's 'Yoga' Android tablet has a built\-in kickstand containing an 18\-hour battery \(hands\-on\)](https://www.engadget.com/2013/10/29/lenovo-yoga-tablet-hands-on/)
+
+Asus Transformers
+
+
 ## Kotlin
   - [Why Kotlin is my next programming language – Mike Hearn – Medium](https://medium.com/@octskyward/why-kotlin-is-my-next-programming-language-c25c001e26e3)
   - compiles to `js`, too: [TodoItem.kt](https://github.com/andrewoma/reakt/blob/master/todo/src/main/kotlin/todo/components/TodoItem.kt)
