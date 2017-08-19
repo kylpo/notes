@@ -1,3 +1,18 @@
+
+"I really wish they added mouse support in iOS 11. It’s very awkward to reach up to the screen to tap constantly or move your cursor around." - comment in [Google Docs has finally made working from my iPad possible \- The Verge](https://www.theverge.com/2017/8/18/16165336/google-docs-suggested-edits-ipad-work-game-changer)
+
+[Remix OS for Mobile \- Take your Android experience to the next step\. Phone, desktop, TV\. Anywhere, anytime\.](http://cn.jide.com/remixos-for-mobile)
+
+![](https://webcdn.jide.com/jide_upload/2017_03/1489402993640_nwopep_banner2.png)
+
+love the hardware nav buttons on the dock, too. Nice touch.
+
+[Samsung DeX \| Apps \- The Official Samsung Galaxy Site](http://www.samsung.com/global/galaxy/apps/samsung-dex/)
+
+Dock has a built-in fan! SO smart.
+
+---
+
 # Dock/Taskbar
 
 # Virtual Desktops
