@@ -46,6 +46,10 @@ Not just for screen savers
 Even Samsung Gear has it:
 - [Event Handling \| Tizen Developers](https://developer.tizen.org/zh-hans/development/training/web-application/understanding-tizen-programming/event-handling?langredirect=1#ambient)
 
+Really like Note 8's `Screen off memo`: Make note without unlocking. [Samsung Galaxy Note 8 S Pen: Stylus Pen \| Samsung US](http://www.samsung.com/us/galaxy/note8/s-pen/)
+
+![](https://github.com/kylpo/notes/blob/master/assets/note-8-memo.jpg?raw=true)
+
 ## Inputs
 Everything input is first-class, and can accomplish most tasks. I.e. a keyboard shorcut should also be accomplished with a just a mouse, which should be accomplishable with just a touch/gesture.
 
@@ -79,6 +83,8 @@ Again, Mac totally nailed this. Many of us work on laptops today, using the lapt
 
 ## System mouse gestures/hovers
 Thinking about Hot Corners
+
+Buttons for clickability, like [eXtra Buttons: utility buttons in the title of the window](http://www.xtrabuttons.com/)
 
 # Widgets (also called Gadgets)
 or, pinned mini-apps
