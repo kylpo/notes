@@ -33,6 +33,8 @@ Asus Transformers
 - [Android Distribution: A 5 Year Look at Android Version Adoption](http://www.droid-life.com/2017/08/09/android-o-almost-heres-android-distribution-past-5-years/)
   - ![](http://www.droid-life.com/wp-content/uploads/2017/08/android-distribution-stacked.jpg)
 - [Florina Muntenescu on Twitter: "\#Kotlin \+ ViewModels \+ Room \+ \#RxJava = 👩‍💻❤️ New sample here: https://t\.co/BbDUokgCLC \#AndroidDev"](https://twitter.com/FMuntenescu/status/895295774220800001)
+- [pedrovgs/AndroidWiFiADB: IntelliJ/AndroidStudio plugin which provides a button to connect your Android device over WiFi to install, run and debug your applications without a USB connected\.](https://github.com/pedrovgs/AndroidWiFiADB)
+  - no need to keep your phone connected to your laptop anymore...
 ## Debugging
   - [Android Performance: An Overview (Google I/O '17) - YouTube](https://www.youtube.com/watch?v=Qfo5fdoXrTU)
     - systrace from `catapult` repo

@@ -18,6 +18,8 @@ _WIP_
 
 [A First Reason React app for Javascript developers | James Friend](https://jamesfriend.com.au/a-first-reason-react-app-for-js-developers)
 
+[A Journey to Reason – Netscape – Medium](https://medium.com/netscape/a-journey-to-reason-2c2c4cddc012)
+
 # Getting started
 - [Jeremy Morrell on Twitter: "@HunterLoftis @reasonml Strategy of converting one class at a time proving highly effective so far https://t.co/ozDyGyPyeR"](https://twitter.com/JeremyMorrell/status/886808084299083776)
   - ![](https://pbs.twimg.com/media/DE6TM2nU0AAoaUs.jpg)

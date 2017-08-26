@@ -43,7 +43,19 @@ No screen recording apps on Windows Store (because it isn't possible?)
 Is this a sufficient UI for touch-only? Totally! Can it work for mouse/keyboard? Yes. Can the keyboard and mouse interactions be brought up to parity? I think so.
 
 
+---
 
+[Windows Store Guide \| Electron](https://electron.atom.io/docs/tutorial/windows-store-guide/)
+
+"Microsoft developed a tool that compiles Electron apps as .appx packages"
+
+"Another important limitation is that the compiled AppX package still contains a win32 executable - and will therefore not run on Xbox, HoloLens, or Phones."
+
+**UPW Features**: like push notifications, Cortana integration, or live tiles.
+
+[Introducing Electron to the Windows Runtime – Several People Are Coding](https://slack.engineering/introducing-electron-to-the-windows-runtime-4fa789b93d90)
+
+---
 
 
 

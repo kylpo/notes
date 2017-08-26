@@ -228,6 +228,10 @@ And http://n12v.com/css-transition-to-from-auto/ with the current best practice
   - "Developers spend far more time debugging than on initial development yet consistently optimize the choices of their stack for initial dev."
 - [jordanIsNotAFunction on Twitter: "@floydophone @_chenglou Electron apps do embed inside the IDE since they share runtime, but then it ends up like Atom with 4s startup times. Next, you try lazy."](https://twitter.com/jordwalke/status/883819204377325568)
 
+## Good Hybrid examples
+- Todoist for MacOS
+  - Seems to be a native app with just a webview and a few custom, native pieces for things like menubar, global hotkeys, quick-add UI.
+
 # Current Conclusions
 - When to use Web
   - sites (documents, ecommerce)
