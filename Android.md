@@ -66,6 +66,16 @@ Asus Transformers
 #### Daydream / Screen Saver
 - [How to Set Up Android's Daydream Screensaver](https://www.tomsguide.com/us/android-daydream,review-3306.html)
 - [Android SDK: Create an Interactive Screen Saver with Daydream](https://code.tutsplus.com/tutorials/android-sdk-create-an-interactive-screen-saver-with-daydream--mobile-16604)
+
+#### Hotkeys and remapping
+- Hardware button remapping
+  - [Remap Android's Hardware Buttons Without Root \[How\-To\] \- YouTube](https://www.youtube.com/watch?v=FwLeGdQqh_0)
+  - [Button Mapper: Remap your keys \- Android Apps on Google Play](https://play.google.com/store/apps/details?id=flar2.homebutton&hl=en)
+- Bluetooth keyboard remapping
+  - [How to Use a Bluetooth Keyboard with Your Android Device](https://www.howtogeek.com/175267/the-htg-guide-to-using-a-bluetooth-keyboard-with-your-android-device/)
+  - [External Keyboard Helper Demo \- Android Apps on Google Play](https://play.google.com/store/apps/details?id=com.apedroid.hwkeyboardhelperdemo&rdid=com.apedroid.hwkeyboardhelperdemo)
+
+
 ## Icons
   - [Nick Butcher on Twitter: "Check out my 🔥 tips for implementing adaptive icons https://t.co/tWYAHKSmnx"](https://twitter.com/crafty/status/885122099626594304) whole thread is helpful
   - [Understanding Android Adaptive Icons – Google Design – Medium](https://medium.com/google-design/understanding-android-adaptive-icons-cee8a9de93e2)

@@ -7,6 +7,16 @@ I think now, more than ever, we are set up for a wysiwyg builder to become hugel
 
 [React Studio: 1.0.2 update, roadmap, thoughts on Native, and a look at Microsoft’s ReactXP](https://hackernoon.com/react-studio-1-0-2-update-roadmap-thoughts-on-native-and-a-look-at-microsofts-reactxp-b78fc405a676)
 
+---
+
+Also might align on scope of components, like Atomic Design.
+
+[Mirrored atomicity: designers and developers speaking the same language](https://uxdesign.cc/mirrored-atomicity-ui-and-front-end-speaking-the-same-language-3ac5c2fe382b)
+
+It is about speaking the same language
+
+---
+
 # Tools
 - Ones that tell you code cost, like [CodeMetrics - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-codemetrics)
 - [vscode-caniuse - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=agauniyal.vscode-caniuse)

@@ -191,6 +191,12 @@ And http://n12v.com/css-transition-to-from-auto/ with the current best practice
 - [Leland Richardson on Twitter: "randomly looking for some blackjack games on phone and on web... becomes painfully obvious why the web is losing to native mobile"](https://twitter.com/intelligibabble/status/881958748985581568)
 - "Is the web ever going to support multiline-text truncation? (Don't @ me about the broken mess that is -webkit-line-clamp)" - [Necolas](https://twitter.com/necolas/status/885150869448085504)
 - [Mark Dalgleish on Twitter: "@ryanflorence "Use the platform to display an app install banner""](https://twitter.com/markdalgleish/status/886692085490794496)
+- Missing out from recent Android O:
+  - Notification Dots
+  - Adaptive Icons
+  - Notification Channels
+  - Shortcuts
+  - list from [Android Oreo takes a bite out of Progressive Web Apps](https://medium.com/@firt/android-oreo-takes-a-bite-out-of-progressive-web-apps-30b7e854648f)
 
 ## Pros
 - ["Available anywhere, on-demand, low storage, low power use, etc. These are things both users and companies want from apps. Web nearly there"](https://twitter.com/necolas/status/850437592285708288)
