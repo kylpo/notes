@@ -19,6 +19,9 @@ It is about speaking the same language
 
 # Tools
 - Ones that tell you code cost, like [CodeMetrics - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-codemetrics)
+  - ![](https://pbs.twimg.com/media/DHw9q77UwAEcnNq.jpg)
+- [Ansuman Shah on Twitter: "Atom plugin to get auto\-completion of CSSinJS \(js styles\) for glamor/glamorous etc\. https://t\.co/olCQLUCSkJ cc @kentcdodds @threepointone https://t\.co/0IUo3lMx5E"](https://twitter.com/AnsumanShah/status/900469778740948992)
+  - 
 - [vscode-caniuse - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=agauniyal.vscode-caniuse)
   - shows browser compatibility on hover and caret position
   - ![](https://github.com/agauniyal/vscode-caniuse/raw/master/screenshot.png)

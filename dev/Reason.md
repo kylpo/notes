@@ -30,6 +30,11 @@ _WIP_
   - [reasonml on Twitter: "Look ma, no bindings & no runtime cost! https://t.co/LxhIxHSkjV"](https://twitter.com/reasonml/status/892149572469833728)
 ![](https://pbs.twimg.com/media/DGGH7EUUAAArHkR.jpg)
 
+# Active, Realish Projects
+- [mike\-engel/Barnacal: A simple menu bar app for viewing a calendar](https://github.com/mike-engel/Barnacal) using Reason + Electron
+  - ![](https://github.com/mike-engel/Barnacal/raw/master/screenshot.png)
+- [jaredly/isomagic\-todos](https://github.com/jaredly/isomagic-todos) native server/react frontend, and isomorphism all in @reasonml
+
 # Tutorial
 - [A ReasonReact Tutorial | Jared Forsyth.com](https://jaredforsyth.com/2017/07/05/a-reason-react-tutorial/)
 - [How to build \#disruptive OCaml \#microservices with BuckleScript](https://medium.com/dailyjs/how-to-build-disruptive-ocaml-microservices-with-bucklescript-8c2f774f67cd)

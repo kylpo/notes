@@ -1,4 +1,6 @@
 
+[Web Font Optimization  \|  Web  \|  Google Developers](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/webfont-optimization#webfonts_and_the_critical_rendering_path)
+
 [The Critical Request | CSS-Tricks](https://css-tricks.com/the-critical-request/)
 
 "I'd suggest using `font-display: swap;`, which will show the fallback font until the web font has loaded—at which point it'll be replaced."

@@ -1,5 +1,15 @@
 _WIP_
 
+[Pete Hunt on Twitter: "@kentcdodds @TheLarkInn @tkh44 oh man, but this guy did create his own fs\! https://t\.co/KcVnWln9OB"](https://twitter.com/floydophone/status/900120427896348672)
+
+[Kye Hohenberger on Twitter: "@floydophone @kentcdodds @TheLarkInn emotion takes the static css out of the js and places it next to the file and adds the import\. Webpack plugin would make this easier"](https://twitter.com/tkh44/status/900121776096542720)
+
+[Sunil Pai on Twitter: "@winkerVSbecks glamor \(and fela, cxs, etc\) just output classnames\. https://t\.co/oJyslsps6P I'm also partial to the css=\{\} prop https://t\.co/MnNfZwJ5qM"](https://twitter.com/threepointone/status/900313755766181892)
+
+
+
+---
+
 [murmurs on Twitter: "React UI components powered by Tachyons with a styled\-components like API\. The latest madness from @jxnblk https://t\.co/iNH9DTM0eZ"](https://twitter.com/mrmrs_/status/896689364813664256)
 
 [jxnblk/tachyons\-components: React UI components powered by Tachyons with a styled\-components like API](https://github.com/jxnblk/tachyons-components)

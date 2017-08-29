@@ -19,6 +19,9 @@ Babel is a generic multi-purpose compiler for JavaScript. More than that it is a
 - [Jason Miller 🦊⚛ on Twitter: "who likes templates"](https://twitter.com/_developit/status/890729645750046721)
   - [Ben Lesh 🛋️👑🔥 on Twitter: "@_developit I do. Contextually. I like static analysis and build-time optimizations."](https://twitter.com/BenLesh/status/890781512580202496)
   - ^ ftw
+- [Kye Hohenberger on Twitter: "@TheLarkInn @\_developit @ken\_wheeler @samccone @vuejs All of https://t\.co/AzyfJVjwCx is built on this premise\. We are able to do some neat things because you can't touch tagged tmpl at runtime"](https://twitter.com/tkh44/status/899493636240416768)
+- [Jason Miller 🦊⚛ on Twitter: "@preactjs @TheLarkInn @lukeed05 @rob\_dodson That is to say \- they are memoized and chunked by default\. It's done via static analysis of the view so no effort required\."](https://twitter.com/_developit/status/898965893266292736)
+- [Jason Miller 🦊⚛ on Twitter: "Is this JSX, or an HTML template? \.\.\.\. or both? 🙃 https://t\.co/4ZijKTKpOg"](https://twitter.com/_developit/status/898967071274422272)
 
 # Dynamic vs Static styles
 - really interesting thing going on with css-in-js solutions. We love their APIs, but are finding that shipping a css runtime that evaluates JS strings/objects is essentially double taxation (double parse, to be exact) for the user. This was not a problem with traditional css, where all styles are statically defined. The dynamism was done by changing classes, and reaching to js to set styles for anything truly dynamic and measured/discovered at runtime.
@@ -38,6 +41,7 @@ Babel is a generic multi-purpose compiler for JavaScript. More than that it is a
 - what's old is new again. Declare styles ahead of time, apply at runtime via `class`, not using css-in-js.
 - or use css-in-js with babel transform
 - [Robin Frischmann on Twitter: "Currently working on babel\-plugin\-fela\. Fela will get even faster \(up to 50% 😱\) Prerendering static styles during compile\-time = 🚀 \#cssinjs https://t\.co/xaIzuhbr2C"](https://twitter.com/rofrischmann/status/895918362299125760)
+- [Paweł Trysła on Twitter: "Sneak peek of what I'm working on with @satya164 and @thymikee\. Full compile\-time css evaluation and extraction with @babeljs plugin\. https://t\.co/O2LGvcI8br"](https://twitter.com/_zamotany/status/901408316169048064)
 
 # CDN
 - is essentially a way of serving static files
