@@ -55,6 +55,7 @@ Asus Transformers
   - [Nick Butcher on Twitter: "Here are the slides from @doris4lt and my #AnDev360 advanced Android animation talk (hit ℹ️ for notes): https://t.co/lVeLUBfQnI"](https://twitter.com/crafty/status/887298579483824128)
   - [Bringing smooth animation transitions to Android – David Ganster – Medium](https://medium.com/@david.gansterd/bringing-smooth-animation-transitions-to-android-88786347e512)
   - [Bodymovin to Android – Google Design – Medium](https://medium.com/google-design/bodymovin-to-android-6e53e5f7a96)
+  - [Learn Some New Moves – Nick Butcher – Medium](https://medium.com/@crafty/learn-some-new-moves-b8aad7828014)
 ## Accessibility
   - [Developing Accessible Apps for Blind and Visually-Impaired Users](https://www.youtube.com/watch?v=1by5J7c5Vz4)
   - [Developing Accessible Apps for Users with Motor Impairments](https://www.youtube.com/watch?v=ElifzykHt7U)
