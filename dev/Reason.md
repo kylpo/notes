@@ -39,5 +39,12 @@ _WIP_
 - [A ReasonReact Tutorial | Jared Forsyth.com](https://jaredforsyth.com/2017/07/05/a-reason-react-tutorial/)
 - [How to build \#disruptive OCaml \#microservices with BuckleScript](https://medium.com/dailyjs/how-to-build-disruptive-ocaml-microservices-with-bucklescript-8c2f774f67cd)
 
+# ReasonReact
+- [Reducers are here!](https://reasonml.github.io/reason-react/blog.html#reducers-are-here)
+
 # React Native
 - [How to setup ReasonML for a React Native project – Tech Distillation](https://blog.behrends.io/how-to-setup-reasonml-for-a-react-native-project-8c51f1cc1d34)
+
+# Graphql
+- [When Reason meets GraphQL – Hackages Blog](https://blog.hackages.io/when-reason-meets-graphql-90c66eb5570a)
+- [mhallin/graphql\_ppx: GraphQL PPX rewriter for Bucklescript/ReasonML](https://github.com/mhallin/graphql_ppx) might be even better

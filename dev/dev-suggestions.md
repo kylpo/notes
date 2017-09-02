@@ -1,3 +1,5 @@
+"ProTip: Keep your console free of warnings and errors\. Even if they are false alarms \(mute/fix them\)\. Getting used to errors will cost you\." - [Merrick Christensen](https://twitter.com/iammerrick/status/902295190748119040)
+
 # Testing
 - "Learnt a useful tip: Add a 'data-test' attribute to dom elements so they can be easily found in tests." - [tweet](https://twitter.com/kentcdodds/status/886939162070335489)
 - [Screener.io: Automated Visual Testing](https://screener.io/) - diffs screenshots
@@ -7,7 +9,6 @@
 - [bundlesize: Keep your bundle size in check](https://github.com/siddharthkp/bundlesize)
 - [bundle-buddy: A tool to identify bundle duplication across splits.](https://github.com/samccone/bundle-buddy)
 - [perfbench: Continuous integration for performance monitoring](https://github.com/siddharthkp/perfbench)
-
 
 # Accessibility
 - "Accessibility in UI tends to enforce that important information is somehow introspectable/testable. Good forcing function for engineering." - [jordanIsNotAFunction](https://twitter.com/jordwalke/status/881404629140905984)

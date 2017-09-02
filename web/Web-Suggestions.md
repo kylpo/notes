@@ -39,6 +39,7 @@ Fork this doc into Web Considerations and Web Suggestions. Suggestion style is l
 - [ember-cli/babel-plugin-feature-flags: A babel transform for managing feature flags](https://github.com/ember-cli/babel-plugin-feature-flags) seems like a great approach. Features flags statically, and dynamically.
 - [Jason Miller 🦊⚛ on Twitter: "⚙️ Preconf: build configurable components. https://t.co/1hW0n37eFr https://t.co/icJPDyVtzN"](https://twitter.com/_developit/status/874675422608412676)
 - [Embracing real\-time feature toggling in your React application](https://techblog.commercetools.com/embracing-real-time-feature-toggling-in-your-react-application-a5e6052716a9)
+  - "Toggling features within a code base is a technique to influence the behaviour of software without having to redeploy. It is often used in conjunction with Continuous Delivery enabling alternative branches for different user groups within the interface a web application. These branches should optimally be triggered independently from the main code base."
 - [Using React in Multiple Environments](https://daveceddia.com/multiple-environments-with-react/#configure-feature-flags-at-build-time)
   - and using `.env` files
 
