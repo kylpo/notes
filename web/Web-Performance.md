@@ -1,5 +1,13 @@
 _WIP_
 
+---
+
+[The State of the Web – Karolina Szczur – Medium](https://medium.com/@fox/talk-the-state-of-the-web-3e12f8e413b3)
+
+^ Basically what this note/article will become
+
+---
+
 [Dan Abramov on Twitter: "@kentcdodds Not using it intentionally :\-\) It's an extra object to allocate that doesn't give any benefit\. Small things add up\."](https://twitter.com/dan_abramov/status/899894383901908992)
 
 ---

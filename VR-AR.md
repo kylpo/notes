@@ -18,3 +18,5 @@ from Amit Singh @ google IO:
 - [Andrew Hart on Twitter: "ARKit + CoreLocation https://t.co/nTdKyGrBmv"](https://twitter.com/AndrewProjDent/status/886916872683343872)
 - [James Long on Twitter: "Apple is doing all these things that everyone one else dreamed of. All action, little hype. Where's magic leap now? https://t.co/QVN9Wd57z0"](https://twitter.com/jlongster/status/885338063555186688)
 - [ARKit Weekly on Twitter: "🤳 1\. Hold up your iPhone → 2\. Find your festival friends → 3\. Rock on 🤟 Courtesy of ARKit 💖 Demo = @neonapp by @mrdavidurbina 🦄 https://t\.co/S9mp5Mjlal"](https://twitter.com/ARKitweekly/status/897471070202187776)
+- [ARCore vs\. ARKit: Google Counters Apple – IoT For All – Medium](https://medium.com/iotforall/arcore-vs-arkit-google-counters-apple-33483c08d3da) 
+- [Why I’m not completely sold on the ARKit revolution](https://hackernoon.com/why-im-not-completely-sold-on-the-arkit-revolution-2e2d261b73ed)
