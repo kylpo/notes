@@ -4,6 +4,10 @@ Should it be re-titled as Compile-vs-Run-Time?
 
 ---
 
+[Compilers are the New Frameworks \- tomdale\.net](https://tomdale.net/2017/09/compilers-are-the-new-frameworks/?utm_source=ponyfoo+weekly&utm_medium=email&utm_campaign=79)
+
+---
+
 [Kristofer Baxter on Twitter: "@cpojer Build time optimizations. So much left to explore here."](https://twitter.com/kristoferbaxter/status/892189558971838464)
 
 ---

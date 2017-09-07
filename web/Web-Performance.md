@@ -2,6 +2,16 @@ _WIP_
 
 ---
 
+I'm strongly against what Ryan promotes lately. Speed matters.
+
+[Ryan Florence on Twitter: "Defining functions inside of render IS NOT SLOW\. Where does this dogma come from?\! \*rips hair out\*"](https://twitter.com/ryanflorence/status/905574498400845825)
+
+---
+
+[Henrik Joreteg on Twitter: "Nothing will remind you of the importance of web perf more quickly than traveling internationally\."](https://twitter.com/HenrikJoreteg/status/905725203480764416)
+
+---
+
 [The State of the Web – Karolina Szczur – Medium](https://medium.com/@fox/talk-the-state-of-the-web-3e12f8e413b3)
 
 ^ Basically what this note/article will become

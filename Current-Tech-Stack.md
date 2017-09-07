@@ -1,5 +1,14 @@
+Yarn, not npm
+
+Prettier on save
+
+Testing
+- jest
+- [Jest In Case \- @thejameskyle](http://thejameskyle.com/jest-in-case.html)
+
 Data Fetching
 - Relay
+
 - or consider [wiretie: A Higher Order Component for Preact that resolves (async) values from a model and passes them down as props.](https://github.com/synacor/wiretie)
   - [Jason Miller 🦊⚛ on Twitter: "📣 Introducing Wiretie ⚡️ A 1.3kb solution for working with async data in Preact. https://t.co/qPDvv6RArb https://t.co/QNgEMTVhOH"](https://twitter.com/_developit/status/872230700610715648)
 - What about Firebase?
@@ -24,6 +33,9 @@ css-in-js
   - ["emotion - ~2kb including glam - styled components api - css prop on all elements - css files gen during build https://t.co/AzyfJVjwCx https://t.co/o2WO6PsUxS"](https://twitter.com/tkh44/status/870516183325327364)
   - [Kye Hohenberger on Twitter: "Another great feature, the css prop can be used on any element. emotion takes care of attaching the className for you. https://t.co/yZ4W0snRx0"](https://twitter.com/tkh44/status/873731354575372288)
   - ![](https://pbs.twimg.com/media/DCAdkGAUIAE-LO2.jpg)
+
+NOT Node
+- [Aditya Mukerjee on Twitter: "Ryan Dahl, creator of @nodejs, talking about Go and Node\. \#golang \#js https://t\.co/G8RE0q56ru"](https://twitter.com/chimeracoder/status/903444020218736645)
 
 Fast
 - [Luke Edwards on Twitter: "Tiny (124B) replacement for `Array.proto.map` It's 30X faster than native & can modify proto if feeling rebellious 😎 https://t.co/FoaO63R4l9"](https://twitter.com/lukeed05/status/882797698608357376)
