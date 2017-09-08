@@ -1,5 +1,17 @@
 _WIP_
 
+[The Zen of just writing CSS (svelte js)](https://svelte.technology/blog/the-zen-of-just-writing-css)
+
+[Sunil Pai on Twitter: "Terrific write up\. I'm obviously biased and don't agree completely, but this is a strong argument\. https://t\.co/ybMeoXTwuN"](https://twitter.com/threepointone/status/905488073122873349)
+
+[Sunil Pai on Twitter: "Brain dump\- I don't want cssinjs to win\. I want it to be obsoleted\."](https://twitter.com/threepointone/status/905501846608982017)
+
+[Zero\-runtime CSS from JS with Linaria – Callstack Engineers](https://blog.callstack.io/zero-runtime-css-from-js-with-linaria-443d8a6834ce)
+
+[Kent C\. Dodds on Twitter: "Before anyone asks me why I don't plan to use Linaria \(https://t\.co/OvFfwz9Huc\) \(despite how awesome it is\), this is it: https://t\.co/mSW6n07Mp7"](https://twitter.com/kentcdodds/status/905449938259030016)
+
+---
+
 [Pete Hunt on Twitter: "@kentcdodds @TheLarkInn @tkh44 oh man, but this guy did create his own fs\! https://t\.co/KcVnWln9OB"](https://twitter.com/floydophone/status/900120427896348672)
 
 [Kye Hohenberger on Twitter: "@floydophone @kentcdodds @TheLarkInn emotion takes the static css out of the js and places it next to the file and adds the import\. Webpack plugin would make this easier"](https://twitter.com/tkh44/status/900121776096542720)

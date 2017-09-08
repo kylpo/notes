@@ -20,6 +20,8 @@ _WIP_
 
 [A Journey to Reason – Netscape – Medium](https://medium.com/netscape/a-journey-to-reason-2c2c4cddc012)
 
+[A Reason to Code](https://dev.to/kayis/a-reason-to-code)
+
 # Getting started
 - [Jeremy Morrell on Twitter: "@HunterLoftis @reasonml Strategy of converting one class at a time proving highly effective so far https://t.co/ozDyGyPyeR"](https://twitter.com/JeremyMorrell/status/886808084299083776)
   - ![](https://pbs.twimg.com/media/DE6TM2nU0AAoaUs.jpg)

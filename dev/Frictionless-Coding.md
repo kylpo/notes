@@ -42,13 +42,14 @@ Might be easier to digest as a Friction Series of posts. That way I won't need t
     - https://github.com/Microsoft/TypeScript/blob/master/lib/protocol.d.ts#L5
     - https://github.com/Microsoft/TypeScript/wiki/Standalone-Server-(tsserver)
   - importjs to the rescue
-z  - note: ts has something like this in the works
+  - note: ts has something like this in the works
     - what landed is just a popup suggestion though, not a full `import all` solution
     - [feature request: Auto import dependencies · Issue #2635 · Microsoft/vscode](https://github.com/Microsoft/vscode/issues/2635)
   - code folding the imports
     - [That feeling when you press page down three times to get past all the imports...](https://twitter.com/BrandonBloom/status/839336948049195009)
     - vscode: [folding language-aware folding · Issue #3422 · Microsoft/vscode](https://github.com/Microsoft/vscode/issues/3422)
   - [JetBrains WebStorm on Twitter: "WebStorm adds import for your React component automatically as you type it. Forgot to import React? Hit Alt-Enter on a warning to fix it. https://t.co/uBFqSQL0C1"](https://twitter.com/WebStormIDE/status/849243315417624576)
+  - [A Reason to Code](https://dev.to/kayis/a-reason-to-code)
 
 - autoformatting
   - [prettier](https://github.com/prettier/prettier) (someday)

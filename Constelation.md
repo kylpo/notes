@@ -1,5 +1,13 @@
 _WIP_
 
+[Kye Hohenberger on Twitter: "The future of css\-in\-js is going to look something like styled\-system with its responsive values\. Source for Box 👇 https://t\.co/MuxsdZayDF https://t\.co/fK35Phv5Jt"](https://twitter.com/tkh44/status/905474043729416192)
+
+![](https://pbs.twimg.com/media/DJDibtVUMAQOl-a.jpg)
+
+[Kye Hohenberger on Twitter: "@rofrischmann @mxstbr @oleg008 @\_philpl @glenmaddern @rtsao @markdalgleish @threepointone @kentcdodds The best part is the new patterns that are emerging for styling\. My favorite is styled\-system by @jxnblk\. The responsive styles are 🔥 https://t\.co/r2whBmFjKj"](https://twitter.com/tkh44/status/902933964670697472)
+
+![](https://pbs.twimg.com/media/DIfcF5GXoAA6M64.jpg)
+
 # Problems with an abstraction like View
 - Not able to benefit from something like [eslint-plugin-jsx-a11y/CHANGELOG.md at master · evcohen/eslint-plugin-jsx-a11y](https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/CHANGELOG.md)
 - Not able to benefit from some of the babel hoisting and such
