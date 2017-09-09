@@ -8,7 +8,6 @@ Testing
 
 Data Fetching
 - Relay
-
 - or consider [wiretie: A Higher Order Component for Preact that resolves (async) values from a model and passes them down as props.](https://github.com/synacor/wiretie)
   - [Jason Miller 🦊⚛ on Twitter: "📣 Introducing Wiretie ⚡️ A 1.3kb solution for working with async data in Preact. https://t.co/qPDvv6RArb https://t.co/QNgEMTVhOH"](https://twitter.com/_developit/status/872230700610715648)
 - What about Firebase?
@@ -18,6 +17,9 @@ Smitty (for small state solution)
 - and connect it to router http://codepen.io/seveves/pen/ryyNYz
 
 Look in to [luisvinicius167/dutier: A small (1kb) and simple state management solution for Javascript applications.](https://github.com/luisvinicius167/dutier?utm_source=mobilewebweekly&utm_medium=email)
+
+Tools that create components
+- [joshwcomeau/new\-component: ⚛ ⚡ CLI utility for quickly creating new React components\. ⚡ ⚛](https://github.com/joshwcomeau/new-component?utm_source=reactnl&utm_medium=email)
 
 Preact
 - [developit/preact-cli: 😺 Your next Preact PWA starts in 30 seconds.](https://github.com/developit/preact-cli)
