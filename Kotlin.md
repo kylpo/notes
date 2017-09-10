@@ -18,3 +18,8 @@
   - [The Case Against Kotlin – Pinterest Engineering](https://medium.com/@Pinterest_Engineering/the-case-against-kotlin-2c574cb87953)
   - [Kotlin cheat sheet: Tips & tricks \- JAXenter](https://jaxenter.com/kotlin-cheat-sheet-tips-tricks-136716.html)
   - [Modern Android development with Kotlin \(September 2017\) Part 1](https://proandroiddev.com/modern-android-development-with-kotlin-september-2017-part-1-f976483f7bd6)
+  - [Get Started with Kotlin — It is here to stay – Peach Studio – Medium](https://medium.com/peachstudio/get-started-with-kotlin-it-is-here-to-stay-1eaac85ae6a0)
+    - Kotlin allows functional programming while still compiling to Java 6, which is what about 50% of Android phones are stuck on
+    - Kotlin puts properties at front
+    - 100% interoperable with Java
+    - No `null`

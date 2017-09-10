@@ -22,6 +22,12 @@ _WIP_
 
 [A Reason to Code](https://dev.to/kayis/a-reason-to-code)
 
+[Protoship: design, develop, and scale successful web applications](https://protoship.io/blog/2017/05/10/an-invitation-to-reasonml.html)
+- "The big deal: types around data instead of classes"
+- "OCaml can run on phones, can be built as a unikernel and run without an operating system, can be a compiled to binaries for multiple architectures, and can run on the browser as well!"
+
+""Refactoring speed went from days to hours to dozens of minutes\." I cannot overstate the importance of this\." - [Sander Spies on Twitter](https://twitter.com/Sander_Spies/status/906389040940937221)
+
 # Getting started
 - [Jeremy Morrell on Twitter: "@HunterLoftis @reasonml Strategy of converting one class at a time proving highly effective so far https://t.co/ozDyGyPyeR"](https://twitter.com/JeremyMorrell/status/886808084299083776)
   - ![](https://pbs.twimg.com/media/DE6TM2nU0AAoaUs.jpg)
