@@ -13,6 +13,13 @@
 
 ![](https://pbs.twimg.com/media/DEEKLTlUQAAFdyo.jpg)
 
+---
+
+[Font\-Display: Micro Tip \#14 \- Supercharged \- YouTube](https://www.youtube.com/watch?v=-lPTshDcr7o)
+
+![](https://pbs.twimg.com/media/DJdcJz4XoAET0_5.jpg)
+
+---
 
 # Decisions to make
 
