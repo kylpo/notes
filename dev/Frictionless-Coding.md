@@ -50,6 +50,8 @@ Might be easier to digest as a Friction Series of posts. That way I won't need t
     - vscode: [folding language-aware folding · Issue #3422 · Microsoft/vscode](https://github.com/Microsoft/vscode/issues/3422)
   - [JetBrains WebStorm on Twitter: "WebStorm adds import for your React component automatically as you type it. Forgot to import React? Hit Alt-Enter on a warning to fix it. https://t.co/uBFqSQL0C1"](https://twitter.com/WebStormIDE/status/849243315417624576)
   - [A Reason to Code](https://dev.to/kayis/a-reason-to-code)
+  - [Webstorm: Auto Imports on paste](https://blog.jetbrains.com/webstorm/2017/09/webstorm-2017-3-eap/#import-on-paste)
+    - ![](https://d3nmt5vlzunoa1.cloudfront.net/webstorm/files/2017/09/import-on-paste.gif)
 
 - autoformatting
   - [prettier](https://github.com/prettier/prettier) (someday)
