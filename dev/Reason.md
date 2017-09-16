@@ -32,6 +32,7 @@ _WIP_
 - [Jeremy Morrell on Twitter: "@HunterLoftis @reasonml Strategy of converting one class at a time proving highly effective so far https://t.co/ozDyGyPyeR"](https://twitter.com/JeremyMorrell/status/886808084299083776)
   - ![](https://pbs.twimg.com/media/DE6TM2nU0AAoaUs.jpg)
 - [Jeremy Morrell on Twitter: "@HunterLoftis @reasonml Require @reasonml directly from JS with bs-loader for webpack 😲 https://t.co/POF91jhFOr https://t.co/mnxU1WiGBH"](https://twitter.com/JeremyMorrell/status/886808588135563264)
+- [razzle/examples/with\-reason\-react](https://github.com/jaredpalmer/razzle/tree/master/examples/with-reason-react)
 
 # CSS-in-js
 - [Brandon Dail on Twitter: "CSS-in-@reasonml powered by Glamor 👨‍💻 https://t.co/8QL3PV3V5f"](https://twitter.com/aweary/status/892143880669245440)

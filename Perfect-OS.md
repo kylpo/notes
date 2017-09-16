@@ -1,4 +1,3 @@
-
 love that Android has Back and Home controls on bottom left, and Multitasker bottomr right when on tablets.
 
 ---
@@ -16,6 +15,10 @@ love the hardware nav buttons on the dock, too. Nice touch.
 Dock has a built-in fan! SO smart.
 
 ---
+
+# FC (First Class) OS
+Because it treats all inputs, all users, and all modes as first-class.
+
 
 # Inputs
 Progressive enhancement of inputs.
