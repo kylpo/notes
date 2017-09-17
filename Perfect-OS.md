@@ -1,4 +1,182 @@
 
+TODO: Take notes on Samsung Gear
+
+---
+
+Hard to write this, as there are so many things to consider.
+
+Comes down to hardware (capabilities, size, context),
+type of users, (power user or not)
+and ___
+
+Combine all I've learned into one post.
+
+I just spent the week researching Windows, MacOS, Android, iOS, Android Wear, etc. I'd like to end the week with identifying all the things I liked about these platforms, and identify what I believe the ideal OS would be for right now.
+
+---
+
+# Progressive OS
+
+Thinking about the progression of devices and progression of users. Children grow into desktop, professional tools.
+
+AK: Well, a saying I made up at PARC was, “Simple things should be simple, complex things should be possible.” They’ve got simple things being simple and they have complex things being impossible, so that’s wrong.
+
+https://medium.com/fast-company/the-father-of-mobile-computing-is-not-impressed-9ab25dfff0c
+
+Phone -> desktop
+Dreamcast
+
+---
+
+Called "First Class OS" because all users, contexts, inputs, devices considered first class.
+
+---
+
+# OS Patterns
+Desktop/Home/Landing
+- The place you default to when booting up. Always easy to get to (often multiple gestures get you back here).
+- Think of this space as an app. This app might be something that houses shortcuts and widgets, a Watch Face, a Chrome New Tab Page (note: the background image is not actually a desktop, it is just an image).
+- Sometimes this is replaceable (Android, Chrome, Wear, Ubuntu?)
+- As a dev, you are given a lot of power for this space, but it is highly competetive. How many users do you really think you'll get to override their other Home with yours? Especially if it is specific to your product and not supporting more generic things?
+
+---
+
+dconf, registry for scriptable settings. All settings/config are serialized. Makes moving to new laptops and setting up significantly easier.
+
+Basically allows manipulation via non-GUI settings. Just like homebrew enables installing via command line, not just a GUI store/browser.
+
+Also ties in with system-level database, not isolated per-app sqlite
+
+https://askubuntu.com/questions/249887/gconf-dconf-gsettings-and-the-relationship-between-them
+
+Updating an app can also issue a DB migration. If you are renaming a user preference field, for example.
+
+One, big, nested, namespaced json file
+
+---
+
+Workspaces are really just Tabs without a visible TabPanel.
+
+Tabs all the way down. Into Web Apps, even.
+
+---
+
+# Control Center
+
+http://www.phoronix.com/scan.php?page=news_item&px=GNOME-Settings-3.26
+
+---
+
+# App store in charge of all installs and updates.
+
+Side loading possible.
+
+---
+
+# Improved Keyboard
+
+Don't need arrow keys. Don't need Insert, Delete, Home, End, PgUp, PgDn.
+
+Double-tap shift for caps-lock. Double-tap super for Super lock.
+
+EMPOWER YOUR THUMBS!
+
+Space bar not allowed to go past 'C' and 'M'.
+
+Caps lock becomes Super, ctrl keys removed - no one can reach easily with their pinky anyways... Or it becomes the Function key to toggle F-keys. Once where you are ripped out of flow anyways.
+
+Left-alt => Ctrl
+Left-win => Alt
+Right-alt => Super
+Right-win/menu => Alt
+
+The Code 61 keyboard is close-ish: https://www.geek.com/news/this-tiny-mechanical-keyboard-might-convince-you-to-ditch-your-big-one-1650830/
+
+## Super Key
+
+Reserved for System and Universal keybindings
+
+Find, New Tab, Close Tab, Keyboard Navigation are all universal keybindings
+
+Maybe not new tab and close tab though, since ctrl-tab to switch still makes more sense. And ctrl+0 to focus first tab makes more sense than overwriting super+0.
+
+---
+
+# Desktop and NTP of ChromeOS
+New Tab Page of Chromebooks ARE your desktop. ChromeOS really should replace your desktop with whatever your NTP is. Then for new tabs, it just goes transparent?
+
+Very much like the screenshot shown here: https://www.chromestory.com/2017/09/inspect-chrome-internal-ui/
+
+Thought about while considering live desktops like http://www.omgubuntu.co.uk/2017/09/komorebi-wallpaper-app-new-features
+
+---
+
+# Workspaces/Spaces/Virtual Desktops
+Spaces short for Workspaces. Ubuntu calls them Workspaces.
+
+---
+
+# when phone is docked
+stylus acts as bluetooth headset. OR just use speaker if you are in your office
+
+This is a reason to favor the Note
+
+---
+
+video games have progressive enhancement baked in. This is how we need ot think aobut our apps as well
+
+---
+
+Web Apps are kind of bullshit. They are only valuable to target cross-platform. That is it - the only real reason! Right?
+
+Wouldn't it have been better for OSs to standardize on a language, base set of APIs, etc?
+- This would slow innovation, like what has happened to browsers.
+
+---
+
+# Platforms
+Good platforms allow extensions. Plugins are software that use those extension points.
+
+This applies to Gnome Shell, Chrome, even programming languages like oCaml's ppx macros, babel transforms, etc.
+
+https://twitter.com/wokalski/status/897393627214880769
+
+---
+
+# App vs Extension/Integration/Augmentation
+
+Is your app stand-alone? It doesn't require any platform features like monitoring other apps, using certain hardware drivers, hooking in to notifications, widgets, services/share menu? It doesn't hook in to context menu, the menubar, taskbar, etc?
+
+Does it essentially augment the OS?
+
+Cool, if it needs extension/integration, then you're forced to go native. Else, you are in app-world, where we can talk about web vs native pros/cons.
+
+Web => tabs
+
+native => window, immersive, rich animations, etc.
+
+---
+
+Administrator permissions
+
+---
+
+# WebOS
+- Cards (deck of cards in hand)
+  - Activities (not necessarily apps)
+- Synergy (platform apps)
+  - contacts
+  - mail
+  - browser
+  - photos
+  - messaging
+  - music
+- Universal search
+- Notifications
+- Dashboard control and oversite of everything
+
+---
+
 # Windowing Environments
 Apps in app-mode
 - own window
@@ -17,10 +195,12 @@ Tabs handled in-app or by platform's window. Could be considered an enhancement 
 ---
 
 App ---------------------------------- Site
+
  |                                       |
+
 Full window                           tab/page
 
-Web advantage: links
+Web advantage: **links**
 - `ctrl click` allows not context switching
 - able to queue and batch up work
 
@@ -87,6 +267,23 @@ Everything input is first-class, and can accomplish most tasks. I.e. a keyboard 
 Even Rotary Events? [Event Handling \| Tizen Developers](https://developer.tizen.org/zh-hans/development/training/web-application/understanding-tizen-programming/event-handling?langredirect=1)
 
 ![](https://developer.tizen.org/sites/default/files/dev_guide/org.tizen.gettingstarted/images/rotary_event.png)
+
+#### Wheel
+- Scroll Wheel of mouse
+- Dial for Windows
+- Rotation of Gear
+- Even a scroll wheel on Microsoft's old Ergonomic keyboards
+
+Would be nice to associate contexts/modes to this event. e.g. scrolling on sound icon adjusts volume. Scrolling on menubar moves workspace.
+
+#### Future input: eyes
+I'd love an OS to track my eyes to replace mouse and hover.
+
+Cheaper keyboards would have dedicated click and scroll wheels, much like Microsoft's old Ergonomic keyboards.
+
+Nicer keyboards would have a touchpad for gestures of what to do to target eyes are looking at.
+
+This is actually quite a bit like being able to scroll a non-active window in Mac, Linux, and now Windows. Just moving your eyes and typing would be pretty amazing. Would use alt-tab much less often.
 
 # Windows/Views
 ## Full-screen **Immersive mode**
