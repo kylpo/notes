@@ -1,4 +1,16 @@
 
+---
+
+App ---------------------------------- Site
+ |                                       |
+Full window                           tab/page
+
+Web advantage: links
+- `ctrl click` allows not context switching
+- able to queue and batch up work
+
+---
+
 Things I know I prefer as native:
 - music player
 

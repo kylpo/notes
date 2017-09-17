@@ -1,3 +1,31 @@
+
+# Windowing Environments
+Apps in app-mode
+- own window
+- one instance?
+
+Apps in tab-mode
+- in browser
+- multiple instances
+
+When you open an app, what should it do? With it already open, what happens when you "open" it again?
+
+![](https://github.com/kylpo/notes/blob/master/assets/open-app.png?raw=true)
+
+Tabs handled in-app or by platform's window. Could be considered an enhancement to creating a separate instance or replacing.
+
+---
+
+App ---------------------------------- Site
+ |                                       |
+Full window                           tab/page
+
+Web advantage: links
+- `ctrl click` allows not context switching
+- able to queue and batch up work
+
+---
+
 love that Android has Back and Home controls on bottom left, and Multitasker bottomr right when on tablets.
 
 ---
