@@ -3,6 +3,8 @@ First of all, I LOVE the web.
 
 I love stumbling on the random forum where total strangers are helping each other. Such an amazing thing.
 
+I really enjoy going down the rabbit hole. I love starting with a question, and taking the journey of cmd-clicking links, and seeing where it goes.
+
 ---
 
 Do you ever play a video game long enough to feel like you've completely it without actually getting to the ending? I never finished Final Fantasy 8 or 10. For whatever reason, I just got the point where I was happy with my journey, and emotionally done.

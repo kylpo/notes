@@ -8,6 +8,8 @@ Let's standardize a Website's characteristics:
 - Clickable headers for anchor links required (like github's markdown, not like Medium)
   - I think I could feel complete with the purpose of my life if I was able to get all websites to anchor link their headers.
   - [example](https://developer.android.com/training/gestures/scale.html#pan) of frustrating experience where anchor links exist, but not discovered by clicking on the Header:
+  - and/or build this into browsers. Show header on hover, right click, w/e
+    - [Display \#Anchors \- Chrome Web Store](https://chrome.google.com/webstore/detail/display-anchors/poahndpaaanbpbeafbkploiobpiiieko?utm_source=chrome-app-launcher-info-dialog)
 - `h1`, `h2`, etc make sense and are relevant
   - same with `main`, `section`, `article`, `aside`, etc
 - links to a homepage

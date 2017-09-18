@@ -16,3 +16,11 @@
 - Check out `pa11y` tool for auditing sites
   - ![](https://pbs.twimg.com/media/DFVjQg1XUAEHhNW.png:large)
   - [Frederic Marx on Twitter: "A cool thing you can do with npx: Check websites for accessibility issues from the command line. npx pa11y https://t.co/bzhhbHkU8Q https://t.co/oF25lTo1E7"](https://twitter.com/fredericmarx/status/888725789411299328)
+
+# Code Quality
+## Whitespace matters
+https://twitter.com/tjholowaychuk/status/899705438739906561
+
+https://twitter.com/ericclemmons/status/899716178045784065
+
+And is my only issue with Prettier and refmt

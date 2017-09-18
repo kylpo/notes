@@ -1,5 +1,15 @@
 _WIP_
 
+---
+
+A well-written essay is something where the author knows a little bit about you, somehow, and tells you in the beginning of the essay what you need to know and answers questions that the author somehow knows that you have. It’s amazing how well good authors can do this. They prepare you for the whammy, two-thirds of the way through, and for the last third of the thing, where they actually get you to elevate your thinking — it’s incredible, isn’t it?
+
+https://medium.com/fast-company/the-father-of-mobile-computing-is-not-impressed-9ab25dfff0c
+
+Take a look at someone like Bertrand Russell, that bastard who could write like a dream, or Neil [Postman]. Neil can write like a dream. If you look at the way he writes, what he’s doing is he’s entertaining you, but he’s actually educating you, before he pulls out the rug and says, “Hey, we’re not just going down your garden trail. We’ve gone down another garden trail and here’s another.”
+
+---
+
 # [This book will teach you how to write better](https://www.amazon.com/gp/product/0989895300/ref=oh_aui_search_detailpage?ie=UTF8&psc=1)
 - Write down the casual conversation you would have with someone. Then go back and rip out the bad parts.
 - Write what is useful to reader

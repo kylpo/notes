@@ -180,6 +180,31 @@ Spaces short for Workspaces. Ubuntu calls them Workspaces.
 
 ---
 
+# With a "universal" app platform, we can optimize our builtin browser for documents and sites
+- anchor links!
+  - [Display \#Anchors \- Chrome Web Store](https://chrome.google.com/webstore/detail/display-anchors/poahndpaaanbpbeafbkploiobpiiieko?utm_source=chrome-app-launcher-info-dialog)
+  - Chrome extension to add "Link to Header" context menu option if you click on something with an id.
+  - Chrome extension to show anchor links on hover. Needed for Medium articles.
+  - e.g. https://medium.com/google-design/a-primer-on-android-navigation-75e57d9d63fe#63f7 does anchor link.
+
+---
+
+widgets
+panel
+dock
+tray
+toolbar
+gadget
+indicator
+applet
+dash | dashboard
+
+workspace: static vs dynamic creation
+
+ALL keyboard shortcuts configurable, even copy/paste, but start with a good set of defaults.
+
+---
+
 # when phone is docked
 stylus acts as bluetooth headset. OR just use speaker if you are in your office
 
@@ -197,6 +222,12 @@ Web Apps are kind of bullshit. They are only valuable to target cross-platform. 
 
 Wouldn't it have been better for OSs to standardize on a language, base set of APIs, etc?
 - This would slow innovation, like what has happened to browsers.
+
+---
+
+You can't multitask with a modal.
+
+Thinking about windows Start screen and Metro tiles.
 
 ---
 

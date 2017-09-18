@@ -1,12 +1,23 @@
 _WIP_
 
+Classname toggling is about a `variation`
+
+https://www.youtube.com/watch?v=NYb2GDWMIm0 identified this term
+
+---
+
+Consider using Linaria for Constelation.
+
+[Zero\-runtime CSS from JS with Linaria – Callstack Engineers](https://blog.callstack.io/zero-runtime-css-from-js-with-linaria-443d8a6834ce)
+
+[callstack\-io/linaria: Zero\-runtime CSS in JS library](https://github.com/callstack-io/linaria/)
+
 [The Zen of just writing CSS (svelte js)](https://svelte.technology/blog/the-zen-of-just-writing-css)
 
 [Sunil Pai on Twitter: "Terrific write up\. I'm obviously biased and don't agree completely, but this is a strong argument\. https://t\.co/ybMeoXTwuN"](https://twitter.com/threepointone/status/905488073122873349)
 
 [Sunil Pai on Twitter: "Brain dump\- I don't want cssinjs to win\. I want it to be obsoleted\."](https://twitter.com/threepointone/status/905501846608982017)
 
-[Zero\-runtime CSS from JS with Linaria – Callstack Engineers](https://blog.callstack.io/zero-runtime-css-from-js-with-linaria-443d8a6834ce)
 
 [Kent C\. Dodds on Twitter: "Before anyone asks me why I don't plan to use Linaria \(https://t\.co/OvFfwz9Huc\) \(despite how awesome it is\), this is it: https://t\.co/mSW6n07Mp7"](https://twitter.com/kentcdodds/status/905449938259030016)
 
