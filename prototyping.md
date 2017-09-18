@@ -1,3 +1,20 @@
+# All about prototyping
+
+---
+
+speed vs velocity
+
+responsive potentially slows you down
+
+less variables you need to deal with, the better
+
+avoid best-practice things like strings.xml
+
+sacrifice maintainability for ease of short-term change
+
+I believe this is why Google is investing in Flutter. Not because they're gonna try to take over mobile-dev with it, but because it is a nice prototyping tool, and good enough for some prod use-cases.
+
+---
 
 [César Andreu on Twitter: "@markdalgleish @andrewingram @mjackson Design tooling I've seen usually doesn't help with many cases: i18n, l10n, accessibility, min/max size, empty state, failures"](https://twitter.com/CesarAndreu/status/891156950477451264)
 

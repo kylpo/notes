@@ -1,3 +1,11 @@
+
+---
+
+Problems with Windows UWP: not able to Extend
+
+---
+
+
 # Windows 8 should've just added an app store
 
 I've been saying this for years, but now I'd like to put this down as words.

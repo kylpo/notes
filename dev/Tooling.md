@@ -7,6 +7,16 @@ I think now, more than ever, we are set up for a wysiwyg builder to become hugel
 
 [React Studio: 1.0.2 update, roadmap, thoughts on Native, and a look at Microsoft’s ReactXP](https://hackernoon.com/react-studio-1-0-2-update-roadmap-thoughts-on-native-and-a-look-at-microsofts-reactxp-b78fc405a676)
 
+http://innovastudio.com/content-builder.aspx
+
+Webflow
+Wix
+Android Studio
+
+https://css-tricks.com/visual-email-builder-apps/
+https://oxygenapp.com/
+
+
 ---
 
 Also might align on scope of components, like Atomic Design.

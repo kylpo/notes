@@ -1,3 +1,17 @@
+
+---
+
+# Ads too far
+Wow, I never really thought ads were a problem until I saw this page: https://www.phonearena.com/news/How-to-run-several-apps-in-floating-windows-in-Android-7.0-Nougat-no-root_id84549. This, is terrible, and not something I want to support.
+
+---
+
+Ads are so bad now. It makes me an AMP believer.
+
+http://www.zdnet.com/article/amazon-jumps-on-kubernetes-bandwagon/?utm_source=webopsweekly&utm_medium=email had an auto-playing video with sound. WTF!???
+
+---
+
 - [Malte Ubl @ #io17 on Twitter: "Yesterday at #io17 we announced we’re rolling out a change that reduces time to 1st contentful paint across the 2 billion+ AMP pages by ~50%"](https://twitter.com/cramforce/status/865205023495421952)
 - [Jason Miller 🦊⚛ on Twitter: "thing people don't realize when bashing amp: anyone can embed, not just google search. eg: twitter, facebook"](https://twitter.com/_developit/status/866307005790773248)
 - [What Google AMP means for the JavaScript community · molily](https://molily.de/amp/)

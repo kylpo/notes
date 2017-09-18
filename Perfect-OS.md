@@ -298,6 +298,39 @@ native => window, immersive, rich animations, etc.
 
 ---
 
+# Extension Points
+Mac
+- menubar
+- notification widget
+- dashboard (basically a wasteland)
+
+Android
+- Daydream
+- widget
+- notification (actions only)
+
+---
+
+Native for:
+- Immersion
+  - Reader
+  - Writing
+  - (full screen-able, tabs not desired)
+  - (keeps you focussed)
+- Utility
+  - Contacts Cleaner - https://itunes.apple.com/us/app/contacts-cleaner/id411369012?mt=12
+  - DaisyDisk - https://itunes.apple.com/us/app/daisydisk/id411643860?mt=12
+- Extension (extending the feature set of the platform)
+  - Hyperdock
+
+---
+
+# Native on Desktop
+Global Hotkeys
+- cmd y to start new Things 3 task
+
+---
+
 Administrator permissions
 
 ---
@@ -332,6 +365,15 @@ When you open an app, what should it do? With it already open, what happens when
 ![](https://github.com/kylpo/notes/blob/master/assets/open-app.png?raw=true)
 
 Tabs handled in-app or by platform's window. Could be considered an enhancement to creating a separate instance or replacing.
+
+---
+
+# Window vs Tabs (native vs web)
+When you click a link, what happens? New tab? Open app? What if app is already open? Does it overwrite it? Open multiple instances (can't do this on mobile, I think).
+
+http://a4.mzstatic.com/us/r30/Purple69/v4/c2/db/b1/c2dbb156-afe5-e025-39f7-bd9b8f9c06a7/screen800x500.jpeg
+
+Good uses of Tabs: Explorer/Finder, browser, terminal, editors
 
 ---
 
