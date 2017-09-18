@@ -81,6 +81,9 @@ if (false) {
 - [Jason Miller 🦊⚛ on Twitter: "@threepointone @nekrtemplar we use it a lot for internationalization: <Text id="HELLO">hello world</Text>"](https://twitter.com/_developit/status/856196870179258368)
 - [Este strategy for i18n (multiple languages) – Daniel Steigerwald – Medium](https://medium.com/@steida/este-strategy-for-i18n-multiple-languages-8a0f0162f176)
 - [React.JS Localization v0.2 – Dmitry Kudryavtsev – Medium](https://medium.com/@skwee357/react-js-localization-v0-2-4589bbd4a26a)
+- When is Localization needed?
+  - For sites like wrkflows, wouldn't it be better for people to activate Google Translate? Maybe Localization is only useful for apps and labeling controls within the app?
+  - How is Accesibility affected?
 
 # Accessibility (a11y)
 - [A11Y Style Guide](http://a11y-style-guide.com/style-guide/)

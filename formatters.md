@@ -15,3 +15,7 @@ sldkjf
 sldkjffsldkjf
 
 Now nest in other components. Bullet view requires a scroll, but still faster to find prop than reading left-right.
+
+---
+
+prettier cares about line length. This is the one feature I hate. Also, it is fast.

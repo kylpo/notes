@@ -8,6 +8,15 @@ from [Lenovo's 'Yoga' Android tablet has a built\-in kickstand containing an 18\
 
 Asus Transformers
 
+# Why I'm falling in love with Android all over again
+Recently, I've been researching OS platforms and their capabilites. Because I landed on MacOS as the best desktop and power user option, I thought I should give iOS another hard look. Also, not gonna lie, the ARKit is compelling. What I learned in my iOS vs Android is that Android is just so well positioned to continue dominance.
+
+Floating windows, lapdock, etc. Termux, AIDE. mouse support.
+
+I'd love to be able to go all-in on Android as an experiment. Just wish there were good android tablets. Also wish Google would make Android devleopment ON an Android device a first-class priority.
+
+Give me an android "Surface"!!!!
+
 ## Dev
 - [20\+ Awesome Open\-Source Android Apps To Boost Your Development Skills](https://blog.aritraroy.in/20-awesome-open-source-android-apps-to-boost-your-development-skills-b62832cf0fa4)
 - [Android Developers Blog: Google releases source for Google I/O 2017 for Android](https://android-developers.googleblog.com/2017/08/google-releases-source-for-google-io.html)

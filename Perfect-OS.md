@@ -15,6 +15,44 @@ I just spent the week researching Windows, MacOS, Android, iOS, Android Wear, et
 
 ---
 
+# OS Posts
+Evaluating ___ As a Platform
+- Windows 10, MacOS, Android, ...
+
+Comparing Android vs iOS as Platforms
+Comparing Gear OS vs Android Wear as Platforms
+
+---
+
+I'd like to share with you features of what I think the "perfect" operating system would have. If not for randomly landing in the feed of those that are actually building these things, then just for a reference to my friends and future self. 
+
+
+the people I talk about this with. I can stop saying "if only" with a fist in the air, and just sink it in to this document.
+
+---
+
+# Why I'm falling in love with Android all over again
+Recently, I've been researching OS platforms and their capabilites. Because I landed on MacOS as the best desktop and power user option, I thought I should give iOS another hard look. Also, not gonna lie, the ARKit is compelling. What I learned in my iOS vs Android is that Android is just so well positioned to continue dominance.
+
+Floating windows, lapdock, etc. Termux, AIDE. mouse support.
+
+I'd love to be able to go all-in on Android as an experiment. Just wish there were good android tablets. Also wish Google would make Android devleopment ON an Android device a first-class priority.
+
+Give me an android "Surface"!!!!
+
+---
+
+# Platform Capabilities
+List the APIs and extension points of platforms like Mac, Windows, ios, Android, chrome, etc.
+
+First, google to see if someone else has started this work.
+
+Might consider making it a site that can be easily searched around for (also use tagging). Something like https://csstriggers.com/ or caniuse.com
+
+https://uxplanet.org/cross-platform-guidelines-1c7675ec1d0c
+
+---
+
 # Progressive OS
 
 Thinking about the progression of devices and progression of users. Children grow into desktop, professional tools.
@@ -38,6 +76,22 @@ Desktop/Home/Landing
 - Think of this space as an app. This app might be something that houses shortcuts and widgets, a Watch Face, a Chrome New Tab Page (note: the background image is not actually a desktop, it is just an image).
 - Sometimes this is replaceable (Android, Chrome, Wear, Ubuntu?)
 - As a dev, you are given a lot of power for this space, but it is highly competetive. How many users do you really think you'll get to override their other Home with yours? Especially if it is specific to your product and not supporting more generic things?
+
+---
+
+I believe there will always be power users, and that those power users will likely require tools that should not necessarily be in the hands of the non-power users.
+
+Think: video editors requiring beastly machines. Big-time gamers getting insane graphics cards. Developers using MacOS instead of just a chromebook, etc.
+
+This distinction is critical for my article about Windows. It sacrificed its power user crowd for the more common crowd. In doing so, it lost any advantage it once had. For the users that don't need power user functionality,, there is iOS and Android. They needed to push hard on their mobile/tablet offering as a separate product, completely. Not butcher their power-user, corporate/business platform.
+
+---
+
+Immersive mode. Wear and Android.
+
+Identify common patterns in OSs. Desktop, pinned, floating, full screen. Sharing. Dock, taskbar. Widgets.
+
+Why care? You might want to bring these inside your apps! Like bottom tab bar, for example. Or side dock on web apps like Salesforce builder
 
 ---
 
@@ -70,6 +124,12 @@ http://www.phoronix.com/scan.php?page=news_item&px=GNOME-Settings-3.26
 # App store in charge of all installs and updates.
 
 Side loading possible.
+
+---
+
+# Types of user input (or gestures)
+- right click (also the right click keyboard key in Windows)
+- hover
 
 ---
 
@@ -111,6 +171,10 @@ Thought about while considering live desktops like http://www.omgubuntu.co.uk/20
 
 ---
 
+Chrome really is its own OS. Shoved into other OSes. Almost like Flash. Ominously like Flash... *feels hot computer and looks at Activity Monitor*...
+
+---
+
 # Workspaces/Spaces/Virtual Desktops
 Spaces short for Workspaces. Ubuntu calls them Workspaces.
 
@@ -125,6 +189,8 @@ This is a reason to favor the Note
 
 video games have progressive enhancement baked in. This is how we need ot think aobut our apps as well
 
+Computer games are amazing with progressive enhancement. Graphics quality.
+
 ---
 
 Web Apps are kind of bullshit. They are only valuable to target cross-platform. That is it - the only real reason! Right?
@@ -134,12 +200,56 @@ Wouldn't it have been better for OSs to standardize on a language, base set of A
 
 ---
 
+# Platform Hooks
+Windows:
+- Taskbar
+- Notification tray
+  - System Tray
+  - App Icon/quick actions
+- Toast Notification (https://msdn.microsoft.com/en-us/library/windows/apps/hh779727.aspx)
+- Start Tile and Live Tile
+
+Mac:
+- Menu bar
+- Notification tray
+- widget screen
+
+
+... etc
+
+Important to force constraints. Without a "window" system, more apps might choose layouts like the following, but then they wouldn't split screens well.
+- https://dribbble.com/shots/2362697-Day-28-Contact-Us
+- https://dribbble.com/shots/2470984-Day-68-Flight-Search
+- https://dribbble.com/shots/2342992-007-Settings
+
+---
+
 # Platforms
 Good platforms allow extensions. Plugins are software that use those extension points.
 
 This applies to Gnome Shell, Chrome, even programming languages like oCaml's ppx macros, babel transforms, etc.
 
 https://twitter.com/wokalski/status/897393627214880769
+
+---
+
+# Platform persistent locations
+Android
+- widgets
+- daydream
+
+Chrome
+- New tab page
+
+Mac
+- Widget
+- Notifications widget?
+
+ios
+- notification widget
+
+Windows
+- live tile
 
 ---
 
