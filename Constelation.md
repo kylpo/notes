@@ -1,5 +1,20 @@
 _WIP_
 
+# Constelation API
+https://github.com/constelation/monorepo/issues/73
+
+https://blog.buildo.io/flexview-the-easiest-way-to-use-flex-with-react-c698db55926a
+
+https://github.com/mitchellhamilton/grid-emotion
+
+https://github.com/jxnblk/styled-system#configuration
+
+https://github.com/morajabi/styled-media-query
+
+just like the old days of `<table>`, we should have a `<flex>`, and `<grid>`
+
+---
+
 [Kye Hohenberger on Twitter: "The future of css\-in\-js is going to look something like styled\-system with its responsive values\. Source for Box 👇 https://t\.co/MuxsdZayDF https://t\.co/fK35Phv5Jt"](https://twitter.com/tkh44/status/905474043729416192)
 
 ![](https://pbs.twimg.com/media/DJDibtVUMAQOl-a.jpg)
@@ -121,6 +136,7 @@ I tried to think of everything you'd need in a WYSIWYG to build an app/site toda
 - Animation
 - Layers (z-index)
 - Timeline
+  - See Revealer doc
   - like [jondot/react-flight: The best way to build animation compositions for React.](https://github.com/jondot/react-flight)?
   - [madou/yubaba: ✨ Orchestrated page transitions made easy](https://github.com/madou/yubaba)
   - [react\-inview\-monitor Example](https://snipsco.github.io/react-inview-monitor/) - interesting idea to just apply the className, like `ReactCSSTransitionGroup`.

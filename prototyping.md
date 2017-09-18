@@ -2,6 +2,21 @@
 
 ---
 
+## Properties of good prototyping frameworks
+- Co-location
+- Not naming things
+- Clear separation of concerns (for skimming and thinking through problems)
+
+---
+
+**friction** reduces **speed** and therefore **velocity**
+
+friction slows progress
+
+context switching is a form of friction
+
+---
+
 speed vs velocity
 
 responsive potentially slows you down

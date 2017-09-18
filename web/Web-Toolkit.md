@@ -59,3 +59,13 @@ Misc notes
 2. breakpoints
 3. style_?
 4. events
+
+---
+
+I tried to think of everything you'd need in a WYSIWYG to build an app/site today. These are the declarative components I focussed on.
+- Layout
+- Style
+- Interaction
+- Animation
+- Layers (z-index)
+- Timeline

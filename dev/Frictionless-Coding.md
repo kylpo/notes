@@ -1,5 +1,15 @@
 _WIP_
 
+---
+
+**friction** reduces **speed** and therefore **velocity**
+
+friction slows progress
+
+context switching is a form of friction
+
+---
+
 Might be easier to digest as a Friction Series of posts. That way I won't need to tie everything to eachother, either.
 
 - for the past year, I have obsessed about reducing coding friction.

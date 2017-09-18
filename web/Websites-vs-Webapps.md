@@ -1,6 +1,6 @@
 _WIP_
 
-Let's standardize a Website's characteristics:
+Let's standardize a Website's (or Web Document's) characteristics:
 - Best thought of as a living or static document
 - Annotation standard applies
   - [Perspectives on Annotation - YouTube](https://www.youtube.com/watch?v=m2cJNDs7y2Y)
@@ -16,6 +16,8 @@ Let's standardize a Website's characteristics:
 - links to a homepage
   - [Best Practices for Homepage Links on websites](https://www.nngroup.com/articles/homepage-links/?utm_source=frontendfocus&utm_medium=email)
   - "Going back to the homepage is a **common task**. People often go to the homepage when they’re disoriented, they have gone too deep into a site, or they’re ready to start a new task. Because of their dependency on **search** engines, most users enter websites through an interior page and bypass the homepage entirely. Easy access to the homepage provides a new starting point for those who are on the wrong page or want to explore other parts of the site."
+- **Updated on**
+  - "Updated on" dates required
 
 Let's standardize a Webapp's characteristics:
 - Best thought of as scenes/screens instead of documents

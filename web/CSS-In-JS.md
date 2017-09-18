@@ -106,6 +106,9 @@ css-in-js represents a TOOLING problem. Our tools should let us show classes inl
 - comments of [Let’s Define Exactly What Atomic CSS is | CSS-Tricks](https://css-tricks.com/lets-define-exactly-atomic-css/)
   - "Correct. You’ll find no semantic class names here (unless you’ve setup some helper classes)." Helper classes would just be React components.
 - [How is tachyons different from inline styles? · Issue #12 · tachyons-css/tachyons](https://github.com/tachyons-css/tachyons/issues/12#issuecomment-59828967)
+- https://acss.io/quick-start.html
+- https://github.com/acss-io/babel-plugin-atomizer
+- https://github.com/rtsao/styletron
 
 # Static styles
 - static vs. dynamic styles. How best to denote each?

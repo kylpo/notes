@@ -236,6 +236,7 @@ And http://n12v.com/css-transition-to-from-auto/ with the current best practice
 - "The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect.” — Tim Berners-Lee
 - "The "update all the apps" ritual that happens when I plug in my phone at night seems rather archaic in light of what can be done with PWAs." - [Henrik Joreteg on Twitter](https://twitter.com/HenrikJoreteg/status/890094427049472000)
   - "Imagine how much bandwidth must be getting wasted on app updates for apps that will never even be opened again." - [Henrik Joreteg on Twitter](https://twitter.com/HenrikJoreteg/status/890096198740299777)
+- Reason to go web: least common denominator
 
 # Native
 - all about gestures and taps
@@ -264,7 +265,9 @@ And http://n12v.com/css-transition-to-from-auto/ with the current best practice
 
 ## Good Hybrid examples
 - Todoist for MacOS
-  - Seems to be a native app with just a webview and a few custom, native pieces for things like menubar, global hotkeys, quick-add UI.
+  - Seems to be a native appwith just a webview and a few custom, native pieces for things like menubar, global hotkeys, quick-add UI.
+- Apple's App Store is an interesting example of a hybrid app using webviews.
+  - It gives native controls and windowing, but also offers sharing links to content via urls to the site. Without the web portion of this, it'd be way harder to share content and bookmark it for later.
 
 # Current Conclusions
 - When to use Web

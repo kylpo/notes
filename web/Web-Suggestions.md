@@ -157,6 +157,7 @@ http://babeljs.io/docs/plugins/preset-env/ will reduce the amount of features th
 - [Hidden text and links - Search Console Help](https://support.google.com/webmasters/answer/66353?hl=en)
 - SEO boosted by accessibility?
 - [The Lazy Writer’s Guide to 30-Minute Keyword Research - Moz](https://moz.com/blog/30-minute-keyword-research)
+- Blogging has helped me understand the importance of SEO and good titles. Most of my "Redux Best Practices" traffic came from google.
 
 ![](https://github.com/kylpo/notes/blob/master/assets/seo-hidden-text.png?raw=true)
 

@@ -20,6 +20,10 @@ Look in to [luisvinicius167/dutier: A small (1kb) and simple state management so
 
 Tools that create components
 - [joshwcomeau/new\-component: ⚛ ⚡ CLI utility for quickly creating new React components\. ⚡ ⚛](https://github.com/joshwcomeau/new-component?utm_source=reactnl&utm_medium=email)
+- [diegohaz/generact: Tool for generating React components by replicating your own components](https://github.com/diegohaz/generact)
+  - ![](https://user-images.githubusercontent.com/3068563/27687316-bb5bd832-5cac-11e7-9761-c489e5a3a9f0.gif)
+- [CVarisco/create\-component\-app: Tool to generate different types of React components from the terminal\.](https://github.com/CVarisco/create-component-app)
+  - ![](https://user-images.githubusercontent.com/7335613/27760854-9ff86b54-5e51-11e7-8ad0-3289d9b3ebc3.gif)
 
 Preact
 - [developit/preact-cli: 😺 Your next Preact PWA starts in 30 seconds.](https://github.com/developit/preact-cli)
@@ -41,3 +45,18 @@ NOT Node
 
 Fast
 - [Luke Edwards on Twitter: "Tiny (124B) replacement for `Array.proto.map` It's 30X faster than native & can modify proto if feeling rebellious 😎 https://t.co/FoaO63R4l9"](https://twitter.com/lukeed05/status/882797698608357376)
+
+
+---
+
+# Figure out my perfect coding workflow
+custom prettier
+custom babel transforms
+code folding
+
+reasonml?
+etc
+
+flow linter: https://twitter.com/flowtype/status/893538968993542144
+
+https://twitter.com/holtbt/status/893932312269791232
