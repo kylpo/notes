@@ -37,6 +37,8 @@ Babel is a generic multi-purpose compiler for JavaScript. More than that it is a
 # Relay
 - Relay has found that an AOT (Ahead of Time) step to use its graphql queries has been a huge gain in perf.
 - [Building Relay Modern · wincent.com](https://wincent.com/blog/relay-modern)
+- relay query IDs used instead of while query string. Sounds similar to case classname vs sending over the whole style
+  - [Ep 02 \- GraphQL Clients w/ Lee Byron, Joe Savona, Sashko Stubailo, and Jonas Helfer \- GraphQL Radio](http://pca.st/KvEp#t=1695) ~28:15
 
 # Frameworks
 - Svelte is attempting to compile away itself. I need to learn more about the benefits to this.

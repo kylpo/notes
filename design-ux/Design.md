@@ -79,3 +79,11 @@ _WIP_
 # Device size/type
 - [How To Make A Physiology\-Friendly Application For The iPad](https://uxplanet.org/how-to-make-user-friendly-application-ipad-physiology-b1b6b65a3374)
   - ![](https://cdn-images-1.medium.com/max/1600/0*bWushxRbEpp6mlAH.jpg)
+
+# Always think things can be better
+> “Always think things can be better. That's what designers do.”
+- Scott Forstall
+
+https://twitter.com/lukew/status/877555146011561987
+
+And things really can always be better. Users adapt, their expectations and baselines change. Sometimes they are ready for a feature because they've been (or not been) conditioned by another app.

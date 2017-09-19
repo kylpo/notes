@@ -34,3 +34,10 @@ https://youtu.be/SGJ5cZnoodY?t=13m34s
 Build a good enough product, then iterate and improve. Like mongoDB vs rethinkDB. Also, like Google does.
 
 http://www.defmacro.org/2017/01/18/why-rethinkdb-failed.html
+
+# Themeing
+I have to have theming in my apps
+
+http://sciencefictioninterfaces.tumblr.com/ is just really inspiring to me, for whatever reason. If all of my morning apps were themed this way, I'd be very happy.
+
+Wouldn't work as well when needing to be productive though.

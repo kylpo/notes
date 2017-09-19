@@ -15,6 +15,20 @@ just like the old days of `<table>`, we should have a `<flex>`, and `<grid>`
 
 ---
 
+When in developer-mode, what piece of information here, matters?
+
+`<div className='...' />`
+
+Certainly isn't the div. This distinction isn't really useful to the dev unless in accessibility-mode:
+
+`<nav className='...' />`
+
+The className is what matters. More specifically, the layout within that classname is what matters.
+
+Sometimes the style also matters. THis is why we separate the two.
+
+---
+
 [Kye Hohenberger on Twitter: "The future of css\-in\-js is going to look something like styled\-system with its responsive values\. Source for Box 👇 https://t\.co/MuxsdZayDF https://t\.co/fK35Phv5Jt"](https://twitter.com/tkh44/status/905474043729416192)
 
 ![](https://pbs.twimg.com/media/DJDibtVUMAQOl-a.jpg)

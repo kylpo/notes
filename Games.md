@@ -110,3 +110,9 @@ Mobile games I have enjoyed:
 - Clash Royale
 - Polytopia
 - Mini Metro
+
+---
+**taken from my random thoughts doc**
+When you feel like you have extra (or all of the) time in the world, my god does it feel good. An unexpected three day weekend, being caught up in a moment, not thinking about the stresses and pressures of what'll happen in a few days.
+
+Also why games are so fun. You forget your time limitations while playing.

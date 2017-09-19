@@ -24,3 +24,5 @@ Header using Text's union string prop
 
 - "we have to infer reason types when code reviewing =/" - [the unlearner on Twitter](https://twitter.com/meoyawn/status/881148463907561472)
   -  "Let's make better code review tools that show us the types! I'm working on something related right now" - [Jared Forsyth on Twitter](https://twitter.com/jaredforsyth/status/881149609728454656)
+- type inference, as discussed at ~18:00 of http://androidbackstage.blogspot.com/2017/05/episode-66-kotlin.html
+- [MJS \#010: Richard Feldman \- All JavaScript Podcasts by Devchat\.tv](http://pca.st/vXbs#t=1411) ~23:30

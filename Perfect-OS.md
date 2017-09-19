@@ -377,6 +377,21 @@ Good uses of Tabs: Explorer/Finder, browser, terminal, editors
 
 ---
 
+# App Modes
+Single App, replaces single app
+
+Multiple instances
+
+tabs
+
+"Tabs provide quick navigation between sibling views inside the same parent screen. They’re coplanar, meaning they can be swiped around, and they live in an extensible, identifiable tab bar."
+
+https://medium.com/google-design/a-primer-on-android-navigation-75e57d9d63fe#63f7
+
+ChromeOS is the perfect place to experiment with this now that Android apps are available. Which do I prefer using: Inbox for web? Or Inbox on Android?
+
+---
+
 App ---------------------------------- Site
 
  |                                       |
@@ -482,6 +497,8 @@ New in IOS 11, in android since Kitkat (https://developer.android.com/about/vers
 Not just local: it enables providers of cloud-based services.
 
 # Keyboard/Hotkeys
+Sane defaults, but still totally configurable. Maybe even themable for different sets of users. emacs/vi/whatever
+
 ## System keyboard key
 Mac got this right with `super`. `copy`/`paste` are OS-level functions, so they belong with `super`.
 

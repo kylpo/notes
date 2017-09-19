@@ -37,3 +37,6 @@ optimize text for reading
 "Classic readability theory suggests that an ideal column should contain 70 to 80 characters per line (about 8 to 10 words in English). Thus, each time the width of a text block grows past about 10 words, consider adding a breakpoint."
 https://developers.google.com/web/fundamentals/design-and-ui/responsive/
 
+# Notification Considerations
+Jeez, I installed the @Medium app and now I get like 5 push notifications per day about stories published. Like the boy who cried wolf!
+- https://twitter.com/spikebrehm/status/877579699576217600

@@ -2,6 +2,10 @@
 
 ---
 
+co-location is about keeping less things in your head. A nice side-effect is easier copy/pasting.
+
+---
+
 ## Properties of good prototyping frameworks
 - Co-location
 - Not naming things

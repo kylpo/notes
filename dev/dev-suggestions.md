@@ -26,3 +26,8 @@ https://twitter.com/tjholowaychuk/status/899705438739906561
 https://twitter.com/ericclemmons/status/899716178045784065
 
 And is my only issue with Prettier and refmt
+
+# Functional Coding
+building with functional programming is easier because of composition. You focus on one concern at a time, building more and more.
+
+maintaining and reading is potentially harder because there are more places you need to jump around to to get the full picture.
