@@ -12,3 +12,7 @@ Think about:
 - Money ($ valued skills)
 - Fun
 - Others?
+
+# Why blog?
+- some blog posts are a chore. Already thought it through, just need to put it to "paper".
+- some blog posts are to explore a thought. Narrow my focus on a topic.

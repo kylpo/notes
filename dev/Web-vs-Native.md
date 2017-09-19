@@ -292,6 +292,10 @@ Web for your "base". Native to enhance.
 - For DEV: Seems like the real bang for your buck is standardizing paradigms like `components`, layouts like `flexbox` (via `yoga`), etc. See [Litho: Creating a custom Button component – Pavlos-Petros Tournaris – Medium](https://medium.com/@p.tournaris/litho-how-to-create-a-custom-button-b460b5a3b828).
 
 # PWA Pros/Cons
+"Progressive Web Apps: Great Experiences Everywhere" is the problem. They aren't great! They're just accessible, and maybe fast.
+
+https://events.google.com/io/schedule/?section=may-17&sid=943de475-c3f2-4069-8d07-435686e6b217
+
 Web
 - Accessible w/o install -> open, no store
 - No storage constraints

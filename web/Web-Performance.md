@@ -2,6 +2,12 @@ _WIP_
 
 ---
 
+[Understanding the Critical Rendering Path](https://bitsofco.de/understanding-the-critical-rendering-path/)
+
+[Achieve 60 FPS Mobile Animations with CSS3 — SitePoint](https://www.sitepoint.com/achieve-60-fps-mobile-animations-with-css3/?utm_source=frontendfocus&utm_medium=email)
+
+---
+
 I'm strongly against what Ryan promotes lately. Speed matters.
 
 [Ryan Florence on Twitter: "Defining functions inside of render IS NOT SLOW\. Where does this dogma come from?\! \*rips hair out\*"](https://twitter.com/ryanflorence/status/905574498400845825)

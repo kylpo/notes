@@ -9,3 +9,9 @@ Think about things in layers. Shared Element Transition, for example just introd
 ---
 
 Transitions are a form of Animation. TransitionGroup is just a Navigator.
+
+---
+
+[Navigational transitions \- Patterns \- Material Design](https://material.io/guidelines/patterns/navigational-transitions.html#navigational-transitions-sibling-to-sibling)
+
+[Scrolling techniques \- Patterns \- Material Design](https://material.io/guidelines/patterns/scrolling-techniques.html#scrolling-techniques-behavior)
