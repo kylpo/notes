@@ -21,6 +21,8 @@ Educational games like:
 - [Euclidea](https://play.google.com/store/apps/details?id=com.hil_hk.euclidea)
   - Seems like this one might even help artists learn ways of creating shapes in other editors like Photoshop
   - ![](https://lh3.googleusercontent.com/Tew-eTqIHobBPSH327V_hdScy05GKccHRcZJejtnjUKuzwnw68GuT7dDQqsOgWHI2A=h900-rw)
+- [Calculator: The Game](https://play.google.com/store/apps/details?id=com.sm.calculateme)
+  - ![](https://lh3.googleusercontent.com/s2zljYj-QrDnszGcNX1Iaxo5VW5PhLPJAfYcxf2CD74wWQNR8QWDHL-7NIsbeqAXatq9=h900-rw)
 
 ---
 

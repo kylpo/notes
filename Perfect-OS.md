@@ -3,6 +3,14 @@ TODO: Take notes on Samsung Gear
 
 ---
 
+# Why am I writing this?
+More innovation in the OS space, more starting fresh, like Dex.
+
+Also because I recently did a round of researching these platforms for app development. What are their capabilities: their strengths and limitations. Also because many of these patterns and concepts can and do live within apps.
+
+
+---
+
 Hard to write this, as there are so many things to consider.
 
 Comes down to hardware (capabilities, size, context),
@@ -92,6 +100,12 @@ Immersive mode. Wear and Android.
 Identify common patterns in OSs. Desktop, pinned, floating, full screen. Sharing. Dock, taskbar. Widgets.
 
 Why care? You might want to bring these inside your apps! Like bottom tab bar, for example. Or side dock on web apps like Salesforce builder
+
+---
+
+Do AMOLED screen remove the desire for something like the Yota e-ink back?
+
+![https://www.engadget.com/2017/09/20/dual-screen-e-ink-yota3-official/](https://o.aolcdn.com/images/dims?quality=100&image_uri=http%3A%2F%2Fo.aolcdn.com%2Fhss%2Fstorage%2Fmidas%2F61a4ebd13362511434c88e797976c92c%2F205685804%2Fyota3.jpg&client=cbc79c14efcebee57402&signature=7e936f920b23d92f43788aef7a1f82f7c73f88db)
 
 ---
 
@@ -370,6 +384,16 @@ Tabs handled in-app or by platform's window. Could be considered an enhancement 
 Now that tabs are a first-class construct to your OS, it is easier to think of a Web Browser as more of just an html, css, js rendering engine. It is almost like a PDF viewer or Word: it is something that opens a document. And you can have multple instances of that of your Browser app as tabs by having multiple open documents.
 
 This is actually similar to how Chrome works today, and why it made a splash when it was first released. When a tab had some fatal crash, it only broke that specific tab, not the whole browser. And this is because each tab is essentially its own, separate instance. This was not how Firefox ran back in the day. Because all tabs were run as one app (single process on the computer?), a broken tab would break all tabs.
+
+How `html`, `js`, `css` are rendered is standardized, just as `markup`, `unicode`, etc is. Different engines can optimize different things, but there shouldn't really be much of a difference from Safari to Edge. Just how the customized UI looks, plugins are built, etc. Even plugins are getting standardized with the WebExtensions standard.
+
+[jordanIsNotAFunction on Twitter: "There is not one single browser\+JS engine that easily works and runs on every OS and that bothers me to no end\."](https://twitter.com/jordwalke/status/910333937993445378)
+
+---
+
+It is not that web sites and web apps make for nice queued tasking. It is that you can `cmd-click` to open other tabs in the background, not just launch new windows that take your focus.
+
+See video of [Flynx \- Read the web smartly \- Android Apps on Google Play](https://play.google.com/store/apps/details?id=com.flynx)
 
 ---
 

@@ -238,6 +238,15 @@ And http://n12v.com/css-transition-to-from-auto/ with the current best practice
   - "Imagine how much bandwidth must be getting wasted on app updates for apps that will never even be opened again." - [Henrik Joreteg on Twitter](https://twitter.com/HenrikJoreteg/status/890096198740299777)
 - Reason to go web: least common denominator
 
+---
+
+> The Web is simultaneously an application platform that blows all other platforms out of the water for delivering content. First, there's a reason why so many native apps embed WebViews -- despite its warts, CSS is the result of hundreds of person-years of tuning for deploying portable textual content.
+> But more importantly, you just can't beat the URL. How many more times will we convince the entirety of humanity to know how to visually parse "www.zombo.com" on a billboard or in a text message? It's easy to take the Web for granted, it's fun to snark about its warts, and there's a cottage industry of premature declarations of its death. But I personally believe that the humble little hyperlink is at the heart of the Web's power, competitive strength, and longevity. It was a century-old dream passed on from Vannevar Bush to Doug Englebart to Xerox PARC and ultimately to TBL who made it real.
+
+[Dave Herman on Twitter: "The main reason I care about the Web is because it's the world's biggest software platform that isn't owned\. https://t\.co/czRLdJPQmf"](https://twitter.com/littlecalculist/status/728328046332121089)
+
+---
+
 # Native
 - all about gestures and taps
 - 60 fps animations and gestures
