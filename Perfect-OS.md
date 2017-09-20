@@ -366,6 +366,11 @@ When you open an app, what should it do? With it already open, what happens when
 
 Tabs handled in-app or by platform's window. Could be considered an enhancement to creating a separate instance or replacing.
 
+## Related: Browser
+Now that tabs are a first-class construct to your OS, it is easier to think of a Web Browser as more of just an html, css, js rendering engine. It is almost like a PDF viewer or Word: it is something that opens a document. And you can have multple instances of that of your Browser app as tabs by having multiple open documents.
+
+This is actually similar to how Chrome works today, and why it made a splash when it was first released. When a tab had some fatal crash, it only broke that specific tab, not the whole browser. And this is because each tab is essentially its own, separate instance. This was not how Firefox ran back in the day. Because all tabs were run as one app (single process on the computer?), a broken tab would break all tabs.
+
 ---
 
 # Window vs Tabs (native vs web)

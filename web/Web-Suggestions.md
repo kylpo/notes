@@ -64,6 +64,7 @@ if (false) {
 - [How to quickly set up A/B testing for React websites](https://medium.com/@yilingchen/how-to-quickly-set-up-a-b-testing-for-react-websites-dcb321fcd1f)
 - [dollarshaveclub/study: A simple, progressive, client/server AB testing library 📚](https://github.com/dollarshaveclub/study)
 - [Split Testing | Netlify](https://www.netlify.com/docs/split-testing/)
+- [A/B\-Test Calculator \- Power & Significance \- ABTestGuide\.com](https://abtestguide.com/calc/)
 
 ## Feature Flag vs A/B Testing
 - Is the line a build-time vs runtime thing? A/B testing is pushed on to you. Feature flags are configurable.

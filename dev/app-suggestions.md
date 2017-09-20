@@ -41,3 +41,10 @@ I have to have theming in my apps
 http://sciencefictioninterfaces.tumblr.com/ is just really inspiring to me, for whatever reason. If all of my morning apps were themed this way, I'd be very happy.
 
 Wouldn't work as well when needing to be productive though.
+
+# Document, or Database?
+Are you saving content to a document (local or remote), or is it saved in a database (local sqlite or remote)?
+
+If it is a document, you might want to register your app for the document's format.
+
+If you're persisting only to a database, your users may appreciate an `Export` option to a document, even if it is just a `json`, `csv`, or `xml`.
