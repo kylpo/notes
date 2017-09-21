@@ -3,6 +3,10 @@ TODO: Take notes on Samsung Gear
 
 ---
 
+Nothing here is really earth shattering, just taking pieces/patterns here and there, even accross disciplines (like gaming), and combining in a way that I think would be ideal for users (of multiple contexts like personal, power user, business user, disabled), software developers, hardware developers
+
+---
+
 # Why am I writing this?
 More innovation in the OS space, more starting fresh, like Dex.
 
@@ -61,6 +65,24 @@ https://uxplanet.org/cross-platform-guidelines-1c7675ec1d0c
 
 ---
 
+# Levels of Access
+## Functionality **without** unlocking
+Camera, 911, see notifications and act on them, galaxy's note [Screen off memo](http://www.samsung.com/us/galaxy/note8/s-pen/#slick-slide13) for making a note without unlocking, ipad pencil's double-tap to take note, surface pen thumb click to launch OneNote.
+
+Slightly different from Ambient Mode.
+
+## Interesting take on when to require user login for different layers of functionality
+[Why you shouldn’t unlock your phone with your face – freeCodeCamp](https://medium.freecodecamp.org/why-you-should-never-unlock-your-phone-with-your-face-79c07772a28)
+
+"Instead of the current all-or-nothing approach — you’re either authenticated or you aren’t — device manufacturers should take a tiered approach, requiring different levels of authentication to access different apps and data.
+
+This is similar to traditional role-based access control in software. And phones already do this with lock screens.
+
+For example, by default on iOS, you can read incoming text messages without unlocking your phone. And whenever you try to buy something in the App Store, iOS by default requires you to enter an even longer password to confirm a purchase."
+
+
+---
+
 # Progressive OS
 
 Thinking about the progression of devices and progression of users. Children grow into desktop, professional tools.
@@ -103,7 +125,7 @@ Why care? You might want to bring these inside your apps! Like bottom tab bar, f
 
 ---
 
-Do AMOLED screen remove the desire for something like the Yota e-ink back?
+Do AMOLED screens remove the desire for something like the Yota e-ink back?
 
 ![https://www.engadget.com/2017/09/20/dual-screen-e-ink-yota3-official/](https://o.aolcdn.com/images/dims?quality=100&image_uri=http%3A%2F%2Fo.aolcdn.com%2Fhss%2Fstorage%2Fmidas%2F61a4ebd13362511434c88e797976c92c%2F205685804%2Fyota3.jpg&client=cbc79c14efcebee57402&signature=7e936f920b23d92f43788aef7a1f82f7c73f88db)
 
@@ -478,13 +500,15 @@ Cool idea from Preme for Windows: Scroll taskbar to adjust volume. Even better w
 # Events
 Events broadcast to inform your app how to respond
 
-## Ambient Mode
+## Ambient Mode, or AOD (Always On Display)
 Not just for screen savers
 
 Even Samsung Gear has it:
 - [Event Handling \| Tizen Developers](https://developer.tizen.org/zh-hans/development/training/web-application/understanding-tizen-programming/event-handling?langredirect=1#ambient)
 
 Really like Note 8's `Screen off memo`: Make note without unlocking. [Samsung Galaxy Note 8 S Pen: Stylus Pen \| Samsung US](http://www.samsung.com/us/galaxy/note8/s-pen/)
+
+Well, screen off memo is probably not a good example of Ambient Mode. Instead it is a feature without needing to unlock, like camera.
 
 ![](https://github.com/kylpo/notes/blob/master/assets/note-8-memo.jpg?raw=true)
 
