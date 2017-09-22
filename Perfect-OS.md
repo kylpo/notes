@@ -3,6 +3,20 @@ TODO: Take notes on Samsung Gear
 
 ---
 
+[The iPhone X is the Beginning of the End for Phones](https://thinkgrowth.org/the-iphone-x-is-the-beginning-of-the-end-for-phones-ab9ac8391a3) resonates with me. The idea that my watch can be my safety device, the thing that non-smart phones used to be, and I can bring around a tablet/laptop for non-active tasks.
+
+I like the idea of thinking about your phone as just a pocket computer, like the Palm used to be. All phone-like functionality exists on the watch. You'd still have internet connectivity to your pocket computer though. This "pocket computer" name makes the futuristic Dex and Laptop less of a mental leap.
+
+I want a pocket computer that has all screen. No cameras/speaker bar. I don't want to take selfies. When I do, I want to add an attachment to my device like the Essential phone? Or have it pop out a selfie camera? I don't even really need the audio since I won't care to put it up to my ear to talk. Earbuds or speaker phone is fine. For authentication, the back finger print sensor is great.
+
+I want the bottom to house OS-level navigation and app switching (continued in Dock section).
+
+---
+
+Present on Medium as a series with the Table of Contents and italicized intro at the top, like [Code Smells: Too Many Problems \| IntelliJ IDEA Blog](https://blog.jetbrains.com/idea/2017/09/code-smells-too-many-problems/) has done.
+
+---
+
 Nothing here is really earth shattering, just taking pieces/patterns here and there, even accross disciplines (like gaming), and combining in a way that I think would be ideal for users (of multiple contexts like personal, power user, business user, disabled), software developers, hardware developers
 
 ---
@@ -205,6 +219,20 @@ Very much like the screenshot shown here: https://www.chromestory.com/2017/09/in
 
 Thought about while considering live desktops like http://www.omgubuntu.co.uk/2017/09/komorebi-wallpaper-app-new-features
 
+## Like your phone's lock-screen
+Users will want to see the information and be able to act on things quickly. As if they were using their phone/tablet's lock screen.
+
+- [Be Limitless \- Chrome Web Store](https://chrome.google.com/webstore/detail/be-limitless/jdpnljppdhjpafeaokemhcggofohekbp)
+  - ![](https://lh3.googleusercontent.com/NDHsBp2DYMgqko36Efrlz4febzo1Dkk0kpBRjKwtG205gu0ojoWWyN15Lw84h0My002QdL5FLA=w640-h400-e365)
+- [Momentum \- Chrome Web Store](https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca)
+  - ![](https://lh3.googleusercontent.com/RJ4jnr30NkOL3zFByvWdY0JNWH_q7F4Up2I0RsRxV0m-N25MHB0IlwWg5GzCy3w-XiCK6yy_UA=w640-h400-e365)
+- [Focus \- Chrome Web Store](https://chrome.google.com/webstore/detail/focus/paipcheolflniajdfeglfpddafcklepg)
+  - ![](https://lh3.googleusercontent.com/VGJGQINGg8IWyeSFF6AhZKJqbceZhLwrLYef7Cj68OJr-jmPHhq2nNF-l2Ld9VG2iajBGuWvpHs=w640-h400-e365)
+
+## Like a dashboard
+- [iChrome \- A Fast, Productive Home Page \- Chrome Web Store](https://chrome.google.com/webstore/detail/ichrome-a-fast-productive/oghkljobbhapacbahlneolfclkniiami)
+  - ![](https://lh3.googleusercontent.com/LWRpG-0sLNI6eKIw3oje5j96GdZEq4xc9bxTeC68ESkphlwj6pl4uq8AyQUY-z_kfYkzjSNgMw=w640-h400-e365)
+
 ---
 
 Chrome really is its own OS. Shoved into other OSes. Almost like Flash. Ominously like Flash... *feels hot computer and looks at Activity Monitor*...
@@ -222,6 +250,47 @@ Spaces short for Workspaces. Ubuntu calls them Workspaces.
   - Chrome extension to add "Link to Header" context menu option if you click on something with an id.
   - Chrome extension to show anchor links on hover. Needed for Medium articles.
   - e.g. https://medium.com/google-design/a-primer-on-android-navigation-75e57d9d63fe#63f7 does anchor link.
+
+---
+
+# Dock
+Hover previews (Dash to Panel extension for Gnome Shell):
+
+![http://www.omgubuntu.co.uk/2017/07/dash-panel-updated-window-peek-new-options](http://www.omgubuntu.co.uk/wp-content/uploads/2017/07/dash-to-panel-window-peek-750x470.jpg)
+
+Optional Hotkeys with number overlay (Dash to Panel extension for Gnome Shell):
+
+![http://www.omgubuntu.co.uk/2017/07/dash-panel-updated-window-peek-new-options](http://www.omgubuntu.co.uk/wp-content/uploads/2017/07/unity-style-numbers-750x358.jpg)
+
+Dock can be a launcher in some OSs, but I don't think it should be in this one if workspaces are endorsed.
+
+## Mobile consideration
+I want the bottom to house OS-level navigation and app switching. Similar to Android's on-screen buttons, a dock can exist here for normal app usage. Apps can still enter a full-screen mode to hide this bar.
+
+This bottom dock for navigation could extend to tablets, laptops, desktops.
+
+![](https://cdn.vox-cdn.com/thumbor/A1id7a8_yLkJEPW5GuJSOiUJDs8=/0x0:2040x1360/920x613/filters:focal(857x517:1183x843):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/54558833/akrales_170425__1644_0006.0.jpg)
+
+---
+
+# Statusbar
+When the screen is sufficiently large, this'll exist on the bottom Dock. When it isn't it'll live on top, like on phones and portrait tablets.
+
+Dex helped me think of this.
+
+---
+
+# Menus
+In Global Menu?
+
+![http://www.omgubuntu.co.uk/2017/07/ubuntu-mate-17-10-alpha-2-hud-global-menu](http://www.omgubuntu.co.uk/wp-content/uploads/2017/07/ubuntu-mate-1710-unity-layout.jpg)
+
+## Without a global menu
+Some apps will choose to always display a toolbar of menu items (Terminal, Word). Others choose to house them behind a button (Chrome). Others don't offer any at all (probably not a good idea). ALL must be searchable with a hotkey.
+
+HUD to search them?
+
+![http://www.omgubuntu.co.uk/2017/07/ubuntu-mate-17-10-alpha-2-hud-global-menu](http://www.omgubuntu.co.uk/wp-content/uploads/2017/07/mate-hud-gif.gif)
 
 ---
 
@@ -473,6 +542,11 @@ Dock has a built-in fan! SO smart.
 
 ---
 
+# Content Sharing
+Use the sharing API. Even the web is able to use it now: [Introducing the Web Share API  \|  Web  \|  Google Developers](https://developers.google.com/web/updates/2016/09/navigator-share)
+
+---
+
 # FC (First Class) OS
 Because it treats all inputs, all users, and all modes as first-class.
 
@@ -511,6 +585,8 @@ Really like Note 8's `Screen off memo`: Make note without unlocking. [Samsung Ga
 Well, screen off memo is probably not a good example of Ambient Mode. Instead it is a feature without needing to unlock, like camera.
 
 ![](https://github.com/kylpo/notes/blob/master/assets/note-8-memo.jpg?raw=true)
+
+[Justin Searls on Twitter: "1\. Think of important thing 2\. Pick up phone to take action 3\. See unrelated notification 4\. Forget important thing 5\. Be angry forever\."](https://twitter.com/searls/status/910531247205699586) would be prevented with an AOD note
 
 ## Inputs
 Everything input is first-class, and can accomplish most tasks. I.e. a keyboard shorcut should also be accomplished with a just a mouse, which should be accomplishable with just a touch/gesture.

@@ -23,3 +23,10 @@
     - Kotlin puts properties at front
     - 100% interoperable with Java
     - No `null`
+
+## Customizing
+- Allows custom DSLs, but no Macros
+- [Domain Specific Languages in Kotlin \- DZone Java](https://dzone.com/articles/creating-dsl-with-kotlin)
+
+## RxAndroid
+- [Reactive Programming with RxAndroid in Kotlin: An Introduction](https://www.raywenderlich.com/170233/reactive-programming-rxandroid-kotlin-introduction)
