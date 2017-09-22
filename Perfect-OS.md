@@ -294,6 +294,17 @@ HUD to search them?
 
 ---
 
+# Dex
+[Samsung DeX review: the closest thing we have to using our phones as PCs \- The Verge](https://www.theverge.com/2017/5/2/15495036/samsung-dex-station-galaxy-s8-review-desktop-dock) for a good walkthrough
+- takes a minute to load when docked, and a couple to get phone back in usable state after disconnecting
+- "All of the apps that you had been using on the phone before you docked it are available as icons at the bottom of the screen, which means there will likely be dozens of icons in the task bar right away. The system tray at the lower right provides access to notifications, settings shortcuts, and the time and date, just like you might find on a Windows 10 computer."
+- dock lacks audio out for desktop speakers
+
+## Apps in taskbar dilema
+The open apps in taskbar make me think about Workspaces, and how you really should only have one for phone. Hmmm, but you do have split view apps, where there are two apps in a workspace. So maybe mobile workspaces are just merged when you switch to desktop? Or is this just a vim type of thing where you have open buffers, and you system arranges them as splits and tabs. Your mobile layout will be different from your desktop layout.
+
+---
+
 widgets
 panel
 dock
@@ -627,6 +638,8 @@ Not just local: it enables providers of cloud-based services.
 
 # Keyboard/Hotkeys
 Sane defaults, but still totally configurable. Maybe even themable for different sets of users. emacs/vi/whatever
+
+[Ubuntu Keyboard navigation](https://help.ubuntu.com/stable/ubuntu-help/keyboard-nav.html)
 
 ## System keyboard key
 Mac got this right with `super`. `copy`/`paste` are OS-level functions, so they belong with `super`.
