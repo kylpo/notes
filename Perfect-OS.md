@@ -26,6 +26,10 @@ More innovation in the OS space, more starting fresh, like Dex.
 
 Also because I recently did a round of researching these platforms for app development. What are their capabilities: their strengths and limitations. Also because many of these patterns and concepts can and do live within apps.
 
+---
+
+Reach out to Dion when this series is released because of [Operating System? Help Me Operate – Ben and Dion – Medium](https://medium.com/ben-and-dion/operating-system-help-me-operate-c18c698978e1)
+
 
 ---
 
