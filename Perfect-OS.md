@@ -11,6 +11,8 @@ I want a pocket computer that has all screen. No cameras/speaker bar. I don't wa
 
 I want the bottom to house OS-level navigation and app switching (continued in Dock section).
 
+"pocket computer" basically just a mini tablet, or phone-form tablet. Like the ipod Touch.
+
 ---
 
 Present on Medium as a series with the Table of Contents and italicized intro at the top, like [Code Smells: Too Many Problems \| IntelliJ IDEA Blog](https://blog.jetbrains.com/idea/2017/09/code-smells-too-many-problems/) has done.
@@ -22,7 +24,9 @@ Nothing here is really earth shattering, just taking pieces/patterns here and th
 ---
 
 # Why am I writing this?
-More innovation in the OS space, more starting fresh, like Dex.
+More innovation in the OS space, more starting fresh, like Dex, Fuchsia, tizen, Linux.
+
+[Fuchsia \- Fuchsia is Not Linux](https://fuchsia.googlesource.com/docs/+/HEAD/book.md)
 
 Also because I recently did a round of researching these platforms for app development. What are their capabilities: their strengths and limitations. Also because many of these patterns and concepts can and do live within apps.
 
@@ -85,11 +89,15 @@ https://uxplanet.org/cross-platform-guidelines-1c7675ec1d0c
 
 # Levels of Access
 ## Functionality **without** unlocking
-Camera, 911, see notifications and act on them, galaxy's note [Screen off memo](http://www.samsung.com/us/galaxy/note8/s-pen/#slick-slide13) for making a note without unlocking, ipad pencil's double-tap to take note, surface pen thumb click to launch OneNote.
+Camera, 911, see notifications and act on them, galaxy's note [Screen off memo](http://www.samsung.com/us/galaxy/note8/s-pen/#slick-slide13) for making a note without unlocking, ipad pencil's double-tap lock screen to take note, surface pen thumb click to launch OneNote.
+
+Write-only, no Read
 
 Slightly different from Ambient Mode.
 
-## Interesting take on when to require user login for different layers of functionality
+## Functionality without logging in (not quite the same as unlocking)
+Interesting take on when to require user login for different layers of functionality.
+
 [Why you shouldn’t unlock your phone with your face – freeCodeCamp](https://medium.freecodecamp.org/why-you-should-never-unlock-your-phone-with-your-face-79c07772a28)
 
 "Instead of the current all-or-nothing approach — you’re either authenticated or you aren’t — device manufacturers should take a tiered approach, requiring different levels of authentication to access different apps and data.
@@ -274,6 +282,13 @@ I want the bottom to house OS-level navigation and app switching. Similar to And
 This bottom dock for navigation could extend to tablets, laptops, desktops.
 
 ![](https://cdn.vox-cdn.com/thumbor/A1id7a8_yLkJEPW5GuJSOiUJDs8=/0x0:2040x1360/920x613/filters:focal(857x517:1183x843):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/54558833/akrales_170425__1644_0006.0.jpg)
+
+## Watch consideration
+WatchOS
+- Vertical "Dock" of widgets, app launcher as last item
+- Hardware Button
+- Order by Favorites or Recent (configurable)
+  - Kind of similar to showing by Favorites vs currently open of Gnome's Dash to Panel and Windows 10
 
 ---
 
