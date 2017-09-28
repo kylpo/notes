@@ -5,27 +5,6 @@ https://play.google.com/store/apps/details?id=com.gameinsight.crtd looks a bit l
 
 ---
 
-Good Guy Games
-
-https://medium.com/retronator-magazine/learning-with-video-games-1609ba9d7ea8
-
-In a comment: "Really the best thing we can learn from videogames is that even if its hard, keep trying and find another strategy that works better. Change your approach and try again. Don’t be disheartened when you lose, because you just learned another strategy that doesn’t work, so you can hone in on one that does. As an entrepreneur now, my lifetime of playing videogames has helped me figure out problems in my business."
-
-Educational games like:
-- [Orbit \- Playing with Gravity](https://play.google.com/store/apps/details?id=com.ChetanSurpur.Orbit)
-  - ![](https://lh3.googleusercontent.com/uer_X6AtHnWvCq28wYYGTVrlEmD135FMyDmaTVQ3xNuyayixsmil7JAv2kHJ1Vs1Dn4=h900-rw)
-- [Rube's Lab \- Physics Puzzle](https://play.google.com/store/apps/details?id=com.onlinico.rubeslab)
-  - ![](https://lh3.googleusercontent.com/50BHYdi2TBDUO488okKRFnPAmDeWZr8uVTsSA6Q67waI2peUJYzhv7hIxtRjg3UJAFu4=h900-rw)
-- [SPACEPLAN](https://play.google.com/store/apps/details?id=com.devolver.spaceplan)
-  - ![](https://lh3.googleusercontent.com/ZkGJUr4boA0fUzW5lLxhAeoAvtliu07rqsWpPXkhj1Yy7shB32ecAHLS_ESxmX8Vx1dv=h900-rw)
-- [Euclidea](https://play.google.com/store/apps/details?id=com.hil_hk.euclidea)
-  - Seems like this one might even help artists learn ways of creating shapes in other editors like Photoshop
-  - ![](https://lh3.googleusercontent.com/Tew-eTqIHobBPSH327V_hdScy05GKccHRcZJejtnjUKuzwnw68GuT7dDQqsOgWHI2A=h900-rw)
-- [Calculator: The Game](https://play.google.com/store/apps/details?id=com.sm.calculateme)
-  - ![](https://lh3.googleusercontent.com/s2zljYj-QrDnszGcNX1Iaxo5VW5PhLPJAfYcxf2CD74wWQNR8QWDHL-7NIsbeqAXatq9=h900-rw)
-
----
-
 One thing I learned about playing on my phone: I like not having to rotate the phone. Portrait games have less activation energy (Clash Royale, Hades' Star, Card Monsters). Any new game I opened that went to landscape felt like a negative.
 
 Some can last forever, others will eventually end, and your goal is to last as long as possible.

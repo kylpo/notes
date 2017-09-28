@@ -14,6 +14,9 @@ App Controls (widgets/components? - can’t think of a good name)
 UIControls.showModal(<Content />)
 
 Media Queries
+- [Breakpoints are for reflow, the rest is fluid – UX Planet](https://uxplanet.org/breakpoints-are-for-reflow-the-rest-is-fluid-58ab641f03c3)
+
+>  A page reflow rearranges objects within the web browser to present the user with an optimal interactive experience, based on their device type and orientation. A reflow updates interaction models to better reflect the ergonomics of the use case, as well as the visual presentation. A reflow is about more than just the amount of real-estate available within the viewport, it’s about matching user behaviors and affordances to our on-page presentation.
 
 Mobile Navigation Experiences
 - nav stacks + tabs (twitter)
