@@ -577,6 +577,11 @@ Use the sharing API. Even the web is able to use it now: [Introducing the Web Sh
 
 ---
 
+# Notifications
+Gnome-Shell has toggles for showing `Lock Screen Notifications` and `Notification Popups`
+
+---
+
 # FC (First Class) OS
 Because it treats all inputs, all users, and all modes as first-class.
 
