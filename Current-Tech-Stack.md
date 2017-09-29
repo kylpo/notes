@@ -2,6 +2,9 @@ Yarn, not npm
 
 Prettier on save
 
+Linaria for static css-in-js
+- [How is Linaria different from Emotion – Callstack Engineers](https://blog.callstack.io/how-is-linaria-different-from-emotion-42e420a3984f)
+
 Testing
 - jest
 - [Jest In Case \- @thejameskyle](http://thejameskyle.com/jest-in-case.html)

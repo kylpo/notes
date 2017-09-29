@@ -36,6 +36,8 @@ Things to consider before writing any code
 Fork this doc into Web Considerations and Web Suggestions. Suggestion style is like `DO: ___`, `WHY: ___`, like a style guide
 
 # Feature Flags
+![https://css-tricks.com/ios-11-safari-feature-flags/](https://res.cloudinary.com/css-tricks/image/upload/c_scale,w_1000,f_auto,q_auto/v1506483761/Artboard-2_lldtij.jpg)
+
 - Build in a feature flag capability from the start. You'll eventually want it for A/B testing, staged releases, and potentially even a beta program.
 - [Feature flags in React](http://blog.rstankov.com/feature-flags-in-react/)
 - [react-bits/29.feature-flags-using-redux.md](https://github.com/vasanthk/react-bits/blob/master/patterns/29.feature-flags-using-redux.md)
