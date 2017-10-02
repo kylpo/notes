@@ -23,6 +23,7 @@
     - Kotlin puts properties at front
     - 100% interoperable with Java
     - No `null`
+  - [Kotlin education – Manuel Vicente Vivo – Medium](https://medium.com/@manuelvicnt/kotlin-education-d0b958740d6a)
 
 ## Customizing
 - Allows custom DSLs, but no Macros
