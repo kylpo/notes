@@ -47,6 +47,8 @@ Fork this doc into Web Considerations and Web Suggestions. Suggestion style is l
   - "Toggling features within a code base is a technique to influence the behaviour of software without having to redeploy. It is often used in conjunction with Continuous Delivery enabling alternative branches for different user groups within the interface a web application. These branches should optimally be triggered independently from the main code base."
 - [Using React in Multiple Environments](https://daveceddia.com/multiple-environments-with-react/#configure-feature-flags-at-build-time)
   - and using `.env` files
+- [React 16: A look inside an API\-compatible rewrite of our frontend UI library \| Engineering Blog \| Facebook Code \| Facebook](https://code.facebook.com/posts/1716776591680069/react-16-a-look-inside-an-api-compatible-rewrite-of-our-frontend-ui-library)
+  - they've been rewritting the core via flags. This allowed them to remain working on a single branch (not forking the code).
 
 ```js
 import isEnabled from 'my-features';

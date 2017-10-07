@@ -106,6 +106,9 @@ This is similar to traditional role-based access control in software. And phones
 
 For example, by default on iOS, you can read incoming text messages without unlocking your phone. And whenever you try to buy something in the App Store, iOS by default requires you to enter an even longer password to confirm a purchase."
 
+## Android's Intents
+Android has developed a system similar to this for actions apps should be able to handle. See [Sending the User to Another App \| Android Developers](https://developer.android.com/training/basics/intents/sending.html).
+
 
 ---
 
@@ -574,6 +577,13 @@ Dock has a built-in fan! SO smart.
 
 # Content Sharing
 Use the sharing API. Even the web is able to use it now: [Introducing the Web Share API  \|  Web  \|  Google Developers](https://developers.google.com/web/updates/2016/09/navigator-share)
+
+---
+
+# Search
+Universal search, where you can toggle app-specific search, like these Action Launcher search shortcuts.
+
+![](https://9to5google.files.wordpress.com/2017/10/1-vfov3476j4gla7imdgipzw.gif?w=875&h=583)
 
 ---
 

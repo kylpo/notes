@@ -2,6 +2,10 @@ _WIP_
 
 ---
 
+Live Data vs Persistent Data
+
+---
+
 [How to choose the right database for your microservices \- SD Times](http://sdtimes.com/choose-right-database-microservices/)
 
 - Ephemeral Data (client cache)
