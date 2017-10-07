@@ -590,6 +590,8 @@ Universal search, where you can toggle app-specific search, like these Action La
 # Notifications
 Gnome-Shell has toggles for showing `Lock Screen Notifications` and `Notification Popups`
 
+[How To Design Notifications For Better UX – UX Planet](https://uxplanet.org/how-to-design-notifications-for-better-ux-6fb0711be54d)
+
 ---
 
 # FC (First Class) OS
