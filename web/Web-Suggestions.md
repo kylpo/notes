@@ -178,6 +178,8 @@ thought about while reading https://css-tricks.com/seo-and-location/
 
 # Layers system
 - Interesting idea to formalize z-index and layers: https://github.com/fckt/react-layer-stack#rationale. This is the Layers tab of your WYSIWYG.
+- z-index should be **relative**
+  - [Daryl Ginn on Twitter: "A step by step guide on how to use z\-index: 1\. Try a value like 25\. 2\. Notice it doesn't work\. 3\. Increase to 3000 because life is short\."](https://twitter.com/darylginn/status/916310661126410241)
 
 # SSR
 - [Sunil Pai on Twitter: "Based on responses... *any* SPA (react/wc/ember/whatever) is invisible to search engines except google ? SSR your pages, peeps. https://t.co/MtHr4MbJ2O"](https://twitter.com/threepointone/status/870638919695699969)
