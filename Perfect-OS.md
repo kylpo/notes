@@ -614,6 +614,11 @@ Mouse, keyboard, and stylus are precision tools. Also more convenient than touch
 
 Cool idea from Preme for Windows: Scroll taskbar to adjust volume. Even better would be scrolling the sound icon, maybe? Also interesting is `esc` `esc` (`esc` twice) to close windows.
 
+# Focus
+Default to highlighting active focus for keyboard use. Remove highlight for `touch mode`, as Android does: [View \| Android Developers](https://developer.android.com/reference/android/view/View.html#TouchMode) 
+
+Hotkey to highlight/flash available inputs, like Invision
+
 # Dock/Taskbar
 
 # Virtual Desktops
