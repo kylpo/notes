@@ -35,11 +35,23 @@ Godus and Polytopia have shown me that I *REALLY* like polygon art in mobile gam
 
 ---
 
+# Loot boxes (and gambling)
+> the loot box is designed in a predatory way to make you feel that rush of dopamine every time you open up one of those chests — oh my god, what could be inside, am I gonna hit the jackpot, am I gonna get my favorite thing? So it’s designed in this way that just makes you feel really gross, like you’re gambling. Fun fact, the ESRB just told me that they do not consider loot boxes to be gambling and will not be adding a gambling descriptor on games with loot boxes.
+
+from [Why Loot Boxes Make People So Angry](https://kotaku.com/why-loot-boxes-make-people-so-angry-1819394801)
+
+## Mephy Runs from Diablo 2
+In reading that article, I remembered the good ole days of Diablo 2 and its Mephisto runs. I used to spend HOURS essentially just opening loot boxes. I remember it fondly because it was a free, on-demand activity. I didn't need to pay to fight Mephisto, I didn't need to wait 24 hours, I could just start a new game and get right to it.
+
+---
+
+
 Things to consider:
 - Play perspective: 1st, 3rd (top-down? from side?)
 - vs computer or others (or both)
 - levels the same? Or random?
 - game grid: 1d, 2d, 3d?
+- loot boxes?
 
 Grinds
 - All about improving gear, level, buildings, stats, etc

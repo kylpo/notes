@@ -25,6 +25,22 @@
     - No `null`
   - [Kotlin education – Manuel Vicente Vivo – Medium](https://medium.com/@manuelvicnt/kotlin-education-d0b958740d6a)
 
+## Testing
+- [agoda\-com/Kakao: Nice and simple DSL for Espresso in Kotlin](https://github.com/agoda-com/Kakao)
+
+replace
+```Kotlin
+onView(allOf(withId(R.id.price_item), hasDescendant(withText("Standard Rate")))).check(matches(withEffectiveVisibility(Visibility.VISIBLE)));
+```
+
+with something like
+```Kotlin
+ val email = KEditText { 
+               withId(R.id.email)
+               withText(R.string.email)
+   }
+```
+
 ## Customizing
 - Allows custom DSLs, but no Macros
 - [Domain Specific Languages in Kotlin \- DZone Java](https://dzone.com/articles/creating-dsl-with-kotlin)
