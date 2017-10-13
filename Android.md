@@ -77,6 +77,8 @@ Give me an android "Surface"!!!!
 ## Testing
   - [Android Developers Blog: Android Testing Support Library 1.0 is here!](https://android-developers.googleblog.com/2017/07/android-testing-support-library-10-is.html)
   - [Automated Android Testing With Kotlin \- DZone DevOps](https://dzone.com/articles/automated-android-testing-with-kotlin)
+  - [Knowledge boost for junior Android developers — Part II](https://android.jlelse.eu/knowledge-boost-for-junior-android-developers-part-ii-e62ae5154160#5106)
+    - Monkey Tests, Instrumented Tests, StrictMode, Firebase Test Lab, LeakCanary, Google's Test Procedures
 
 [Dimensions](https://dimensionssprint.withgoogle.com/)
 - [Dimensions: Uniquely Android - YouTube](https://www.youtube.com/watch?v=J4pQK2463qs)
