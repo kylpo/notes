@@ -504,6 +504,8 @@ When you open an app, what should it do? With it already open, what happens when
 
 Tabs handled in-app or by platform's window. Could be considered an enhancement to creating a separate instance or replacing.
 
+See [Navigation and Task Stacks · codepath/android\_guides Wiki](https://github.com/codepath/android_guides/wiki/Navigation-and-Task-Stacks#user-content-launch-modes) for relevant Launch Modes of Android.
+
 ## Related: Browser
 Now that tabs are a first-class construct to your OS, it is easier to think of a Web Browser as more of just an html, css, js rendering engine. It is almost like a PDF viewer or Word: it is something that opens a document. And you can have multple instances of that of your Browser app as tabs by having multiple open documents.
 
@@ -647,6 +649,8 @@ Even Rotary Events? [Event Handling \| Tizen Developers](https://developer.tizen
 
 ![](https://developer.tizen.org/sites/default/files/dev_guide/org.tizen.gettingstarted/images/rotary_event.png)
 
+IME (Inpute Method editor) Services to manipulate/customize inputs like keyboard, touch, mouse, etc, like Android's [InputMethodService \| Android Developers](https://developer.android.com/reference/android/inputmethodservice/InputMethodService.html)
+
 #### Wheel
 - Scroll Wheel of mouse
 - Dial for Windows
@@ -682,6 +686,10 @@ Sane defaults, but still totally configurable. Maybe even themable for different
 
 [Ubuntu Keyboard navigation](https://help.ubuntu.com/stable/ubuntu-help/keyboard-nav.html)
 
+Distinction between Keyboard layout (dvorak, colemak, and key remapping via intercepting) from hotkeys.
+
+Soft keyboard considerations when a hardware keyboard is not present or accessible.
+
 ## System keyboard key
 Mac got this right with `super`. `copy`/`paste` are OS-level functions, so they belong with `super`.
 
@@ -689,6 +697,11 @@ Window's `win` button is similar. They messed up `ctrl c`/`ctrl v` for copy/past
 
 ## Simplified keyboard and cursor movement
 Again, Mac totally nailed this. Many of us work on laptops today, using the laptop's keyboard. The mac's keyboard is as close to perfect as I can get. Because it has the system level `super` modifier (and emacs keybinds of `ctrl-a`, `ctrl-f`, etc) there is no need for a physical `Home`, `End`, `PgUp`, `PgDn` keys crammed into the layout.
+
+## Keyboard-only naviagtion an OS feature
+Press hotkey to see hotkeys to follow links and tap buttons, like Vimium and [qutebrowser/qutebrowser: A keyboard\-driven, vim\-like browser based on PyQt5\.](https://github.com/qutebrowser/qutebrowser).
+
+![](https://github.com/qutebrowser/qutebrowser/blob/master/doc/img/hints.png?raw=true)
 
 ## System touch gestures
 

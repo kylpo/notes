@@ -35,6 +35,10 @@ Give me an android "Surface"!!!!
   - [Android Developers Blog: Android and Architecture](https://android-developers.googleblog.com/2017/05/android-and-architecture.html)
   - [Exploring the new Android Architecture Components library](https://medium.com/@hitherejoe/exploring-the-new-android-architecture-components-c33b15d89c23)
   - [Joaquim Ley on Twitter: "Excited to get this article out 🙌 Android Architecture Components + MVVM + Open source - #androiddev #mvvm https://t.co/bdn0xxzXfg"](https://twitter.com/JoaquimLey/status/869834859241406464)
+  - [Create a Clean\-Code App with Kotlin Coroutines and Android Architecture Components](https://blog.elpassion.com/create-a-clean-code-app-with-kotlin-coroutines-and-android-architecture-components-f533b04b5431)
+## MVVM and data binding
+- [Applying Data Binding for Views · codepath/android\_guides Wiki](https://github.com/codepath/android_guides/wiki/Applying-Data-Binding-for-Views)
+- [Approaching Android with MVVM – ribot labs](https://labs.ribot.co.uk/approaching-android-with-mvvm-8ceec02d5442)
 ## Wear
   - [From Actions to battery life, these updates will make Android Wear 2.0 even better](https://www.wareable.com/android-wear/android-wear-updates-actions-battery-life-456)
     - "Did you also know that an all-white display can use up to seven times more power than a black display in interactive mode?"
