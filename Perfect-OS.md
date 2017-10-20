@@ -30,6 +30,10 @@ More innovation in the OS space, more starting fresh, like Dex, Fuchsia, tizen, 
 
 Also because I recently did a round of researching these platforms for app development. What are their capabilities: their strengths and limitations. Also because many of these patterns and concepts can and do live within apps.
 
+[Samsung Is Bringing Desktop Linux To Its Smartphones \- OMG\! Ubuntu\!](http://www.omgubuntu.co.uk/2017/10/samsung-bringing-desktop-linux-smartphones)
+
+![](http://www.omgubuntu.co.uk/wp-content/uploads/2017/10/samsung-dex-linux-galaxy-750x375.jpg)
+
 ---
 
 Reach out to Dion when this series is released because of [Operating System? Help Me Operate – Ben and Dion – Medium](https://medium.com/ben-and-dion/operating-system-help-me-operate-c18c698978e1)

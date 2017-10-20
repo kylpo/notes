@@ -57,6 +57,8 @@ Give me an android "Surface"!!!!
   - [A Primer on Android navigation – Google Design](https://medium.com/google-design/a-primer-on-android-navigation-75e57d9d63fe)
 ## Platform Features
 - [Dieter Bohn on Twitter: "I can’t tell you how much I love these draggable shortcuts in Android. Wait I can: I love them a lot. https://t.co/m8yCpO33lK"](https://twitter.com/backlon/status/890276148399046656)
+## Instant Apps
+- New `Try Now` option in play store
 
 #### Daydream / Screen Saver
 - [How to Set Up Android's Daydream Screensaver](https://www.tomsguide.com/us/android-daydream,review-3306.html)
