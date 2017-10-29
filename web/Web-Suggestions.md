@@ -99,6 +99,7 @@ if (false) {
   - [Manuel Matuzović on Twitter: "#a11y posters: Dos and don'ts on designing for accessibility https://t.co/QU8a2C0Iaf https://t.co/tUUSe6xMVN"](https://twitter.com/mmatuzo/status/882195808619286528) 
 - [🎥 Does reordering content affect accessibility?](https://www.youtube.com/watch?v=8MAvH6vYbDo)
   - When changing position, like flexbox's `order`, you can mess up tab order. Try to keep position in your `html`.
+- [Alt\-texts: The Ultimate Guide](https://axesslab.com/alt-texts/?utm_source=frontendfocus&utm_medium=email)
 
 # Use an 8-point grid system
 - (spacial) Consistency is important to the overall feel of a product
