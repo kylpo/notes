@@ -181,6 +181,15 @@ thought about while reading https://css-tricks.com/seo-and-location/
 - Interesting idea to formalize z-index and layers: https://github.com/fckt/react-layer-stack#rationale. This is the Layers tab of your WYSIWYG.
 - z-index should be **relative**
   - [Daryl Ginn on Twitter: "A step by step guide on how to use z\-index: 1\. Try a value like 25\. 2\. Notice it doesn't work\. 3\. Increase to 3000 because life is short\."](https://twitter.com/darylginn/status/916310661126410241)
+- [My approach to using z\-index – Hacker Noon](https://hackernoon.com/my-approach-to-using-z-index-eca67feb079c)
+  - Local: elements that need to render on top of a sibling or nearby element
+    - Must be contained in a new stacking context
+    - Will rarely have a z-index greater than 1
+  - Global: elements that must render on top of elements elsewhere on the page
+    - z-index values must be declared as global variables in a central location
+    - There should generally be fewer than ten in a site
+  - [Great article\! I have few things to add:](https://medium.com/@dtinth/great-article-aa001028cc3f)
+
 
 # SSR
 - [Sunil Pai on Twitter: "Based on responses... *any* SPA (react/wc/ember/whatever) is invisible to search engines except google ? SSR your pages, peeps. https://t.co/MtHr4MbJ2O"](https://twitter.com/threepointone/status/870638919695699969)
@@ -205,6 +214,8 @@ Web users are often action oriented, "leaning forward" in the hunt for answers t
 https://www.nngroup.com/articles/concise-scannable-and-objective-how-to-write-for-the-web/
 
 Users tend to read in F pattern:
+
+[Horizontal Attention Leans Left](https://www.nngroup.com/articles/horizontal-attention-leans-left/)
 
 # Favicon
 - [Favicons, Touch Icons, Tile Icons, etc. Which Do You Need? | CSS-Tricks](https://css-tricks.com/favicon-quiz/)
