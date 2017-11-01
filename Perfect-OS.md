@@ -694,6 +694,10 @@ Distinction between Keyboard layout (dvorak, colemak, and key remapping via inte
 
 Soft keyboard considerations when a hardware keyboard is not present or accessible.
 
+## Access keys
+"Access keys allow someone to operate labelled controls by using Alt."
+- [Keyboard input gnome shell](https://developer.gnome.org/hig/stable/keyboard-input.html.en#access-keys)
+
 ## System keyboard key
 Mac got this right with `super`. `copy`/`paste` are OS-level functions, so they belong with `super`.
 
