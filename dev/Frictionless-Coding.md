@@ -62,6 +62,7 @@ Might be easier to digest as a Friction Series of posts. That way I won't need t
   - [A Reason to Code](https://dev.to/kayis/a-reason-to-code)
   - [Webstorm: Auto Imports on paste](https://blog.jetbrains.com/webstorm/2017/09/webstorm-2017-3-eap/#import-on-paste)
     - ![](https://d3nmt5vlzunoa1.cloudfront.net/webstorm/files/2017/09/import-on-paste.gif)
+  - [Wes Bos 🔥 on Twitter: "🔥 The next version of VS code will automatically add your import statements as you use functions from your project https://t\.co/hk2vwcaoOy"](https://twitter.com/wesbos/status/925056339398848512)
 
 - autoformatting
   - [prettier](https://github.com/prettier/prettier) (someday)

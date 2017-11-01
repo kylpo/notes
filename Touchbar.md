@@ -37,3 +37,9 @@ Summary:
 I don't like or dislike this feature. I see it as being useful for some types of users and not for others. As a coder and hotkey "power user", I think I fall in to the group that does not find much use of this.
 
 Does seem like all of the pros of touchbar would be accessible with a real touchscreen without the assiciated cons. Almost a slap in the face, really. :thinking_face:
+
+---
+
+[jordanIsNotAFunction on Twitter: "Hitting the MacBook Pro Touch Bar escape key feels like when you take a step expecting there to be another stair, and there isn’t\."](https://twitter.com/jordwalke/status/924932778323427330)
+
+---

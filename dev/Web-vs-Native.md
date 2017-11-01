@@ -271,6 +271,8 @@ And http://n12v.com/css-transition-to-from-auto/ with the current best practice
 - "Most common anti-pattern among Developers: making choices based on speed of initial development rather than ease of debugging." - [@mikeal](https://twitter.com/mikeal/status/878380425529393152)
   - "Developers spend far more time debugging than on initial development yet consistently optimize the choices of their stack for initial dev."
 - [jordanIsNotAFunction on Twitter: "@floydophone @_chenglou Electron apps do embed inside the IDE since they share runtime, but then it ends up like Atom with 4s startup times. Next, you try lazy."](https://twitter.com/jordwalke/status/883819204377325568)
+- [Growing Pains: Migrating Slack’s Desktop App to BrowserView](https://slack.engineering/growing-pains-migrating-slacks-desktop-app-to-browserview-2759690d9c7b)
+  - [Introducing BrowserView for Electron – Figma Design](https://blog.figma.com/introducing-browserview-for-electron-7b40b4b493d5)
 
 ## Good Hybrid examples
 - Todoist for MacOS

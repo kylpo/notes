@@ -19,6 +19,8 @@ Smitty (for small state solution)
 - https://github.com/tkh44/smitty
 - and connect it to router http://codepen.io/seveves/pen/ryyNYz
 
+or maybe Redux Zero? [Introducing Redux Zero – Matheus Lima – Medium](https://medium.com/@matheusml/introducing-redux-zero-bea42214c7ee)
+
 Look in to [luisvinicius167/dutier: A small (1kb) and simple state management solution for Javascript applications.](https://github.com/luisvinicius167/dutier?utm_source=mobilewebweekly&utm_medium=email)
 
 Tools that create components

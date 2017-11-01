@@ -4,6 +4,10 @@ Should it be re-titled as Compile-vs-Run-Time?
 
 ---
 
+[5 benefits of static GraphQL queries – Apollo GraphQL](https://dev-blog.apollodata.com/5-benefits-of-static-graphql-queries-b7fa90b0b69a)
+
+---
+
 [Compilers are the New Frameworks \- tomdale\.net](https://tomdale.net/2017/09/compilers-are-the-new-frameworks/?utm_source=ponyfoo+weekly&utm_medium=email&utm_campaign=79)
 
 ---
