@@ -95,6 +95,8 @@ https://uxplanet.org/cross-platform-guidelines-1c7675ec1d0c
 ## Functionality **without** unlocking
 Camera, 911, see notifications and act on them, galaxy's note [Screen off memo](http://www.samsung.com/us/galaxy/note8/s-pen/#slick-slide13) for making a note without unlocking, ipad pencil's double-tap lock screen to take note, surface pen thumb click to launch OneNote.
 
+[Chromebook Lock Screen Note Taking Draws Near](https://chromeunboxed.com/news/chromebook-lock-screen-note-taking-draws-near/)
+
 Write-only, no Read
 
 Slightly different from Ambient Mode.
@@ -537,11 +539,20 @@ Good uses of Tabs: Explorer/Finder, browser, terminal, editors
 ---
 
 # App Modes
-Single App, replaces single app
+## Single App, replaces single app
 
-Multiple instances
+## Multiple instances
 
-tabs
+## tabs
+
+[Windows 10's Upcoming Sets Feature to Bring Tabs to UWP Apps \- Thurrott\.com](https://www.thurrott.com/windows/144967/windows-10s-upcoming-sets-feature-bring-tabs-uwp-apps) called "Sets"
+
+![](https://www.thurrott.com/wp-content/uploads/2017/11/windows-10-sets-hero.jpg)
+
+[Stardock's Groupy organizes programs like browser tabs](https://www.pcworld.com/article/3237664/software/stardock-groupy-manage-windows.html) - be sure to watch the video
+
+![](https://images.idgesg.net/images/article/2017/11/groupy-tabs-100742184-large.jpg)
+
 
 "Tabs provide quick navigation between sibling views inside the same parent screen. They’re coplanar, meaning they can be swiped around, and they live in an extensible, identifiable tab bar."
 
@@ -658,7 +669,9 @@ IME (Inpute Method editor) Services to manipulate/customize inputs like keyboard
 #### Wheel
 - Scroll Wheel of mouse
 - Dial for Windows
+- Apple Watch's Crown
 - Rotation of Gear
+- touchscreen bezel for [Fossil’s new Android Wear smartwatch has a touch\-sensitive bezel and costs $275 \- The Verge](https://www.theverge.com/circuitbreaker/2017/11/15/16657372/fossil-q-control-android-wear-smartwatch-announced-price-release-date#ampshare=https://www.theverge.com/circuitbreaker/2017/11/15/16657372/fossil-q-control-android-wear-smartwatch-announced-price-release-date)
 - Even a scroll wheel on Microsoft's old Ergonomic keyboards
 
 Would be nice to associate contexts/modes to this event. e.g. scrolling on sound icon adjusts volume. Scrolling on menubar moves workspace.
@@ -673,6 +686,19 @@ Nicer keyboards would have a touchpad for gestures of what to do to target eyes 
 This is actually quite a bit like being able to scroll a non-active window in Mac, Linux, and now Windows. Just moving your eyes and typing would be pretty amazing. Would use alt-tab much less often.
 
 # Windows/Views
+## Titlebars
+Fully customizable, with recommended defaults.
+
+![](http://www.omgubuntu.co.uk/wp-content/uploads/2017/11/notesup-markdown-editor-1.png)
+
+vs
+
+![](http://www.omgubuntu.co.uk/wp-content/uploads/2017/11/bear-markdown-editor-for-macos-750x443.jpg)
+
+is totally possible.
+
+images from [Notes Up is a Markdown Editor for Linux \- OMG\! Ubuntu\!](http://www.omgubuntu.co.uk/2017/11/notes-up-markdown-editor-for-linux)
+
 ## Full-screen **Immersive mode**
 https://developer.android.com/about/versions/kitkat.html#44-immersive
 

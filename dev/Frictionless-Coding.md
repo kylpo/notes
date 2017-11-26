@@ -63,6 +63,9 @@ Might be easier to digest as a Friction Series of posts. That way I won't need t
   - [Webstorm: Auto Imports on paste](https://blog.jetbrains.com/webstorm/2017/09/webstorm-2017-3-eap/#import-on-paste)
     - ![](https://d3nmt5vlzunoa1.cloudfront.net/webstorm/files/2017/09/import-on-paste.gif)
   - [Wes Bos 🔥 on Twitter: "🔥 The next version of VS code will automatically add your import statements as you use functions from your project https://t\.co/hk2vwcaoOy"](https://twitter.com/wesbos/status/925056339398848512)
+  - [Visual Studio Code October 2017 and Auto Import for JS and TS](https://code.visualstudio.com/updates/v1_18#_auto-import-for-javascript-and-typescript)
+    - ![](https://code.visualstudio.com/assets/updates/1_18/ts-auto-import-pre.png)
+    - ![](https://code.visualstudio.com/assets/updates/1_18/ts-auto-import-post.png)
 
 - autoformatting
   - [prettier](https://github.com/prettier/prettier) (someday)
