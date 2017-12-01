@@ -9,6 +9,12 @@ https://store-setapp-com.imgix.net/app/247/screenshots/1498741030-5954f9269efb9.
 
 https://twitter.com/maccaw/status/906917709740367875
 
+"The Touch Bar, despite its name, is actually an Eye Bar."
+
+- [The fundamental problem with the Touch Bar \| The Robservatory](https://robservatory.com/the-fundamental-problem-with-the-touch-bar/)
+
+[BrendanEich on Twitter: "Bailed back from 2016 MBP with tabstrip/soft\-ESC/crap\-keyboard back to 2015\. At this rate I'll be back on a Thinkpad with Linux in a year\."](https://twitter.com/BrendanEich/status/926186035179962368)
+
 Pros:
 - Better able to know what window is focussed
 - exposes shortcuts you may've not thought about (app stores tabs can be changed with cmd+1-5, for example). Also, I never really care to remember these, so may as well use the touchbar and not the hotkeys.
