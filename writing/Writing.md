@@ -27,3 +27,7 @@ Take a look at someone like Bertrand Russell, that bastard who could write like 
 ![](https://pbs.twimg.com/media/DFayDSIXkAAPJbE.jpg)
 - [Simon Kuestenmacher on Twitter: "List of words to use instead of "very" is actually very helpful. https://t.co/CHLbqodEwE https://t.co/ZpGAQXfVJG"](https://twitter.com/simongerman600/status/889093748864552960)
 - The adverb is not your friend - Stephen King
+
+# Storytelling
+[Before You Launch A Startup, Learn This – Signal v\. Noise](https://m.signalvnoise.com/my-2011-startup-with-y-combinator-imploded-largely-because-we-couldnt-get-enough-traction-d900976d7bbc)
+- "A Story Event creates meaningful change in the life situation of a character that is expressed and experienced in terms of a value and ACHIEVED THROUGH CONFLICT."
