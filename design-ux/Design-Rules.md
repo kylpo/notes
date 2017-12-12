@@ -7,6 +7,13 @@ https://medium.com/@kollinz/misused-mobile-ux-patterns-84d2b6930570#.9x5etv35u
 https://medium.com/@kollinz/the-most-underrated-sentence-in-ux-design-d12346c5146b#.vtjfs2e7i
 - it is OK to say "I don't know, it depends"
 
+## Always organize elements of information in categories no larger than 9, but preferably ~5 chunks
+[The Most Important Rule in UX Design that Everyone Breaks](https://blog.prototypr.io/the-most-important-rule-in-ux-design-that-everyone-breaks-1c1cb188931)
+
+![](https://cdn-images-1.medium.com/max/2000/1*PgZGGwR8UkLPnog2NcyliA@2x.png)
+
+![](https://cdn-images-1.medium.com/max/2000/1*n5o78Gu9qEh4J2ui2GY4Ig@2x.png)
+
 ## Infinite Scrolling
 http://www.webdesignerdepot.com/2014/04/how-to-use-the-infinite-scrolling-trend-the-right-way/
 
