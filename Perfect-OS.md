@@ -666,6 +666,9 @@ Even Rotary Events? [Event Handling \| Tizen Developers](https://developer.tizen
 
 IME (Inpute Method editor) Services to manipulate/customize inputs like keyboard, touch, mouse, etc, like Android's [InputMethodService \| Android Developers](https://developer.android.com/reference/android/inputmethodservice/InputMethodService.html)
 
+#### Mouse
+Many keyboard power users out there, but also many mouse power users. I was amazed at how many clicks and scrolls were required by my Wells Fargo teller recently. So, in the real world, people do still rely on the mouse heavy, as their primary tool, in fact.
+
 #### Wheel
 - Scroll Wheel of mouse
 - Dial for Windows
