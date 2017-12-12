@@ -669,6 +669,8 @@ IME (Inpute Method editor) Services to manipulate/customize inputs like keyboard
 #### Mouse
 Many keyboard power users out there, but also many mouse power users. I was amazed at how many clicks and scrolls were required by my Wells Fargo teller recently. So, in the real world, people do still rely on the mouse heavy, as their primary tool, in fact.
 
+[Easy Window Dragging \-\- KDE style \(requires XP/2k/NT\) \-\- by Jonny](https://www.autohotkey.com/docs/scripts/EasyWindowDrag_(KDE).htm)
+
 #### Wheel
 - Scroll Wheel of mouse
 - Dial for Windows
@@ -687,6 +689,13 @@ Cheaper keyboards would have dedicated click and scroll wheels, much like Micros
 Nicer keyboards would have a touchpad for gestures of what to do to target eyes are looking at.
 
 This is actually quite a bit like being able to scroll a non-active window in Mac, Linux, and now Windows. Just moving your eyes and typing would be pretty amazing. Would use alt-tab much less often.
+
+[Tobii eyeX review: The 'eye mouse' is magical, but just not for everyone \| PCWorld](https://www.pcworld.com/article/3014523/peripherals/tobii-eyex-review-the-eye-mouse-is-magical-but-just-not-for-everyone.html)
+
+![](https://www.tobiipro.com/siteassets/tobii-pro/products/product-commerce-images/tobiipro_glasses_2_eye_tracker_side_2_1.jpg)
+
+![](https://images.techhive.com/images/article/2016/02/tobii-leftside-100644216-large.jpg)
+
 
 # Windows/Views
 ## Titlebars
