@@ -24,6 +24,10 @@ Easy enough for short-term projects to just barely get by before imploding, but 
 
 Is this why offshoring didn't work out?
 
+Below's image perfectly matches this:
+
+![https://twitter.com/chopeh/status/926074073767206912](https://pbs.twimg.com/media/DNoTdMMWsAEL_GR.jpg)
+
 # Almost anything in isolation is easy
 this is why time predicting is so difficult
 
