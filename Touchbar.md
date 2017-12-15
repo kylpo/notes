@@ -15,6 +15,8 @@ https://twitter.com/maccaw/status/906917709740367875
 
 [BrendanEich on Twitter: "Bailed back from 2016 MBP with tabstrip/soft\-ESC/crap\-keyboard back to 2015\. At this rate I'll be back on a Thinkpad with Linux in a year\."](https://twitter.com/BrendanEich/status/926186035179962368)
 
+[Spike Brehm on Twitter: "ohh I think I figured it out—it's not the trackpad, it's my fingers resting above the keyboard on the TouchBar, accidentally tapping the dig… https://t\.co/L9dGNWcOk1"](https://twitter.com/spikebrehm/status/938136448871600128)
+
 Pros:
 - Better able to know what window is focussed
 - exposes shortcuts you may've not thought about (app stores tabs can be changed with cmd+1-5, for example). Also, I never really care to remember these, so may as well use the touchbar and not the hotkeys.

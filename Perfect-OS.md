@@ -1,3 +1,6 @@
+This should become a gitbook.
+
+---
 
 TODO: Take notes on Samsung Gear
 
