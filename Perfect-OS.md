@@ -266,6 +266,11 @@ Chrome really is its own OS. Shoved into other OSes. Almost like Flash. Ominousl
 # Workspaces/Spaces/Virtual Desktops
 Spaces short for Workspaces. Ubuntu calls them Workspaces.
 
+# App Switcher
+Some combo of Android and gnome-shell?
+
+![https://www.phoronix.com/scan.php?page=news_item&px=Mir-Wild-2017](https://www.phoronix.net/image.php?id=zesty-unity8-mir&image=ubuntu1704_unity8_2_med) for inspiration
+
 ---
 
 # With a "universal" app platform, we can optimize our builtin browser for documents and sites

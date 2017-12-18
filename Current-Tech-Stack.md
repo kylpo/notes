@@ -1,9 +1,22 @@
+Code style
+
+"Good line of sight" functions. Happy path on left side (means return early) and avoid else returns. [Line of sight in code – Mat Ryer – Medium](https://medium.com/@matryer/line-of-sight-in-code-186dd7cdea88)
+
+---
+
+CSS Style
+
+[David K\. 🎹 on Twitter: "IMO this is the best way to use the style attribute\. And it works in React for all your dynamic styling needs\! 🎨💯 https://t\.co/sxm9eB3SuR"](https://twitter.com/DavidKPiano/status/938387555032227841)
+
+---
+
 Yarn, not npm
 
 Prettier on save
 
 Linaria for static css-in-js
 - [How is Linaria different from Emotion – Callstack Engineers](https://blog.callstack.io/how-is-linaria-different-from-emotion-42e420a3984f)
+- Use the webpack loader: https://github.com/callstack/linaria/pull/186/files
 
 Testing
 - jest
@@ -20,6 +33,8 @@ Smitty (for small state solution)
 - and connect it to router http://codepen.io/seveves/pen/ryyNYz
 
 or maybe Redux Zero? [Introducing Redux Zero – Matheus Lima – Medium](https://medium.com/@matheusml/introducing-redux-zero-bea42214c7ee)
+
+or [developit/unistore: 🌶 650b state container with component actions for Preact & React](https://github.com/developit/unistore)
 
 Look in to [luisvinicius167/dutier: A small (1kb) and simple state management solution for Javascript applications.](https://github.com/luisvinicius167/dutier?utm_source=mobilewebweekly&utm_medium=email)
 
