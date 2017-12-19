@@ -266,6 +266,8 @@ Chrome really is its own OS. Shoved into other OSes. Almost like Flash. Ominousl
 # Workspaces/Spaces/Virtual Desktops
 Spaces short for Workspaces. Ubuntu calls them Workspaces.
 
+How do workspaces work on mobile? [Split\-screen creator \- Android Apps on Google Play](https://play.google.com/store/apps/details?id=com.fb.splitscreencreator) has an interesting idea of bundling split-screen apps together as a shortcut.
+
 # App Switcher
 Some combo of Android and gnome-shell?
 
@@ -749,6 +751,11 @@ Soft keyboard considerations when a hardware keyboard is not present or accessib
 "Access keys allow someone to operate labelled controls by using Alt."
 - [Keyboard input gnome shell](https://developer.gnome.org/hig/stable/keyboard-input.html.en#access-keys)
 
+## Modifier keys switched to colors and shapes
+Instead of ALT, OPTION, CONTROL, SUPER, CMD, META, etc, why not "Green Triangle", "Red Square", etc so our keyboards can be more helpful with labeling results of modifiers. Just like xbox's Chatpad:
+
+![](https://compass-ssl.xbox.com/assets/61/7a/617a6e2e-8629-479c-a0f7-dd084938d70e.jpg?n=X1-Chat-Pad_Gallery_1056x594_01.jpg)
+
 ## System keyboard key
 Mac got this right with `super`. `copy`/`paste` are OS-level functions, so they belong with `super`.
 
@@ -768,6 +775,18 @@ Press hotkey to see hotkeys to follow links and tap buttons, like Vimium and [qu
 Thinking about Hot Corners
 
 Buttons for clickability, like [eXtra Buttons: utility buttons in the title of the window](http://www.xtrabuttons.com/)
+
+# Services (bundled with OS)
+## Clipboard
+Service uses `win-c` `win-v` to copy to and paste from global keyboard. Would be nice to have a service which travels with you and is synced to your account, not just the local system.
+
+Clipboard has actions associated with the text, like what you find in [Clipboard Manager Pro \- Android Apps on Google Play](https://play.google.com/store/apps/details?id=devdnua.clipboard.pro) and [Clipboard Actions \- Android Apps on Google Play](https://play.google.com/store/apps/details?id=de.halfreal.clipboardactions)
+
+![](https://lh3.googleusercontent.com/lLYbwbILpRj1YNT5iE92-h9d888dCPuDQrZHZJ1ssg6Rj-muDfC1-KXokn2rknRDCxxM=h900-rw)
+
+## Printing
+
+## Search
 
 # Widgets (also called Gadgets)
 or, pinned mini-apps
