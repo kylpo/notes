@@ -665,6 +665,11 @@ Well, screen off memo is probably not a good example of Ambient Mode. Instead it
 
 [Justin Searls on Twitter: "1\. Think of important thing 2\. Pick up phone to take action 3\. See unrelated notification 4\. Forget important thing 5\. Be angry forever\."](https://twitter.com/searls/status/910531247205699586) would be prevented with an AOD note
 
+### Screen Savers
+Chromecast's Backdrop (no current API to customize)
+
+Android's Screen Saver
+
 ## Inputs
 Everything input is first-class, and can accomplish most tasks. I.e. a keyboard shorcut should also be accomplished with a just a mouse, which should be accomplishable with just a touch/gesture.
 
@@ -766,6 +771,10 @@ Buttons for clickability, like [eXtra Buttons: utility buttons in the title of t
 
 # Widgets (also called Gadgets)
 or, pinned mini-apps
+
+Widgets enable apps and services to share/use portions of their app, outside of the confines of the app itself. A Dashboard of widgets is possible for users that care about specific pieces of certan apps. They are almost like little iFramed plugins. This is different from Shortcuts, which will always launch the app for the functionality.
+
+Widgets are kind of like a cross between your temporal App and an associated, long-lived Service.
 
 ![](http://cdn.makeuseof.com/wp-content/uploads/2015/09/muo-windows-w10-desktopgadgets-8gadget.jpg?x92042)
 
