@@ -1,4 +1,10 @@
-## Kotlin
+# Kotlin
+
+## References, Idioms, Best Practices
+- [Keywords and Operators \- Kotlin Programming Language](https://kotlinlang.org/docs/reference/keyword-reference.html)
+- [Idioms \- Kotlin Programming Language](https://kotlinlang.org/docs/reference/idioms.html)
+
+## Misc (for now)
   - [Why Kotlin is my next programming language – Mike Hearn – Medium](https://medium.com/@octskyward/why-kotlin-is-my-next-programming-language-c25c001e26e3)
   - compiles to `js`, too: [TodoItem.kt](https://github.com/andrewoma/reakt/blob/master/todo/src/main/kotlin/todo/components/TodoItem.kt)
   - [Introduction to Kotlin at IO 2017](https://www.youtube.com/watch?v=X1RVYt2QKQE)

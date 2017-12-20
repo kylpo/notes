@@ -1,3 +1,8 @@
+
+[LukeW \| Conversions: Living a Testing Culture](https://www.lukew.com/ff/entry.asp?1978)
+
+---
+
 Code style
 
 "Good line of sight" functions. Happy path on left side (means return early) and avoid else returns. [Line of sight in code – Mat Ryer – Medium](https://medium.com/@matryer/line-of-sight-in-code-186dd7cdea88)

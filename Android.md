@@ -17,7 +17,18 @@ I'd love to be able to go all-in on Android as an experiment. Just wish there we
 
 Give me an android "Surface"!!!!
 
-## Dev
+# Dev
+## Best Practices and Conventions
+- [android\-guidelines/project\_and\_code\_guidelines\.md at master · ribot/android\-guidelines](https://github.com/ribot/android-guidelines/blob/master/project_and_code_guidelines.md)
+- [futurice/android\-best\-practices: Do's and Don'ts for Android development, by Futurice developers](https://github.com/futurice/android-best-practices)
+
+## Questions I had
+#### Layouts in XML? Or programmatic?
+- [Anko Layouts · Kotlin/anko Wiki](https://github.com/Kotlin/anko/wiki/Anko-Layouts#why-a-dsl)
+- Programmatic is a bit better for performance
+- XML can use the visual layout builder. Programmatic does not.
+
+## Misc
 - [20\+ Awesome Open\-Source Android Apps To Boost Your Development Skills](https://blog.aritraroy.in/20-awesome-open-source-android-apps-to-boost-your-development-skills-b62832cf0fa4)
 - [Android Developers Blog: Google releases source for Google I/O 2017 for Android](https://android-developers.googleblog.com/2017/08/google-releases-source-for-google-io.html)
 - [Android Distribution: A 5 Year Look at Android Version Adoption](http://www.droid-life.com/2017/08/09/android-o-almost-heres-android-distribution-past-5-years/)
