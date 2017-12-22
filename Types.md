@@ -2,6 +2,9 @@ _WIP_
 
 [Interview with Jesper Louis Andersen about Erlang, Haskell, OCaml, Go, Idris, the JVM, software and…](https://notamonadtutorial.com/interview-with-jesper-louis-andersen-about-erlang-haskell-ocaml-go-idris-the-jvm-software-and-b0de06440fbd)
 
+> The type system saves you countless hours on syntax and type errors. It’s like a spell checker for your program.
+https://mat.tm/joy/
+
 # The test:
 Header using Text's union string prop
 - can it add to the union?

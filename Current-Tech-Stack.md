@@ -27,6 +27,9 @@ Testing
 - jest
 - [Jest In Case \- @thejameskyle](http://thejameskyle.com/jest-in-case.html)
 
+State and Data Fetching
+- Just use Apollo and its newly announced local state tool: `apollo-like-state` [The future of state management – Apollo GraphQL](https://dev-blog.apollodata.com/the-future-of-state-management-dd410864cae2)
+
 Data Fetching
 - Relay
 - or consider [wiretie: A Higher Order Component for Preact that resolves (async) values from a model and passes them down as props.](https://github.com/synacor/wiretie)

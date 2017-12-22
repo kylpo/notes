@@ -5,6 +5,14 @@ Problems with Windows UWP: not able to Extend
 
 ---
 
+Text on Windows Chrome is just slightly blurry. You'll notice this easily when comparing it to Edge. This is because Chrome uses Windows old text rendering, which has had this issue for a loooong time with better displays.
+
+Fortunately, it seems like Firefox's new Quantum does not suffer from this blurry text. Quantum has allowed me to switch back from Linux to Windows. Blurry text reading all day was a deal breaker.
+
+https://dev.to/kayis/a-reason-to-code and http://view.lyftmail.com/?qs=efe229bb795387bc0401f3fa936408e0fc6d2f19edadf0169c5f3567be348a8a9d9675ea33428b7037717f398763bf7bc4039c339df1c0d90479649356b29506a9c8b6703652cab85606adeb7b6a714d9a2c418a9c3ae403 (the Portland text) helped me see this
+
+---
+
 
 # Windows 8 should've just added an app store
 
