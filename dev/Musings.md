@@ -1,3 +1,6 @@
+# Events and Components
+Server calls can just be boiled down to events. You have events and components.
+
 # Web Developers are young
 Interesting thought I just had: I can't think of a single web developer I follow that is over the age of 40.
 
