@@ -1,0 +1,3 @@
+To be included in rant against UWP...
+
+On the rare occassion that I do see a news article I'd like to read, when I click on that story from the start menu, it takes me to the News app, but not to the story. I don't even know where to look for the story. It is like you go to a sushi bar with the sushi boats. You see a delicious looking California Roll, grab it out of the boat, and discover it is just a piece of paper which reads: "go in the back and find your sushi". Not even a reference to what sushi it was.
