@@ -62,3 +62,98 @@ Each option probably takes too much time. May as well stick to `js` or `ts` for 
 - [gbaldeck/vue\.kt: A Kotlin wrapper and PWA starter for Vue\.js\.](https://github.com/gbaldeck/vue.kt)
 - [JetBrains/kotlin\-wrappers: Kotlin wrappers for popular JavaScript libraries](https://github.com/JetBrains/kotlin-wrappers)
 - [Kotlin/kotlin\-fullstack\-sample: Kotlin Full\-stack Application Example](https://github.com/Kotlin/kotlin-fullstack-sample)
+
+## How to get Constelation's AOT functionality in Kotlin?
+
+### Extension Functions?
+Can I just add `View` to `RBuilder` as an extension function? It said somewhere that these are done statically. Maybe???
+
+Nope! Statically in the sense that they are not added to classes. Instead they are added as `static` methods. A class is passed in the the static method under the hood.
+
+Point is, all `View` code would still run on the client.
+
+#### References
+- [Extensions \- Kotlin Programming Language](https://kotlinlang.org/docs/reference/extensions.html)
+- [Static extension methods in Kotlin \- Stack Overflow](https://stackoverflow.com/questions/28210188/static-extension-methods-in-kotlin)
+- [The Ugly Truth about Extension Functions in Kotlin – AndroidPub](https://android.jlelse.eu/the-ugly-truth-about-extension-functions-in-kotlin-486ec49824f4)
+- [How do extension functions work? \- Kotlin Discussions](https://discuss.kotlinlang.org/t/how-do-extension-functions-work/609)
+
+## Well how is Jet Brains doing css-in-js?
+They aren't. Good ole static css. Bummmmmer.
+
+[kotlinconf\-app/style\.css at master · JetBrains/kotlinconf\-app](https://github.com/JetBrains/kotlinconf-app/blob/master/web/src/main/web/style.css)
+
+### Generate code with Annotations?
+Can I use kapt to generate the css files?
+
+No, annotations are used to auto-generate kotlin and bytecode classes, not for something like css files. Also, recently, people have [complained](https://discuss.kotlinlang.org/t/kapt-and-generating-kotlin-rather-than-java/2542/4) about gradle task times for kapt.
+
+#### References
+- [Hello World of Annotation Processing in Kotlin – ProAndroidDev](https://proandroiddev.com/hello-world-of-annotation-processing-in-kotlin-3ec0290c1fdd)
+- [Using kapt \- Kotlin Programming Language](https://kotlinlang.org/docs/reference/kapt.html)
+
+### How does `vue-kotlin` do it?
+[vue\-kotlin \| Libraries and tools supporting the use of Vue\.js in Kotlin\.](https://nosix.github.io/vue-kotlin/) has a `translate()` function which creates a `.vue` file.
+
+Cool!
+
+Buuut, the user of the lib needs to call it at the end of their code. As shown [here](https://github.com/nosix/vue-kotlin/blob/ac6fe5447cd751d8a680a7d37f252c593cc525fd/single-file/greeting-component/main/GreetingComponent.kt):
+
+```kotlin
+external class GreetingComponent : Vue {
+    var greeting: String
+}
+
+class GreetingComponentVue : ComponentVue<GreetingComponent> {
+
+    override val template: String = """<p>{{ greeting }} World!</p>"""
+
+    override val style: StyleBuilder = {
+        p {
+            fontSize = 2.em
+            textAlign = center
+        }
+    }
+
+    override val script: ComponentOptionsBuilder<GreetingComponent> = {
+        data = Data {
+            json<GreetingComponent> {
+                greeting = "Hello"
+            }
+        }
+    }
+}
+
+@Suppress("unused")
+val options = translate(GreetingComponentVue())
+```
+
+Bummmmmer!
+
+### Transform the code
+OK, so Kotlin has a compiler which converts kotlin to js. Surely there must be a way.
+
+[Any plans for something like Groovy\-style AST transformations? \- Kotlin Discussions](https://discuss.kotlinlang.org/t/any-plans-for-something-like-groovy-style-ast-transformations/752)
+
+> Yes, we are planning to support AST transformaions, and make them a public API at some point. - Oct of 2012
+
+> Yes, something along these lines is planned - Aug of 2013
+
+> AST transformations are not on our medium-term roadmap at this time, but it’s possible that they will appear in a later version at some point. - Nov of 2016
+
+./flip-table
+
+An API does not exist, but the language architect mentions we have all that is needed in the Kotlin compiler, REPL, and IDE plugins. Look for the `ExpressionTypingVisitor` and classes prefixed with `Jet`. [abstract syntax tree \- How to get Kotlin AST? \- Stack Overflow](https://stackoverflow.com/questions/32664842/how-to-get-kotlin-ast) is the best starting point, including this parser exploration: [kotlin\-script\-parser\-test/CompileTest\.kt at master · vektory79/kotlin\-script\-parser\-test](https://github.com/vektory79/kotlin-script-parser-test/blob/master/src/main/java/hello/CompileTest.kt)
+
+So, long answer is: YES! This all can be done. ..With a lot of work. Worth it? I thought so, until I realized I'd need to build something similar for Apollo's AOT optimizations and any future js tools that rely on it.
+
+#### References
+- [kotlin/idea/idea\-repl/src/org/jetbrains/kotlin/console at master · JetBrains/kotlin](https://github.com/JetBrains/kotlin/tree/master/idea/idea-repl/src/org/jetbrains/kotlin/console)
+- [kotlin\-js\-example/build\.gradle at master · bascan/kotlin\-js\-example](https://github.com/bascan/kotlin-js-example/blob/master/build.gradle)
+- [kotlin/Tasks\.kt at master · JetBrains/kotlin](https://github.com/JetBrains/kotlin/blob/master/libraries/tools/kotlin-gradle-plugin/src/main/kotlin/org/jetbrains/kotlin/gradle/tasks/Tasks.kt)
+- [kotlin/js at master · JetBrains/kotlin](https://github.com/JetBrains/kotlin/tree/master/js)
+- [Working with the Command Line Compiler \- Kotlin Programming Language](https://kotlinlang.org/docs/tutorials/command-line.html)
+- [VerachadW/kraph: GraphQL request string builder written in Kotlin](https://github.com/VerachadW/kraph)
+
+### Conclusion
+JS is still too new and moving to quickly for Kotlin to keep up. It has the base case story, but not enough edges cases. Edge cases that I completely rely on the build performant code in a friction-less way.
