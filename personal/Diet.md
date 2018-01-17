@@ -5,8 +5,9 @@ We grow food to feed cows. Growing food takes space + energy, growing cows takes
 
 [The FBI’s Hunt for Two Missing Piglets Reveals the Federal Cover\-Up of Barbaric Factory Farms](https://theintercept.com/2017/10/05/factory-farms-fbi-missing-piglets-animal-rights-glenn-greenwald/?utm_source=pocket&utm_medium=email&utm_campaign=pockethits)
 
-
 [Never mind CCTV in slaughterhouses – we need to end the meat and dairy industry altogether \| The Independent](http://www.independent.co.uk/voices/meat-dairy-vegan-slaughterhouses-vegetarian-a7891046.html)
+
+[The diet that helps fight climate change \- YouTube](https://www.youtube.com/watch?v=nUnJQWO4YJY)
 
 # Resources for vegan
 - [Vegan Nutrition Guide](https://www.vegan.com/nutrition/)
