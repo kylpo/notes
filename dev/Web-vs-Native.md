@@ -189,6 +189,11 @@ https://daverupert.com/2016/10/desktop-is-lava/ had some good points:
 "So, web folks, I'm trying to #usetheplatform. But the platform can't smoothly collapse variable length content. Help?"
 - https://twitter.com/jamespearce/status/807398999049191425
 
+and [Jed Watson on Twitter: "🤬 I hate it when browsers think they know better than I do, but they don't, and they
+won't listen to me\. Safari COMPLETELY breaks react\-select in this example: https://t\.co/i7hEAvWt3f \(try to type
+in a field\) Use The Platform they said\. How about don't fuck me,
+Platform\."](https://twitter.com/JedWatson/status/954169298280374272)
+
 See also: https://github.com/w3c/csswg-drafts/issues/626
 
 And http://n12v.com/css-transition-to-from-auto/ with the current best practice

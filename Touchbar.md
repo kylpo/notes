@@ -1,5 +1,6 @@
 # MacBook's Touchbar
 
+[MacBook Pro? No – Shahid Kamal](http://shahidkamal.com/macbook-pro-no/?utm_source=hackernewsletter&utm_medium=email&utm_term=cutting_room_floor)
 
 https://twitter.com/jordwalke/status/901705843963338752
 

@@ -1,5 +1,8 @@
 _WIP_
 
+
+[Inference engines: 5 examples with TypeScript, Flow and Reason](https://codeburst.io/inference-engines-5-examples-with-typescript-flow-and-reason-edef2f4cf2d3) for a great overview of Inference diffs between Flow, TS, and Reason.
+
 [Interview with Jesper Louis Andersen about Erlang, Haskell, OCaml, Go, Idris, the JVM, software and…](https://notamonadtutorial.com/interview-with-jesper-louis-andersen-about-erlang-haskell-ocaml-go-idris-the-jvm-software-and-b0de06440fbd)
 
 > The type system saves you countless hours on syntax and type errors. It’s like a spell checker for your program.
