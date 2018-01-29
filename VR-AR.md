@@ -3,6 +3,11 @@ from Amit Singh @ google IO:
 
 > AR can bring anything to you.
 
+# VR
+[Plex VR](https://www.plex.tv/features/vr/) enables you to watch a digit screen, on a digital couch, with your remote/digital friends. Pretty awesome idea.
+
+![](https://www.plex.tv/wp-content/uploads/2018/01/image-block-vr-watch-together-1600x750.jpg)
+
 
 # AR
 - [LukeW \| What Would Augment Reality? \(1\-10\)](https://www.lukew.com/ff/entry.asp?1974)
