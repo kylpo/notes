@@ -25,3 +25,4 @@ from Amit Singh @ google IO:
 - [ARKit Weekly on Twitter: "🤳 1\. Hold up your iPhone → 2\. Find your festival friends → 3\. Rock on 🤟 Courtesy of ARKit 💖 Demo = @neonapp by @mrdavidurbina 🦄 https://t\.co/S9mp5Mjlal"](https://twitter.com/ARKitweekly/status/897471070202187776)
 - [ARCore vs\. ARKit: Google Counters Apple – IoT For All – Medium](https://medium.com/iotforall/arcore-vs-arkit-google-counters-apple-33483c08d3da) 
 - [Why I’m not completely sold on the ARKit revolution](https://hackernoon.com/why-im-not-completely-sold-on-the-arkit-revolution-2e2d261b73ed)
+- [Andrew Hart on Twitter: "A little demo of what’s possible with Image Recognition in ARKit, coming in iOS 11\.3… "](https://twitter.com/AndrewProjDent/status/958759429473734657)
