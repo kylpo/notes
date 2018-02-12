@@ -1,4 +1,10 @@
 
+Currently thinking about Preact + Unistore and [DonnieWest/unissist: ⛑ A ~300b unistore helper to persist your data using equally tiny storage adapters](https://github.com/DonnieWest/unissist)
+
+https://twitter.com/codeincontext/status/961692339033882626 is relevant
+
+---
+
 [LukeW \| Conversions: Living a Testing Culture](https://www.lukew.com/ff/entry.asp?1978)
 
 ---

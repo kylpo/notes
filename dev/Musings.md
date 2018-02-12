@@ -6,6 +6,12 @@ Interesting thought I just had: I can't think of a single web developer I follow
 
 Older developers have likely settled on platforms that change less often. They have a family to spend time with, and they can't waste their weekends on staying in the know.
 
+[Everything Easy is Hard Again – Frank Chimero](https://frankchimero.com/writing/everything-easy-is-hard-again/)
+
+> Except with the websites. They separate themselves from the others, because I don’t feel much better at making them after 20 years. My knowledge and skills develop a bit, then things change, and half of what I know becomes dead weight. This hardly happens with any of the other work I do.
+
+> I wonder if I have twenty years of experience making websites, or if it is really five years of experience, repeated four times. If you’ve been working in the technology industry a while, please tell me this sounds familiar to you.
+
 # You'll know that you are senior in a team when you answer more questions than you ask
 
 # Easier in isolation
