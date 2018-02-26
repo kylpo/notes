@@ -131,3 +131,7 @@ I didn't want this post to sound ranty, but I'm honestly really upset with Micro
 Woah, it looks like they are opening the app store to desktop apps!!!
 - Evernote, from the app store, is able to use multiple windows and access global hotkeys.
 - Spotify is now on the app store, and only works on desktop.
+
+Windows just has really weird display bugs, still. Whyyyyy?
+
+https://www.digitaltrends.com/computing/surface-book-2-as-only-pc/#ampshare=https://www.digitaltrends.com/computing/surface-book-2-as-only-pc/

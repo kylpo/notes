@@ -1,6 +1,14 @@
 # Events and Components
 Server calls can just be boiled down to events. You have events and components.
 
+# UI Dev vs Programming
+UI Dev is all about events and components
+
+Programming is all about functions, data structures, operations, and primitives
+
+# Meta Programming
+is it just code that writes other code for the coder? Babel transforms that generate .css, for example.
+
 # Web Developers are young
 Interesting thought I just had: I can't think of a single web developer I follow that is over the age of 40.
 
@@ -13,6 +21,15 @@ Older developers have likely settled on platforms that change less often. They h
 > I wonder if I have twenty years of experience making websites, or if it is really five years of experience, repeated four times. If you’ve been working in the technology industry a while, please tell me this sounds familiar to you.
 
 # You'll know that you are senior in a team when you answer more questions than you ask
+
+# Senior devs
+I believe a senior developer/engineer should be able to look at a product, and know how to build it. And know all the questions to ask to satisfy, requirements.
+
+A senior web developer, for example, should be able to look at each piece of nike.com and know how they'd go about building it. Names of elements, js events, state storage, etc.
+
+Same probably goes for real engineers and architects.
+
+This is how I knew I was not yet a senior Android Dev for a bit.
 
 # Easier in isolation
 Much easier to attack something in isolation.

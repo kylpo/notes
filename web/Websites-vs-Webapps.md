@@ -1,5 +1,54 @@
 _WIP_
 
+
+Really, the main distinction I could think of was whether the content is tailored to you specifically or not. Gmail is
+ONLY your content. Versus some Forum, which I deem to be a site, that you can log in to, but the information is all
+public. Pieces will change based on your logged in vs logged out status, but the site exists. The content exists,
+independent of your existence.
+
+<<link to guermo's definition>>
+<<link to google.io panel where jake tries to answer>>
+
+Why does this matter?
+Mainly because how you build the two can be radically different. Sites may be best to have global css and templates to
+be filled with a cms, for example. They also will care strongly about cache-ability and preserving state in the url.
+They may even be fine to keep any internal state in document.window. No redux required. This is why jquery, backbone,
+etc are still viable solutions. Also a reason for people to prefer Vue vs React. Vue aligns better with html, React
+aligns better with JS.
+
+Apps do cater much better to a component, re-usable model.
+
+In choosing a framework and tech stack, you'll see arguments all over the board, and it isn't necessarily that that
+strongly opinionated person is wrong, it is just that they may have different concerns and objectives for their web
+service. They may fall more on the site side or the app side.
+
+What gets really trick is when sites have app features, or apps have site features. Nike.com has a login with
+personalized content, more than just a browser cookie with the user's shopping cart. It has personalized
+recommendations, a shoe builder, etc.
+
+It can be equally difficult to bolt on site-like features to apps. This is why SSR can be such a big deal, and
+extracting css can be such a big deal.
+
+---
+
+A site is transient. You may come back to it, you may not. This is also what Android's Instant App is useful for. It is
+used for handling shared links to in-app resources.
+
+An app is built for returning users. "You will come back"
+
+site is something you'd want links to, really. It is more of a document or file. Android's Instant Apps make sense here.
+IMDB's native app is more like a site, because it is more of a repository of resources. These resources should be
+Instant App capable.
+
+an App, something that wouldn't really have a resource a user would like linked to, would not benefit from Instant Apps
+modularization. IMDB can have app-like features, like logged-in user suggestions, special offers, etc, that you would
+not really be able to benefit from Instant Apps.
+
+---
+
+
+---
+
 Let's standardize a Website's (or Web Document's) characteristics:
 - Best thought of as a living or static document
 - Annotation standard applies

@@ -1,6 +1,39 @@
 _WIP_
 
+# Explaining Constelation
+Start with perfect web code: html with classnames of semantic elements with external css (could have inlined critical
+css, too). Now identify the pain points for the developer. Copy/paste re-use of styles, elements, interactivity, etc. 
+
+```jsx
+<div class="container">
+  <header>HEADER</header>
+    <aside>MENU</aside>
+      <main>CONTENT</main>
+        <footer>FOOTER</footer>
+        </div>
+        
+        Now move external  css next to components, not just 1 css file. Easier to find what to edit, but still
+        complicated when using util classes and shared styles.
+        
+        Now move to css-in-js to define styles in the file. OK, doesn't help all that much. Shared styles are imported.
+        Clearer what style dependencies you have.
+        
+        Still need to name things, that sucks. Still need to copy/paste multiple things, that sucks.
+        
+        Constelation: no naming, easy copy/paste, no jumping to look up what an element really is. Clear separation of
+        concerns.</footer></main></aside></header>
+</div>
+```
+
 # Developing at prototype speed
+
+# Future: Developing at speed of imagination (and beyond)
+Imagination is like l2 cache for a cpu. You can "build" things and change them really quickly. Sketch could be thought
+of as RAM. Prototypes thought of as SSD. Products thought of as Hard Disk. Each thing further and further away from
+imagination takes more and more time to change.
+
+The goal is to get building apps/sites as close to imagination speed as possible. Machine learning could take us beyond
+imagination by essentially bringing in others' imaginations.
 
 # Constelation API
 https://github.com/constelation/monorepo/issues/73
@@ -231,6 +264,24 @@ range of component concerns (completely isolated, app-aware, route-aware)
 
 saying we can have all modular components is like saying the best security is turning off your computer and burying it 100 feet deep. They're just impractical.
 
+# Two approaches to separating concerns
+Two approaches I can take with separating concerns. Either complete seperation, or some separation.
+
+Lets build a green box that does something on click.
+
+Complete Separation:
+Put down a drop of green paint. Now, expand that paint to desired size by putting a box in it. Now, wrap that whole
+thing with an interact to make it interactive.
+
+Or you could think of things as always filling space, and flex just being a container to stop it at certain points.
+
+Some Separation:
+Place a box down with desired size. All elements in dom have styles, and all elements in dom have interactability, so
+add you style and event objects to this box.
+
+Something I really liked when learning and using React Native was the lack of a button component. Instead, you had a
+Touchable wrapping a Text component. Want a border and padding? Add it to the touchable. Same goes for a link: it is .a
+Touchable wrapping a Text component without a border, and without padding. Simple.
 
 # In prep for conf talk
 Building quickly for web and native gives me rare insights. Something I should leverage.
