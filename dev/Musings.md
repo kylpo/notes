@@ -1,3 +1,13 @@
+# Single File Components easier to refactor
+Single file components easier to incrementally refactor. Android, on the other hand requires building multiple things/files, then connecting then all together, and crossing your fingers to see if they work. Probably not a big deal when you know what your doing, but makes life more difficult for newbies.
+
+# Component vs Traditional Code
+components are different in that they don't have a main() method. They have lifecycle methods that are invoked at specific times. Thought about from:
+
+"Unlike programming paradigms in which apps are launched with a main() method, the Android system initiates code in an Activity instance by invoking specific callback methods that correspond to specific stages of its lifecycle."
+
+https://developer.android.com/guide/components/activities/intro-activities.html
+
 # Events and Components
 Server calls can just be boiled down to events. You have events and components.
 

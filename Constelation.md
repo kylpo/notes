@@ -264,6 +264,10 @@ range of component concerns (completely isolated, app-aware, route-aware)
 
 saying we can have all modular components is like saying the best security is turning off your computer and burying it 100 feet deep. They're just impractical.
 
+---
+
+Layout components' attribute are basically all the things that wouldn't change with themes.
+
 # Two approaches to separating concerns
 Two approaches I can take with separating concerns. Either complete seperation, or some separation.
 

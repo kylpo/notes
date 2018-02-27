@@ -49,3 +49,6 @@ https://developers.google.com/web/fundamentals/design-and-ui/responsive/
 # Notification Considerations
 Jeez, I installed the @Medium app and now I get like 5 push notifications per day about stories published. Like the boy who cried wolf!
 - https://twitter.com/spikebrehm/status/877579699576217600
+
+# Relative values where possible
+So much more useful to see "6 degrees warmer than yesterday" for the weather forecast

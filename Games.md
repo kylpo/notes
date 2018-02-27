@@ -1,4 +1,12 @@
 
+Video Game vacations
+
+Looking through a Steam Sale email, it hit me that each one of these games would only really be fun if I could take a full weekend to week off in order to play them. Maybe this is why gaming nerds don't feel the need to get out much? They're always on vacation, "travel" to new worlds and enjoying learning the rules and how to beat/accomplish on their journey.
+
+This was a reason BYOC was so fun.
+
+---
+
 I am convinced I could start a successful gaming company that just rips off and re-brands custom maps from WC3 and Starcraft.
 
 https://play.google.com/store/apps/details?id=com.gameinsight.crtd looks a bit like one of them.
