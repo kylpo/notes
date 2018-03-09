@@ -2,6 +2,16 @@
 
 ---
 
+[Good to great UI animation tips – UX Collective](https://uxdesign.cc/good-to-great-ui-animation-tips-7850805c12e5)
+
+* Shared Elements
+* cascading effects
+* make content push other elements
+* use buttons to show different state
+* bring attention to something important
+
+---
+
 
 Transitions transform elements that already exist. Else, they need to enter from off screen.
 

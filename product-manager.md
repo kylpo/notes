@@ -4,6 +4,7 @@ Working Backwards
 - Then go backwards
 - This is what Amazon does: [What is Amazon's approach to product development and product management?](https://www.quora.com/Amazon-company-What-is-Amazons-approach-to-product-development-and-product-management)
 - [Why You Need to Follow the Steve Jobs Method and 'Work Backwards' \| Inc\.com](https://www.inc.com/dave-bailey/why-you-need-to-follow-the-steve-jobs-method-and-w.html)
+- [Ask HN: Move to product management at 35? \| Hacker News](https://news.ycombinator.com/item?id=16515470&utm_source=hackernewsletter&utm_medium=email&utm_term=ask_hn)
 
 ---
 
