@@ -2,6 +2,10 @@
 
 [MacBook Pro? No – Shahid Kamal](http://shahidkamal.com/macbook-pro-no/?utm_source=hackernewsletter&utm_medium=email&utm_term=cutting_room_floor)
 
+[Making the Touch Bar finally useful :: By abandoning crappy Apple guidelines :: vas3k's blog](http://vas3k.com/blog/touchbar/?utm_source=hackernewsletter&utm_medium=email&utm_term=design)
+
+[Jake Wharton on Twitter: "Brought my work MBP for this presentation because the left shift key is broken on my personal MBP\. Now spacebar, down arrow, and 0 are all starting to not register on the work MBP\. Compound with the useless touchbar and too\-large touchpad, this generation of MBPs must be culled\."](https://twitter.com/JakeWharton/status/983817049976684545)
+
 https://twitter.com/jordwalke/status/901705843963338752
 
 https://twitter.com/wincent/status/904552164726521857

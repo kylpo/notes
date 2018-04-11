@@ -1,3 +1,6 @@
+
+[\#davewentandroid \- daverupert\.com](https://daverupert.com/2018/04/dave-went-android/)
+
 # Quick thoughts on Daydream
 
 Love the idea of no-cable. Also thought it'd be fun to use my wireless earbuds with this wireless headset.
