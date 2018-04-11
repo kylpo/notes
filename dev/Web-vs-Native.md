@@ -1,4 +1,13 @@
 
+> One camp tells me the current/future is fast devices, crappy network. Build  offline first (bigger JS app).
+
+> Another camp tells me network is fine, devices are slow. Ship less JS, don’t worry about the network, worry about parse/eval time.
+
+> Mutually exclusive optimizations 😐
+[Ryan Florence](https://twitter.com/ryanflorence/status/963282206079696896)
+
+---
+
 First of all, I LOVE the web.
 
 I love stumbling on the random forum where total strangers are helping each other. Such an amazing thing.

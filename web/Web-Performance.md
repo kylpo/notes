@@ -2,6 +2,10 @@ _WIP_
 
 ---
 
+[Lazy Loading Images and Video  \|  Web Fundamentals  \|  Google Developers](https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video/)
+
+---
+
 [Understanding the Critical Rendering Path](https://bitsofco.de/understanding-the-critical-rendering-path/)
 
 [Achieve 60 FPS Mobile Animations with CSS3 — SitePoint](https://www.sitepoint.com/achieve-60-fps-mobile-animations-with-css3/?utm_source=frontendfocus&utm_medium=email)
