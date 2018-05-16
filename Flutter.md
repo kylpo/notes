@@ -13,6 +13,10 @@ Also, a commenter had some great questions:
 > Splash screens / window drawables : can we use them or do we depend on Flutter to be fully loaded before we can show anything?
 > Tooling: IntelliJ is great, but a visual layout editor for developers & designers is kind of a big deal. When will we see something like this? Here I think Flutter could be the best, especially when pulling in all custom-made Flutter widgets from GitHub. App store for widgets! :D
 
+# Against Flutter
+- No Instant Apps: no way to separate app, also Flutter adds size to apks
+- No launcher widgets (built in Flutter, that is)
+
 # Open Issues
 - [Inline Maps support · Issue \#73 · flutter/flutter](https://github.com/flutter/flutter/issues/73)
 - [Instance state not saved when app is killed by OS · Issue \#6827 · flutter/flutter](https://github.com/flutter/flutter/issues/6827)

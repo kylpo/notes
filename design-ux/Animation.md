@@ -41,4 +41,6 @@ An easing function establishes the relation between time and animation’s progr
 
 Short for in-betweening, the process of generating intermediate frames between two images to give the appearance that the first image evolves smoothly into the second image. Tweening is a key process in all types of animation, including computer animation.
 
+---------------
 
+Need to change the size? Try rotating it while re-sizing. I've seen this a lot int he collect-ui animations.

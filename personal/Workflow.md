@@ -1,5 +1,17 @@
 _WIP_
 
+# Building apps
+Design STRUCTURE first. Normally this would be gray-box mockups, but gray-box was just a low level primitive that
+required little config and thought. This primitive can be replaced now with Material Design primitives.
+
+Visually build out that structure as developer in Navigation and Design modes.
+
+TDD the wiring up of these static screens.
+
+Tests can not, and should not cover your design, so test should 100% cover the FUNCTIONALITY of an app. This includes
+verifying the visibility of something after an animation has finished, but not that the buttons' corners are rounded,
+for instance.
+
 # Anki
 Anki in the morning, before other work.
 - has its problems though, sometimes I'm excited about getting to work asap in the morning, and I have to fight through Anki.

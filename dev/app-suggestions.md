@@ -50,3 +50,9 @@ If it is a document, you might want to register your app for the document's form
 If you're persisting only to a database, your users may appreciate an `Export` option to a document, even if it is just a `json`, `csv`, or `xml`.
 
 ![https://play.google.com/store/apps/details?id=com.underwood.monospace](https://lh3.googleusercontent.com/1xRzeg-SseMfDEK4Xz4vzI09NkDduxSwGwj-MaL4-0zPnaRPWWqjdfyecfeQs2YNgeKE=h900-rw)
+
+# First Time Users
+See a different version of your app. Icons are clearly labeled, certain features may be omitted.
+
+# Dark Theme
+For saving battery (for OLED screens) and a mode which users will prefer at night

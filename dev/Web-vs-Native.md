@@ -1,4 +1,10 @@
 
+The web, to me, is all about content and information.
+
+Thought about Google search being critical. I wouldn't really use google to find an app. I do use it to search web for image and such though.
+
+---
+
 > One camp tells me the current/future is fast devices, crappy network. Build  offline first (bigger JS app).
 
 > Another camp tells me network is fine, devices are slow. Ship less JS, don’t worry about the network, worry about parse/eval time.

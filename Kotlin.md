@@ -1,5 +1,12 @@
 # Kotlin
 
+## Why Kotlin?
+A power of Kotlin is that it is concise. Like how Javascript became more concise when destructuring was added.
+
+https://blog.kotlin-academy.com/the-character-of-kotlin-conciseness-2c70bc141985
+
+It is also expressive. Like the many ways to avoid using if statements. Use more expressive statements that better identify what type of if it is.
+
 ## References, Idioms, Best Practices
 - [Keywords and Operators \- Kotlin Programming Language](https://kotlinlang.org/docs/reference/keyword-reference.html)
 - [Idioms \- Kotlin Programming Language](https://kotlinlang.org/docs/reference/idioms.html)

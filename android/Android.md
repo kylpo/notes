@@ -8,6 +8,9 @@ from [Lenovo's 'Yoga' Android tablet has a built\-in kickstand containing an 18\
 
 Asus Transformers
 
+As a developer, I like android because it lets my imagination run wild! Lock screen apps, instant apps, widgets,
+overlays, all the things!
+
 # Why I'm falling in love with Android all over again
 Recently, I've been researching OS platforms and their capabilites. Because I landed on MacOS as the best desktop and power user option, I thought I should give iOS another hard look. Also, not gonna lie, the ARKit is compelling. What I learned in my iOS vs Android is that Android is just so well positioned to continue dominance.
 
@@ -22,11 +25,70 @@ Give me an android "Surface"!!!!
 - [android\-guidelines/project\_and\_code\_guidelines\.md at master · ribot/android\-guidelines](https://github.com/ribot/android-guidelines/blob/master/project_and_code_guidelines.md)
 - [futurice/android\-best\-practices: Do's and Don'ts for Android development, by Futurice developers](https://github.com/futurice/android-best-practices)
 
+## android.widget vs android.app
+android.widget - mechanism
+- shows state to the user
+- reports user interaction events to higher level portions of app
+
+## Android's own "VirtualDOM" (how widgets are drawn)
+Android has its own form of Virtual DOM, called DisplayList. It is a representation of a tree of rendering commands for
+a view that was invalidate()d, traversal()d. This optimization took over the old draw() imperative command.
+
+Java side produces diff of changes, then render thread takes over to apply those changes with the gpu (to
+canvas/opengl).
+
+Render Thread: thread responsible for issuing display list operations to GPU. It only talks to GPU, nothing else.
+
+android.app - policy (fragments, activities)
+- defines WHAT state to bind to widgets
+- HOW to respond to user interaction and HOW to issue changes to model
+
 ## Questions I had
 #### Layouts in XML? Or programmatic?
 - [Anko Layouts · Kotlin/anko Wiki](https://github.com/Kotlin/anko/wiki/Anko-Layouts#why-a-dsl)
 - Programmatic is a bit better for performance
 - XML can use the visual layout builder. Programmatic does not.
+
+#### Use Google Drive to sync apps across device?
+Not really possible. Drive is used to backup and restore.
+
+#### Clean Architecture?
+All about making Tests fast, isolated, repeatable. Each layer only cares about one thing.
+
+More notes:
+
+Their prescribed architecture pattern is MVVM (Model-View-View Model) and it uses the ViewModel to source data from a repository, apply presentation logic and pass it to the view using LiveData.
+
+could become bloated with the business logic required to map together these disparate data sources
+
+Nice images here, too: https://medium.com/@thereallukesimpson/clean-architecture-with-mvvmi-architecture-components-rxjava-8c5093337b43
+
+
+Data layer is represented by Repository interfaces. All data needed for the application comes from this layer. Each repository works with a single, well-defined aspect of application (users, messages, events inbox, etc)
+
+Domain layer’s element is UseCase. UseCase’s role is to combine data layer elements to perform a combination of data operations.
+
+- Business rules here: all the logic happens in this layer. Regarding the android project, you will see all the interactors (use cases) implementations here as well.
+- This layer is a pure java module without any android dependencies. All the external components use interfaces when connecting to the business objects.
+
+https://blog.uptech.team/clean-architecture-in-android-with-kotlin-rxjava-dagger-2-2fdc7441edfc
+
+https://fernandocejas.com/2014/09/03/architecting-android-the-clean-way/
+
+https://github.com/android10/Android-CleanArchitecture
+
+./gradlew runUnitTests - Execute domain and data layer tests (both unit and integration).
+
+./gradlew runAcceptanceTests - Execute espresso and instrumentation acceptance tests.
+
+
+A ViewState is just a data container, holding all the information the view needs to render himself.
+-  the view is observing changes in a ViewState objects. These ViewStates are delivered by LiveData objects. The LiveData objects being updated, and are part of, a presenter.
+
+ViewModel has the ViewState, and updates it for the View to observe. It is a data class within the ViewModel.
+
+https://proandroiddev.com/a-guided-tour-inside-a-clean-architecture-code-base-48bb5cc9fc97
+
 
 ## Misc
 - [20\+ Awesome Open\-Source Android Apps To Boost Your Development Skills](https://blog.aritraroy.in/20-awesome-open-source-android-apps-to-boost-your-development-skills-b62832cf0fa4)

@@ -36,6 +36,8 @@ Things to consider before writing any code
 Fork this doc into Web Considerations and Web Suggestions. Suggestion style is like `DO: ___`, `WHY: ___`, like a style guide
 
 # Feature Flags
+Google employs a Feature-guarded development, where they release apps with flags turned off. Then on server, they stagger them on and monitor for instabilities.
+
 ![https://css-tricks.com/ios-11-safari-feature-flags/](https://res.cloudinary.com/css-tricks/image/upload/c_scale,w_1000,f_auto,q_auto/v1506483761/Artboard-2_lldtij.jpg)
 
 - Build in a feature flag capability from the start. You'll eventually want it for A/B testing, staged releases, and potentially even a beta program.
@@ -49,6 +51,7 @@ Fork this doc into Web Considerations and Web Suggestions. Suggestion style is l
   - and using `.env` files
 - [React 16: A look inside an API\-compatible rewrite of our frontend UI library \| Engineering Blog \| Facebook Code \| Facebook](https://code.facebook.com/posts/1716776591680069/react-16-a-look-inside-an-api-compatible-rewrite-of-our-frontend-ui-library)
   - they've been rewritting the core via flags. This allowed them to remain working on a single branch (not forking the code).
+
 
 ```js
 import isEnabled from 'my-features';
