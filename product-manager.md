@@ -8,6 +8,10 @@ Working Backwards
 
 ---
 
+[How To Sell The Problem Before Selling The Solution](https://medium.com/swlh/how-to-perfectly-capture-your-customers-need-c924e3209484)
+
+---
+
 Write your one-page business plan: https://fizzle.co/sparkline/simple-business-plan
 
 http://lizthedeveloper.com/teaching-is-selling

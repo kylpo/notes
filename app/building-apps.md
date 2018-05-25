@@ -9,6 +9,14 @@ TDD the wiring up of these static screens.
 
 Tests can not, and should not cover your design, so test should 100% cover the FUNCTIONALITY of an app. This includes verifying the visibility of something after an animation has finished, but not that the buttons' corners are rounded, for instance.
 
+### From macro to micro
+Go from big structural work to the micro work. Micro interactions and animations, and micro copy.
+
+[Micro\-interactions: why, when and how to use them to improve the user experience](https://uxdesign.cc/micro-interactions-why-when-and-how-to-use-them-to-boost-the-ux-17094b3baaa0)
+
+[The magic of microcopy – UX Collective](https://uxdesign.cc/the-magic-of-microcopy-a56c5decbe1f), [Microcopy: Tiny
+Words With A Huge UX Impact – UX Planet](https://uxplanet.org/microcopy-tiny-words-with-a-huge-ux-impact-90140acc6e42), [7 guidelines for writing accessible microcopy](https://www.invisionapp.com/blog/writing-accessible-microcopy/)
+
 ## User Testing
 Nevermind if you'd use it or buy it. What things do you expect to see or use that aren't here?
 
