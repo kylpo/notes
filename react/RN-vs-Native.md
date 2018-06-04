@@ -2,6 +2,13 @@ _WIP_
 
 [Thoughts on React Native from an iOS developer – Weihang Lo – Medium](https://medium.com/@weihanglo/thoughts-on-react-native-from-an-ios-developer-57609c33b2f6)
 
+[Spike Brehm on Twitter: "We introduced RN to reduce the number of platforms we needed to build for\. But because the web, iOS, and Android teams and platforms were so mature, we ended up adding a \*fourth\* platform to build for\.… https://t\.co/prZeDlZNLZ"](https://twitter.com/spikebrehm/status/1003150215422017537)
+
+[Ben Sandofsky on Twitter: "Pinterest announces they’re trying React Native\. NextDoor dev shares their experiment was a
+huge mistake\. “I really really hope your team doesn’t go down the same exact \*expensive\* path that we and many others
+have gone down only to find the same thing”
+https://t\.co/lUgPONZPh6"](https://twitter.com/sandofsky/status/1002634185566236679)
+
 # React Native
 You can, but should you?
 
