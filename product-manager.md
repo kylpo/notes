@@ -1,4 +1,16 @@
 # The Product Manager role
+
+
+---
+
+For ___[target audience], it’s a constant challenge to ___[general problem]. Every ___[time period], these people ___[perform a key activity] in order to ___[achieve a primary goal]. This is especially true if you’re a [niche].
+The main problem they face is ___[primary functional problem relating to activity] which leads to ___[bad/worst case outcomes]. Today, their best option is ___[substitutes], but of course, they ___[the most common complaints of each substitute]. With ___[key trend], the problem will only get worse over time.
+If only there was a easier/better/cheaper way to ___[perform a key activity], then customers could ___[quantifiable impact on their primary goal] which would lead to ___[positive outcomes / emotions]. With ___[number of potential customers], there is a clear opportunity to meaningfully impact a huge number of people.
+
+[How To Sell The Problem Before Selling The Solution](https://medium.com/swlh/how-to-perfectly-capture-your-customers-need-c924e3209484)
+
+---
+
 Working Backwards
 - Start with the press event, write a few paragraph of what you’ll tell the media
 - Then go backwards

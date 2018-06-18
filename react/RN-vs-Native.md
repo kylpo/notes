@@ -1,5 +1,7 @@
 _WIP_
 
+[Nate Ebel on Twitter: "removed React Native from our codebase\.\.\. \- decreased apk size 35% 👍 \- decreased build time ~20% 👍 \- decreased number of languages required to fully understand/work on the project 👍 probably my favorite PR merge in a while 😃"](https://twitter.com/n8ebel/status/1006244834351312897)
+
 [Thoughts on React Native from an iOS developer – Weihang Lo – Medium](https://medium.com/@weihanglo/thoughts-on-react-native-from-an-ios-developer-57609c33b2f6)
 
 [Spike Brehm on Twitter: "We introduced RN to reduce the number of platforms we needed to build for\. But because the web, iOS, and Android teams and platforms were so mature, we ended up adding a \*fourth\* platform to build for\.… https://t\.co/prZeDlZNLZ"](https://twitter.com/spikebrehm/status/1003150215422017537)
