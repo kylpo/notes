@@ -1,5 +1,7 @@
 [Little UI details from @steveschoger, in HTML and CSS](https://codepen.io/tyrellrummage/pen/ZJPXgy)
 
+[UI Designer Shares His Top Design Tips In Simple Tweets \- UltraLinx](https://theultralinx.com/2018/06/ui-designer-shares-his-top-design-tips-in-simple-tweets/)
+
 https://medium.com/@kollinz/misused-mobile-ux-patterns-84d2b6930570#.9x5etv35u
 - don't hide primary navigation
 -- see https://medium.com/@kollinz/hamburger-menu-alternatives-for-mobile-navigation-a3a3beb555b8#.ynmeih5d5 for options other than hamburger
