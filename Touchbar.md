@@ -1,5 +1,9 @@
 # MacBook's Touchbar
 
+[Airmail 3 on the Mac App Store](https://itunes.apple.com/us/app/airmail-3/id918858936?mt=12) seems like a good use
+of a Touchbar. User on laptop, without knowing hotkeys, could work through their email fairly quickly. Yes, they'd
+have to look down, so the pro user would probably use hotkeys instead of touchbar.
+
 [MacBook Pro? No – Shahid Kamal](http://shahidkamal.com/macbook-pro-no/?utm_source=hackernewsletter&utm_medium=email&utm_term=cutting_room_floor)
 
 [Making the Touch Bar finally useful :: By abandoning crappy Apple guidelines :: vas3k's blog](http://vas3k.com/blog/touchbar/?utm_source=hackernewsletter&utm_medium=email&utm_term=design)

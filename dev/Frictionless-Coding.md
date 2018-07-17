@@ -58,6 +58,7 @@ Might be easier to digest as a Friction Series of posts. That way I won't need t
   - code folding the imports
     - [That feeling when you press page down three times to get past all the imports...](https://twitter.com/BrandonBloom/status/839336948049195009)
     - vscode: [folding language-aware folding · Issue #3422 · Microsoft/vscode](https://github.com/Microsoft/vscode/issues/3422)
+  - Now there is an Atom plugin: [fold\-imports](https://atom.io/packages/fold-imports)
   - [JetBrains WebStorm on Twitter: "WebStorm adds import for your React component automatically as you type it. Forgot to import React? Hit Alt-Enter on a warning to fix it. https://t.co/uBFqSQL0C1"](https://twitter.com/WebStormIDE/status/849243315417624576)
   - [A Reason to Code](https://dev.to/kayis/a-reason-to-code)
   - [Webstorm: Auto Imports on paste](https://blog.jetbrains.com/webstorm/2017/09/webstorm-2017-3-eap/#import-on-paste)
