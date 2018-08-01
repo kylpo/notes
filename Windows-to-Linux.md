@@ -8,3 +8,7 @@ Edge looks great, because it is UWP. Also doesn't have the extensions I want. Bu
 Of course, MacOS and Linux (ChromeOS, too) don't suffer from this.
 
 This whole ordeal almost made me switch to Ubuntu....
+
+# Why others switched
+- [5 Reasons Why I Don’t Use Windows – Egee – Medium](https://medium.com/@egee_irl/5-reasons-why-i-dont-use-windows-49cc7ccbfeae)
+- [5 Reasons Why I Stopped Using Microsoft Windows \- YouTube](https://www.youtube.com/watch?v=_oKLbAXgm7A)
