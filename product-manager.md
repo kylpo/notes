@@ -1,5 +1,10 @@
 # The Product Manager role
 
+Product Leadership:
+- long term patience
+- short term restlessness
+
+[@lukew](https://twitter.com/lukew/status/1032052237751603200)
 
 ---
 

@@ -89,6 +89,10 @@ Might be easier to digest as a Friction Series of posts. That way I won't need t
 - navigating code
   - why I'm stuck in vim
     - I keep trying more modern editors like vscode and atom, but always fall back to vim for its buffers/splits and vinegar.vim approach to opening and traversing files.
+    - Breadcrumbs are close, but I do prefer the full-buffer takeover of vinegar.
+      - [vscode](https://twitter.com/holtbt/status/1029412494597652485) and intellij have breadcrumbs, not fully keyboard accessible though
+    - Also like that I have full file manipulation/renaming/creation/deletion controls in this vinegar buffer
+  
 
 - declarative code as much as possible
   - able to go from a Sketch file to real apps by just "describing" what I'm looking at
