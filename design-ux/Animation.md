@@ -1,4 +1,16 @@
+[The ultimate guide to proper use of animation in UX](https://uxdesign.cc/the-ultimate-guide-to-proper-use-of-animation-in-ux-10bd98614fa9) is amazing.
+
 [Dion Almaer on Twitter: "An animation feature that I love in Elevate is how you can always skip to the end of the animation with a tap\. https://t\.co/rCakWmh9ZG"](https://twitter.com/dalmaer/status/893936268668579840)
+
+---
+
+[Meaningful Motion UI](https://www.meaningfulmotionui.com)
+
+Four types of UI motion:
+1. Conversational
+2. Functional
+3. Structural
+4. Emotional
 
 ---
 
