@@ -19,6 +19,10 @@ Some can last forever, others will eventually end, and your goal is to last as l
 
 ---
 
+Critical flaw of Card Monsters. Despite loving its mechanics with ranged, magic, warrior, healer and 3 different columns, optimized for mobile, its games ended in your favor with good luck or you opponents with bad luck... Chance with things like Flight and Sleep are just ridiculous. It should just be something where it will 100% trigger every other turn or something. Get rid of the unnecessary luck - it makes the game not enjoyable.
+
+---
+
 Some games are just about twitch and muscle memory, really. Hellrider2, Guitar Hero, Flappy Bird. You'll end up playing levels a LOT before advancing.
 
 ----
