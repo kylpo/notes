@@ -1,3 +1,6 @@
+Web is good for __infrequent__ things. E-commerce, directories, info, etc. Google, gmail, and even Facebook/Twitter make sense as native.
+
+---
 
 The web, to me, is all about content and information.
 
