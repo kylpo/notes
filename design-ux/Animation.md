@@ -14,6 +14,28 @@ Four types of UI motion:
 
 ---
 
+[Motion design doesn't have to be hard – Google Design – Medium](https://medium.com/google-design/motion-design-doesnt-have-to-be-hard-33089196e6c2)
+
+Container animation scales, while content inside fades in/out.
+
+![](https://cdn-images-1.medium.com/max/2000/1*GXG-QKLh4ILSjw3_A9FCfA.gif)
+
+> Exit animations are designed to be subtler than entrances to focus attention on new content.
+
+Transitions w/o container fade out old content and in new content. New content may also scale up to indicate it is new.
+
+![](https://cdn-images-1.medium.com/max/1600/1*EMaQi0I-Zvt3JHEiqal56Q.gif)
+
+Keep it simple
+
+![](https://cdn-images-1.medium.com/max/2000/1*9vPdOuElDyPZtCHYM3shFA.gif)
+
+Durations
+
+> Durations are chosen based on how much of the screen the animation occupies. Since nav transitions usually occupy most of the screen, a long duration of 300ms is a good rule of thumb. In contrast, small components like a switch use a short duration of 100ms. If a transition feels too fast or slow, adjust its duration in 25ms increments until it strikes the right balance.
+
+---
+
 [Good to great UI animation tips – UX Collective](https://uxdesign.cc/good-to-great-ui-animation-tips-7850805c12e5)
 
 * Shared Elements
