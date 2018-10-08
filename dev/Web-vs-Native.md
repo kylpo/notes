@@ -113,6 +113,14 @@ The realization of web-lite kind of goes counter to Mobile First design. Almost 
 DOM has its issues, but it is an __extensible__ rendering platform. Extensions, user styling, etc.
 
 # Web vs Native
+
+Web is good for content that wants to be shared. Apps not as good, necessarily.
+
+The web is good for something that is meant to be broadcast. Blogs, twitter, etc are good examples of this. I.e. public broadcasts.
+
+A text/document editor? Not so much.
+
+
 - Web is for accessibility, especially PWA (offline)
 web is good for _content_
 - Maybe it is about leaf nodes? If you have many sub-sites (ecommerce, articles/news), then web is the best platform. You want the one-demand render with reach.
@@ -260,6 +268,7 @@ And http://n12v.com/css-transition-to-from-auto/ with the current best practice
 - "The "update all the apps" ritual that happens when I plug in my phone at night seems rather archaic in light of what can be done with PWAs." - [Henrik Joreteg on Twitter](https://twitter.com/HenrikJoreteg/status/890094427049472000)
   - "Imagine how much bandwidth must be getting wasted on app updates for apps that will never even be opened again." - [Henrik Joreteg on Twitter](https://twitter.com/HenrikJoreteg/status/890096198740299777)
 - Reason to go web: least common denominator
+- Share-able links, multiple instances, no-installs, tabbed, extensions may manipulate.
 
 ---
 
@@ -267,6 +276,11 @@ And http://n12v.com/css-transition-to-from-auto/ with the current best practice
 > But more importantly, you just can't beat the URL. How many more times will we convince the entirety of humanity to know how to visually parse "www.zombo.com" on a billboard or in a text message? It's easy to take the Web for granted, it's fun to snark about its warts, and there's a cottage industry of premature declarations of its death. But I personally believe that the humble little hyperlink is at the heart of the Web's power, competitive strength, and longevity. It was a century-old dream passed on from Vannevar Bush to Doug Englebart to Xerox PARC and ultimately to TBL who made it real.
 
 [Dave Herman on Twitter: "The main reason I care about the Web is because it's the world's biggest software platform that isn't owned\. https://t\.co/czRLdJPQmf"](https://twitter.com/littlecalculist/status/728328046332121089)
+
+## Examples of a richer user experience
+
+## Examples of an inferior user experience
+Tell me how I can change the hotkey shortcuts to Google Drive. You can't. This SUUUUCKS.
 
 ---
 
@@ -278,6 +292,10 @@ And http://n12v.com/css-transition-to-from-auto/ with the current best practice
 - [Beyond The Browser: From Web Apps To Desktop Apps – Smashing Magazine](https://www.smashingmagazine.com/2017/03/beyond-browser-web-desktop-apps/)
 - Why did Universal Windows Apps fail? Because they sucked... They didn't enable enough functionality to warrant building them. Too restrictive, and wasn't compelling over an admittedly limited web platform, but basically the same functionality.
   - Though it may one day get enough bells and whistles to become compelling: [Microsoft is experimenting with tabs in File Explorer and other apps on Windows 10 | Windows Central](http://m.windowscentral.com/windows-10-tabbed-shell)
+
+## Examples of a richer user experience
+
+## Examples of an inferior user experience
 
 # Hybrid
 - [james kyle on Twitter: "It makes no sense not to build 99% of desktop applications using @electronjs at this point"](https://twitter.com/thejameskyle/status/854530704071286784)

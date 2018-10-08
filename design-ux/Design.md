@@ -1,13 +1,19 @@
 _WIP_
 
+{{TOC}}
+
 # Simple
 - [Default to simplicity to design better user experiences](https://uxplanet.org/default-to-simplicity-to-design-better-user-experiences-854895396450)
 > Simplicity is the ultimate sophistication. -Leonardo da Vinci
 > Everything should be as simple as possible but no simpler. -Albert Einstein
 - [How Human Memory Works: Tips for UX Designers. – UX Planet](https://uxplanet.org/how-human-memory-works-tips-for-ux-designers-12b14071bdf9)
+- [Finding the essence of a product through continuous elimination](https://uxdesign.cc/via-negativa-4bb536f235d5)
 
 # "Design for scanning, not reading"
 - [F-Shaped Pattern for Reading Content – UX Planet](https://uxplanet.org/f-shaped-pattern-for-reading-content-80af79cd3394)
+
+# "Make technology work the way people work. Don't make people work the way technology works."
+- @lukew
 
 # White Space
 - [How To Use White Space In Web Design – Muzli -Design Inspiration](https://medium.muz.li/how-to-use-white-space-in-web-design-68ab49f866a1)

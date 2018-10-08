@@ -3,6 +3,12 @@
 
 Problems with Windows UWP: not able to Extend
 
+OS makers create their own universe. They also set the rules, like what physics equations are valid.
+
+As a developer on a platform, your role is to figure out how to use these equations to build something close to what exists in your mind. Similar to mechanical engineers in the real world.
+
+When the platform doesn't create a universe where interesting things may be built, there's not much a developer can do...
+
 ---
 
 Text on Windows Chrome is just slightly blurry. You'll notice this easily when comparing it to Edge. This is because Chrome uses Windows old text rendering, which has had this issue for a loooong time with better displays.
