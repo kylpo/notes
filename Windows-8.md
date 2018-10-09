@@ -141,3 +141,13 @@ Woah, it looks like they are opening the app store to desktop apps!!!
 Windows just has really weird display bugs, still. Whyyyyy?
 
 https://www.digitaltrends.com/computing/surface-book-2-as-only-pc/#ampshare=https://www.digitaltrends.com/computing/surface-book-2-as-only-pc/
+
+
+### Windows 10 and UWP
+Finally has some desktop capabilities with Desktop Extension from Redstone 1 release in Aug 2016 (like background execution, launching winforms, winrt, win32) : https://stefanwick.com/2018/04/06/uwp-with-desktop-extension-part-1/
+
+And finally global hotkeys in Redstone 3 Oct 2017: https://stefanwick.com/2018/05/15/global-hotkey-registration-in-uwp/
+
+And now finally multi-instance capable and full file access in Oct 2018: https://www.infoq.com/news/2018/03/uwp-win32-features
+
+BUT, Windows 10 is still only 43% of PCs:  https://www.computerworld.com/article/3199373/windows-pcs/windows-by-the-numbers-windows-10-marches-on-but-pace-may-be-a-problem.html

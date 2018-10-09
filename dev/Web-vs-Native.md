@@ -2,6 +2,15 @@ Web is good for __infrequent__ things. E-commerce, directories, info, etc. Googl
 
 ---
 
+Internet -> sharing
+
+Sharing to others (content, files, etc.)
+
+Sharing to self (syncing files)
+
+
+---
+
 The web, to me, is all about content and information.
 
 Thought about Google search being critical. I wouldn't really use google to find an app. I do use it to search web for image and such though.
