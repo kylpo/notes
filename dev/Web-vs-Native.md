@@ -120,6 +120,18 @@ The web is good for something that is meant to be broadcast. Blogs, twitter, etc
 
 A text/document editor? Not so much.
 
+---
+
+**Desktop native vs web (personal vs team/shared)**
+
+In general, personal apps are best when native. They're rich, customizable, tightly integrated. Personal information and experiences.
+
+Team/corporate apps are best when web. Web is about sharing, linking, etc. No lock-in for platform.
+
+MS Office is against this norm though
+
+---
+
 
 - Web is for accessibility, especially PWA (offline)
 web is good for _content_
@@ -277,10 +289,32 @@ And http://n12v.com/css-transition-to-from-auto/ with the current best practice
 
 [Dave Herman on Twitter: "The main reason I care about the Web is because it's the world's biggest software platform that isn't owned\. https://t\.co/czRLdJPQmf"](https://twitter.com/littlecalculist/status/728328046332121089)
 
-## Examples of a richer user experience
+## Examples of a good user experiences
+### Most websites are about delivering content.
+make websites more accessible
+
+https://dev.to/quii/the-web-i-want-43o
+
+### web (from webflow)
+business sites
+ecommerce stores
+blogs
+portfolios
+landing pages
+prototypes
+design systems
+
 
 ## Examples of an inferior user experience
-Tell me how I can change the hotkey shortcuts to Google Drive. You can't. This SUUUUCKS.
+Tell me how I can change the hotkey shortcuts to Google Drive. You can't. This SUUUUCKS. For example, I frequently "Insert Horizontal Line" in my docs. I really want to add a keybinding to it so I don't need to `Alt + / + Hori` every time, especially because I often `Alt + / + Hor`, which opens Version History.
+
+### web vs native defaults for search input
+There are just so many bad websites. Like wunderground.com's search input that has a dropdown of results. I SHOULD be able to arrow down to the first item. NOPE.
+
+"Whatever, I'll build my sites the right way" you say. Cool, but the problem is with user's expectation. Because you're on the web, you are now associated with those crappy sites, which make up the majority and reinforce a user's expectations.
+
+For native, on the other hand, the arrow down functionality is BUILT IN. So, even a crappy app will still have this default, and the user will be able to comfortable expect it to work.
+
 
 ---
 
@@ -294,6 +328,10 @@ Tell me how I can change the hotkey shortcuts to Google Drive. You can't. This S
   - Though it may one day get enough bells and whistles to become compelling: [Microsoft is experimenting with tabs in File Explorer and other apps on Windows 10 | Windows Central](http://m.windowscentral.com/windows-10-tabbed-shell)
 
 ## Examples of a richer user experience
+### Maps
+Bullshit that the UI for gmaps has two-finger scroll as zoom and browser BACK/FORWARD.
+
+It should be the native way (apple maps) of two-finger panning, then pinch to zoom. This is the superior UX. There should be no debate.
 
 ## Examples of an inferior user experience
 
