@@ -1,4 +1,6 @@
 
+Surface event: Microsoft doesn't get that we don't need hardware. We need an OS that incentivizes developers.
+
 ---
 
 Problems with Windows UWP: not able to Extend
