@@ -75,6 +75,23 @@ Any actionable items for this regard chronstruct? A feature to help account for 
 are much easier to deal with
 than big intertwined problems"
 
+# Almost everything in context with the rest of the world is hard
+I’d like a simple button component please. 
+
+Oh also, it needs 
+- styling/theming
+- date fetching/loading states 
+- state mgmt/disabled/button groups/etc
+- accessibility/keyboard controls/more
+- code splits/transitions 
+- i18n
+- and next Tuesday we might change all the designs
+- tooltips
+- icons
+- and now, support light/dark mode
+
+from [sunil](https://twitter.com/threepointone/status/1057215253317070848)
+
 # Easy vs Hard for web
 Its easy to get a Carousel. Its hard to get a carousel that is performant and meets all the criteria we'll want.
 

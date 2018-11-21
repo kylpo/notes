@@ -1,5 +1,7 @@
 # MacBook's Touchbar
 
+[Sindre Sorhus on Twitter: "Is the Touch Bar a gimmick? Two years in, I can answer that \.\.\. \- 9to5Mac https://t\.co/3w0NfjJwnj"](https://twitter.com/sindresorhus/status/1055520114483847168)
+
 [Airmail 3 on the Mac App Store](https://itunes.apple.com/us/app/airmail-3/id918858936?mt=12) seems like a good use
 of a Touchbar. User on laptop, without knowing hotkeys, could work through their email fairly quickly. Yes, they'd
 have to look down, so the pro user would probably use hotkeys instead of touchbar.
