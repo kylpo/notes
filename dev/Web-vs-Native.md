@@ -311,7 +311,7 @@ blogs
 portfolios
 landing pages
 prototypes
-design systems
+design **systems**
 
 
 ## Examples of an inferior user experience
@@ -323,6 +323,11 @@ There are just so many bad websites. Like wunderground.com's search input that h
 "Whatever, I'll build my sites the right way" you say. Cool, but the problem is with user's expectation. Because you're on the web, you are now associated with those crappy sites, which make up the majority and reinforce a user's expectations.
 
 For native, on the other hand, the arrow down functionality is BUILT IN. So, even a crappy app will still have this default, and the user will be able to comfortable expect it to work.
+
+### Drawer navigation can't lock scrolling or interaction of background
+Open news.google.com on mobile. Open drawer, tap outside of drawer to close it. Oops! You've actually clicked a link. Also, you can scroll that content while the drawer is open. Why isn't it a proper modal like is so common on native mobile? Because in order to lock position, you'd lose that position after closes, it'd go to top.
+
+![](../assets/google-news-mobile.png)
 
 
 ---
