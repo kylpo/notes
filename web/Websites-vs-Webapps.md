@@ -1,5 +1,18 @@
 _WIP_
 
+---
+
+"We also recently published informal details of using Flutter on Raspberry Pi, as a way to demonstrate Flutter embedding support to smaller-scale devices that may not include a full desktop environment."
+
+Good way of defining apps: doesn't really need a desktop environment.
+
+---
+
+Website - documents. URL path really matters. Critical for linkability.
+
+App - path not as important
+
+---
 
 Really, the main distinction I could think of was whether the content is tailored to you specifically or not. Gmail is
 ONLY your content. Versus some Forum, which I deem to be a site, that you can log in to, but the information is all

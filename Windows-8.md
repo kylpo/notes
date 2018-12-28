@@ -3,6 +3,10 @@ Surface event: Microsoft doesn't get that we don't need hardware. We need an OS 
 
 ---
 
+Windows 8 was a good example of a bad least common denominator design
+
+---
+
 Problems with Windows UWP: not able to Extend
 
 OS makers create their own universe. They also set the rules, like what physics equations are valid.
@@ -153,3 +157,10 @@ And finally global hotkeys in Redstone 3 Oct 2017: https://stefanwick.com/2018/0
 And now finally multi-instance capable and full file access in Oct 2018: https://www.infoq.com/news/2018/03/uwp-win32-features
 
 BUT, Windows 10 is still only 43% of PCs:  https://www.computerworld.com/article/3199373/windows-pcs/windows-by-the-numbers-windows-10-marches-on-but-pace-may-be-a-problem.html
+
+### Other
+Quicklook is interesting app that is surely not UWP since it says it doesn't work with Windows 10 S
+
+Action Note uses notification widgets to show and create new notes. Quite the nice design, too. Also good listing with descriptive screenshots.
+
+Focus To-Do: Focus timer & task manager a universal app using webview?

@@ -2,6 +2,10 @@ Web is good for __infrequent__ things. E-commerce, directories, info, etc. Googl
 
 ---
 
+web is for reach, native is for rich
+
+---
+
 Internet -> sharing
 
 Sharing to others (content, files, etc.)
@@ -341,6 +345,10 @@ Open news.google.com on mobile. Open drawer, tap outside of drawer to close it. 
 - Why did Universal Windows Apps fail? Because they sucked... They didn't enable enough functionality to warrant building them. Too restrictive, and wasn't compelling over an admittedly limited web platform, but basically the same functionality.
   - Though it may one day get enough bells and whistles to become compelling: [Microsoft is experimenting with tabs in File Explorer and other apps on Windows 10 | Windows Central](http://m.windowscentral.com/windows-10-tabbed-shell)
 
+## What makes for good native experiences?
+- Customizable hotkeys
+- Toggleable animations
+
 ## Examples of a richer user experience
 ### Maps
 Bullshit that the UI for gmaps has two-finger scroll as zoom and browser BACK/FORWARD.
@@ -439,6 +447,21 @@ PWA is probably really great for **sites** that would have low app engagement an
 [Mike Grabowski on Twitter: "Interesting experience, just switched back to Twitter Native from PWA and fonts are much smaller!"](https://twitter.com/grabbou/status/867636983123902467)
 
 PWA with Android Intents: What if you click link twice? Will it open two "apps"?
+
+## PWA limitations
+Custom keyboard shortcuts
+Desktop shortcuts (to launch new Note, for example)
+Link capturing
+https://developers.google.com/web/progressive-web-apps/desktop#whats_next
+
+Notification support? (This does work: https://developers.google.com/web/progressive-web-apps/checklist#provides-controls-to-enable-and-disable-notifications)
+MenuBar Apps
+Custom titlebars
+General web limitations
+- High fidelity animations/transitions
+- Scroll locking
+
+Want a bottom app bar? Want to lock scrolling (but keep scroll position)? lols
 
 # STOP
 - Stop using titles like [Progressive Web Apps: Great Experiences Everywhere (Google I/O '17) - YouTube](https://www.youtube.com/watch?v=m-sCdS0sQO8)
