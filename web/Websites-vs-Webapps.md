@@ -14,6 +14,10 @@ App - path not as important
 
 ---
 
+A website is Idemponent. A URL should always show the same thing, basically.
+
+---
+
 Really, the main distinction I could think of was whether the content is tailored to you specifically or not. Gmail is
 ONLY your content. Versus some Forum, which I deem to be a site, that you can log in to, but the information is all
 public. Pieces will change based on your logged in vs logged out status, but the site exists. The content exists,
