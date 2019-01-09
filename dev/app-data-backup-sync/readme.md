@@ -3,7 +3,7 @@
 # How it is presented in settings
 ![](assets/2019-01-09-11-15-48.png)
 
-![](assets/2019-01-09-13-01-39.png =50%x)
+<img src="assets/2019-01-09-13-01-39.png" width="50%"/><img src="assets/2019-01-09-13-16-34.png" alt="" width="50%"/>
 
 # iOS/macOS
 ## Sync (CloudKit)
