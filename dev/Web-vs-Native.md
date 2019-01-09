@@ -1,4 +1,20 @@
+# Web vs Native
+
+
+
 Web is good for __infrequent__ things. E-commerce, directories, info, etc. Google, gmail, and even Facebook/Twitter make sense as native.
+
+---
+
+![](/assets/s_F588D96174C6135E93FCAFFBAA13923FA3F312F89594D62963A9B240CC82C9CE_1539191074421_browser-tabs.png)
+
+
+
+Using web apps instead of desktop apps as daily driver stresses me out. 
+
+I don't want to need to get back to my browser to make a Keep not every time. I want an OS hotkey to show an input.
+
+
 
 ---
 
