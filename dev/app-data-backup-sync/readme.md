@@ -3,6 +3,8 @@
 # How it is presented in settings
 ![](assets/2019-01-09-11-15-48.png)
 
+![](assets/2019-01-09-13-01-39.png =50%x)
+
 # iOS/macOS
 ## Sync (CloudKit)
 ![](assets/2019-01-09-12-52-23.png)
