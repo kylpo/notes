@@ -56,3 +56,8 @@ See a different version of your app. Icons are clearly labeled, certain features
 
 # Dark Theme
 For saving battery (for OLED screens) and a mode which users will prefer at night
+
+# Account for database migrations
+Real apps with data will need database migrations. Your app's requirements and data will change. Make sure you plan for this.
+
+<img src="assets/2019-01-10-14-03-22.png" alt="SeriesGuide migrations" width=""/>
