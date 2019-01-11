@@ -2,6 +2,14 @@ _WIP_
 
 ---
 
+![](assets/Web-Perf.jpg)
+
+![](assets/Web-Perf1.jpg)
+
+![](assets/Web-Perf2.jpg)
+
+---
+
 [Lazy Loading Images and Video  \|  Web Fundamentals  \|  Google Developers](https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video/)
 
 ---

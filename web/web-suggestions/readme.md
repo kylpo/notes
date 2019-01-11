@@ -228,6 +228,8 @@ Users tend to read in F pattern:
 - else use Moment
 
 # animated images
-- use <video> instead of animated GIFs
+- use `<video>` instead of animated GIFs
 - Gifs are bigger
 
+# Core
+<img src="assets/2019-01-11-13-47-55.png" width=""/>

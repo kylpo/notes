@@ -57,6 +57,13 @@ See a different version of your app. Icons are clearly labeled, certain features
 # Dark Theme
 For saving battery (for OLED screens) and a mode which users will prefer at night
 
+# MVP: synced, "multi-device" apps
+These days, modern mobile application development requires a well thought-out plan for keeping user data in sync across various devices. This is a thorny problem with many gotchas and pitfalls, but users expect the feature, and expect it to work well.
+
+> to make awesome multi-device apps
+
+https://www.toptal.com/ios/sync-data-across-devices-with-cloudkit
+
 # Account for database migrations
 Real apps with data will need database migrations. Your app's requirements and data will change. Make sure you plan for this.
 
