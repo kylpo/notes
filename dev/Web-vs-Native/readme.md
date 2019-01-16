@@ -266,6 +266,8 @@ See also: https://github.com/w3c/csswg-drafts/issues/626
 And http://n12v.com/css-transition-to-from-auto/ with the current best practice
 
 ## Cons
+![This is Mobile Web Progress?](assets/Mobile-Web-Progress.png)
+
 - [Think you know the top web browsers? – Samsung Internet Developers – Medium](https://medium.com/samsung-internet-dev/think-you-know-the-top-web-browsers-458a0a070175)
 - [Ken Wheeler on Twitter: "Let me be clear: PWAs are awesome & worth doing: ✅ PWAs are as good as native apps: ❌"](https://twitter.com/ken_wheeler/status/854699025928531968) thread basically sums up how I feel
   - ["Wow thats wierd. Its almost like the web isnt that open and a couple large companies call the shots on what you can do."](https://twitter.com/ken_wheeler/status/854787849710862341)
