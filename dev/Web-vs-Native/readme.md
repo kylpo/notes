@@ -15,10 +15,15 @@ Using web apps instead of desktop apps as daily driver stresses me out.
 I don't want to need to get back to my browser to make a Keep not every time. I want an OS hotkey to show an input.
 
 
+---
+
+<img src="assets/2019-02-15-14-51-09.png" width=""/>
 
 ---
 
 web is for reach, native is for rich
+
+native -> polish
 
 ---
 
