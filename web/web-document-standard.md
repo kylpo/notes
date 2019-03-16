@@ -11,11 +11,13 @@ Bad examples include Medium
 
 Necessary for the web of sharable information.
 
+## Obvious creation/update dates
+I really hate when articles and blog posts don't show their creation date, whether in UI or in URL. For example, I want to know which article came first, and this one doesn't easily say: https://www.toptal.com/ios/sync-data-across-devices-with-cloudkit
+
+vs http://subhafelix.com/blog/subscribing-and-handling-silent-push-notifications.html
 
 ## On a tangent, but should be in same post:
 The custom blogs are now frustrating to me. I want to be able to +1 https://aerotwist.com/tutorials/protip-choose-your-ease/, but there is no option to promote it without something silly like a tweet.
-
-
 
 
 

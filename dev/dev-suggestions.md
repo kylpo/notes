@@ -2,6 +2,9 @@
 
 "Think like a fundamentalist, code like a hacker" - Erik Meijer
 
+# Staying current
+Just as an author needs to READ a lot to become/maintain good writing, so too do coders, designers, app developers. Spend time researching others work. Learn/steal/adapt/innovate with it.
+
 # Testing
 - "Learnt a useful tip: Add a 'data-test' attribute to dom elements so they can be easily found in tests." - [tweet](https://twitter.com/kentcdodds/status/886939162070335489)
 - [Screener.io: Automated Visual Testing](https://screener.io/) - diffs screenshots
