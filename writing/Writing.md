@@ -10,6 +10,15 @@ Take a look at someone like Bertrand Russell, that bastard who could write like 
 
 ---
 
+# Mathematicians should love writing
+Sentences break down to clauses, which break down to subject types, verbs, adjectives, conjunctions, etc.
+
+There is a trickle down of formulas, essentially.
+
+e.g. independent clause is subject + verb = complete thought
+
+e.g. subordinate clause is subordinate conjunction + subject + verb = incomplete thought
+
 # [This book will teach you how to write better](https://www.amazon.com/gp/product/0989895300/ref=oh_aui_search_detailpage?ie=UTF8&psc=1)
 - Write down the casual conversation you would have with someone. Then go back and rip out the bad parts.
 - Write what is useful to reader
@@ -31,3 +40,11 @@ Take a look at someone like Bertrand Russell, that bastard who could write like 
 # Storytelling
 [Before You Launch A Startup, Learn This – Signal v\. Noise](https://m.signalvnoise.com/my-2011-startup-with-y-combinator-imploded-largely-because-we-couldnt-get-enough-traction-d900976d7bbc)
 - "A Story Event creates meaningful change in the life situation of a character that is expressed and experienced in terms of a value and ACHIEVED THROUGH CONFLICT."
+
+# Communication Tip: Lead with your conclusion
+
+Say what you want to say, first, then go into details, justification, or debate. 
+
+It's sometimes hard to be direct like this, but it is so important. It helps frame the conversation for people. It tells them why they should listen.
+
+https://twitter.com/Hay/status/1090976693764980736

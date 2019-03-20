@@ -128,3 +128,10 @@ This is a problem I think some dev celebreties face. They continue down the dev 
 - "And this is why many open source developers join large companies and disappear. Because open source sucks." "I don't think I can do open source ever again. We built @yarnpkg in private and then open sourced. Quickly after I lost all motivation." - [Sebastian McKenzie](https://twitter.com/sebmck/status/879283865902346244)
 - "Step #1 of making a living as a solo dev, don't cater to people who won't pay you, because they'll never pay you." "Open source only works if you're paid by a company or VC, if you have skills don't waste them for free." - [TJ Holowaychuk](https://twitter.com/tjholowaychuk/status/879880358916837376)
 - [Why I (mostly) dropped off twitter – @getify](https://medium.com/@getify/why-i-mostly-dropped-off-twitter-6fe5cf5c5e2f)
+
+# snake_case_var_names are best
+I miss Ruby's syntax for vars. Easier to read and makes more sense for keyboard nav (word forward considers _ a space). Only con is writing more _ when you would normally just capitalize the next letter. Works seamlessly with constants though: THIS_IS_A_CONSTANT vs this_is_not_a_constant.
+
+https://rubyonrails.org/
+
+https://twitter.com/Rich_Harris/status/1103411774118866944 related

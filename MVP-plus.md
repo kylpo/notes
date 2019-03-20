@@ -21,11 +21,39 @@ Make failure cost less by building the simplest __useful__ thing, plus:
 - Ask for reviews. They won't come on their own.
   - Ask after many uses of app. Do it in a casual, non-modal way.
 
+
+---
+
+<img src="assets/2019-03-19-13-43-56.png" width=""/>
+
+Keep it clean and fast. QuickBooks Self-Employed is a great example. Uses native UI, uncluttered, nothing that really screams their brand. LIkely a good utility.
+
+https://play.google.com/store/apps/details?id=com.intuit.qbse
+
+---
+
+[The Tiny Product Manual](https://marc.withcoach.com/the-tiny-product-manual)
+
+# MVP*
+The level just about MVP+. Where you add things that you really kind of need, like the "Please review this" modal.
+
+## Please give us a review
+
+## Feature Flags
+
 ## Types of users
 Friendly for first-timers.
 Configurable for power-users.
 
 was actually thinking about this in regards to games like wow that have a pretty mediocre gui. But I remember addons were to tweak and add/subtract for the default gui.
+
+---
+
+Are you covering the new user?
+
+Onboarding, empty list state, etc
+
+Are you covering the curious user? Empty state that isn't likely. THinking about 1Password and it's embaraced bear when you mess up enough times.
 
 ## Tips
 Don't overthink it. Pick direction, then learn and reflect. don't spend time agonizing in the moment.

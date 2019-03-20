@@ -25,6 +25,9 @@ Might be easier to digest as a Friction Series of posts. That way I won't need t
   - thought about this from title of https://pavelfatin.com/typing-with-pleasure/
   - [Christoph Pojer on Twitter: "Have never been able to get into such deep focus as now, thanks to these tools: * @flowtype * Prettier * Fish shell * Nuclide * @fbjest"](https://twitter.com/cpojer/status/842531353136525313)
 
+- Run loop for animations
+  - While developing in Android, I miss the ability to hot reload animation timings. In react native, I was able to set an animation event on repeat (run loop), then tweak timings, interpolators, etc to dial in the feel. This is at least 10x fast than make change, rebuild, reload app on device.
+
 - imports
   - started with webpack's `providePlugin`
   ```js
