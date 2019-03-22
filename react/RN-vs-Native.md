@@ -11,6 +11,9 @@ huge mistake\. “I really really hope your team doesn’t go down the same exac
 have gone down only to find the same thing”
 https://t\.co/lUgPONZPh6"](https://twitter.com/sandofsky/status/1002634185566236679)
 
+# Native vs Hybrid
+All about trade-offs. Hybrid good for developer (cross platform, faster dev). Native good for user (uncompomised features and animations. consistent.).
+
 # React Native
 You can, but should you?
 

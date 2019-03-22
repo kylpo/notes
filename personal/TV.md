@@ -5,6 +5,7 @@ _WIP_
 
 # Favs
 - The Wire
+- Chef's Table
 
 # Always (re)watching
 - The Office

@@ -22,6 +22,14 @@ Just as an author needs to READ a lot to become/maintain good writing, so too do
   - ![](https://pbs.twimg.com/media/DFVjQg1XUAEHhNW.png:large)
   - [Frederic Marx on Twitter: "A cool thing you can do with npx: Check websites for accessibility issues from the command line. npx pa11y https://t.co/bzhhbHkU8Q https://t.co/oF25lTo1E7"](https://twitter.com/fredericmarx/status/888725789411299328)
 
+# Core modules of most apps (that you should decide before starting to code)
+## Router
+
+## Data
+And data vs state
+
+## Internationalization
+
 # Code Quality
 ## Whitespace matters
 https://twitter.com/tjholowaychuk/status/899705438739906561

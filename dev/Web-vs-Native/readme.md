@@ -1,8 +1,12 @@
 # Web vs Native
 
-
-
 Web is good for __infrequent__ things. E-commerce, directories, info, etc. Google, gmail, and even Facebook/Twitter make sense as native.
+
+---
+
+web/sites are for Resources
+
+Works for ecommerce, documents, forums, etc.
 
 ---
 
