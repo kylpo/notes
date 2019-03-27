@@ -25,9 +25,16 @@ I don't want to need to get back to my browser to make a Keep not every time. I 
 
 ---
 
+## Rich vs Reach
+
 web is for reach, native is for rich
 
 native -> polish
+
+resources make sense for reach
+experiences make sense for rich
+
+efficiency makes sense for rich
 
 ---
 
@@ -251,6 +258,15 @@ https://daverupert.com/2016/10/desktop-is-lava/ had some good points:
 
 
 # Web
+Website is a **resource**, usually a public one
+- billboard, store, messsage board
+- email makes less sense since it only has content for signed in users
+  - would be different if emails were public
+- essentially, they are **browseable**!
+
+Websites became more than a resource out of necessity. As a large corporation with users on multiple platforms, it is likely easier to make an internal web tool. Also has the added benefit of not needing user to update their apps - they don't have a choice.
+
+more
 - all about scrolling
   - "scrolling has a special place on the web, and browsers have worked very hard to make sure that scrolling is snappy and responsive" (off-thread scrolling)
   - "The “scroll” event, somewhat counterintuitively, can’t block scrolling because it fires after the scroll event, and thus it isn’t cancelable."

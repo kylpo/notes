@@ -2,6 +2,12 @@ _WIP_
 
 ---
 
+> The common link is that they all use simple words and simple sentences to convey complex ideas.
+
+No idea who said that
+
+---
+
 A well-written essay is something where the author knows a little bit about you, somehow, and tells you in the beginning of the essay what you need to know and answers questions that the author somehow knows that you have. It’s amazing how well good authors can do this. They prepare you for the whammy, two-thirds of the way through, and for the last third of the thing, where they actually get you to elevate your thinking — it’s incredible, isn’t it?
 
 https://medium.com/fast-company/the-father-of-mobile-computing-is-not-impressed-9ab25dfff0c

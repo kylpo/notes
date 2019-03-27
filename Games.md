@@ -47,6 +47,15 @@ Godus and Polytopia have shown me that I *REALLY* like polygon art in mobile gam
 
 ---
 
+# The role of luck
+I like luck when it is used by system to force players to adjust their strategies. Don't like luck when people win/lose directly because of it.
+
+Problem with this statement is that it is probably subjective.
+
+Warcraft 3 has a good version of luck with items, I think. No drop will break you, necessarily. It might adjust your strategy though.
+
+I also like Dead of Winter where you roll your dice first, then deal with the fallout after. The only real RNG that can totally mess you up is preventable with the Fuel card.
+
 # Loot boxes (and gambling)
 > the loot box is designed in a predatory way to make you feel that rush of dopamine every time you open up one of those chests — oh my god, what could be inside, am I gonna hit the jackpot, am I gonna get my favorite thing? So it’s designed in this way that just makes you feel really gross, like you’re gambling. Fun fact, the ESRB just told me that they do not consider loot boxes to be gambling and will not be adding a gambling descriptor on games with loot boxes.
 

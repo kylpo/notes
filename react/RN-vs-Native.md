@@ -14,6 +14,12 @@ https://t\.co/lUgPONZPh6"](https://twitter.com/sandofsky/status/1002634185566236
 # Native vs Hybrid
 All about trade-offs. Hybrid good for developer (cross platform, faster dev). Native good for user (uncompomised features and animations. consistent.).
 
+<img src="assets/2019-03-25-09-16-59.png" width=""/>
+
+> Especially with cross-platform frameworks the pain comes in long term. They're usually really easy to get into and demos are impressive. A less-experienced developer could get lured in, just to regret the decision later.
+
+from https://twitter.com/lehtimaeki/status/1110125375034662913
+
 # React Native
 You can, but should you?
 
