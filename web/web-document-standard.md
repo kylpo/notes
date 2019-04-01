@@ -1,3 +1,5 @@
+# The web document standard/convention
+
 I want the web and native platforms to play to their strengths. This means the web is hyper(read: really, really)-linked. Native is optimized for state and immersiveness (games) - able to tune graphics/effects. Native should be first-class. Web should be accessible to all.
 
 ## Linkable headers

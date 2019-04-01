@@ -1,3 +1,6 @@
+# WIP
+This doc is a bunch of scattered, often contradictory things. Will clean it up later once I've resolved what rules I follow and why...
+
 # I eat like a bird for breakfast (seeds and berries)
 blueberry, goji, raspberry, strawberry.
 
@@ -22,7 +25,59 @@ Or Animal
 
 ![](https://i.ytimg.com/vi/3Z5R_FRhgGQ/maxresdefault.jpg)
 
-# Why Pescatarian
+Prefer to pay the higher price for happy cows (defn. below) if able
+
+## Cured meats at restaurants?
+Only eat cured/dried meats when eating out? Didn't like my experience recently of throwing away undercooked chicken from restaurant.
+
+Might be worth saying only buy dried and frozen meats at store to only promote meats that are not throw away if not sold before expiration date.
+
+# "Happy Cows"
+The term I use to describe cows that were raised in an environment that I think makes them happy: long, grassy fields free from fear/predators and disease.
+
+I see it as a reasonable trade: we give you a paradise for X years, this X may be shorter or longer than you'd have if you were out in nature, but you will be taken care of (Mother Nature, conversely, is not always so nice), then we will end it as quickly and painless/stresslessly as possible. Your life will be appreciated and not wasted. 
+
+Versus the current mass-production practices of: we will torture you for your whole relatively short life, then kill you just before the torture would kill you anyways. Your life may or may not be appreciated, and it may or may not be wasted.
+
+Chef's Table Season 6 Episode 2 is a great watch for this ([‘Chef’s Table’ Season 6 Episode 2: ‘Dario Cecchini’ Recap \- Eater](https://www.eater.com/pop-culture/2019/3/1/18246681/chefs-table-dario-cecchinir-recap-season-6-episode-2)). Pieces of meat are "little pieces of life".
+
+# Pescatarian minus dairy when/for myself
+## Why minus dairy?
+Essentially just against animal cruelty. Just watch [The Dairy Industry in 60 Seconds Flat \- YouTube](https://www.youtube.com/watch?v=wZcUrWAK-8Q).
+
+Also,
+> Like humans, cows only produce milk after they have given birth, and dairy cows must give birth to one calf per year in order to continue producing milk. Typically they are artificially inseminated within three months of giving birth.
+>
+> These high-production cows produce milk on average for less than three years, after which they are culled and their meat used for beef.
+
+[About dairy cows \| Compassion USA](https://www.ciwf.com/farm-animals/cows/dairy-cows/)
+
+> Cows produce milk for the same reason that humans do—to nourish their young—but calves on dairy farms are taken away from their mothers when they are just 1 day old.1 They are fed milk replacers (including cattle blood) so that their mothers’ milk can be sold to humans.2
+
+>Cows have a natural lifespan of about 20 years and can produce milk for eight or nine years.5 However, the stress caused by the conditions on factory farms leads to disease, lameness, and reproductive problems that render cows worthless to the dairy industry by the time that they’re 4 or 5 years old, at which time they are sent to be slaughtered.6
+
+>If you drink milk, you’re subsidizing the veal industry. While female calves are slaughtered or kept alive to produce milk, male calves are often taken away from their mothers when they are as young as 1 day old to be chained in tiny stalls for three to 18 weeks and raised for veal.
+
+[Cow's Milk: A Cruel and Unhealthy Product \| PETA](https://www.peta.org/issues/animals-used-for-food/animals-used-food-factsheets/cows-milk-cruel-unhealthy-product/)
+
+### How do cows keep producing milk?
+> Today, modern dairy cows are bred specifically to produce large quantities of milk. Like humans, cows only produce milk after they have given birth, and dairy cows must give birth to one calf per year in order to continue producing milk. Typically they are artificially inseminated within three months of giving birth.
+
+[About dairy cows \| Compassion USA](https://www.ciwf.com/farm-animals/cows/dairy-cows/)
+
+## Why OK with eggs?
+Because I buy the expensive ones that promote happy hens. Also, I could forsee having my own hens in the future.
+
+I don't ever forsee myself raising cows for milk. Seems like far too much effort for the reward.
+
+### How do chickens keep producing eggs?
+> A hen in her prime laying period between 20 weeks of age (point of lay) and 78 weeks of age (end of lay) would be expected to produce around 300 eggs annually (she has periods of rest in her cycle when laying stops briefly). Happily the majority of hens continue to lay after 78 weeks. 
+
+[How does my hen produce an egg every day? Find out here\!](https://www.bhwt.org.uk/produce/)
+
+This happens naturally and does not require our intervention (though we have bred for high yields).
+
+## Why Pescatarian?
 https://www.theatlantic.com/health/archive/2017/08/if-everyone-ate-beans-instead-of-beef/535536/
 
 We grow food to feed cows. Growing food takes space + energy, growing cows takes space + energy. Skip the cow and just go from food to humans to reduce the space and energy required to feed us.
@@ -35,7 +90,7 @@ We grow food to feed cows. Growing food takes space + energy, growing cows takes
 
 why vegetarian? Just seems like we should be better than that. Meat should be special. As it was back in the days when people raised their livestock to sustain themselves.
 
-## Thoughts on "Why distinguish between the flesh of sea and land animals?"
+### Thoughts on "Why distinguish between the flesh of sea and land animals?"
 People claiming pescatarian doesn't make sense: "Why distinguish between the flesh of sea and land animals?"
 
 That isn't really the divide for me. It is more about intelligence and empathy. This usually goes from bugs -> fish -> animals. I would eat bugs and fish because I don't think they feel much of anything. And at or near their end, I don't think they would be freaking out that much. Having said that, I wouldn't support torturing them (as I wouldn't support torturing livestock).
@@ -50,10 +105,6 @@ Maybe this line will move for me (from someone showing me evidence that there is
 - [Vegan Nutrition Guide](https://www.vegan.com/nutrition/)
   - Likely want to take a supplement for B12 and Vitamin D
 
-# Cured meats at restaurants
-Only eat cured/dried meats when eating out. Didn't like my experience recently of throwing away undercooked chicken from restaurant.
-
-Might be worth saying only buy dried and frozen meats at store to only promote meats that are not throw away if not sold before expiration date.
 
 # Seeds and fruit for breakfast
 >Grains, beans, nuts and seeds are all in the same family as they are actually all seeds. Grains grow from the seeds of grasses, such as wheat, corn, oats or rice. Nuts, such as almonds, pecans, and walnuts, come from the seeds of a tree. And then there are the ones we refer to as seeds directly, such as sunflower seeds, pumpkin seeds and sesame seeds [that are found in fruits].
