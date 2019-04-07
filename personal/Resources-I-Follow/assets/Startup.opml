@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<opml version="1.0">
+    <body>
+        <outline text="Startup" title="Startup">
+            <outline type="rss" text="Zach Holman" title="Zach Holman" xmlUrl="http://feeds.feedburner.com/holman" htmlUrl="http://zachholman.com/"/>
+            <outline type="rss" text="Signal vs. Noise" title="Signal vs. Noise" xmlUrl="http://feeds.feedburner.com/37signals/beMH" htmlUrl="https://m.signalvnoise.com"/>
+            <outline type="rss" text="The Buffer blog: productivity, life..." title="The Buffer blog: productivity, life..." xmlUrl="http://blog.bufferapp.com/feed/" htmlUrl="https://buffer.com/resources"/>
+        </outline>
+    </body>
+</opml>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<opml version="1.0">
+    <body>
+        <outline text="Google" title="Google">
+            <outline type="rss" text="Google Webmaster Central Blog" title="Google Webmaster Central Blog" xmlUrl="http://googlewebmastercentral.blogspot.com/atom.xml" htmlUrl="http://webmasters.googleblog.com/"/>
+            <outline type="rss" text="Gmail Blog" title="Gmail Blog" xmlUrl="http://gmailblog.blogspot.com/atom.xml" htmlUrl="https://www.blog.google/products/gmail/"/>
+            <outline type="rss" text="Google Testing Blog" title="Google Testing Blog" xmlUrl="http://feeds.feedburner.com/blogspot/RLXA" htmlUrl="http://testing.googleblog.com/"/>
+            <outline type="rss" text="Google Research Blog" title="Google Research Blog" xmlUrl="http://googleresearch.blogspot.com/atom.xml" htmlUrl="http://ai.googleblog.com/"/>
+            <outline type="rss" text="Blogger Buzz" title="Blogger Buzz" xmlUrl="http://buzz.blogger.com/feeds/posts/default" htmlUrl="http://blogger.googleblog.com/"/>
+            <outline type="rss" text="Google Drive Blog" title="Google Drive Blog" xmlUrl="http://googledocs.blogspot.com/feeds/posts/default" htmlUrl="https://www.blog.google/products/docs/"/>
+            <outline type="rss" text="Google Developers Blog" title="Google Developers Blog" xmlUrl="http://googledevelopers.blogspot.com/feeds/posts/default" htmlUrl="http://developers.googleblog.com/"/>
+            <outline type="rss" text="Google Apps Developer Blog" title="Google Apps Developer Blog" xmlUrl="http://googleappsdeveloper.blogspot.com/atom.xml" htmlUrl="http://gsuite-developers.googleblog.com/"/>
+        </outline>
+    </body>
+</opml>

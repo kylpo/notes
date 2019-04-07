@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<opml version="1.0">
+    <body>
+        <outline text="Dev" title="Dev">
+            <outline type="rss" text="Scott Hanselman's Blog" title="Scott Hanselman's Blog" xmlUrl="http://feeds.feedburner.com/ScottHanselman" htmlUrl="https://www.hanselman.com/blog/"/>
+            <outline type="rss" text="Bret Victor's website" title="Bret Victor's website" xmlUrl="http://worrydream.com/feed.xml" htmlUrl="http://worrydream.com/"/>
+            <outline type="rss" text="Big Nerd Ranch" title="Big Nerd Ranch" xmlUrl="http://blog.bignerdranch.com/feed/" htmlUrl="https://www.bignerdranch.com/"/>
+            <outline type="rss" text="www.batsov.com" title="www.batsov.com" xmlUrl="http://www.batsov.com/atom.xml" htmlUrl="http://batsov.com/"/>
+            <outline type="rss" text="wincent.com blog" title="wincent.com blog" xmlUrl="https://wincent.com/blog.rss" htmlUrl="https://wincent.com/blog"/>
+            <outline type="rss" text="Coding Horror" title="Coding Horror" xmlUrl="http://feeds.feedburner.com/codinghorror" htmlUrl="https://blog.codinghorror.com/"/>
+            <outline type="rss" text="Giant Robots Smashing Into Other Giant Robots" title="Giant Robots Smashing Into Other Giant Robots" xmlUrl="http://feeds.feedburner.com/GiantRobotsSmashingIntoOtherGiantRobots" htmlUrl="https://thoughtbot.com/blog"/>
+            <outline type="rss" text="Technomancy" title="Technomancy" xmlUrl="http://technomancy.us/feed/atom.xml" htmlUrl="https://technomancy.us/"/>
+            <outline type="rss" text="Steve Losh" title="Steve Losh" xmlUrl="http://feeds.feedburner.com/stevelosh" htmlUrl="http://stevelosh.com/"/>
+            <outline type="rss" text="Joel on Software" title="Joel on Software" xmlUrl="http://www.joelonsoftware.com/rss.xml" htmlUrl="https://www.joelonsoftware.com"/>
+            <outline type="rss" text="Mastering Emacs" title="Mastering Emacs" xmlUrl="http://www.masteringemacs.org/feed/" htmlUrl="http://www.masteringemacs.org/feed"/>
+        </outline>
+    </body>
+</opml>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<opml version="1.0">
+    <body>
+        <outline text="Web" title="Web">
+            <outline type="rss" text="Jack Hsu" title="Jack Hsu" xmlUrl="http://jaysoo.ca/feed.xml" htmlUrl="https://jaysoo.ca"/>
+            <outline type="rss" text="Moz" title="Moz" xmlUrl="http://feeds.feedburner.com/seomoz" htmlUrl="https://moz.com/blog"/>
+            <outline type="rss" text="NCZOnline" title="NCZOnline" xmlUrl="http://feeds.nczonline.net/blog/" htmlUrl="https://www.nczonline.net/"/>
+            <outline type="rss" text="Chromium Blog" title="Chromium Blog" xmlUrl="http://blog.chromium.org/feeds/posts/default" htmlUrl="http://blog.chromium.org/"/>
+            <outline type="rss" text="24 ways" title="24 ways" xmlUrl="http://feeds.feedburner.com/24ways" htmlUrl="https://24ways.org/"/>
+            <outline type="rss" text="Paul Irish" title="Paul Irish" xmlUrl="http://feeds.feedburner.com/paul-irish" htmlUrl="https://paulirish.com/"/>
+            <outline type="rss" text="Matt Hinchliffe, Front-End Develope..." title="Matt Hinchliffe, Front-End Develope..." xmlUrl="http://maketea.co.uk/atom.xml" htmlUrl="https://www.matthinchliffe.dev"/>
+            <outline type="rss" text="CSS-Tricks" title="CSS-Tricks" xmlUrl="http://feeds.feedburner.com/CssTricks" htmlUrl="https://css-tricks.com"/>
+            <outline type="rss" text="Dion Almaer" title="Dion Almaer" xmlUrl="https://blog.almaer.com/feed/" htmlUrl="https://blog.almaer.com"/>
+            <outline type="rss" text="raganwald.com" title="raganwald.com" xmlUrl="http://raganwald.com/atom.xml" htmlUrl="http://raganwald.com/"/>
+            <outline type="rss" text="David Walsh Blog" title="David Walsh Blog" xmlUrl="http://feeds.feedburner.com/Bludice" htmlUrl="https://davidwalsh.name"/>
+            <outline type="rss" text="Chrome Unboxed – The Latest Chrome OS News" title="Chrome Unboxed – The Latest Chrome OS News" xmlUrl="http://chromeunboxed.com/feed/" htmlUrl="https://chromeunboxed.com"/>
+            <outline type="rss" text="Tutorialzine" title="Tutorialzine" xmlUrl="http://feeds.feedburner.com/Tutorialzine" htmlUrl="https://tutorialzine.com/feed"/>
+            <outline type="rss" text="Ian Bicking: a blog" title="Ian Bicking: a blog" xmlUrl="http://www.ianbicking.org/feeds/atom.xml" htmlUrl="https://www.ianbicking.org/"/>
+            <outline type="rss" text="Web Designer Wall - Design Trends and Tutorials" title="Web Designer Wall - Design Trends and Tutorials" xmlUrl="http://feeds.feedburner.com/WebDesignerWall" htmlUrl="https://webdesignerwall.com"/>
+            <outline type="rss" text="Award Winning Fjords" title="Award Winning Fjords" xmlUrl="http://awardwinningfjords.com/feed.xml" htmlUrl="http://awardwinningfjords.com/"/>
+            <outline type="rss" text="hey it's violet" title="hey it's violet" xmlUrl="https://vgpena.github.io/feed.xml" htmlUrl="https://vgpena.github.io"/>
+            <outline type="rss" text="paulrouget.com" title="paulrouget.com" xmlUrl="http://paulrouget.com/index.xml" htmlUrl="http://paulrouget.com"/>
+            <outline type="rss" text="Performance Calendar" title="Performance Calendar" xmlUrl="http://calendar.perfplanet.com/feed/" htmlUrl="https://calendar.perfplanet.com"/>
+            <outline type="rss" text="Smashing Magazine Feed" title="Smashing Magazine Feed" xmlUrl="http://rss1.smashingmagazine.com/feed/" htmlUrl="https://www.smashingmagazine.com/articles/"/>
+            <outline type="rss" text="daverupert.com" title="daverupert.com" xmlUrl="http://daverupert.com/atom.xml" htmlUrl="http://daverupert.com"/>
+            <outline type="rss" text="Chrome Story" title="Chrome Story" xmlUrl="http://feeds.feedburner.com/ChromeStory" htmlUrl="https://www.chromestory.com"/>
+        </outline>
+    </body>
+</opml>

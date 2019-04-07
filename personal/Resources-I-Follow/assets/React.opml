@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<opml version="1.0">
+    <body>
+        <outline text="React" title="React">
+            <outline type="rss" text="Vjeux" title="Vjeux" xmlUrl="http://blog.vjeux.com/feed" htmlUrl="https://blog.vjeux.com"/>
+            <outline type="rss" text="James Long" title="James Long" xmlUrl="http://feedpress.me/jlongster" htmlUrl="http://jlongster.com/"/>
+            <outline type="rss" text="React" title="React" xmlUrl="http://facebook.github.io/react/feed.xml" htmlUrl="https://reactjs.org"/>
+        </outline>
+    </body>
+</opml>

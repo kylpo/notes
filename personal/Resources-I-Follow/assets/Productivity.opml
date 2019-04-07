@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<opml version="1.0">
+    <body>
+        <outline text="Productivity" title="Productivity">
+            <outline type="rss" text="RyanHoliday.net:" title="RyanHoliday.net:" xmlUrl="http://feeds.feedburner.com/rudiusmedia/rch" htmlUrl="https://ryanholiday.net"/>
+            <outline type="rss" text="Study Hacks" title="Study Hacks" xmlUrl="http://feeds.feedburner.com/StudyHacks" htmlUrl="http://calnewport.com"/>
+            <outline type="rss" text="James Clear" title="James Clear" xmlUrl="http://feeds.feedburner.com/JamesClear" htmlUrl="https://jamesclear.com"/>
+            <outline type="rss" text="Sam Harris: Author, neuroscientist, philosopher." title="Sam Harris: Author, neuroscientist, philosopher." xmlUrl="http://feeds.feedburner.com/SamHarris" htmlUrl="https://www.samharris.org/"/>
+            <outline type="rss" text="The Blog of Author Tim Ferriss" title="The Blog of Author Tim Ferriss" xmlUrl="http://feeds.feedburner.com/timferriss" htmlUrl="https://tim.blog"/>
+            <outline type="rss" text="Raptitude.com" title="Raptitude.com" xmlUrl="http://www.raptitude.com/feed/" htmlUrl="https://www.raptitude.com"/>
+            <outline type="rss" text="zen habits" title="zen habits" xmlUrl="http://feeds.feedburner.com/zenhabits" htmlUrl="http://zenhabits.net"/>
+            <outline type="rss" text="Scott H Young" title="Scott H Young" xmlUrl="http://www.scotthyoung.com/blog/feed/" htmlUrl="https://www.scotthyoung.com/blog"/>
+            <outline type="rss" text="BetterExplained" title="BetterExplained" xmlUrl="http://feeds.feedburner.com/Betterexplained" htmlUrl="https://betterexplained.com"/>
+            <outline type="rss" text="The ByteBaker" title="The ByteBaker" xmlUrl="http://bytebaker.com/feed/" htmlUrl="https://bytebaker.com"/>
+        </outline>
+    </body>
+</opml>

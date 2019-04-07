@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<opml version="1.0">
+    <body>
+        <outline text="React Native" title="React Native">
+            <outline type="rss" text="React Native Blog" title="React Native Blog" xmlUrl="https://facebook.github.io/react-native/blog/feed.xml" htmlUrl="https://facebook.github.io/react-native/blog"/>
+            <outline type="rss" text="Parashuram's blog" title="Parashuram's blog" xmlUrl="http://blog.nparashuram.com/feeds/posts/default" htmlUrl="http://blog.nparashuram.com/"/>
+        </outline>
+    </body>
+</opml>

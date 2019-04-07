@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<opml version="1.0">
+    <body>
+        <outline text="Android" title="Android">
+            <outline type="rss" text="Dave Leeds on Kotlin - typealias.com" title="Dave Leeds on Kotlin - typealias.com" xmlUrl="https://typealias.com/index.xml" htmlUrl="https://typealias.com/"/>
+            <outline type="rss" text="Android Developers Blog" title="Android Developers Blog" xmlUrl="http://feeds.feedburner.com/blogspot/hsDu" htmlUrl="http://android-developers.googleblog.com/"/>
+            <outline type="rss" text="Kotlin Development" title="Kotlin Development" xmlUrl="https://www.kotlindevelopment.com/rss/" htmlUrl="https://www.kotlindevelopment.com/"/>
+            <outline type="rss" text="Riggaroo – Android Dev" title="Riggaroo – Android Dev" xmlUrl="http://riggaroo.co.za/feed/" htmlUrl="https://riggaroo.co.za"/>
+            <outline type="rss" text="Codedependent" title="Codedependent" xmlUrl="http://graphics-geek.blogspot.com/feeds/posts/default" htmlUrl="http://graphics-geek.blogspot.com/"/>
+            <outline type="rss" text="Kotlin Blog" title="Kotlin Blog" xmlUrl="http://blog.jetbrains.com/kotlin/feed/" htmlUrl="https://blog.jetbrains.com/kotlin"/>
+        </outline>
+    </body>
+</opml>

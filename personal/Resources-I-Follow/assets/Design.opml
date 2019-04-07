@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<opml version="1.0">
+    <body>
+        <outline text="Design" title="Design">
+            <outline type="rss" text="NN/g latest articles and announcements" title="NN/g latest articles and announcements" xmlUrl="https://www.nngroup.com/feed/rss/" htmlUrl="https://www.nngroup.com/feed/rss/"/>
+            <outline type="rss" text="LukeW | Digital Product Design and Strategy" title="LukeW | Digital Product Design and Strategy" xmlUrl="http://feeds.feedburner.com/FunctioningForm" htmlUrl="http://www.lukew.com"/>
+            <outline type="rss" text="Codrops" title="Codrops" xmlUrl="http://feeds2.feedburner.com/tympanus" htmlUrl="https://tympanus.net/codrops"/>
+            <outline type="rss" text="Learn UI Design - Blog" title="Learn UI Design - Blog" xmlUrl="https://learnui.design/blog/feed.xml" htmlUrl="https://learnui.design/blog/"/>
+        </outline>
+    </body>
+</opml>
