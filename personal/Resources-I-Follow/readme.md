@@ -39,7 +39,7 @@ See assets/*.opml for feed sources
 - [Node Weekly](https://nodeweekly.com/)
 - [Serverless Status: A Weekly Serverless and AWS Lambda Newsletter](https://serverless.email/)
 
-## General Dev
+## Dev
 
 #### Podcasts
 - [Software Engineering Daily](https://softwareengineeringdaily.com/)

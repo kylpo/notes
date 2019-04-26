@@ -30,6 +30,8 @@ Prefer to pay the higher price for happy cows (defn. below) if able
 ## Cured meats at restaurants?
 Only eat cured/dried meats when eating out? Didn't like my experience recently of throwing away undercooked chicken from restaurant.
 
+Also really sad to see meat recalls. Never noticed a cured meats recall...
+
 Might be worth saying only buy dried and frozen meats at store to only promote meats that are not throw away if not sold before expiration date.
 
 # "Happy Cows"

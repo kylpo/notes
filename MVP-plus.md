@@ -8,6 +8,16 @@ MVP + Sticky
 
 ---
 
+[Defining a Minimum Viable Product](https://cocoacasts.com/from-zero-to-app-store-defining-a-minimum-viable-product)
+
+Define roadmap for a product before writing any code / design
+1. What is the goal or purpose of the product? (in one sentence, define the core idea of your product. Otherwise, it lacks focus)
+2. What is absolutely essential to the product (remove non-essential)
+
+focus focus focus (only on the essential)
+
+---
+
 Mvp for app like things you should do as a human. Diet, exercise, doctor visits
 
 ---
