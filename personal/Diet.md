@@ -35,6 +35,8 @@ Also really sad to see meat recalls. Never noticed a cured meats recall...
 Might be worth saying only buy dried and frozen meats at store to only promote meats that are not throw away if not sold before expiration date.
 
 # "Happy Cows"
+Against the *meat industry*. Problems: recalls, wasted life, tortured life, inefficient land and energy use
+
 The term I use to describe cows that were raised in an environment that I think makes them happy: long, grassy fields free from fear/predators and disease.
 
 I see it as a reasonable trade: we give you a paradise for X years, this X may be shorter or longer than you'd have if you were out in nature, but you will be taken care of (Mother Nature, conversely, is not always so nice), then we will end it as quickly and painless/stresslessly as possible. Your life will be appreciated and not wasted. 
@@ -125,3 +127,9 @@ https://www.kevinrose.com/single-post/Peter-Attia
 # Other
 - [Dark chocolate is now a health food\. Here’s how that happened\. \- Vox](https://www.vox.com/science-and-health/2017/10/18/15995478/chocolate-health-benefits-heart-disease)
 - [Debunking What the Health, the buzzy new documentary that wants you to be vegan \- Vox](https://www.vox.com/science-and-health/2017/7/25/16018658/what-the-health-documentary-review-vegan-diet)
+
+> “My approach to nutrition is influenced by environmental impact,” he adds. “I try to think about how my food choices impact the world as much as I think about how they affect my body.”
+
+> nothing like the stench of sewage and the squeals of jailed pigs to remind me why I don’t support the meat industry.”
+
+Alex Honnold - [Free Soloist Alex Honnold Launches Vegan Protein to Fight Energy Poverty \| LIVEKINDLY](https://www.livekindly.co/free-soloist-alex-honnold-launches-vegan-protein-to-fight-energy-poverty/)
