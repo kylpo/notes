@@ -105,6 +105,9 @@ Maybe a better line would be mammals vs not mammals? Are lizards and snakes empa
 
 Maybe this line will move for me (from someone showing me evidence that there is more to fish), and I'll only be willing to eat insects. Maybe it'll move all the way to the left and I'll only be willing to eat plant-based protein. We'll see...
 
+# Meat consumption/production should not be *efficient*
+Basically, the production and consumption of lives should not be *efficient*. It should be special, savored, and never wasted. Make it less common, make it more special, feel good about the tradeoff offered to this animal: pampered for an earlier death than they might find in nature, but they won't stress about their security the whole time (like they might in the wild).
+
 # Resources for vegan
 - [Vegan Nutrition Guide](https://www.vegan.com/nutrition/)
   - Likely want to take a supplement for B12 and Vitamin D
@@ -133,3 +136,6 @@ https://www.kevinrose.com/single-post/Peter-Attia
 > nothing like the stench of sewage and the squeals of jailed pigs to remind me why I don’t support the meat industry.”
 
 Alex Honnold - [Free Soloist Alex Honnold Launches Vegan Protein to Fight Energy Poverty \| LIVEKINDLY](https://www.livekindly.co/free-soloist-alex-honnold-launches-vegan-protein-to-fight-energy-poverty/)
+
+# Recalls (wasted, likely tortured lives)
+- [62,000 pounds of raw meat recalled, just days before Memorial Day \- CNN](https://amp.cnn.com/cnn/2019/05/23/health/beef-recall-e-coli-ribs-steak-memorial-day-trnd/index.html)

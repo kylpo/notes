@@ -7,3 +7,7 @@ With this in mind, why have the backup plan? Why cripple this wonderful idea wit
 Worried about newer users that won't know what to do when the A, B, etc show up on screen? Just label them on the controller. Would be easy enough to mark which paddle is which from the front of the controller.
 
 I want a 100% Elite controller.
+
+---
+
+xbox elite alternative that allows replaceable thumbsticks and positioning: https://www.theverge.com/platform/amp/2019/4/17/18311885/astro-c40-tr-review-sony-ps4-pro-elite-controller-features-price
