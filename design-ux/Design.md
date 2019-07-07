@@ -38,6 +38,11 @@ _WIP_
 - [People Don’t Want Something Truly New, They Want the Familiar Done Differently.](https://medium.com/startup-grind/people-dont-want-something-truly-new-they-want-the-familiar-done-differently-7648f24f8fe7)
   - "(Un)Familiarity Breeds Contempt"
 
+# Buttons
+<img src="assets/2019-07-03-16-37-43.png" width=""/>
+
+- [Why Text Buttons Hurt Mobile Usability](https://uxmovement.com/mobile/why-text-buttons-hurt-mobile-usability/)
+
 # Color
 - "Almost Black is easier to read than Black"
   - [How to not suck at design, a 5 minute guide for the non-designer.](https://medium.com/@hemeon/how-to-not-suck-at-design-a-5-minute-guide-for-the-non-designer-291efac43037)
