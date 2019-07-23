@@ -11,6 +11,7 @@ Grains like barley, bulgur, rice, quinoa. And beans like black, white, garbanzo,
 
 # What do I eat like for lunch?
 Raw veggies and fruit. Sometimes fish.
+- carrots, peas, peppers, apples for snacking
 
 Eat like a bunny for lunch (raw veggies)? What about my sardines then?
 
