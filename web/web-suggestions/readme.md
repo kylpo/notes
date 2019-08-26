@@ -40,7 +40,12 @@ Google employs a Feature-guarded development, where they release apps with flags
 
 ![https://css-tricks.com/ios-11-safari-feature-flags/](https://res.cloudinary.com/css-tricks/image/upload/c_scale,w_1000,f_auto,q_auto/v1506483761/Artboard-2_lldtij.jpg)
 
+<img src="assets/2019-08-20-19-54-51.png" width=""/>
+
 - Build in a feature flag capability from the start. You'll eventually want it for A/B testing, staged releases, and potentially even a beta program.
+- Feature flags are to developer as Preferences are to user
+- [Feature Flags \- Why you should care \- Jeroen Mols](https://jeroenmols.com/blog/2019/08/13/featureflags/)
+  - [\(1\) Danny Preussler on Twitter: "At Soundcloud we use a lot of feature flags during development\. Features might take multiple releases but this should not prevent us from merging the code in\. Great intro into the topic here 👇 https://t\.co/PPkjvSiMTs" / Twitter](https://twitter.com/PreusslerBerlin/status/1161921586506739712)
 - [Feature flags in React](http://blog.rstankov.com/feature-flags-in-react/)
 - [react-bits/29.feature-flags-using-redux.md](https://github.com/vasanthk/react-bits/blob/master/patterns/29.feature-flags-using-redux.md)
 - [ember-cli/babel-plugin-feature-flags: A babel transform for managing feature flags](https://github.com/ember-cli/babel-plugin-feature-flags) seems like a great approach. Features flags statically, and dynamically.

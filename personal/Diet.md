@@ -1,6 +1,13 @@
 # WIP
 This doc is a bunch of scattered, often contradictory things. Will clean it up later once I've resolved what rules I follow and why...
 
+
+---
+
+I like the idea of "Food for life". It conveys sustainability and nutrition.
+
+---
+
 # I eat like a bird for breakfast (seeds and berries)
 blueberry, goji, raspberry, strawberry.
 
